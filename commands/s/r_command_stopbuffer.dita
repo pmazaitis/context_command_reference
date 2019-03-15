@@ -13,15 +13,15 @@
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
-                \starttext
-                
-                \startbuffer[MyBuffer]
-                \input knuth
-                \stopbuffer
-                
-                \getbuffer[MyBuffer]
-                
-                \stoptext
+\starttext
+
+\startbuffer[MyBuffer]
+\input knuth
+\stopbuffer
+
+\getbuffer[MyBuffer]
+
+\stoptext
             </codeblock>
         </example>
     </refbody>

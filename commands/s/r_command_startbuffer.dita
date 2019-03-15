@@ -28,13 +28,13 @@
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
-                \starttext
-                
-                \startbuffer[MyBuffer]
-                \input knuth
-                \stopbuffer
-                
-                \stoptext
+\starttext
+
+\startbuffer[MyBuffer]
+\input knuth
+\stopbuffer
+
+\stoptext
             </codeblock>
         </example>
     </refbody>
