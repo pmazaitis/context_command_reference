@@ -58,15 +58,16 @@
         </topichead>
         <topichead navtitle=" All Placeholders">
             <topicref href="concepts/c_placeholders.dita"/>
-            <topicref href="variables/r_variable_DIMENSION.dita"/>
-            <topicref href="variables/r_variable_COMMAND.dita"/>
-            <topicref href="variables/r_variable_SCOPE.dita"/>
-            <topicref href="variables/r_variable_SWITCH.dita"/>
-            <topicref href="variables/r_variable_NUMBER.dita"/>
-            <topicref href="variables/r_variable_TEXT.dita"/>
-            <topicref href="variables/r_variable_NAME.dita"/>
-            <topicref href="variables/r_variable_IDENTIFIER.dita"/>
-            <topicref href="variables/r_variable_KIND.dita"/>
+            <topicref href="placeholders/r_placeholder_COMMAND.dita"/>
+            <topicref href="placeholders/r_placeholder_DIMENSION.dita"/>
+            <topicref href="placeholders/r_placeholder_FILENAME.dita"/>
+            <topicref href="placeholders/r_placeholder_IDENTIFIER.dita"/>
+            <topicref href="placeholders/r_placeholder_KIND.dita"/>
+            <topicref href="placeholders/r_placeholder_NAME.dita"/>
+            <topicref href="placeholders/r_placeholder_NUMBER.dita"/>
+            <topicref href="placeholders/r_placeholder_TEXT.dita"/>
+            <topicref href="placeholders/r_placeholder_SCOPE.dita"/>
+            <topicref href="placeholders/r_placeholder_SWITCH.dita"/>
         </topichead>
     </topichead>
 
