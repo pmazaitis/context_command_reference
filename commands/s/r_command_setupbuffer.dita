@@ -62,11 +62,11 @@
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
- \starttext
- 
- \setupbuffer[MyBuffer][before={\blank[big]}, after={\blank[small]}]
- 
- \stoptext
+\starttext
+
+\setupbuffer[MyBuffer][before={\blank[big]}, after={\blank[small]}]
+
+\stoptext
             </codeblock>
         </example>
     </refbody>
