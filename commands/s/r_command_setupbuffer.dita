@@ -3,6 +3,18 @@
 <reference id="r_command_setupbuffer">
     <title>\setupbuffer</title>
     <shortdesc>The <cmdname>\setupbuffer</cmdname> applies setups to buffers.</shortdesc>
+    <prolog>
+        <metadata>
+            <category>block</category>
+            <prodinfo>
+                <prodname>ConTeXt</prodname>
+                <vrmlist>
+                    <!--<vrm version="ii" release="stable"/> -->
+                    <vrm version="iv" release="beta"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+    </prolog>
     <refbody> 
         <refsyn>
             <title>Syntax</title>

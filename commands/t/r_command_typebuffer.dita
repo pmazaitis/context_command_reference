@@ -3,6 +3,18 @@
 <reference id="r_command_startbuffer">
     <title>\typebuffer</title>
     <shortdesc>The <cmdname>\typebuffer</cmdname> command returns the contents of a buffer verbatim.</shortdesc>
+    <prolog>
+        <metadata>
+            <category>block</category>
+            <prodinfo>
+                <prodname>ConTeXt</prodname>
+                <vrmlist>
+                    <!--<vrm version="ii" release="stable"/> -->
+                    <vrm version="iv" release="beta"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+    </prolog>
     <refbody>
         <refsyn>
             <title>Syntax</title>
@@ -53,11 +65,11 @@
             <codeblock>
 \starttext
 
-\startbuffer[mybuffer]
+\startbuffer[MyBuffer]
 This is a text, which is stored in the buffer with name \quotation{mybuffer}.
 \stopbuffer
 
-\typebuffer[mybuffer]
+\typebuffer[MyBuffer]
 
 \stoptext            
             </codeblock>

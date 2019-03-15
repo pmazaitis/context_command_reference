@@ -30,7 +30,7 @@
                 </sthead>
                 <strow>
                     <stentry>filename</stentry>
-                    <stentry/>
+                    <stentry><xref keyref="FILENAME" type="reference"/></stentry>
                     <stentry>The filename for the content to be loaded.</stentry>
                 </strow>
             </simpletable>
