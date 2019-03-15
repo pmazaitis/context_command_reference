@@ -2,7 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="what_this_manual_is_not">
     <title>What This Manual Is Not</title>
-    <shortdesc></shortdesc>
+    <shortdesc>This manual is not a tutorial, and is not a recommended way to learn the ConTeXt
+        typesetting system.</shortdesc>
     <conbody>
         <p></p>
     </conbody>
