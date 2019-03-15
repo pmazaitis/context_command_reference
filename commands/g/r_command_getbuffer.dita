@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_getbuffer">
+    <title>\getbuffer</title>
+    <shortdesc>The <cmdname>\getbuffer</cmdname> command retreives a buffer and adds the content to the document.</shortdesc>
+    <refbody> 
+        <refsyn>
+            <title>Syntax</title>
+            <synph>
+                <kwd>\getbuffer</kwd>  
+                <delim>[</delim>
+                <var>NAME</var>
+                <delim>]</delim>
+            </synph>
+            <simpletable>
+                <sthead>
+                    <stentry>Name</stentry>
+                    <stentry>Values</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry>identifier</stentry>
+                    <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    <stentry>A meaningful name for retreiving the buffer.</stentry>
+                </strow>
+            </simpletable>
+        </refsyn>
+        <example otherprops="no_output">
+            <title>Minimal Working Example</title>
+            <codeblock>
+\starttext
+
+\startbuffer[MyBuffer]
+\input knuth
+\stopbuffer
+
+\getbuffer[MyBuffer]
+
+\stoptext
+            </codeblock>
+        </example>
+    </refbody>
+
+</reference>

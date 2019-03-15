@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_setting_before">
+    <title>before</title>
+    <shortdesc>
+        The <keyword>before</keyword> setting allows us to include arbitrary commands or content before a command. Using <keyword>before</keyword> can help make sure we have consistant results when our document is processed.
+    </shortdesc>
+    <refbody> 
+        <section>
+            <title>Overview</title>
+            <simpletable>
+                <sthead>
+                    <stentry> Setting Name </stentry>
+                    <stentry> Setting Values </stentry>
+                    <stentry> Setting Description </stentry>
+                </sthead>
+                <strow id="overview_row">
+                    <stentry><xref href="r_setting_before.dita">before</xref></stentry>
+                    <stentry><xref keyref="SCOPE" type="reference"/></stentry>
+                    <stentry>The value of this setting is a collection of one or more commands.</stentry>
+                </strow>
+            </simpletable>
+        </section>
+    </refbody>
+</reference>

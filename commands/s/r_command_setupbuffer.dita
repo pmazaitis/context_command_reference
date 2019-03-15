@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_setupbuffer">
+    <title>\setupbuffer</title>
+    <shortdesc>The <cmdname>\setupbuffer</cmdname> applies setups to buffers.</shortdesc>
+    <refbody> 
+        <refsyn>
+            <title>Syntax</title>
+            <synph>
+                \setupbuffer  
+                <delim>[</delim>
+                <var>identifier</var>
+                <delim>]</delim>
+                <delim>[</delim>
+                <var importance="optional">settings</var>
+                <delim>]</delim>
+            </synph>
+            <simpletable>
+                <sthead>
+                    <stentry>Name</stentry>
+                    <stentry>Values</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry>identifier</stentry>
+                    <stentry><xref keyref="IDENTIFIER" type="reference"/></stentry>
+                    <stentry><p>A meaningful name for retreiving the buffer.</p></stentry>
+                </strow>
+                <strow>
+                    <stentry>settings</stentry>
+                    <stentry></stentry>
+                    <stentry><p conkeyref="definitions/settings_description" /></stentry>
+                </strow>
+            </simpletable>
+        </refsyn>
+        <section>
+            <title>Settings</title>
+            <simpletable>
+                <sthead>
+                    <stentry>
+                        Setting Name
+                    </stentry>
+                    <stentry>
+                        Setting Values
+                    </stentry>
+                    <stentry>
+                        Setting Description
+                    </stentry>
+                </sthead>
+                <strow id="settings_start" conkeyref="after/overview_row">
+                    <stentry />
+                    <stentry />
+                    <stentry />
+                </strow>
+                <strow id="settings_end" conkeyref="before/overview_row">
+                    <stentry />
+                    <stentry />
+                    <stentry />
+                </strow>
+            </simpletable>
+        </section>
+        <example otherprops="no_output">
+            <title>Minimal Working Example</title>
+            <codeblock>
+ \starttext
+ 
+ \setupbuffer[MyBuffer][before={\blank[big]}, after={\blank[small]}]
+ 
+ \stoptext
+            </codeblock>
+        </example>
+    </refbody>
+</reference>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Related Commands</title>
+
+    <!--    Reltable for related commands: each row with as many cells needed for all of the related commands to that particular command-->
+
+    <reltable>
+        <relrow>
+            <relcell>
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+    </reltable>
+
+    <!--Conrefs for commands that use settings that other command inheirit. We only ever want to update these in one place, and have all of the dependant commands also update.-->
+
+    <keydef keys="command_setupbuffer" href="commands/s/r_command_setupbuffer.dita"/>
+</map>

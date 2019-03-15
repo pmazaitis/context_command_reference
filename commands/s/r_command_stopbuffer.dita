@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_stopbuffer">
+    <title>\stopbuffer</title>
+    <shortdesc>The <cmdname>\stopbuffer</cmdname> command marks the end of a buffer.</shortdesc>
+    <refbody>
+        <refsyn>
+            <title>Syntax</title>
+            <synph>
+                \stopbuffer  
+            </synph>
+        </refsyn>
+        <example otherprops="no_output">
+            <title>Minimal Working Example</title>
+            <codeblock>
+                \starttext
+                
+                \startbuffer[MyBuffer]
+                \input knuth
+                \stopbuffer
+                
+                \getbuffer[MyBuffer]
+                
+                \stoptext
+            </codeblock>
+        </example>
+    </refbody>
+</reference>
