@@ -32,14 +32,15 @@
     <keydef keys="width" href="settings/r_setting_width.dita"/>-->
     
     
-    <keydef keys="DIMENSION" href="variables/r_variable_DIMENSION.dita"/>
-    <keydef keys="COMMAND" href="variables/r_variable_COMMAND.dita"/>
-    <keydef keys="SCOPE" href="variables/r_variable_SCOPE.dita"/>
-    <keydef keys="SWITCH" href="variables/r_variable_SWITCH.dita"/>
-    <keydef keys="NUMBER" href="variables/r_variable_NUMBER.dita"/>
-    <keydef keys="TEXT" href="variables/r_variable_TEXT.dita"/>
-    <keydef keys="NAME" href="variables/r_variable_NAME.dita"/>
-    <keydef keys="IDENTIFIER" href="variables/r_variable_IDENTIFIER.dita"/>
+    <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>
+    <keydef keys="COMMAND" href="placeholders/r_placeholder_COMMAND.dita"/>
+    <keydef keys="SCOPE" href="placeholders/r_placeholder_SCOPE.dita"/>
+    <keydef keys="SWITCH" href="placeholders/r_placeholder_SWITCH.dita"/>
+    <keydef keys="NUMBER" href="placeholders/r_placeholder_NUMBER.dita"/>
+    <keydef keys="TEXT" href="placeholders/r_placeholder_TEXT.dita"/>
+    <keydef keys="NAME" href="placeholders/r_placeholder_NAME.dita"/>
+    <keydef keys="IDENTIFIER" href="placeholders/r_placeholder_IDENTIFIER.dita"/>
+    <keydef keys="FILENAME" href="placeholders/r_placeholder_FILENAME.dita"/>
     
-    <keydef keys="KIND" href="variables/r_variable_KIND.dita"/>
+    <keydef keys="KIND" href="placeholders/r_placeholder_KIND.dita"/>
 </map>
