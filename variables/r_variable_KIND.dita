@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_KIND">
-    <title>KIND</title>
-    <shortdesc>A KIND is used by some commands to extend the ConTeXt command set.</shortdesc>
-    <refbody> </refbody>
-</reference>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="Untitled">
+<reference id="r_placeholder_DIMENSION">
     <title>DIMENSION</title>
     <shortdesc>ConTeXt understands several units of measurement, and we can freely mix different
         units in the same document. </shortdesc>

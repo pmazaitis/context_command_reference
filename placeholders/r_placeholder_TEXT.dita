@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_SCOPE">
-    <title>SCOPE</title>
-    <shortdesc>A sequence of ConTeXt commands and/or content.</shortdesc>
+<reference id="r_placeholder_TEXT">
+    <title>TEXT</title>
+    <shortdesc>A piece of text.</shortdesc>
     <refbody> </refbody>
 </reference>
