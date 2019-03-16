@@ -31,4 +31,5 @@
     <!--Conrefs for commands that use settings that other command inheirit. We only ever want to update these in one place, and have all of the dependant commands also update.-->
 
     <keydef keys="command_setupbuffer" href="commands/s/r_command_setupbuffer.dita"/>
+    <keydef keys="command_vspacing" href="commands/v/r_command_vspacing.dita"/>
 </map>
