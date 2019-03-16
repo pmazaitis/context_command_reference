@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="Untitled">
+    <title>\setupwhitespace</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <category />
+            <prodinfo>
+                <prodname>ConTeXt</prodname>
+                <vrmlist>
+                    <!--<vrm version="ii" release="stable"/> -->
+                    <vrm version="iv" release="beta"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <refsyn>
+            <title>Syntax</title>
+            <synph>
+                <kwd>\setupwhitespace</kwd>
+                <delim>[</delim>
+                <var importance="optional"/>
+                <delim>]</delim>
+            </synph>
+            <simpletable>
+                <sthead>
+                    <stentry>Name</stentry>
+                    <stentry>Values</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Options</stentry>
+                    <stentry>fix, fixed, flexible, line, halfline, quarterline, none, small, medium, big, default, <xref keyref="DIMENSION" type="reference"/></stentry>
+                    <stentry>Keywords to change spacing between paragraphs.</stentry>
+                </strow>
+            </simpletable>
+        </refsyn>
+        <section>
+            <title>Options</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Keyword</stentry>
+                    <stentry>Description </stentry>
+                </sthead>
+                <strow>
+                    <stentry>fix</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>fixed</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>flexible</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>line</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>halfline</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>quarterline</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>none</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>small</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>medium</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>big</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>default</stentry>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="DIMENSION" type="reference"/></stentry>
+                    <stentry/>
+                </strow>
+            </simpletable>
+        </section>
+        <section>
+            <title>Notes</title>
+            <p>This doesn’t affect footnotes, marginals and header/footer lines!</p>
+        </section>
+        <example otherprops="no_output">
+            <title>Minimal Working Example</title>
+            <codeblock>
+\starttext
+\setupwhitespace[medium]
+\stoptext
+            </codeblock>
+        </example>
+    </refbody>
+    
+</reference>
