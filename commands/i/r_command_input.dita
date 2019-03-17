@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_input">
     <title>\input</title>
-    <shortdesc>Places the contents of an interanl file into the document.</shortdesc>
+    <shortdesc>Places the contents of an external file into the document.</shortdesc>
     <prolog>
         <metadata>
             <category/>
