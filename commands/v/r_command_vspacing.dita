@@ -23,10 +23,7 @@
             <synph>
                 <kwd>\vspacing</kwd>
                 <delim>[</delim>
-                <var></var>
-                <delim>]</delim>
-                <delim>[</delim>
-                <var importance="optional"></var>
+                <var importance="optional">options</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
@@ -35,15 +32,12 @@
                     <stentry>Values</stentry>
                     <stentry>Description</stentry>
                 </sthead>
-                <strow>
-                    <stentry>identifier</stentry>
-                    <stentry><xref keyref="IDENTIFIER" type="reference"/></stentry>
-                    <stentry>The semantic name for the new buffer command.</stentry>
-                </strow>
-                <strow>
-                    <stentry>settings</stentry>
-                    <stentry></stentry>
-                    <stentry><p conkeyref="definitions/settings_description" /></stentry>
+                <strow id="vspacing_short_options">
+                    <stentry>options</stentry>
+                    <stentry>none, <ph importance="default">big</ph>, medium, small, line, halfline, quaterline, formula, white,
+                        height, depth, standard, preference, samepage, max, force, disable, nowhite,
+                        back, <xref keyref="DIMENSION" type="reference"/></stentry>
+                    <stentry><p conkeyref="definitions/options_description"/></stentry>
                 </strow>
             </simpletable>
         </refsyn>
@@ -65,7 +59,7 @@
                     <stentry>\zeropoint</stentry>
                     <stentry>\zeropoint</stentry>
                 </strow>
-                <strow>
+                <strow importance="default">
                     <stentry>big</stentry>
                     <stentry>\bigskipamount</stentry>
                     <stentry>\bodyfontlineheight</stentry>
