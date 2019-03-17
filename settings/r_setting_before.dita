@@ -5,6 +5,18 @@
     <shortdesc>
         The <keyword>before</keyword> setting allows us to include arbitrary commands or content before a command. Using <keyword>before</keyword> can help make sure we have consistant results when our document is processed.
     </shortdesc>
+    <prolog>
+        <metadata>
+            <category>setting</category>
+            <prodinfo>
+                <prodname>ConTeXt</prodname>
+                <vrmlist>
+                    <!--<vrm version="ii" release="stable"/> -->
+                    <vrm version="iv" release="beta"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+    </prolog>
     <refbody> 
         <section>
             <title>Overview</title>
