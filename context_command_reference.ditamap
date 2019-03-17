@@ -24,7 +24,9 @@
         <topicref href="commands/s/r_command_setupbuffer.dita"/>
         <topicref href="commands/s/r_command_setupwhitespace.dita"/>
         <topicref href="commands/s/r_command_startbuffer.dita"/>
+        <topicref href="commands/s/r_command_starttext.dita"/>
         <topicref href="commands/s/r_command_stopbuffer.dita"/>
+        <topicref href="commands/s/r_command_stoptext.dita"/>
         <topicref href="commands/t/r_command_typebuffer.dita"/>
         <topicref href="commands/v/r_command_vspacing.dita"/>
     </topichead>
