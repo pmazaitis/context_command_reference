@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="Untitled">
+<reference id="r_command_setupwhitespace">
     <title>\setupwhitespace</title>
     <shortdesc></shortdesc>
     <prolog>
         <metadata>
-            <category />
+            <category>paragraphs</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
@@ -32,7 +32,7 @@
                 </sthead>
                 <strow>
                     <stentry>Options</stentry>
-                    <stentry>fix, fixed, flexible, line, halfline, quarterline, none, small, medium, big, default, <xref keyref="DIMENSION" type="reference"/></stentry>
+                    <stentry>fix, fixed, flexible, line, halfline, quarterline, <ph importance="default">none</ph>, small, medium, big, default, <xref keyref="DIMENSION" type="reference"/></stentry>
                     <stentry>Keywords to change spacing between paragraphs.</stentry>
                 </strow>
             </simpletable>
@@ -68,7 +68,7 @@
                     <stentry>quarterline</stentry>
                     <stentry/>
                 </strow>
-                <strow>
+                <strow importance="default">
                     <stentry>none</stentry>
                     <stentry/>
                 </strow>
