@@ -6,6 +6,15 @@
     <!--    Reltable for related commands: each row with as many cells needed for all of the related commands to that particular command-->
 
     <reltable>
+        <title>Related Commands</title>
+        <relheader>
+            <relcolspec type="reference"/>
+            <relcolspec type="reference"/>
+            <relcolspec type="reference"/>
+            <relcolspec type="reference"/>
+            <relcolspec type="reference"/>
+            <relcolspec type="reference"/>
+        </relheader>
         <relrow>
             <relcell>
                 <topicref href="commands/d/r_command_definebuffer.dita"/>
