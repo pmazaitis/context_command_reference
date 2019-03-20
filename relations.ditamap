@@ -8,10 +8,10 @@
     <reltable>
         <title>Related Commands</title>
         <relheader>
-            <relcolspec type="reference"/>
-            <relcolspec type="reference"/>
-            <relcolspec type="reference"/>
-            <relcolspec type="reference"/>
+            <relcolspec type="reference"><!--Define--></relcolspec>
+            <relcolspec type="reference"><!--Setup--></relcolspec>
+            <relcolspec type="reference"><!--Start--></relcolspec>
+            <relcolspec type="reference"><!--Stop--></relcolspec>
             <relcolspec type="reference"/>
             <relcolspec type="reference"/>
         </relheader>
