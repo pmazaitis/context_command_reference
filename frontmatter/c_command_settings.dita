@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c-command_settings">
     <title>Command Settings</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Settings are key/value pairs. Commands that accept settings can accept multiple settings in a settings block, separated by a comma.</shortdesc>
     <conbody>
         <p></p>
     </conbody>

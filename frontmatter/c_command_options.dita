@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c-command_options">
     <title>Command Options</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Options are single keywords. Commands that accept options can accept multiple options in an option block, separated by a comma.</shortdesc>
     <conbody>
         <p></p>
     </conbody>

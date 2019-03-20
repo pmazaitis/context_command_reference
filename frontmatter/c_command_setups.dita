@@ -7,8 +7,6 @@
         brackets.,</shortdesc>
     <conbody>
         <p>Setups come in two types: <keyword>options</keyword> and <keyword>settings</keyword>.</p>
-        <p>Options are single keywords. Commands that accept options can accept multiple options in
-            an option block, separated by a comma.</p>
         <p>Settings are key/value pairs. Commands that accept settings can accept multiple settings
             in a settings block, separated by a comma.</p>
     </conbody>
