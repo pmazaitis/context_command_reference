@@ -31,11 +31,9 @@
                     <stentry>Description</stentry>
                 </sthead>
                 <strow conkeyref="command_vspacing/vspacing_short_options">
-<!--                    <stentry>options</stentry>
-                    <stentry>none, <ph importance="default">big</ph>, medium, small, line, halfline, quaterline, formula, white,
-                        height, depth, standard, preference, samepage, max, force, disable, nowhite,
-                        back, <xref keyref="DIMENSION" type="reference"/></stentry>
-                    <stentry><p conkeyref="definitions/options_description"/></stentry>-->
+                    <stentry/> 
+                    <stentry/>
+                    <stentry/>
                 </strow>
             </simpletable>
         </refsyn>
