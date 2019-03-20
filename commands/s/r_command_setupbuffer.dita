@@ -40,7 +40,7 @@
                 </strow>
                 <strow>
                     <stentry>settings</stentry>
-                    <stentry></stentry>
+                    <stentry>(see settings table)</stentry>
                     <stentry><p conkeyref="definitions/settings_description" /></stentry>
                 </strow>
             </simpletable>
