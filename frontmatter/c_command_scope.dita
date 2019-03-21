@@ -2,8 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_command_scope">
     <title>Command Scope</title>
-    <shortdesc></shortdesc>
+    <shortdesc>A command may have a <term>scope</term> as an argument. A comman's scope is delimited
+        by curly braces ({ and }) after the command.</shortdesc>
     <conbody>
-        <p></p>
+        <p>(Font switches use a slitly different behavior, in that they affect all of the text in
+            the current scipe, up to the next font switch.)</p>
     </conbody>
 </concept>

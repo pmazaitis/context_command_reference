@@ -4,7 +4,8 @@
     <title>The Command Name</title>
     <shortdesc>A <ph conkeyref="definitions/product_name"/> command is formed by a backslash (\) and a series of letters.</shortdesc>
     <conbody>
+        <!--Use hazardstatement element for the warning below, instead? Is that too much?-->
         <p>A <ph conkeyref="definitions/product_name"/> command name cannot include numbers.</p>
-        <p>Good practice is to use title case (TitleCase) for user-defined commands, to ensure that new commands to inflict with commands that are already defined by <ph conkeyref="definitions/product_name"/>.</p>
+        <p>Good practice is to use title case (TitleCase) for user-defined commands, to ensure that new command names do not conflict with command names that are already defined by <ph conkeyref="definitions/product_name"/>.</p>
     </conbody>
 </concept>
