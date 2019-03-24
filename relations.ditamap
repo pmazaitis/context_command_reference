@@ -35,6 +35,26 @@
                 <topicref href="commands/t/r_command_typebuffer.dita"/>
             </relcell>
         </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="commands/b/r_command_bold.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/b/r_command_bf.dita"/>
+            </relcell>
+            <relcell>
+                
+            </relcell>
+            <relcell>
+                
+            </relcell>
+            <relcell>
+                
+            </relcell>
+            <relcell>
+                
+            </relcell>
+        </relrow>
     </reltable>
 
     <!--Conrefs for commands that use settings that other command inheirit. We only ever want to update these in one place, and have all of the dependant commands also update.-->
