@@ -2,6 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_TEXT">
     <title>TEXT</title>
-    <shortdesc>A piece of text.</shortdesc>
+    <shortdesc>The <term>TEXT</term> placeholder is used in the syntax wherever a piece of text is expected as an argument.</shortdesc>
     <refbody> </refbody>
 </reference>
