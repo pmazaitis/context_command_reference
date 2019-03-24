@@ -21,7 +21,7 @@
             <synph>
                 \setupbuffer  
                 <delim>[</delim>
-                <var>identifier</var>
+                <var importance="required">identifier</var>
                 <delim>]</delim>
                 <delim>[</delim>
                 <var importance="optional">settings</var>
