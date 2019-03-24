@@ -27,6 +27,7 @@
     </topichead>
     <topichead navtitle="ConTeXt Commands">
         <topicref href="commands/b/r_command_bf.dita"/>
+        <topicref href="commands/b/r_command_bold.dita"/>
         <topicref href="commands/b/r_command_blank.dita"/>
         <topicref href="commands/d/r_command_definebuffer.dita"/>
         <topicref href="commands/g/r_command_getbuffer.dita"/>
