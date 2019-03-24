@@ -3,6 +3,8 @@
 <map>
     <title>All Settings</title>
     
+    
+    
     <keydef keys="after" href="settings/r_setting_after.dita"/>
  <!--   <keydef keys="afterhead" href="settings/r_setting_afterhead.dita"/>
     <keydef keys="align" href="settings/r_setting_align.dita"/>-->
@@ -31,6 +33,8 @@
     <keydef keys="textdistance" href="settings/r_setting_textdistance.dita"/>
     <keydef keys="width" href="settings/r_setting_width.dita"/>-->
     
+    
+    <!--Placeholders-->
     
     <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>
     <keydef keys="COMMAND" href="placeholders/r_placeholder_COMMAND.dita"/>
