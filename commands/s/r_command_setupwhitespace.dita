@@ -21,7 +21,7 @@
             <synph>
                 <kwd>\setupwhitespace</kwd>
                 <delim>[</delim>
-                <var importance="optional"/>
+                <var importance="required">option</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
