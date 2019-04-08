@@ -2,6 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_IDENTIFIER">
     <title>IDENTIFIER</title>
-    <shortdesc>An arbitrary name.</shortdesc>
-    <refbody> </refbody>
+    <shortdesc>The <term>IDENTIFIER</term> placeholder indicates a place where we must supply a <term>label</term> to be attached to some grouping a setups or content as an argument. We can us an arbirary names as labels; best practice is to use identifiers with clear and unambiguous meanings.</shortdesc>
+    <refbody> <!--TODO: document restrictions on identifiers.--></refbody>
 </reference>

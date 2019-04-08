@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_SWITCH">
     <title>SWITCH</title>
-    <shortdesc>A SWITCH placeholder indicated the command can accept a font switch command.</shortdesc>
+    <shortdesc>A <term>SWITCH</term> placeholder indicates where a command can accept a font switch
+        as an argument.</shortdesc>
     <refbody>
         <section>
             <title></title>

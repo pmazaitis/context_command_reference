@@ -2,6 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_KIND">
     <title>KIND</title>
-    <shortdesc>A KIND is used by some commands to extend the ConTeXt command set.</shortdesc>
+    <shortdesc>The <term>KIND</term> placeholder indicates where we must include a label for a new class of command as an argument. This type of label is used by some commands to extend the ConTeXt command set.</shortdesc>
     <refbody> </refbody>
 </reference>

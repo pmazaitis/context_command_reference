@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_SCOPE">
     <title>SCOPE</title>
-    <shortdesc>The <term>SCOPE</term> placeholder is used in the syntax wherever a sequence of ConTeXt commands and/or other content within curly brackets ({}) is expected.</shortdesc>
-    <refbody> </refbody>
+    <shortdesc>The <term>SCOPE</term> placeholder is used in the syntax wherever content within
+        curly brackets ({}) is expected as an argument. The content of a <term>SCOPE</term> can be any mixture of text or <ph conkeyref="definitions/product_name"/> commands.</shortdesc>
+    <refbody></refbody>
 </reference>
