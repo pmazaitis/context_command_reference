@@ -21,7 +21,7 @@
             <synph>
                 <kwd>\typebuffer</kwd>
                 <delim>[</delim>
-                <var>KIND</var>
+                <var>IDENTIFIER</var>
                 <delim>]</delim>
                 <delim>[</delim>
                 <var importance="optional">settings</var>
