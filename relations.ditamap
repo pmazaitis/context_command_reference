@@ -8,31 +8,81 @@
     <reltable>
         <title>Related Commands</title>
         <relheader>
-            <relcolspec type="reference"><!--Define--></relcolspec>
-            <relcolspec type="reference"><!--Setup--></relcolspec>
-            <relcolspec type="reference"><!--Start--></relcolspec>
-            <relcolspec type="reference"><!--Stop--></relcolspec>
-            <relcolspec type="reference"/>
-            <relcolspec type="reference"/>
+            <relcolspec type="reference"><!--Command--></relcolspec>
+            <relcolspec type="reference"><!--Related--></relcolspec>
         </relheader>
         <relrow>
             <relcell>
                 <topicref href="commands/d/r_command_definebuffer.dita"/>
             </relcell>
             <relcell>
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
                 <topicref href="commands/s/r_command_setupbuffer.dita"/>
             </relcell>
+            <relcell>
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
             <relcell>
                 <topicref href="commands/s/r_command_startbuffer.dita"/>
             </relcell>
             <relcell>
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
                 <topicref href="commands/s/r_command_stopbuffer.dita"/>
             </relcell>
             <relcell>
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
                 <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
             </relcell>
+        </relrow>
+        <relrow>
             <relcell>
                 <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="commands/b/r_command_bf.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="commands/b/r_command_bf.dita"/>
+                <topicref href="commands/b/r_command_bold.dita"/>
             </relcell>
         </relrow>
         <relrow>
@@ -41,24 +91,8 @@
             </relcell>
             <relcell>
                 <topicref href="commands/b/r_command_bf.dita"/>
-            </relcell>
-            <relcell>
-                
-            </relcell>
-            <relcell>
-                
-            </relcell>
-            <relcell>
-                
-            </relcell>
-            <relcell>
-                
+                <topicref href="commands/b/r_command_bold.dita"/>
             </relcell>
         </relrow>
     </reltable>
-
-    <!--Conrefs for commands that use settings that other command inheirit. We only ever want to update these in one place, and have all of the dependant commands also update.-->
-
-    <keydef keys="command_setupbuffer" href="commands/s/r_command_setupbuffer.dita"/>
-    <keydef keys="command_vspacing" href="commands/v/r_command_vspacing.dita"/>
 </map>
