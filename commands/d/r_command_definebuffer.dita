@@ -70,6 +70,7 @@
                 </strow>
 
             </simpletable>
+            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
