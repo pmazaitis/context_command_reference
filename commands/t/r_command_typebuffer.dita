@@ -21,7 +21,7 @@
             <synph>
                 <kwd>\typebuffer</kwd>
                 <delim>[</delim>
-                <var>IDENTIFIER</var>
+                <var importance="required">IDENTIFIER</var>
                 <delim>]</delim>
                 <delim>[</delim>
                 <var importance="optional">settings</var>
@@ -36,7 +36,7 @@
                 <strow>
                     <stentry>identifier</stentry>
                     <stentry><xref keyref="IDENTIFIER" type="reference"/></stentry>
-                    <stentry>The semantic name for the new buffer command.</stentry>
+                    <stentry>The buffer label to be used to retreive content in a named buffer and insert it into the textflow.</stentry>
                 </strow>
                 <strow>
                     <stentry>settings</stentry>
@@ -59,6 +59,7 @@
                     <stentry/>
                 </strow>
             </simpletable>
+            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
         <example>
             <title>Minimal Working Example</title>

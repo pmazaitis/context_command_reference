@@ -23,7 +23,7 @@
             <synph>
                 <kwd>\definebuffer</kwd>
                 <delim>[</delim>
-                <var>KIND</var>
+                <var importance="required">KIND</var>
                 <delim>]</delim>
                 <delim>[</delim>
                 <var importance="optional">buffer</var>

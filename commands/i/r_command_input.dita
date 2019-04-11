@@ -19,7 +19,7 @@
         <refsyn>
             <title>Syntax</title>
             <synph> \input <delim>{</delim>
-                <var>option</var>
+                <var importance="required">filename</var>
                 <delim>}</delim>
             </synph>
             <simpletable>
@@ -34,6 +34,7 @@
                     <stentry>The filename for the content to be loaded.</stentry>
                 </strow>
             </simpletable>
+            <note>An alternate syntax for this command omits the curly braces.</note>
         </refsyn>
         <example otherprops="no_output">
         <title>Minimal Working Example</title>  

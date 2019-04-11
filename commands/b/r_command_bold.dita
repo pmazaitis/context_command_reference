@@ -19,7 +19,7 @@
         <refsyn>
             <title>Syntax</title>
             <synph><kwd>\bold</kwd><delim>{</delim>
-                <var>scope</var>
+                <var importance="optional">scope</var>
                 <delim>}</delim>
             </synph>
             <simpletable>
