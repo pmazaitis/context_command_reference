@@ -21,7 +21,7 @@
             <synph>
                 <kwd>\getbuffer</kwd>  
                 <delim>[</delim>
-                <var>NAME</var>
+                <var importance="optional">NAME</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
