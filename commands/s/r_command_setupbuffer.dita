@@ -24,7 +24,7 @@
                 <var importance="required">identifier</var>
                 <delim>]</delim>
                 <delim>[</delim>
-                <var importance="optional">settings</var>
+                <var importance="required">settings</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
