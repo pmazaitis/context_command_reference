@@ -6,32 +6,8 @@
     
     
     <keydef keys="after" href="settings/r_setting_after.dita"/>
- <!--   <keydef keys="afterhead" href="settings/r_setting_afterhead.dita"/>
-    <keydef keys="align" href="settings/r_setting_align.dita"/>-->
     <keydef keys="before" href="settings/r_setting_before.dita"/>
-   <!-- <keydef keys="beforehead" href="settings/r_setting_beforehead.dita"/>
-    <keydef keys="distance" href="settings/r_setting_distance.dita"/>
-    <keydef keys="factor" href="settings/r_setting_factor.dita"/>
-    <keydef keys="headstyle" href="settings/r_setting_headstyle.dita"/>
-    <keydef keys="inbetween" href="settings/r_setting_inbetween.dita"/>
-    <keydef keys="indentnext" href="settings/r_setting_indentnext.dita"/>
-    <keydef keys="itemalign" href="settings/r_setting_itemalign.dita"/>
-    <keydef keys="items" href="settings/r_setting_items.dita"/>
-    <keydef keys="left" href="settings/r_setting_left.dita"/>
-    <keydef keys="leftmargin" href="settings/r_setting_leftmargin.dita"/>
-    <keydef keys="margin" href="settings/r_setting_margin.dita"/>
-    <keydef keys="marstyle" href="settings/r_setting_marstyle.dita"/>
-    <keydef keys="prefix" href="settings/r_setting_prefix.dita"/>
-    <keydef keys="prefixsegments" href="settings/r_setting_prefixsegments.dita"/>
-    <keydef keys="right" href="settings/r_setting_right.dita"/>
-    <keydef keys="rightmargin" href="settings/r_setting_rightmargin.dita"/>
-    <keydef keys="start" href="settings/r_setting_start.dita"/>
-    <keydef keys="stopper" href="settings/r_setting_stopper.dita"/>
-    <keydef keys="style" href="settings/r_setting_style.dita"/>
-    <keydef keys="symbol" href="settings/r_setting_symbol.dita"/>
-    <keydef keys="symstyle" href="settings/r_setting_symstyle.dita"/>
-    <keydef keys="textdistance" href="settings/r_setting_textdistance.dita"/>
-    <keydef keys="width" href="settings/r_setting_width.dita"/>-->
+    <keydef keys="state_setuplayout" href="settings/r_setting_state_setuplayout.dita"/>
     
     
     <!--Placeholders-->
