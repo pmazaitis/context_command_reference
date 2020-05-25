@@ -76,4 +76,9 @@ This is a text, which is stored in the buffer with name \quotation{mybuffer}.
             </codeblock>
         </example>
     </refbody>
+    <related-links>
+        <link href="">
+            <linktext>Commmand definition in the source file <filepath></filepath></linktext>
+        </link>
+    </related-links>
 </reference>

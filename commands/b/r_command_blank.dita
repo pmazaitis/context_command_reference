@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_blank">
     <title>\blank</title>
-    <shortdesc>The <cmdname>\blank</cmdname> command inserts <keyword>skip</keyword> (vertical
+    <shortdesc>Use the <cmdname>\blank</cmdname> command to insert <keyword>skip</keyword> (vertical
         space) into the text block. The command can be used with keywords to indicate preset amounts
         of skip, or with dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
@@ -12,7 +12,7 @@
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
                     <vrm version="ii"/>
-                    <vrm version="iv" release="beta"/>
+                    <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
@@ -41,7 +41,7 @@
         <section conkeyref="command_vspacing/vspacing_notes" />
         <example otherprops="output">
             <title>Minimal Working Example</title>
-            <p>We can use <cmdname>\blank</cmdname> commands directly in the text flow.</p>
+            <p>Use <cmdname>\blank</cmdname> commands directly in the text flow.</p>
             <codeblock>
 \starttext                
 Here's our first sentence.
@@ -131,5 +131,9 @@ Don’t want an antelope nibbling the hoops.
             </codeblock>
         </example>
     </refbody>
-    <related-links> </related-links>
+    <related-links>
+        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/font-sty.mklx#L102">
+            <linktext>Commmand definition in the source file <filepath></filepath></linktext>
+        </link>
+    </related-links>
 </reference>

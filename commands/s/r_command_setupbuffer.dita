@@ -2,25 +2,23 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setupbuffer">
     <title>\setupbuffer</title>
-    <shortdesc>The <cmdname>\setupbuffer</cmdname> applies setups to buffers.</shortdesc>
+    <shortdesc>The <cmdname>\setupbuffer</cmdname> applies groups of settings to a named
+        buffer.</shortdesc>
     <prolog>
         <metadata>
             <category>block</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    <!--<vrm version="ii" release="stable"/> -->
                     <vrm version="iv" release="beta"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
     </prolog>
-    <refbody> 
+    <refbody>
         <refsyn>
             <title>Syntax</title>
-            <synph>
-                \setupbuffer  
-                <delim>[</delim>
+            <synph> \setupbuffer <delim>[</delim>
                 <var importance="required">identifier</var>
                 <delim>]</delim>
                 <delim>[</delim>
@@ -41,7 +39,7 @@
                 <strow>
                     <stentry>settings</stentry>
                     <stentry>(see settings table)</stentry>
-                    <stentry><p conkeyref="definitions/settings_description" /></stentry>
+                    <stentry><p conkeyref="definitions/settings_description"/></stentry>
                 </strow>
             </simpletable>
         </refsyn>
@@ -49,25 +47,19 @@
             <title>Settings</title>
             <simpletable>
                 <sthead>
-                    <stentry>
-                        Setting Name
-                    </stentry>
-                    <stentry>
-                        Setting Values
-                    </stentry>
-                    <stentry>
-                        Setting Description
-                    </stentry>
+                    <stentry> Setting Name </stentry>
+                    <stentry> Setting Values </stentry>
+                    <stentry> Setting Description </stentry>
                 </sthead>
                 <strow id="settings_start" conkeyref="after/overview_row">
-                    <stentry />
-                    <stentry />
-                    <stentry />
+                    <stentry/>
+                    <stentry/>
+                    <stentry/>
                 </strow>
                 <strow id="settings_end" conkeyref="before/overview_row">
-                    <stentry />
-                    <stentry />
-                    <stentry />
+                    <stentry/>
+                    <stentry/>
+                    <stentry/>
                 </strow>
             </simpletable>
         </section>
@@ -82,4 +74,9 @@
             </codeblock>
         </example>
     </refbody>
+    <related-links>
+        <link href="">
+            <linktext>Commmand definition in the source file <filepath></filepath></linktext>
+        </link>
+    </related-links>
 </reference>

@@ -2,8 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_definebuffer">
     <title>\definebuffer</title>
-    <shortdesc>We can define a new buffer command to use a new semantic command to store and
-        retreive text.</shortdesc>
+    <shortdesc>Use the <cmdname>\definebuffer</cmdname> command to create a new subtype of a buffer.</shortdesc>
     <prolog>
         <metadata>
             <category>block</category>
@@ -12,7 +11,7 @@
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
                     <!--<vrm version="ii" release="stable"/> -->
-                    <vrm version="iv" release="beta"/>
+                    <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
@@ -23,7 +22,7 @@
             <synph>
                 <kwd>\definebuffer</kwd>
                 <delim>[</delim>
-                <var importance="required">KIND</var>
+                <var importance="required">SUBTYPE</var>
                 <delim>]</delim>
                 <delim>[</delim>
                 <var importance="optional">buffer</var>
@@ -68,7 +67,6 @@
                     <stentry/>
                     <stentry/>
                 </strow>
-
             </simpletable>
             <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
@@ -83,4 +81,9 @@
             </codeblock>
         </example>
     </refbody>
+    <related-links>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv#L222">
+            <linktext>Commmand definition in the source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
+        </link>
+    </related-links>
 </reference>
