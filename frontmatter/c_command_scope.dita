@@ -5,7 +5,17 @@
     <shortdesc>A command may have a <term>scope</term> as an argument. A comman's scope is delimited
         by curly braces ({ and }) after the command.</shortdesc>
     <conbody>
-        <p>(Font switches use a slitly different behavior, in that they affect all of the text in
-            the current scipe, up to the next font switch.)</p>
+        <example>
+            <p>Commands that accept scope use curly brackets to define that scope.</p>
+            <codeblock>
+\command_name[key=val]{This is the scope of the command.}
+            </codeblock>
+        </example>
+        <section>
+            <title>Special behavior for font switching.</title>
+            <p>Font switches use a slightly different behavior in that they affect all of the text
+                in the <ph outputclass="emphasis">current</ph> scope, up to the next font
+                switch or the end of the scope.</p>
+        </section>
     </conbody>
 </concept>

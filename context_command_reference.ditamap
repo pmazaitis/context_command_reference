@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
 <map>
-    <title>ConTeXt Command Reference.</title>
+    <title><ph
+        conkeyref="definitions/product_name"/> Command Reference.</title>
     <keydef keys="definitions" href="support/definitions.dita"/>
     <topichead navtitle="About This Manual">
         <topicref href="frontmatter/c_what_this_manual_is.dita"/>
         <topicref href="frontmatter/c_what_this_manual_is_not.dita"/>
-        <topicref href="frontmatter/c_what_this_manual_covers.dita">
-            <topicref href="frontmatter/c_mkii_commands.dita" product="mkii"/>
-            <topicref href="frontmatter/c_mkiv_commands.dita"/>
-            <topicref href="frontmatter/c_lmtx_commands.dita"/>
-        </topicref>
+        <topicref href="frontmatter/c_what_this_manual_covers.dita"/>
     </topichead>
     <topichead navtitle="About The Commands">
         <topicref href="frontmatter/c_parts_of_a_command.dita">
@@ -21,7 +19,7 @@
             </topicref>
             <topicref href="frontmatter/c_command_scope.dita"/>
         </topicref>
-        <topicref href="frontmatter/c_command_kinds.dita"/>
+        <topicref href="frontmatter/c_command_types.dita"/>
         <topicref href="frontmatter/c_command_special_cases.dita">
             <topicref href="frontmatter/c_font_switching.dita"/>
         </topicref>
@@ -48,11 +46,13 @@
             <topicref href="placeholders/r_placeholder_DIMENSION.dita"/>
             <topicref href="placeholders/r_placeholder_FILENAME.dita"/>
             <topicref href="placeholders/r_placeholder_IDENTIFIER.dita"/>
-            <topicref href="placeholders/r_placeholder_KIND.dita"/>
             <topicref href="placeholders/r_placeholder_NUMBER.dita"/>
             <topicref href="placeholders/r_placeholder_TEXT.dita"/>
             <topicref href="placeholders/r_placeholder_SCOPE.dita"/>
             <topicref href="placeholders/r_placeholder_SWITCH.dita"/>
+            <topicref href="placeholders/r_placeholder_TYPE.dita"/>
+            <topicref href="placeholders/r_placeholder_SUBTYPE.dita"/>
+            <topicref href="placeholders/r_placeholder_CONTENT.dita"/>
         </topicref>
         <topicref href="settings/c_settings.dita">
             <topicref href="settings/r_setting_after.dita"/>

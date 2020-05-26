@@ -15,12 +15,13 @@
     <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>
     <keydef keys="COMMAND" href="placeholders/r_placeholder_COMMAND.dita"/>
     <keydef keys="SCOPE" href="placeholders/r_placeholder_SCOPE.dita"/>
+    <keydef keys="CONTENT" href="placeholders/r_placeholder_CONTENT.dita"/>
     <keydef keys="SWITCH" href="placeholders/r_placeholder_SWITCH.dita"/>
     <keydef keys="NUMBER" href="placeholders/r_placeholder_NUMBER.dita"/>
     <keydef keys="TEXT" href="placeholders/r_placeholder_TEXT.dita"/>
     <keydef keys="NAME" href="placeholders/r_placeholder_NAME.dita"/>
     <keydef keys="IDENTIFIER" href="placeholders/r_placeholder_IDENTIFIER.dita"/>
     <keydef keys="FILENAME" href="placeholders/r_placeholder_FILENAME.dita"/>
-    
-    <keydef keys="KIND" href="placeholders/r_placeholder_KIND.dita"/>
+    <keydef keys="TYPE" href="placeholders/r_placeholder_TYPE.dita"/>
+    <keydef keys="SUBTYPE" href="placeholders/r_placeholder_SUBTYPE.dita"/>
 </map>

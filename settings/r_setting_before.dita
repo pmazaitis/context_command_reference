@@ -11,7 +11,7 @@
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    <!--<vrm version="ii" release="stable"/> -->
+                    
                     <vrm version="iv" release="beta"/>
                 </vrmlist>
             </prodinfo>

@@ -9,7 +9,7 @@
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    <!--<vrm version="ii" release="stable"/> -->
+                    
                     <vrm version="iv" release="beta"/>
                 </vrmlist>
             </prodinfo>
@@ -77,7 +77,7 @@ This is a text, which is stored in the buffer with name \quotation{mybuffer}.
         </example>
     </refbody>
     <related-links>
-        <link href="">
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/" scope="external">
             <linktext>Commmand definition in the source file <filepath></filepath></linktext>
         </link>
     </related-links>

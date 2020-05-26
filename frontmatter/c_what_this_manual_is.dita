@@ -2,12 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="what_this_manual_is">
     <title>What This Manual Is</title>
-    <shortdesc>This manual presents a comprehensive and complete reference to the commmands in the ConTeXt typesetting system, available setups, and example use. This manual does not intend to serve as a tutorial or other instructional material.</shortdesc>
+    <shortdesc>This manual presents a comprehensive and complete reference to the commmands in the <ph
+        conkeyref="definitions/product_name"/> typesetting system, available setups, and example use. This manual does not intend to serve as a tutorial or other instructional material.</shortdesc>
     <conbody>
-        <p>This manual presents, for each command in the ConTeXt typesetting system:</p>
+        <p>This manual presents, for each command in the <ph
+            conkeyref="definitions/product_name"/> typesetting system:</p>
         <ul>
             <li>The name of the command.</li>
-            <li>Context Version.</li>
+            <li>Release status.</li>
             <li>The syntax of the command.</li>
             <li>Options available for the command (if applicable).</li>
             <li>Settings available for the command (if applicable).</li>
@@ -16,6 +18,7 @@
             <li>Extended examples of the command in use (optional).</li>
             <li>Rendered output of the example (if applicable).</li>
             <li>Related commands.</li>
+            <li>Link the the source code of the command.</li>
         </ul>
     </conbody>
 </concept>

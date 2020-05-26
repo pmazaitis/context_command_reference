@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_bf">
     <title>\bf</title>
-    <shortdesc>Use the <cmdname>\bf</cmdname> command to change the font family to
+    <shortdesc>The <cmdname>\bf</cmdname> command changes the font family to
         bold face for the content following the switch, until another font switch or the end of the current scope.</shortdesc>
     <prolog>
         <metadata>
@@ -10,7 +10,7 @@
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    <!--<vrm version="ii" release="stable"/> -->
+                    
                     <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
@@ -37,8 +37,8 @@ Sometimes, we must be {\bf bold}.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/76a1861b8ff7c2befbc41270833a4a0919c93c30/tex/context/base/mkiv/font-emp.mkvi#L83">
-            <linktext>Commmand definition in the source file <filepath>tex/context/base/mkiv/font-emp.mkvi</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/76a1861b8ff7c2befbc41270833a4a0919c93c30/tex/context/base/mkiv/font-emp.mkvi" scope="external">
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>tex/context/base/mkiv/font-emp.mkvi</filepath></linktext>
         </link>
     </related-links>
 </reference>
