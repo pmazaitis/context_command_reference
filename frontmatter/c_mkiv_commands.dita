@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_mkiv_commands">
-    <title>MKIV Commands</title>
-    <shortdesc>This manual covers commands that are available in the mkIV version of <ph conkeyref="definitions/product_name"/>.</shortdesc>
-    <conbody>
-        <p></p>
-    </conbody>
-</concept>
