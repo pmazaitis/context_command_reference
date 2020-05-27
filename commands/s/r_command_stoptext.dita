@@ -11,8 +11,7 @@
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    
-                    <vrm version="iv" release="beta"/>
+                    <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
@@ -24,10 +23,6 @@
                 <kwd>\stoptext</kwd>
             </synph>
         </refsyn>
-        <!--         <section>
-            <title>Notes</title>
-            <p></p>
-        </section>-->
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
@@ -38,8 +33,8 @@ Hello World!
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/" scope="external">
-            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath></filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/core-ini.mkiv" scope="external">
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>core-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
