@@ -2,8 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 
 <map>
-    <title><ph
-        conkeyref="definitions/product_name"/> Command Reference.</title>
+    <title><ph conkeyref="definitions/product_name"/> Command Reference.</title>
     <keydef keys="definitions" href="support/definitions.dita"/>
     <topichead navtitle="About This Manual">
         <topicref href="frontmatter/c_what_this_manual_is.dita"/>
@@ -56,6 +55,7 @@
             <topicref href="placeholders/r_placeholder_SUBTYPE.dita"/>
             <topicref href="placeholders/r_placeholder_CONTENT.dita"/>
             <topicref href="placeholders/r_placeholder_LABEL.dita"/>
+            <topicref href="placeholders/r_placeholder_NAME.dita"/>
         </topicref>
         <topicref href="settings/c_settings.dita">
             <topicref href="settings/r_setting_after.dita"/>
