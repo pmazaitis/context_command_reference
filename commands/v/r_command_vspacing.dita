@@ -3,16 +3,16 @@
 <reference id="r_command_vspacing">
     <title>\vspacing</title>
     <shortdesc>The <cmdname>\vspacing</cmdname> command inserts <keyword>skip</keyword> (vertical
-        space) into the text block. The command can be used with keywords to indicate preset amounts
-        of skip, or with dimensions to create spaces of arbitrary skip.</shortdesc>
+        space) into the text block. TUse eywords to indicate preset amounts
+        of skip, or use dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
         <metadata>
             <category />
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    
-                    <vrm version="iv" release="beta"/>
+                    <vrm version="iv" release="production"/>
+                    <vrm version="xl" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
@@ -173,8 +173,7 @@
         </section>
         <section id="vspacing_notes">
             <title>Notes</title>
-            <p>Keywords accept multipliers: to insert whitespace as large as four lines, for
-                example, type \vspacing[4*big].</p>
+            <p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>\vspacing[4*big]</tt></p>
         </section>
         <example otherprops="output">
             <title>Minimal Working Example</title>
@@ -190,8 +189,8 @@ Here's our last sentence.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/" scope="external">
-            <linktext>Commmand definition in the source file <filepath></filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkxl" scope="external" format="html">
+            <linktext>Commmand definition in the source file <filepath>spac-ver.mkxl</filepath></linktext>
         </link>
     </related-links>
 </reference>
