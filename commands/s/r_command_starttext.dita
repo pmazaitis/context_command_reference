@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_starttext">
     <title>\starttext</title>
-    <shortdesc>Use the <cmdname>\starttext</cmdname> command to start the text content of a
+    <shortdesc>The <cmdname>\starttext</cmdname> command marks the start the text content of a
         document. Commands that appear in the file before <cmdname>\starttext</cmdname> will be
         used, but all other content will be ignored.</shortdesc>
     <prolog>
@@ -11,8 +11,7 @@
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    
-                    <vrm version="iv" release="beta"/>
+                    <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
@@ -24,10 +23,6 @@
                 <kwd>\starttext</kwd>
             </synph>
         </refsyn>
-        <!--         <section>
-            <title>Notes</title>
-            <p></p>
-        </section>-->
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
