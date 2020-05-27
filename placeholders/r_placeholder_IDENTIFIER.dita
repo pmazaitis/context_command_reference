@@ -2,6 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_IDENTIFIER">
     <title>IDENTIFIER</title>
-    <shortdesc>The <term>IDENTIFIER</term> placeholder indicates a place where we must supply a <term>label</term> to be attached to some grouping a setups or content as an argument. We can us an arbirary names as labels; best practice is to use identifiers with clear and unambiguous meanings.</shortdesc>
+    <shortdesc>An <term>IDENTIFIER</term> is a used to construct new commands that inhieret behavior from an existing command. <term>IDENTIFIER</term>s should describe the function of the new command type.</shortdesc>
     <refbody> <!--TODO: document restrictions on identifiers.--></refbody>
 </reference>
