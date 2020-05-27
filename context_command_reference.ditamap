@@ -55,6 +55,7 @@
             <topicref href="placeholders/r_placeholder_TYPE.dita"/>
             <topicref href="placeholders/r_placeholder_SUBTYPE.dita"/>
             <topicref href="placeholders/r_placeholder_CONTENT.dita"/>
+            <topicref href="placeholders/r_placeholder_LABEL.dita"/>
         </topicref>
         <topicref href="settings/c_settings.dita">
             <topicref href="settings/r_setting_after.dita"/>
