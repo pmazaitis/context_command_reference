@@ -6,7 +6,9 @@
     <refbody>
         <section>
             <ul>
-                <li>Buffer</li>
+                <li>head</li>
+                <li>list</li>
+                <li>paragraph</li>
             </ul>
         </section>
     </refbody>
