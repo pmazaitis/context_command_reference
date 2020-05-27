@@ -2,6 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_NAME">
     <title>NAME</title>
-    <shortdesc>A name, an identifier.</shortdesc>
+    <shortdesc>A <term>name</term> is used as a label for referencing content. Use <term>NAME</term>s that clearly and unambiguously identify the content.</shortdesc>
     <refbody> </refbody>
 </reference>
