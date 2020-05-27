@@ -9,7 +9,8 @@
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    <vrm version="iv" release="beta"/>
+                    <vrm version="iv" release="production"/>
+                    <vrm version="xl" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
