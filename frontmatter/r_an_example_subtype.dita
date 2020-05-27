@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_an_example_subtype">
+    <title>An Example Subtype</title>
+    <shortdesc>Use the <cmdname>\definebuffer</cmdname> command to create a new subtype of buffer.</shortdesc>
+    <refbody>
+        <example>
+            <p>Define a new labeled buffer subtype for storing content.</p>
+            <codeblock>
+ \definebuffer[preamble]
+            </codeblock>
+            <p>In this example we have defined a new buffer with the label <tt>preamble</tt>.</p>
+        </example>
+    </refbody>
+</reference>

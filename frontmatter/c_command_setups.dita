@@ -2,7 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_command_setups">
     <title>Command Setups</title>
-    <shortdesc>Commands can accept parameters. Parameters that change the behavior of the command are <term>setups</term>.  Setups come after the command in blocks, delimited into blocks by square brackets.</shortdesc>
+    <shortdesc>Commands can accept parameters. Collections of parameters that change the behavior of
+        the command are <term>setups</term>. Setups come after the command in blocks, delimited into
+        blocks by square brackets.</shortdesc>
     <conbody>
         <p>Setups come in two types: <term>options</term> and <term>settings</term>.</p>
         <p>Options are keywords. Commands that accept options can accept one or more keywords in an options block, separated by a comma. </p>

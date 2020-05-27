@@ -2,8 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c-command_kinds">
     <title>Command Types</title>
-    <shortdesc>Some  </shortdesc>
+    <shortdesc>Some commands are of particular <xref keyref="TYPE" type="reference"/>.  Users may
+        define new cammands of a <xref keyref="SUBTYPE" type="reference"/> that can be used to
+        specialze the TYPE, and give it a new label for use. </shortdesc>
     <conbody>
-        <p></p>
     </conbody>
 </concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_available_types">
+    <title>Available Types</title>
+    <shortdesc/>
+    <refbody>
+        <section>
+            <ul>
+                <li>Buffer</li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

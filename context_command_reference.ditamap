@@ -8,7 +8,6 @@
     <topichead navtitle="About This Manual">
         <topicref href="frontmatter/c_what_this_manual_is.dita"/>
         <topicref href="frontmatter/c_what_this_manual_is_not.dita"/>
-        <topicref href="frontmatter/c_what_this_manual_covers.dita"/>
     </topichead>
     <topichead navtitle="About The Commands">
         <topicref href="frontmatter/c_parts_of_a_command.dita">
@@ -19,7 +18,10 @@
             </topicref>
             <topicref href="frontmatter/c_command_scope.dita"/>
         </topicref>
-        <topicref href="frontmatter/c_command_types.dita"/>
+        <topicref href="frontmatter/c_command_types.dita">
+            <topicref href="frontmatter/r_an_example_subtype.dita"/>
+            <topicref href="frontmatter/r_available_types.dita"/>
+        </topicref>
         <topicref href="frontmatter/c_command_special_cases.dita">
             <topicref href="frontmatter/c_font_switching.dita"/>
         </topicref>
