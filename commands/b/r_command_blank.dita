@@ -131,7 +131,7 @@ Don’t want an antelope nibbling the hoops.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/font-sty.mklx" scope="external">
+        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/font-sty.mklx" scope="external" format="html">
             <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>/tex/context/base/mkiv/font-sty.mklx</filepath></linktext>
         </link>
     </related-links>
