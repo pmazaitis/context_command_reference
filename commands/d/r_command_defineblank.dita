@@ -3,5 +3,16 @@
 <reference id="r_command_defineblank">
     <title>\defineblank</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <category>spacing</category>
+            <prodinfo>
+                <prodname>ConTeXt</prodname>
+                <vrmlist>
+                    <vrm version="iv" release="production"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+    </prolog>
     <refbody> </refbody>
 </reference>
