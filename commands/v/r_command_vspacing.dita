@@ -3,7 +3,7 @@
 <reference id="r_command_vspacing">
     <title>\vspacing</title>
     <shortdesc>The <cmdname>\vspacing</cmdname> command inserts <keyword>skip</keyword> (vertical
-        space) into the text block. TUse eywords to indicate preset amounts
+        space) into the text block. Use keywords to indicate preset amounts
         of skip, or use dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
         <metadata>
@@ -173,7 +173,7 @@
         </section>
         <section id="vspacing_notes">
             <title>Notes</title>
-            <p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>\vspacing[4*big]</tt></p>
+            <p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>[4*big]</tt></p>
         </section>
         <example otherprops="output">
             <title>Minimal Working Example</title>
