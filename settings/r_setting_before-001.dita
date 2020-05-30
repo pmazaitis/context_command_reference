@@ -27,7 +27,7 @@
                     <stentry> Setting Description </stentry>
                 </sthead>
                 <strow id="overview_row">
-                    <stentry><xref href="r_setting_before.dita">before</xref></stentry>
+                    <stentry><xref href="r_setting_before-001.dita">before</xref></stentry>
                     <stentry><xref keyref="SCOPE" type="reference"/></stentry>
                     <stentry>The value of this setting is a collection of one or more commands.</stentry>
                 </strow>
