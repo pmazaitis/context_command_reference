@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Placeholders</title>
+    
+    
+    <!--Placeholders-->
+    
+    <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>
+    <keydef keys="COMMAND" href="placeholders/r_placeholder_COMMAND.dita"/>
+    <keydef keys="SCOPE" href="placeholders/r_placeholder_SCOPE.dita"/>
+    <keydef keys="CONTENT" href="placeholders/r_placeholder_CONTENT.dita"/>
+    <keydef keys="SWITCH" href="placeholders/r_placeholder_SWITCH.dita"/>
+    <keydef keys="NUMBER" href="placeholders/r_placeholder_NUMBER.dita"/>
+    <keydef keys="ORDINAL" href="placeholders/r_placeholder_ORDINAL.dita"/>
+    <keydef keys="TEXT" href="placeholders/r_placeholder_TEXT.dita"/>
+    <keydef keys="NAME" href="placeholders/r_placeholder_NAME.dita"/>
+    <keydef keys="LABEL" href="placeholders/r_placeholder_LABEL.dita"/>
+    <keydef keys="IDENTIFIER" href="placeholders/r_placeholder_IDENTIFIER.dita"/>
+    <keydef keys="FILENAME" href="placeholders/r_placeholder_FILENAME.dita"/>
+    <keydef keys="TYPE" href="placeholders/r_placeholder_TYPE.dita"/>
+    <keydef keys="SUBTYPE" href="placeholders/r_placeholder_SUBTYPE.dita"/>
+</map>
