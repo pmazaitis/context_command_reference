@@ -4,12 +4,6 @@
     <title>All Settings</title>
     
     
-    
-    <keydef keys="after" href="settings/r_setting_after.dita"/>
-    <keydef keys="before" href="settings/r_setting_before.dita"/>
-    <keydef keys="state_setuplayout" href="settings/r_setting_state_setuplayout.dita"/>
-    
-    
     <!--Placeholders-->
     
     <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>

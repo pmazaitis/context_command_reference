@@ -57,10 +57,6 @@
             <topicref href="placeholders/r_placeholder_LABEL.dita"/>
             <topicref href="placeholders/r_placeholder_NAME.dita"/>
         </topicref>
-        <topicref href="settings/c_settings.dita">
-            <topicref href="settings/r_setting_after.dita"/>
-            <topicref href="settings/r_setting_before.dita"/>
-        </topicref>
     </topichead>
     <mapref href="settings.ditamap" format="ditamap"/>
     <mapref href="relations.ditamap" format="ditamap"/>
