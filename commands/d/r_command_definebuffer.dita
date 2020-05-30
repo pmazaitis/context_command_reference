@@ -79,18 +79,6 @@
                     </tbody>
                 </tgroup>
             </table>
-<!--            <simpletable>
-                <sthead>
-                    <stentry> Setting Name </stentry>
-                    <stentry> Setting Values </stentry>
-                    <stentry> Setting Description </stentry>
-                </sthead>
-                <strow conkeyref="command_setupbuffer/settings_start" conrefend="opentoolkit/settings_end">
-                    <stentry/>
-                    <stentry/>
-                    <stentry/>
-                </strow>
-            </simpletable>-->
             <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
         <example otherprops="no_output">
