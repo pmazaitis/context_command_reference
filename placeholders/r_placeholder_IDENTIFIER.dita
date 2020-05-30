@@ -2,6 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_placeholder_IDENTIFIER">
     <title>IDENTIFIER</title>
-    <shortdesc>An <term>IDENTIFIER</term> is a used to construct new commands that inhieret behavior from an existing command. <term>IDENTIFIER</term>s should describe the function of the new command type.</shortdesc>
+    <shortdesc>An <term>IDENTIFIER</term> is a used to construct new commands that inherit behavior
+        from an existing command. The text of an <term>IDENTIFIER</term>s should describe the
+        function of the new command type.</shortdesc>
     <refbody> <!--TODO: document restrictions on identifiers.--></refbody>
 </reference>
