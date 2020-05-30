@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_getbuffer">
-    <title>\getbuffer</title>
-    <shortdesc>The <cmdname>\getbuffer</cmdname> command retreives a buffer and adds the content to
-        the document in the place where the command is used.</shortdesc>
+<reference id="r_command_startbuffer">
+    <title>\startbuffer</title>
+    <shortdesc>The <cmdname>\startbuffer</cmdname> command marks the beginning of a buffer.</shortdesc>
     <prolog>
         <metadata>
             <category>block</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
+                    
                     <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
@@ -19,9 +19,9 @@
         <refsyn>
             <title>Syntax</title>
             <synph>
-                <kwd>\getbuffer</kwd>  
+                \startbuffer  
                 <delim>[</delim>
-                <var importance="optional">NAME</var>
+                <var importance="optional">LABEL</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
@@ -32,7 +32,7 @@
                 </sthead>
                 <strow>
                     <stentry>identifier</stentry>
-                    <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    <stentry><xref keyref="LABEL" type="reference"/></stentry>
                     <stentry>A meaningful name for retreiving the buffer.</stentry>
                 </strow>
             </simpletable>
@@ -46,15 +46,13 @@
 \input knuth
 \stopbuffer
 
-\getbuffer[MyBuffer]
-
 \stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
         <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
         </link>
     </related-links>
 </reference>

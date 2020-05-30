@@ -73,7 +73,7 @@
     </refbody>
                 <related-links>
         <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/" scope="external">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath></filepath></linktext>
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath></filepath></linktext>
         </link>
     </related-links>
 </reference>

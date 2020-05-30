@@ -36,15 +36,14 @@
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
                     <stentry>The base name for the defined blank.</stentry>
                 </strow>
-                <strow conkeyref="command_vspacing/vspacing_short_options">
+                <strow conkeyref="command_vspacing/short_options">
                     <stentry/>
                     <stentry/>
                     <stentry/>
                 </strow>
             </simpletable>
         </refsyn>
-        <section conkeyref="command_vspacing/vspacing_options"/>
-        <section conkeyref="command_vspacing/vspacing_notes"/>
+        <section conkeyref="command_vspacing/options"/>
         <example otherprops="nooutput">
             <title>Minimal Working Example</title>
             <p>Use <cmdname>\setupblank</cmdname> command to set the default skip..</p>

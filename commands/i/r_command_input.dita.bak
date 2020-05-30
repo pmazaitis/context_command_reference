@@ -46,7 +46,7 @@
     </refbody>
     <related-links>
         <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/file-ini.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>file-ini.mkiv</filepath></linktext>
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>file-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

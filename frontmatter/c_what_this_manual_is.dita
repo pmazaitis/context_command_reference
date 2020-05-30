@@ -13,12 +13,13 @@
             <li>The syntax of the command.</li>
             <li>Options available for the command (if applicable).</li>
             <li>Settings available for the command (if applicable).</li>
+            <li>Inheritence of options and settings.</li>
             <li>Notes on the command.</li>
             <li>A minimal working example of the command in use.</li>
             <li>Extended examples of the command in use (optional).</li>
             <li>Rendered output of the example (if applicable).</li>
             <li>Related commands.</li>
-            <li>Link the the source code of the command.</li>
+            <li>Link to the source file where the command is defined.</li>
         </ul>
     </conbody>
 </concept>

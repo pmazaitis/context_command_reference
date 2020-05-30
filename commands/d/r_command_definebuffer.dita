@@ -49,14 +49,14 @@
                 </strow>
                 <strow>
                     <stentry>settings</stentry>
-                    <stentry></stentry>
+                    <stentry>See <xref href="#r_command_definebuffer/settings">settings table</xref>.</stentry>
                     <stentry><p conkeyref="definitions/settings_description" /></stentry>
                 </strow>
             </simpletable>
         </refsyn>
         <section>
             <title>Settings</title>
-            <table frame="all" rowsep="1" colsep="1" id="table_command_definebuffer_settings">
+            <table frame="all" rowsep="1" colsep="1" id="settings">
                 <title></title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1.23*"/>
@@ -94,7 +94,7 @@
     </refbody>
     <related-links>
         <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
-            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
         </link>
     </related-links>
 </reference>
