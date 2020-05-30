@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setupblank">
     <title>\setupblank</title>
-    <shortdesc/>
+    <shortdesc>The <cmdname>\setupblank</cmdname> command defines the amount of skip for a labeled
+        preset.</shortdesc>
     <prolog>
         <metadata>
             <category>spacing</category>
@@ -42,8 +43,8 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section conkeyref="command_vspacing/vspacing_options" />
-        <section conkeyref="command_vspacing/vspacing_notes" />
+        <section conkeyref="command_vspacing/vspacing_options"/>
+        <section conkeyref="command_vspacing/vspacing_notes"/>
         <example otherprops="nooutput">
             <title>Minimal Working Example</title>
             <p>Use <cmdname>\setupblank</cmdname> command to set the default skip..</p>
@@ -55,7 +56,8 @@
         </example>
         <example otherprops="nooutput">
             <title>Minimal Working Example</title>
-            <p>Use <cmdname>\setupblank</cmdname> command to set the default size of the <cmdname>\blank</cmdname> command.</p>
+            <p>Use <cmdname>\setupblank</cmdname> command to set the default size of the
+                    <cmdname>\blank</cmdname> command.</p>
             <codeblock>
                 \starttext                
                 \setupblank[medium]
