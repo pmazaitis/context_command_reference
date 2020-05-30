@@ -60,8 +60,8 @@
             <topicref href="placeholders/r_placeholder_NAME.dita"/>
         </topicref>
         <topicref href="settings/c_settings.dita">
-            <topicref href="settings/r_setting_after.dita"/>
-            <topicref href="settings/r_setting_before.dita"/>
+            <topicref href="settings/r_setting_after-001.dita"/>
+            <topicref href="settings/r_setting_before-001.dita"/>
         </topicref>
     </topichead>
     <mapref href="settings.ditamap" format="ditamap"/>

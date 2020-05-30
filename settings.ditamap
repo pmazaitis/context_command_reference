@@ -5,8 +5,8 @@
     
     
     
-    <keydef keys="after" href="settings/r_setting_after.dita"/>
-    <keydef keys="before" href="settings/r_setting_before.dita"/>
+    <keydef keys="after-001" href="settings/r_setting_after-001.dita"/>
+    <keydef keys="before-001" href="settings/r_setting_before-001.dita"/>
     <keydef keys="state_setuplayout" href="settings/r_setting_state_setuplayout.dita"/>
     
     
