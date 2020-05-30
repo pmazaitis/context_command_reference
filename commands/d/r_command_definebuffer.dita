@@ -38,7 +38,7 @@
                     <stentry>Description</stentry>
                 </sthead>
                 <strow>
-                    <stentry>identifier</stentry>
+                    <stentry>NAME</stentry>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
                     <stentry>The label for the new buffer command.</stentry>
                 </strow>

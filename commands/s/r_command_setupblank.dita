@@ -2,6 +2,65 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setupblank">
     <title>\setupblank</title>
-    <shortdesc></shortdesc>
-    <refbody> </refbody>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <category>spacing</category>
+            <prodinfo>
+                <prodname>ConTeXt</prodname>
+                <vrmlist>
+                    <vrm version="iv" release="production"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <refbody>
+        <refsyn>
+            <title>Syntax</title>
+            <synph> \defineblank <delim>[</delim>
+                <var importance="optional">NAME</var>
+                <delim>]</delim>
+                <delim>[</delim>
+                <var importance="optional">options</var>
+                <delim>]</delim>
+            </synph>
+            <simpletable>
+                <sthead>
+                    <stentry>Name</stentry>
+                    <stentry>Values</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry>NAME</stentry>
+                    <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    <stentry>The base name for the defined blank.</stentry>
+                </strow>
+                <strow conkeyref="command_vspacing/vspacing_short_options">
+                    <stentry/>
+                    <stentry/>
+                    <stentry/>
+                </strow>
+            </simpletable>
+        </refsyn>
+        <section conkeyref="command_vspacing/vspacing_options" />
+        <section conkeyref="command_vspacing/vspacing_notes" />
+        <example otherprops="nooutput">
+            <title>Minimal Working Example</title>
+            <p>Use <cmdname>\setupblank</cmdname> command to set the default skip..</p>
+            <codeblock>
+                \starttext                
+                \setupblank[medium]
+                \stoptext
+            </codeblock>
+        </example>
+        <example otherprops="nooutput">
+            <title>Minimal Working Example</title>
+            <p>Use <cmdname>\setupblank</cmdname> command to set the default size of the <cmdname>\blank</cmdname> command.</p>
+            <codeblock>
+                \starttext                
+                \setupblank[medium]
+                \stoptext
+            </codeblock>
+        </example>
+    </refbody>
 </reference>
