@@ -53,14 +53,12 @@
             <topicref href="placeholders/r_placeholder_TEXT.dita"/>
             <topicref href="placeholders/r_placeholder_SCOPE.dita"/>
             <topicref href="placeholders/r_placeholder_SWITCH.dita"/>
-            <topicref href="placeholders/r_placeholder_TYPE.dita"/>
-            <topicref href="placeholders/r_placeholder_SUBTYPE.dita"/>
             <topicref href="placeholders/r_placeholder_CONTENT.dita"/>
-            <topicref href="placeholders/r_placeholder_LABEL.dita"/>
             <topicref href="placeholders/r_placeholder_NAME.dita"/>
+            <topicref href="placeholders/r_placeholder_ORDINAL.dita"/>
         </topicref>
     </topichead>
-    <mapref href="settings.ditamap" format="ditamap"/>
+    <mapref href="placeholders.ditamap" format="ditamap"/>
     <mapref href="relations.ditamap" format="ditamap"/>
     <topicref href="inheritance.ditamap" format="ditamap"/>
 </map>
