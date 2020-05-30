@@ -2,8 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_vspacing">
     <title>\vspacing</title>
-    <shortdesc>The <cmdname>\vspacing</cmdname> command inserts <keyword>skip</keyword> (vertical
-        space) into the text block. Use keywords to indicate preset amounts
+    <shortdesc>The <cmdname>\vspacing</cmdname> command inserts <term keyref="skip">skip</term> into the text block. Use keywords to indicate preset amounts
         of skip, or use dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
         <metadata>

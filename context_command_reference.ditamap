@@ -57,8 +57,12 @@
             <topicref href="placeholders/r_placeholder_NAME.dita"/>
             <topicref href="placeholders/r_placeholder_ORDINAL.dita"/>
         </topicref>
+        <topichead navtitle="Glossary">
+            <topicref href="glossary/g_skip.dita"/>
+        </topichead>
     </topichead>
     <mapref href="placeholders.ditamap" format="ditamap"/>
+    <topicref href="glossary.ditamap" format="ditamap"/>
     <mapref href="relations.ditamap" format="ditamap"/>
     <topicref href="inheritance.ditamap" format="ditamap"/>
 </map>
