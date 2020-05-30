@@ -59,10 +59,13 @@
             <topicref href="placeholders/r_placeholder_LABEL.dita"/>
             <topicref href="placeholders/r_placeholder_NAME.dita"/>
         </topicref>
+<<<<<<< HEAD
         <topicref href="settings/c_settings.dita">
             <topicref href="settings/r_setting_after-001.dita"/>
             <topicref href="settings/r_setting_before-001.dita"/>
         </topicref>
+=======
+>>>>>>> 94c9f7eac6a19efa1f090027aa23df94062a9327
     </topichead>
     <mapref href="settings.ditamap" format="ditamap"/>
     <mapref href="relations.ditamap" format="ditamap"/>
