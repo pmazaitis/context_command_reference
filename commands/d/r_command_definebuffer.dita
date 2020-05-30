@@ -34,13 +34,15 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
+                  
                 </sthead>
                 <strow>
                     <stentry>NAME</stentry>
-                    <stentry><xref keyref="NAME" type="reference"/></stentry>
                     <stentry>The label for the new buffer command.</stentry>
+                    <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    
                 </strow>
                 <strow>
                     <stentry>buffer</stentry>
@@ -49,8 +51,9 @@
                 </strow>
                 <strow>
                     <stentry>settings</stentry>
-                    <stentry>See <xref href="#r_command_definebuffer/settings">settings table</xref>.</stentry>
                     <stentry><p conkeyref="definitions/settings_description" /></stentry>
+                    <stentry>See <xref href="#r_command_definebuffer/settings">settings table</xref>.</stentry>
+                    
                 </strow>
             </simpletable>
         </refsyn>

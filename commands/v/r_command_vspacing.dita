@@ -28,15 +28,17 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
+                    
                 </sthead>
                 <strow id="short_options">
                     <stentry>options</stentry>
+                    <stentry><p conkeyref="definitions/options_description"/></stentry>
                     <stentry>none, <ph importance="default">big</ph>, medium, small, line, halfline, quaterline, formula, white,
                         height, depth, standard, preference, samepage, max, force, disable, nowhite,
                         back, <xref keyref="DIMENSION" type="reference"/></stentry>
-                    <stentry><p conkeyref="definitions/options_description"/></stentry>
+                    
                 </strow>
             </simpletable>
         </refsyn>

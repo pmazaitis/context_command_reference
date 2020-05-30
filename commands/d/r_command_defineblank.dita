@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_defineblank">
     <title>\defineblank</title>
-    <shortdesc>The <cmdname>\defineblank</cmdname> command creates a reusable, labeled preset for an amount of skip. This command may also define the skip for the labeled preset.</shortdesc>
+    <shortdesc>The <cmdname>\defineblank</cmdname> command creates a reusable, labeled preset for an
+        amount of skip. This command may also define the skip for the labeled preset.</shortdesc>
     <prolog>
         <metadata>
             <category>spacing</category>
@@ -17,8 +18,7 @@
     <refbody>
         <refsyn>
             <title>Syntax</title>
-            <synph> \defineblank 
-                <delim>[</delim>
+            <synph> \defineblank <delim>[</delim>
                 <var importance="required">NAME</var>
                 <delim>]</delim>
                 <delim>[</delim>
@@ -28,13 +28,13 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
                 </sthead>
                 <strow>
                     <stentry>NAME</stentry>
+                    <stentry>The base name for the defined preset.</stentry>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
-                    <stentry>The base name for the defined blank.</stentry>
                 </strow>
                 <strow conkeyref="command_vspacing/short_options">
                     <stentry/>
@@ -43,6 +43,6 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section conkeyref="command_vspacing/options" />
+        <section conkeyref="command_vspacing/options"/>
     </refbody>
 </reference>

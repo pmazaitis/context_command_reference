@@ -23,9 +23,9 @@
             </synph>
         </refsyn>
         <section>
-            <title>Notes</title>
+<!--            <title>Notes</title>
             <p>Font switches may be combined.</p>
-        </section>
+        </section>-->
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>

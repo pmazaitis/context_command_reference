@@ -26,8 +26,9 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
+                    
                 </sthead>
                 <strow conkeyref="command_vspacing/short_options">
                     <stentry/> 

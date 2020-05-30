@@ -24,13 +24,14 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
                 </sthead>
                 <strow>
                     <stentry>filename</stentry>
-                    <stentry><xref keyref="FILENAME" type="reference"/></stentry>
                     <stentry>The filename for the content to be loaded.</stentry>
+                    <stentry><xref keyref="FILENAME" type="reference"/></stentry>
+                    
                 </strow>
             </simpletable>
             <note>An alternate syntax for this command omits the curly braces.</note>

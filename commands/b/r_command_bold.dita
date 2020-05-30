@@ -27,13 +27,15 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
+                    
                 </sthead>
                 <strow>
                     <stentry>SCOPE</stentry>
-                    <stentry><xref keyref="SCOPE" type="reference"/></stentry>
                     <stentry>A meaningful name for retreiving the buffer.</stentry>
+                    <stentry><xref keyref="SCOPE" type="reference"/></stentry>
+             
                 </strow>
             </simpletable>
         </refsyn>

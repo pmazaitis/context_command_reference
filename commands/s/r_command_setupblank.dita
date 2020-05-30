@@ -28,13 +28,15 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
+                    
                 </sthead>
                 <strow>
                     <stentry>NAME</stentry>
-                    <stentry><xref keyref="NAME" type="reference"/></stentry>
                     <stentry>The base name for the defined blank.</stentry>
+                    <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    
                 </strow>
                 <strow conkeyref="command_vspacing/short_options">
                     <stentry/>
