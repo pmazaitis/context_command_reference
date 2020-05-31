@@ -58,7 +58,8 @@ Here's our last sentence.
         </example>
         <example id="example_02">
             <title>Extended Example</title>
-            <p>This is an extended example from the language reference manual (likely too big for this reference manual).</p>
+            <p>This is an extended example from the language  manual (likely too big for this
+                command reference manual).</p>
             <codeblock>
 \enableregime[utf]
 
