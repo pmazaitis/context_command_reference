@@ -87,11 +87,15 @@
         <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
+\starttext
+                
 \definebuffer[MyBuffer]
 
 \startMyBuffer
     \input knuth
 \stopMyBuffer
+
+\stoptext
             </codeblock>
         </example>
     </refbody>

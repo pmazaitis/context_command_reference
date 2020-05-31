@@ -40,7 +40,9 @@
         <title>Minimal Working Example</title>  
             <codeblock>
 \starttext
+
 \input{knuth}
+
 \stoptext
             </codeblock>
         </example>
@@ -48,7 +50,9 @@
             <title>Alternate Syntax</title>  
             <codeblock>
 \starttext
+
 \input knuth
+
 \stoptext
             </codeblock>
         </example>

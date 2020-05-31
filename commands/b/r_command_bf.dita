@@ -30,7 +30,9 @@
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext
+
 Sometimes, we must be {\bf bold}.
+
 \stoptext
             </codeblock>
         </example>

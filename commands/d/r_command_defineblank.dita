@@ -47,10 +47,14 @@
         <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
+\starttext  
+             
 \defineblank[AroundVerbatim][medium]
                 
 \setuptyping [before={\blank[AroundVerbatim]},
               after= {\blank[AroundVerbatim]}]
+              
+\stoptext
             </codeblock>
         </example>
     </refbody>

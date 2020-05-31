@@ -41,12 +41,18 @@
             <title>Minimal Working Example</title>
             <p>Use <cmdname>\blank</cmdname> commands to add skip in the text flow.</p>
             <codeblock>
-\starttext                
+\starttext  
+
 Here's our first sentence.
+
 \blank[big]
+
 We need to put more space above and less space below this sentence.
+
 \blank[medium]
+
 Here's our last sentence.
+
 \stoptext
             </codeblock>
         </example>
