@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_Untitled">
+<reference id="r_command_bold">
     <title>\bold</title>
     <shortdesc>The <cmdname>\bold</cmdname> command changes the font family of the content within
         its scope, or as a switch to bold face for the content following the switch, until another
@@ -33,7 +33,7 @@
                 </sthead>
                 <strow>
                     <stentry>SCOPE</stentry>
-                    <stentry>A meaningful name for retreiving the buffer.</stentry>
+                    <stentry>Some amount of delimited comment.</stentry>
                     <stentry><xref keyref="SCOPE" type="reference"/></stentry>
              
                 </strow>
@@ -48,7 +48,9 @@
             <title>Minimal Working Example</title>
             <codeblock outputclass="normalize-space">
 \starttext
+
 This is {\bold bold} and so is \bold{this}. But this is not.
+
 \stoptext
             </codeblock>
         </example>
