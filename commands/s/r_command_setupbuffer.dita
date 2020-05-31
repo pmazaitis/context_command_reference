@@ -16,7 +16,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph> \setupbuffer <delim>[</delim>
                 <var importance="required">LABEL</var>
@@ -46,7 +46,7 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section>
+        <section id="settings">
             <title>Settings</title>
             <table frame="all" rowsep="1" colsep="1" id="table_command_setupbuffer_settings">
                 <title></title>
@@ -75,26 +75,6 @@
                     </tbody>
                 </tgroup>
             </table>
-<!--            <simpletable>
-                <sthead>
-                    <stentry> Key </stentry>
-                    <stentry> Value </stentry>
-                    <stentry> Description </stentry>
-                </sthead>
-                <strow id="setting_start">
-                    <stentry>after</stentry>
-                    <stentry><xref keyref="SCOPE" type="reference"/></stentry>
-                    <stentry>The value of this setting is a collection of one or more
-                        commands.</stentry>
-                </strow>
-            </simpletable>
-                <strow id="setting_e">
-                    <stentry>before</stentry>
-                    <stentry><xref keyref="SCOPE" type="reference"/></stentry>
-                    <stentry>The value of this setting is a collection of one or more
-                        commands.</stentry>
-                </strow>
-            </simpletable>-->
         </section>
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
@@ -109,7 +89,7 @@
     </refbody>
     <related-links>
         <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>buff-ini.mkvi</filepath></linktext>
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>buff-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

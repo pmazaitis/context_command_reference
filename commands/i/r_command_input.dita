@@ -36,11 +36,19 @@
             </simpletable>
             <note>An alternate syntax for this command omits the curly braces.</note>
         </refsyn>
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
         <title>Minimal Working Example</title>  
             <codeblock>
 \starttext
 \input{knuth}
+\stoptext
+            </codeblock>
+        </example>
+        <example id="example_02" otherprops="no_output">
+            <title>Alternate Syntax</title>  
+            <codeblock>
+\starttext
+\input knuth
 \stoptext
             </codeblock>
         </example>

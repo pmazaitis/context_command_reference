@@ -16,7 +16,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph> \defineblank <delim>[</delim>
                 <var importance="optional">NAME</var>
@@ -46,24 +46,33 @@
             </simpletable>
         </refsyn>
         <section conkeyref="command_vspacing/options"/>
-        <example otherprops="nooutput">
-            <title>Minimal Working Example</title>
-            <p>Use <cmdname>\setupblank</cmdname> command to set the default skip..</p>
-            <codeblock>
-                \starttext                
-                \setupblank[medium]
-                \stoptext
-            </codeblock>
-        </example>
-        <example otherprops="nooutput">
+        <example id="mwe" otherprops="nooutput">
             <title>Minimal Working Example</title>
             <p>Use <cmdname>\setupblank</cmdname> command to set the default size of the
                     <cmdname>\blank</cmdname> command.</p>
             <codeblock>
-                \starttext                
-                \setupblank[medium]
-                \stoptext
+\starttext 
+
+\setupblank[medium]
+
+\stoptext
+            </codeblock>
+        </example>
+        <example id="example_02" otherprops="nooutput">
+            <title>Configuring a Named Preset</title>
+            <p>Use <cmdname>\setupblank</cmdname> with an optional NAME to configure a preset for the <cmdname>\blank</cmdname> command.</p>
+            <codeblock>
+\starttext   
+
+\setupblank[AroundVerbatim][medium]
+
+\stoptext
             </codeblock>
         </example>
     </refbody>
+    <related-links>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>spac-ver.mkiv</filepath></linktext>
+        </link>
+    </related-links>
 </reference>

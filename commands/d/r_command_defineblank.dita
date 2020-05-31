@@ -16,7 +16,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph> \defineblank <delim>[</delim>
                 <var importance="required">NAME</var>
@@ -44,5 +44,19 @@
             </simpletable>
         </refsyn>
         <section conkeyref="command_vspacing/options"/>
+        <example id="mwe" otherprops="no_output">
+            <title>Minimal Working Example</title>
+            <codeblock>
+\defineblank[AroundVerbatim][medium]
+                
+\setuptyping [before={\blank[AroundVerbatim]},
+              after= {\blank[AroundVerbatim]}]
+            </codeblock>
+        </example>
     </refbody>
+    <related-links>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/spac-ver.mkiv</filepath></linktext>
+        </link>
+    </related-links>
 </reference>

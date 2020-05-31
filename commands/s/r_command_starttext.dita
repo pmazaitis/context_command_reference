@@ -17,17 +17,19 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
                 <kwd>\starttext</kwd>
             </synph>
         </refsyn>
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext
+
 Hello World!
+
 \stoptext
             </codeblock>
         </example>

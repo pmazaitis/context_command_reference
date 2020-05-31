@@ -18,7 +18,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph><kwd>\bold</kwd><delim>{</delim>
                 <var importance="optional">SCOPE</var>
@@ -39,12 +39,12 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section>
+        <section id="notes">
             <title>Notes</title>
             <p>The <cmdname>\bold</cmdname> command can be used with a scope, or as a font
                 switch.</p>
         </section>
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock outputclass="normalize-space">
 \starttext

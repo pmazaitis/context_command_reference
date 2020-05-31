@@ -16,7 +16,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
                 <kwd>\typebuffer</kwd>
@@ -46,7 +46,7 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section>
+        <section id="settings">
             <title>Settings</title>
             <table frame="all" rowsep="1" colsep="1" id="table_command_definebuffer_settings">
                 <title></title>
@@ -72,7 +72,7 @@
                 </tgroup>
             </table>            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
-        <example>
+        <example id="mwe">
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext

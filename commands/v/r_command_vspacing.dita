@@ -17,7 +17,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
                 <kwd>\vspacing</kwd>
@@ -48,7 +48,7 @@
             <note><p>To maintain grid consistency, the amount of skip is different if gridsnapping is
                 enabled.</p></note>
             <note><p>Not all of these values are not given in absolute units: vertical spacing is
-                dependent on the current font size (except \zeropoint which is always 0pt).</p></note><note><p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>[4*big]</tt></p></note>
+                dependent on the current font size (except <cmdname>\zeropoint</cmdname> which is always 0pt).</p></note><note><p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>[4*big]</tt></p></note>
             
             <simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_vspacing_options_1">
                 <sthead>
@@ -58,82 +58,82 @@
                 </sthead>
                 <strow>
                     <stentry>none</stentry>
-                    <stentry>\zeropoint</stentry>
-                    <stentry>\zeropoint</stentry>
+                    <stentry><cmdname>\zeropoint</cmdname></stentry>
+                    <stentry><cmdname>\zeropoint</cmdname></stentry>
                 </strow>
                 <strow importance="default">
                     <stentry>big</stentry>
-                    <stentry>\bigskipamount</stentry>
-                    <stentry>\bodyfontlineheight</stentry>
+                    <stentry><cmdname>\bigskipamount</cmdname></stentry>
+                    <stentry><cmdname>\bodyfontlineheight</cmdname></stentry>
                 </strow>
                 <strow>
                     <stentry>medium</stentry>
-                    <stentry>\medskipamount</stentry>
+                    <stentry><cmdname>\medskipamount</cmdname></stentry>
                     <stentry>
-                        <p>0.5\bodyfontlineheight</p>
+                        <p>0.5<cmdname>\bodyfontlineheight</cmdname></p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>small</stentry>
-                    <stentry>\smallskipamount</stentry>
+                    <stentry><cmdname>\smallskipamount</cmdname></stentry>
                     <stentry>
-                        <p>0.25\bodyfontlineheight</p>
+                        <p>0.25<cmdname>\bodyfontlineheight</cmdname></p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>line</stentry>
-                    <stentry>\openlineheight</stentry>
-                    <stentry>\bodyfontlineheight</stentry>
+                    <stentry><cmdname>\openlineheight</cmdname></stentry>
+                    <stentry><cmdname>\bodyfontlineheight</cmdname></stentry>
                 </strow>
                 <strow>
                     <stentry>halfline</stentry>
                     <stentry>
-                        <p>0.5\openlineheight</p>
+                        <p>0.5<cmdname>\openlineheight</cmdname></p>
                     </stentry>
                     <stentry>
-                        <p>0.5\bodyfontlineheight</p>
+                        <p>0.5<cmdname>\bodyfontlineheight</cmdname></p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>quarterline</stentry>
-                    <stentry>0.25\openlineheight</stentry>
-                    <stentry>0.25\bodyfontlineheight</stentry>
+                    <stentry>0.25<cmdname>\openlineheight</cmdname></stentry>
+                    <stentry>0.25<cmdname>\bodyfontlineheight</cmdname></stentry>
                 </strow>
                 <strow>
                     <stentry>formula</stentry>
-                    <stentry>\medskipamount</stentry>
-                    <stentry>0.5\bodyfontlineheight</stentry>
+                    <stentry><cmdname>\medskipamount</cmdname></stentry>
+                    <stentry>0.5<cmdname>\bodyfontlineheight</cmdname></stentry>
                 </strow>
                 <strow>
                     <stentry>white</stentry>
-                    <stentry>\parskip</stentry>
-                    <stentry>\bodyfontwhitespace</stentry>
+                    <stentry><cmdname>\parskip</cmdname></stentry>
+                    <stentry><cmdname>\bodyfontwhitespace</cmdname></stentry>
                 </strow>
                 <strow>
                     <stentry>height</stentry>
                     <stentry>
-                        <p>\strutht</p>
+                        <p><cmdname>\strutht</cmdname></p>
                     </stentry>
                     <stentry>
-                        <p>\bodyfontstrutheight</p>
+                        <p><cmdname>\bodyfontstrutheight</cmdname></p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>depth</stentry>
                     <stentry>
-                        <p>\strutdp</p>
+                        <p><cmdname>\strutdp</cmdname></p>
                     </stentry>
                     <stentry>
-                        <p>\bodyfontstrutdepth</p>
+                        <p><cmdname>\bodyfontstrutdepth</cmdname></p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>standard</stentry>
                     <stentry>
-                        <p>0.75\openlineheight</p>
+                        <p>0.75<cmdname>\openlineheight</cmdname></p>
                     </stentry>
                     <stentry>
-                        <p>0.75\openlineheight</p>
+                        <p>0.75<cmdname>\openlineheight</cmdname></p>
                     </stentry>
                 </strow>
             </simpletable>
@@ -176,22 +176,28 @@
 <!--        <section id="notes">
             <title>Notes</title>
         </section>-->
-        <example otherprops="output">
+        <example id="mwe" otherprops="output">
             <title>Minimal Working Example</title>
             <codeblock>
-\starttext                
+\starttext       
+
 Here's our first sentence.
+
 \vspacing[big]
+
 We need to put more space above and less space below this sentence.
+
 \vspacing[medium]
+
 Here's our last sentence.
+
 \stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkxl" scope="external" format="html">
-            <linktext>Command definition in the source file <filepath>spac-ver.mkxl</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+            <linktext>Command definition in the source file <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

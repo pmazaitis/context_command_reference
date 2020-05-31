@@ -8,7 +8,7 @@
     <refbody> 
         <section>
             <title></title>
-            <note><ph conkeyref="definitions/product_name"></ph> will perform a limited search through the filesystem to try to find the file.</note>
+            <p><ph conkeyref="definitions/product_name"></ph> will perform a limited search through the filesystem to try to find the file.</p>
         </section>
     </refbody>
 </reference>

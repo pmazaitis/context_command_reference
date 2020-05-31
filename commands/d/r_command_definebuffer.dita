@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_definebuffer">
     <title>\definebuffer</title>
-    <shortdesc>The <cmdname>\definebuffer</cmdname> command creates a new named buffer using a <xref keyref="LABEL" type="reference"/>.</shortdesc>
+    <shortdesc>The <cmdname>\definebuffer</cmdname> command creates a new named buffer.</shortdesc>
     <prolog>
         <metadata>
             <category>block</category>
@@ -17,7 +17,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
                 <kwd>\definebuffer</kwd>
@@ -52,14 +52,14 @@
                 <strow>
                     <stentry>settings</stentry>
                     <stentry><p conkeyref="definitions/settings_description" /></stentry>
-                    <stentry>See <xref href="#r_command_definebuffer/settings">settings table</xref>.</stentry>
+                    <stentry>See <xref href="#r_command_definebuffer/settings_table">settings table</xref>.</stentry>
                     
                 </strow>
             </simpletable>
         </refsyn>
-        <section>
+        <section id="settings">
             <title>Settings</title>
-            <table frame="all" rowsep="1" colsep="1" id="settings">
+            <table frame="all" rowsep="1" colsep="1" id="settings_table">
                 <title></title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1.23*"/>
@@ -84,7 +84,7 @@
             </table>
             <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
 \definebuffer[MyBuffer]
@@ -97,7 +97,7 @@
     </refbody>
     <related-links>
         <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

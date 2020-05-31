@@ -2,8 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_blank">
     <title>\blank</title>
-    <shortdesc>The <cmdname>\blank</cmdname> command inserts <keyword>skip</keyword> (vertical
-        space) into the text block. The command can be used with keywords to indicate preset amounts
+    <shortdesc>The <cmdname>\blank</cmdname> command inserts <term keyref="skip">skip</term> into the text block. The command can be used with keywords to indicate preset amounts
         of skip, or with dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
         <metadata>
@@ -17,7 +16,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph> \blank <delim>[</delim>
                 <var importance="optional">options</var>
@@ -38,9 +37,9 @@
             </simpletable>
         </refsyn>
         <section conkeyref="command_vspacing/options" />
-        <example otherprops="output">
+        <example id="mwe" otherprops="output">
             <title>Minimal Working Example</title>
-            <p>Use <cmdname>\blank</cmdname> commands directly in the text flow.</p>
+            <p>Use <cmdname>\blank</cmdname> commands to add skip in the text flow.</p>
             <codeblock>
 \starttext                
 Here's our first sentence.
@@ -51,9 +50,9 @@ Here's our last sentence.
 \stoptext
             </codeblock>
         </example>
-        <example>
+        <example id="example_02">
             <title>Extended Example</title>
-            <p>[best way to handle this? -PGM]</p>
+            <p>This is an extended example from the language reference manual (likely too big for this reference manual).</p>
             <codeblock>
 \enableregime[utf]
 
@@ -131,8 +130,8 @@ Don’t want an antelope nibbling the hoops.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/font-sty.mklx" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>/tex/context/base/mkiv/font-sty.mklx</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

@@ -16,7 +16,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
                 <kwd>\setupwhitespace</kwd>
@@ -39,7 +39,7 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section>
+        <section id="options">
             <title>Options</title>
             <simpletable>
                 <sthead>
@@ -96,25 +96,27 @@
                 </strow>
             </simpletable>
         </section>
-        <section>
+        <section id="notes">
             <title>Notes</title>
             <p>This doesn’t affect footnotes, marginals and header/footer lines!</p>
         </section>
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext
+
 \setupwhitespace[medium]
+
 \stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
         <link
-            href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkxl"
+            href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkiv"
             scope="external">
             <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source
-                file <filepath>spac-ver.mkxl</filepath></linktext>
+                file <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

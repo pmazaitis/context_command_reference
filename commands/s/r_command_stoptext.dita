@@ -16,18 +16,20 @@
             </prodinfo>
         </metadata>
     </prolog>
-    <refbody>
+    <refbody id="syntax">
         <refsyn>
             <title>Syntax</title>
             <synph>
                 <kwd>\stoptext</kwd>
             </synph>
         </refsyn>
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext
+
 Hello World!
+
 \stoptext
             </codeblock>
         </example>

@@ -16,17 +16,17 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
                 <kwd>\bf</kwd>
             </synph>
         </refsyn>
-        <section>
-<!--            <title>Notes</title>
+<!--        <section>
+            <title>Notes</title>
             <p>Font switches may be combined.</p>
         </section>-->
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext
@@ -36,8 +36,8 @@ Sometimes, we must be {\bf bold}.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/76a1861b8ff7c2befbc41270833a4a0919c93c30/tex/context/base/mkiv/font-emp.mkvi" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>tex/context/base/mkiv/font-emp.mkvi</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/76a1861b8ff7c2befbc41270833a4a0919c93c30/tex/context/base/mkiv/font-pre.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>tex/context/base/mkiv/font-pre.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
