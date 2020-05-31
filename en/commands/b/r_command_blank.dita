@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_blank">
+<reference id="r_command_blank" xml:lang="en">
     <title>\blank</title>
     <shortdesc>The <cmdname>\blank</cmdname> command inserts <term keyref="skip">skip</term> into the text block. The command can be used with keywords to indicate preset amounts
         of skip, or with dimensions to create spaces of arbitrary skip.</shortdesc>

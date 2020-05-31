@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_placeholder_COMMAND">
+<reference id="r_placeholder_COMMAND" xml:lang="en">
     <title>COMMAND</title>
     <shortdesc>The <term>COMMAND</term> placeholder indicates a place where we can use any ConTeXt command as an argument.</shortdesc>
     <refbody> </refbody>

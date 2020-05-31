@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_getbuffer">
+<reference id="r_command_getbuffer" xml:lang="en">
     <title>\getbuffer</title>
     <shortdesc>The <cmdname>\getbuffer</cmdname> command retreives a buffer and adds the content to
         the document in the place where the command is used.</shortdesc>

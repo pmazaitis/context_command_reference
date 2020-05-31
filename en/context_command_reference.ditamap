@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 
-<map>
+<map  xml:lang="en">
     <title><ph conkeyref="definitions/product_name"/> Command Reference.</title>
     <keydef keys="definitions" href="support/definitions.dita"/>
     <topichead navtitle="About This Manual">

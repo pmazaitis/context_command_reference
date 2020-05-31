@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_placeholder_DIMENSION">
+<reference id="r_placeholder_DIMENSION" xml:lang="en">
     <title>DIMENSION</title>
     <shortdesc>The <term>DIMENSION</term> placeholder indicates a place we must supply some amount
         of length, usually as a value for a setting. ConTeXt understands several units of

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_placeholder_SCOPE">
+<reference id="r_placeholder_SCOPE" xml:lang="en">
     <title>CONTENT</title>
     <shortdesc>The <term>CONTENT</term> placeholder is used in the syntax wherever content can be added within a scope as an argument. <term>CONTENT</term> can be any mixture of text or <ph conkeyref="definitions/product_name"/> commands.</shortdesc>
     <refbody></refbody>

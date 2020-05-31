@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_command_scope">
+<concept id="c_command_scope" xml:lang="en">
     <title>Command Scope</title>
     <shortdesc>A command may have a <term>scope</term> as an argument. A comman's scope is delimited
         by curly braces ({ and }) after the command.</shortdesc>

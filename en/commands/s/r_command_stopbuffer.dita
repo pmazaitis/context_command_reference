@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_stopbuffer">
+<reference id="r_command_stopbuffer" xml:lang="en">
     <title>\stopbuffer</title>
     <shortdesc>The <cmdname>\stopbuffer</cmdname> command marks the end of a buffer.</shortdesc>
     <prolog>

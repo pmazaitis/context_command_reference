@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
+<map xml:lang="en">
     <title>Related Commands</title>
 
     <!--    Reltable for related commands: each row with as many cells needed for all of the related commands to that particular command-->

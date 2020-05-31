@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_startbuffer">
+<reference id="r_command_startbuffer" xml:lang="en">
     <title>\typebuffer</title>
     <shortdesc>The <cmdname>\typebuffer</cmdname> command returns the contents of a buffer verbatim.</shortdesc>
     <prolog>

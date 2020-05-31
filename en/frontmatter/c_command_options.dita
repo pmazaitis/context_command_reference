@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c-command_options">
+<concept id="c-command_options" xml:lang="en">
     <title>Command Options</title>
     <shortdesc>Options are single keywords. Commands that accept options use an <term>options
             block</term>, delimited by square brackets, which comes after the command. The options

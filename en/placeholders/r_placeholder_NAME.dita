@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_placeholder_NAME">
+<reference id="r_placeholder_NAME" xml:lang="en">
     <title>NAME</title>
     <shortdesc>A <term>NAME</term> is used as a label for referencing content. Use <term>NAME</term>s that clearly and unambiguously identify the content.</shortdesc>
     <refbody> </refbody>

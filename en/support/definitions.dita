@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="definitions">
+<reference id="definitions" xml:lang="en">
     <title>Definitions</title>
     <shortdesc>A collection of definitions and other bits of text to be conref'd and conkeyref'd into other topics.</shortdesc>
     <refbody> 

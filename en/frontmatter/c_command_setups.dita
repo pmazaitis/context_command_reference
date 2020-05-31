@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_command_setups">
+<concept id="c_command_setups" xml:lang="en">
     <title>Command Setups</title>
     <shortdesc>Commands can accept parameters. Collections of parameters that change the behavior of
         the command are <term>setups</term>. Setups come after the command in blocks, delimited into
