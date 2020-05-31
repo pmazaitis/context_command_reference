@@ -3,8 +3,7 @@
 <map xml:lang="en">
     <title>Placeholders</title>
     
-    
-    <!--Placeholders-->
+    <!-- Keys for every placeholder we may want to use -->
     
     <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>
     <keydef keys="COMMAND" href="placeholders/r_placeholder_COMMAND.dita"/>
@@ -20,4 +19,20 @@
     <keydef keys="FILENAME" href="placeholders/r_placeholder_FILENAME.dita"/>
     <keydef keys="TYPE" href="placeholders/r_placeholder_TYPE.dita"/>
     <keydef keys="SUBTYPE" href="placeholders/r_placeholder_SUBTYPE.dita"/>
+    
+    <!-- Refs for all of the placeholders used in the map -->
+    
+    <topicref href="placeholders/c_placeholders.dita">
+        <topicref href="placeholders/r_placeholder_COMMAND.dita"/>
+        <topicref href="placeholders/r_placeholder_CONTENT.dita"/>
+        <topicref href="placeholders/r_placeholder_DIMENSION.dita"/>
+        <topicref href="placeholders/r_placeholder_FILENAME.dita"/>
+        <topicref href="placeholders/r_placeholder_IDENTIFIER.dita"/>
+        <topicref href="placeholders/r_placeholder_NAME.dita"/>
+        <topicref href="placeholders/r_placeholder_NUMBER.dita"/>
+        <topicref href="placeholders/r_placeholder_ORDINAL.dita"/>
+        <topicref href="placeholders/r_placeholder_SCOPE.dita"/>
+        <topicref href="placeholders/r_placeholder_SWITCH.dita"/>
+        <topicref href="placeholders/r_placeholder_TEXT.dita"/>
+    </topicref>
 </map>
