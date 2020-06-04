@@ -22,19 +22,19 @@
                 <var importance="required">NAME</var>
                 <delim>]</delim>
                 <delim>[</delim>
-                <var importance="optional">options</var>
+                <var importance="optional">OPTIONS</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
                 <sthead>
-                    <stentry>Name</stentry>
+                    <stentry>Argument</stentry>
                     <stentry>Description</stentry>
                     <stentry>Values</stentry>
                 </sthead>
                 <strow>
-                    <stentry>NAME</stentry>
-                    <stentry>The base name for the defined preset.</stentry>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_desc"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_value"/></stentry>
                 </strow>
                 <strow conkeyref="command_vspacing/short_options">
                     <stentry/>

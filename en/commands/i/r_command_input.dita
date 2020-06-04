@@ -28,10 +28,9 @@
                     <stentry>Values</stentry>
                 </sthead>
                 <strow>
-                    <stentry>filename</stentry>
-                    <stentry>The filename for the content to be loaded.</stentry>
                     <stentry><xref keyref="FILENAME" type="reference"/></stentry>
-                    
+                    <stentry><ph conkeyref="FILENAME/placeholder_desc"/></stentry>
+                    <stentry><ph conkeyref="FILENAME/placeholder_value"/></stentry>
                 </strow>
             </simpletable>
             <note>An alternate syntax for this command omits the curly braces.</note>

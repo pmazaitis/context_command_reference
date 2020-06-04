@@ -32,9 +32,9 @@
                     
                 </sthead>
                 <strow>
-                    <stentry>identifier</stentry>
-                    <stentry>A meaningful name for retreiving the buffer.</stentry>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_desc"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_value"/></stentry>
                     
                 </strow>
             </simpletable>

@@ -22,7 +22,7 @@
             <synph>
                 <kwd>\vspacing</kwd>
                 <delim>[</delim>
-                <var importance="optional">options</var>
+                <var importance="optional">OPTIONS</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
@@ -33,8 +33,8 @@
                     
                 </sthead>
                 <strow id="short_options">
-                    <stentry>options</stentry>
-                    <stentry><p conkeyref="definitions/options_description"/></stentry>
+                    <stentry><xref keyref="OPTIONS" type="reference"/></stentry>
+                    <stentry><ph conkeyref="OPTIONS/placeholder_desc"/></stentry>
                     <stentry>none, <ph importance="default">big</ph>, medium, small, line, halfline, quaterline, formula, white,
                         height, depth, standard, preference, samepage, max, force, disable, nowhite,
                         back, <xref keyref="DIMENSION" type="reference"/></stentry>

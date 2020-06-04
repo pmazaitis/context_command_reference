@@ -21,7 +21,7 @@
             <synph>
                 <kwd>\setupwhitespace</kwd>
                 <delim>[</delim>
-                <var importance="required">option</var>
+                <var importance="required">OPTIONS</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
@@ -31,8 +31,9 @@
                     <stentry>Values</stentry>
                 </sthead>
                 <strow>
-                    <stentry>Options</stentry>
-                    <stentry>Keywords to change spacing between paragraphs.</stentry>
+                    <stentry><xref
+                        keyref="OPTIONS" type="reference"/></stentry>
+                    <stentry><ph conkeyref="OPTIONS/placeholder_desc"/></stentry>
                     <stentry>fix, fixed, flexible, line, halfline, quarterline, <ph
                             importance="default">none</ph>, small, medium, big, default, <xref
                             keyref="DIMENSION" type="reference"/></stentry>
@@ -92,7 +93,7 @@
                 </strow>
                 <strow>
                     <stentry><xref keyref="DIMENSION" type="reference"/></stentry>
-                    <stentry/>
+                    <stentry><ph conkeyref="DIMENSION/placeholder_desc"/></stentry>
                 </strow>
             </simpletable>
         </section>

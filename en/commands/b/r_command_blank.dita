@@ -19,7 +19,7 @@
         <refsyn id="syntax">
             <title>Syntax</title>
             <synph> \blank <delim>[</delim>
-                <var importance="optional">options</var>
+                <var importance="optional">OPTIONS</var>
                 <delim>]</delim>
             </synph>
             <simpletable>

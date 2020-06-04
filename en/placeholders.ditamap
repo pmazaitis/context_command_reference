@@ -5,20 +5,22 @@
     
     <!-- Keys for every placeholder we may want to use -->
     
-    <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>
     <keydef keys="COMMAND" href="placeholders/r_placeholder_COMMAND.dita"/>
-    <keydef keys="SCOPE" href="placeholders/r_placeholder_SCOPE.dita"/>
     <keydef keys="CONTENT" href="placeholders/r_placeholder_CONTENT.dita"/>
-    <keydef keys="SWITCH" href="placeholders/r_placeholder_SWITCH.dita"/>
-    <keydef keys="NUMBER" href="placeholders/r_placeholder_NUMBER.dita"/>
-    <keydef keys="ORDINAL" href="placeholders/r_placeholder_ORDINAL.dita"/>
-    <keydef keys="TEXT" href="placeholders/r_placeholder_TEXT.dita"/>
-    <keydef keys="NAME" href="placeholders/r_placeholder_NAME.dita"/>
-    <keydef keys="LABEL" href="placeholders/r_placeholder_LABEL.dita"/>
-    <keydef keys="IDENTIFIER" href="placeholders/r_placeholder_IDENTIFIER.dita"/>
+    <keydef keys="DIMENSION" href="placeholders/r_placeholder_DIMENSION.dita"/>
     <keydef keys="FILENAME" href="placeholders/r_placeholder_FILENAME.dita"/>
-    <keydef keys="TYPE" href="placeholders/r_placeholder_TYPE.dita"/>
+    <keydef keys="IDENTIFIER" href="placeholders/r_placeholder_IDENTIFIER.dita"/>
+    <keydef keys="LABEL" href="placeholders/r_placeholder_LABEL.dita"/>
+    <keydef keys="NUMBER" href="placeholders/r_placeholder_NUMBER.dita"/>
+    <keydef keys="NAME" href="placeholders/r_placeholder_NAME.dita"/>
+    <keydef keys="OPTIONS" href="placeholders/r_placeholder_OPTIONS.dita"/>
+    <keydef keys="ORDINAL" href="placeholders/r_placeholder_ORDINAL.dita"/>
+    <keydef keys="SCOPE" href="placeholders/r_placeholder_SCOPE.dita"/>
+    <keydef keys="SETTINGS" href="placeholders/r_placeholder_SETTINGS.dita"/>
     <keydef keys="SUBTYPE" href="placeholders/r_placeholder_SUBTYPE.dita"/>
+    <keydef keys="SWITCH" href="placeholders/r_placeholder_SWITCH.dita"/>
+    <keydef keys="TEXT" href="placeholders/r_placeholder_TEXT.dita"/>
+    <keydef keys="TYPE" href="placeholders/r_placeholder_TYPE.dita"/>
     
     <!-- Refs for all of the placeholders used in the map -->
     
@@ -30,8 +32,10 @@
         <topicref href="placeholders/r_placeholder_IDENTIFIER.dita"/>
         <topicref href="placeholders/r_placeholder_NAME.dita"/>
         <topicref href="placeholders/r_placeholder_NUMBER.dita"/>
+        <topicref href="placeholders/r_placeholder_OPTIONS.dita"/>
         <topicref href="placeholders/r_placeholder_ORDINAL.dita"/>
         <topicref href="placeholders/r_placeholder_SCOPE.dita"/>
+        <topicref href="placeholders/r_placeholder_SETTINGS.dita"/>
         <topicref href="placeholders/r_placeholder_SWITCH.dita"/>
         <topicref href="placeholders/r_placeholder_TEXT.dita"/>
     </topicref>

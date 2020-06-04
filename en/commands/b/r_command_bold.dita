@@ -32,9 +32,9 @@
                     
                 </sthead>
                 <strow>
-                    <stentry>SCOPE</stentry>
-                    <stentry>Some amount of delimited comment.</stentry>
                     <stentry><xref keyref="SCOPE" type="reference"/></stentry>
+                    <stentry><ph conkeyref="SCOPE/placeholder_desc"/></stentry>
+                    <stentry><ph conkeyref="SCOPE/placeholder_value"/></stentry>
              
                 </strow>
             </simpletable>
@@ -49,7 +49,7 @@
             <codeblock outputclass="normalize-space">
 \starttext
 
-This is {\bold bold} and so is \bold{this}. But this is not.
+This is \bold{bold} and so is {\bold this}. But this is not.
 
 \stoptext
             </codeblock>

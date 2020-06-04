@@ -28,7 +28,7 @@
                 <var importance="optional">buffer</var>
                 <delim>]</delim>
                 <delim>[</delim>
-                <var importance="optional">settings</var>
+                <var importance="optional">SETTINGS</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
@@ -39,9 +39,9 @@
                   
                 </sthead>
                 <strow>
-                    <stentry>NAME</stentry>
-                    <stentry>The label for the new buffer command.</stentry>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_desc"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_value"/></stentry>
                     
                 </strow>
                 <strow>
@@ -50,8 +50,8 @@
                     <stentry>?</stentry>
                 </strow>
                 <strow>
-                    <stentry>settings</stentry>
-                    <stentry><p conkeyref="definitions/settings_description" /></stentry>
+                    <stentry><xref keyref="SETTINGS" type="reference"/></stentry>
+                    <stentry><ph conkeyref="SETTINGS/placeholder_desc"/></stentry>
                     <stentry>See <xref href="#r_command_definebuffer/settings_table">settings table</xref>.</stentry>
                     
                 </strow>

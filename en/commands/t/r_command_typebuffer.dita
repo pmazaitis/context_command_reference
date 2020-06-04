@@ -35,14 +35,15 @@
                     
                 </sthead>
                 <strow>
-                    <stentry>NAME</stentry>
-                    <stentry>The buffer label to be used to retreive content in a named buffer and insert it into the textflow.</stentry>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_desc"/></stentry>
+                    <stentry><ph conkeyref="NAME/placeholder_value"/></stentry>
+                    
                 </strow>
                 <strow>
-                    <stentry>settings</stentry>
-                    <stentry></stentry>
-                    <stentry><p conkeyref="definitions/settings_description" /></stentry>
+                    <stentry><xref keyref="SETTINGS" type="reference"/></stentry>
+                    <stentry><ph conkeyref="SETTINGS/placeholder_desc"/></stentry>
+                    <stentry><xref href="#r_command_typebuffer/settings">(See settings table.)</xref></stentry>
                 </strow>
             </simpletable>
         </refsyn>
