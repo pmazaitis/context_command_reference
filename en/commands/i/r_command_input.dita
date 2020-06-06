@@ -5,6 +5,7 @@
     <shortdesc>Places the contents of an external file into the document.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category/>
             <prodinfo>
                 <prodname>ConTeXt</prodname>

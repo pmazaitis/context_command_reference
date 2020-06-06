@@ -6,6 +6,7 @@
         the document in the place where the command is used.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>block</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>

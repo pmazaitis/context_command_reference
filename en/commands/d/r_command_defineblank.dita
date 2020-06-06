@@ -6,6 +6,7 @@
         amount of skip. This command may also define the skip for the labeled preset.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>spacing</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>

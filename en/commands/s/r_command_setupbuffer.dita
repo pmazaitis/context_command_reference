@@ -6,6 +6,7 @@
         buffer.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>block</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
@@ -30,13 +31,11 @@
                     <stentry>Name</stentry>
                     <stentry>Description</stentry>
                     <stentry>Values</stentry>
-                    
                 </sthead>
                 <strow>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
                     <stentry><ph conkeyref="NAME/placeholder_desc"/></stentry>
                     <stentry><ph conkeyref="NAME/placeholder_value"/></stentry>
-                    
                 </strow>
                 <strow>
                     <stentry><xref keyref="SETTINGS" type="reference"/></stentry>
@@ -48,7 +47,6 @@
         <section id="settings">
             <title>Settings</title>
             <table frame="all" rowsep="1" colsep="1" id="table_command_setupbuffer_settings">
-                <title></title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1.23*"/>
                     <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -87,8 +85,11 @@
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>buff-ini.mkiv</filepath></linktext>
+        <link
+            href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv"
+            scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source
+                file <filepath>buff-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

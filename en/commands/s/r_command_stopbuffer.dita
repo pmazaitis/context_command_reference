@@ -5,6 +5,7 @@
     <shortdesc>The <cmdname>\stopbuffer</cmdname> command marks the end of a buffer.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>block</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>

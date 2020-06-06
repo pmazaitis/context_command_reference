@@ -7,11 +7,11 @@
         font switch or the end of the current scope.</shortdesc>
     <prolog>
         <metadata>
-            <category/>
+            <audience type="user"/>
+            <category>style</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    
                     <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>

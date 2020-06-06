@@ -6,6 +6,7 @@
         of skip, or with dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>spacing</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>

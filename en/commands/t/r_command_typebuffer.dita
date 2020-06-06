@@ -5,11 +5,11 @@
     <shortdesc>The <cmdname>\typebuffer</cmdname> command returns the contents of a buffer verbatim.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>block</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    
                     <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
@@ -19,7 +19,7 @@
         <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
-                <kwd>\typebuffer</kwd>
+                \typebuffer
                 <delim>[</delim>
                 <var importance="required">NAME</var>
                 <delim>]</delim>

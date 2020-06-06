@@ -5,6 +5,7 @@
     <shortdesc/>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>paragraphs</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>

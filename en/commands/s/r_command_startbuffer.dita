@@ -5,6 +5,7 @@
     <shortdesc>The <cmdname>\startbuffer</cmdname> command marks the beginning of a buffer.</shortdesc>
     <prolog>
         <metadata>
+            <audience type="user"/>
             <category>block</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>

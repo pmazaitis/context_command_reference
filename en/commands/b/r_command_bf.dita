@@ -6,7 +6,8 @@
         bold face for the content following the switch, until another font switch or the end of the current scope.</shortdesc>
     <prolog>
         <metadata>
-            <category />
+            <audience type="user"/>
+            <category>style</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
