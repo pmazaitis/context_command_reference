@@ -81,7 +81,7 @@
                     </tbody>
                 </tgroup>
             </table>
-            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
+            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/>.</note>
         </section>
         <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>

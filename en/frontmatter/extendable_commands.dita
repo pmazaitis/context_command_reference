@@ -4,34 +4,6 @@
     <title>Extendable Commands</title>
     <shortdesc></shortdesc>
     <refbody>
-        <table frame="all" rowsep="1" colsep="1" id="table_ryt_rst_xlb">
-            <tgroup cols="3">
-                <colspec colname="c1" colnum="1" colwidth="1*"/>
-                <colspec colname="c2" colnum="2" colwidth="1*"/>
-                <colspec colname="c3" colnum="3" colwidth="1*"/>
-                <thead>
-                    <row>
-                        <entry>key</entry>
-                        <entry>values</entry>
-                        <entry>desc</entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry morerows="3">foo</entry>
-                        <entry>1</entry>
-                        <entry>one</entry>
-                    </row>
-                    <row>
-                        <entry>2</entry>
-                        <entry>two</entry>
-                    </row>
-                    <row>
-                        <entry>3</entry>
-                        <entry>three</entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
+  
     </refbody>
 </reference>
