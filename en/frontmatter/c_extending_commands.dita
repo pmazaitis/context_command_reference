@@ -5,6 +5,36 @@
     <shortdesc>Some <ph keyref="definitions/product_name"/> commands can be used to create new commands. New commands inhierit the setups of the original command, but can be further customized.
     </shortdesc>
     <conbody>
-        <p></p>
+        <p>
+            <table frame="all" rowsep="1" colsep="1" id="table_zhh_gtl_ylb">
+                <tgroup cols="2">
+                    <colspec colname="value_name" colnum="1" colwidth="1*"/>
+                    <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Setting</entry>
+                        </row>
+                        <row>
+                            <entry>Value</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>a</entry>
+                            <entry>First thing</entry>
+                        </row>
+                        <row>
+                            <entry>b</entry>
+                            <entry>Second thing</entry>
+                        </row>
+                        <row>
+                            <entry>c</entry>
+                            <entry>Third Thing</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
     </conbody>
 </concept>
