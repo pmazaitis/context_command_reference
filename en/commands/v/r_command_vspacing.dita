@@ -46,10 +46,113 @@
         <section id="options">
             <title>Options</title>
             <p>Spacing keywords determine how much vertical blank space is added.</p>
-            <note><p>To maintain grid consistency, the amount of skip is different if gridsnapping is
-                enabled.</p></note>
+            
             <note><p>Not all of these values are not given in absolute units: vertical spacing is
                 dependent on the current font size (except <cmdname>\zeropoint</cmdname> which is always 0pt).</p></note><note><p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>[4*big]</tt></p></note>
+            <table frame="all" rowsep="1" colsep="1" id="options_table">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Keyword</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row id="options_start">
+                            <entry>preference</entry>
+                            <entry>good break (<codeph>\penalty-500</codeph>)</entry>
+                        </row>
+                        <row>
+                            <entry>samepage</entry>
+                            <entry>no break (<codeph>\penalty10000</codeph>)</entry>
+                        </row>
+                        <row>
+                            <entry>max</entry>
+                            <entry>Truncate whitespace, but only if larger than indicated.</entry>
+                        </row>
+                        <row>
+                            <entry>force</entry>
+                            <entry>Force this whitespace value.</entry>
+                        </row>
+                        <row>
+                            <entry>disable</entry>
+                            <entry>Ignore the following whitespace.</entry>
+                        </row>
+                        <row>
+                            <entry>nowhite</entry>
+                            <entry>No whitespace.</entry>
+                        </row>
+                        <row>
+                            <entry>back</entry>
+                            <entry>Discard the previous whitespace.</entry>
+                        </row>
+                        <row>
+                            <entry>none</entry>
+                            <entry><cmdname>\zeropoint</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>big</entry>
+                            <entry><cmdname>\bigskipamount</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>medium</entry>
+                            <entry><cmdname>\medskipamount</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>small</entry>
+                            <entry><cmdname>\smallskipamount</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>line</entry>
+                            <entry><cmdname>\openlineheight</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>halfline</entry>
+                            <entry>
+                                <p>0.5<cmdname>\openlineheight</cmdname></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>quarterline</entry>
+                            <entry>0.25<cmdname>\openlineheight</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>formula</entry>
+                            <entry><cmdname>\medskipamount</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>white</entry>
+                            <entry><cmdname>\parskip</cmdname></entry>
+                        </row>
+                        <row>
+                            <entry>height</entry>
+                            <entry>
+                                <p><cmdname>\strutht</cmdname></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>depth</entry>
+                            <entry>
+                                <p><cmdname>\strutdp</cmdname></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>standard</entry>
+                            <entry>
+                                <p>0.75<cmdname>\openlineheight</cmdname></p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="notes">
+            <title>Notes</title>
+            
+            <note><p>To maintain grid consistency, the amount of skip is different if gridsnapping is
+                enabled.</p></note>
             
             <simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_vspacing_options_1">
                 <sthead>
@@ -138,45 +241,7 @@
                     </stentry>
                 </strow>
             </simpletable>
-            <p>Options to modify the behaviour of how space is placed:</p>
-            <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_vspacing_options_2">
-                <sthead>
-                    <stentry>Keyword</stentry>
-                    <stentry>Effect</stentry>
-                </sthead>
-                <strow>
-                    <stentry>preference</stentry>
-                    <stentry>good break (<codeph>\penalty-500</codeph>)</stentry>
-                </strow>
-                <strow>
-                    <stentry>samepage</stentry>
-                    <stentry>no break (<codeph>\penalty10000</codeph>)</stentry>
-                </strow>
-                <strow>
-                    <stentry>max</stentry>
-                    <stentry>Truncate whitespace, but only if larger than indicated.</stentry>
-                </strow>
-                <strow>
-                    <stentry>force</stentry>
-                    <stentry>Force this whitespace value.</stentry>
-                </strow>
-                <strow>
-                    <stentry>disable</stentry>
-                    <stentry>Ignore the following whitespace.</stentry>
-                </strow>
-                <strow>
-                    <stentry>nowhite</stentry>
-                    <stentry>No whitespace.</stentry>
-                </strow>
-                <strow>
-                    <stentry>back</stentry>
-                    <stentry>Discard the previous whitespace.</stentry>
-                </strow>
-            </simpletable>
         </section>
-<!--        <section id="notes">
-            <title>Notes</title>
-        </section>-->
         <example id="mwe" otherprops="output">
             <title>Minimal Working Example</title>
             <codeblock>
@@ -197,7 +262,7 @@ Here's our last sentence.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
             <linktext>Command definition in the source file <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
     </related-links>

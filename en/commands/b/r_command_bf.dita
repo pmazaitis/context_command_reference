@@ -39,8 +39,8 @@ Sometimes, we must be {\bf bold}.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/76a1861b8ff7c2befbc41270833a4a0919c93c30/tex/context/base/mkiv/font-pre.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>tex/context/base/mkiv/font-pre.mkiv</filepath></linktext>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-pre.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-pre.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
