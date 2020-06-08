@@ -138,7 +138,7 @@ Don’t want an antelope nibbling the hoops.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
             <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
     </related-links>

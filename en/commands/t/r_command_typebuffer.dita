@@ -50,28 +50,14 @@
         <section id="settings">
             <title>Settings</title>
             <table frame="all" rowsep="1" colsep="1" id="table_command_definebuffer_settings">
-                <title></title>
-                <tgroup cols="3">
-                    <colspec colname="c1" colnum="1" colwidth="1.23*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
-                    <colspec colname="c3" colnum="3" colwidth="3.86*"/>
-                    <thead>
-                        <row>
-                            <entry>Key</entry>
-                            <entry>Value</entry>
-                            <entry>Description</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row conkeyref="command_setupbuffer/settings_start"
-                            conrefend="default.dita#default/settings_end">
-                            <entry/>
-                            <entry/>
-                            <entry/>
-                        </row>
-                    </tbody>
+                <tgroup conkeyref="command_setupbuffer/settings_start" conrefend="default.dita#default/settings_end" cols="2">
+                    <colspec/>
+                    <colspec/>
+                    <thead><row><entry></entry><entry></entry></row></thead>
+                    <tbody><row><entry></entry><entry></entry></row></tbody>
                 </tgroup>
-            </table>            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
+            </table>            
+            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
         <example id="mwe">
             <title>Minimal Working Example</title>
@@ -90,7 +76,7 @@ This is a text, which is stored in the buffer with name \quotation{MyBuffer}.
     </refbody>
     <related-links>
         <link
-            href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv"
+            href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv/buff-ini.mkiv"
             scope="external" format="html">
             <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source
                 file <filepath>buff-ini.mkiv</filepath></linktext>
