@@ -12,7 +12,7 @@
                     <colspec colname="value_desc" colnum="2" colwidth="1*"/>
                     <thead>
                         <row>
-                            <entry>Setting</entry>
+                            <entry namest="value_name" nameend="value_desc">Setting</entry>
                         </row>
                         <row>
                             <entry>Value</entry>
