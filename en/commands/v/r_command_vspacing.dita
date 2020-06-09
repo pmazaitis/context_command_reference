@@ -144,6 +144,12 @@
                                 <p>0.75<cmdname>\openlineheight</cmdname></p>
                             </entry>
                         </row>
+                        <row>
+                            <entry><xref keyref="DIMENSION" type="reference"/></entry>
+                            <entry>
+                                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                            </entry>
+                        </row>
                     </tbody>
                 </tgroup>
             </table>

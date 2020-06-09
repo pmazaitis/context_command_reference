@@ -8,7 +8,7 @@
         <example>
             <p>Commands that accept scope use curly brackets to define that scope.</p>
             <codeblock>
-\command_name[key=val]{This is the scope of the command.}
+\command_name{This is the scope of the command.}
             </codeblock>
         </example>
         <section>
