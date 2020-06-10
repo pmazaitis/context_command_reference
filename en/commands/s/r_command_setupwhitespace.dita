@@ -116,7 +116,7 @@
     <related-links>
         <link
             href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv/spac-ver.mkiv"
-            scope="external">
+            scope="external" format="html">
             <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source
                 file <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
