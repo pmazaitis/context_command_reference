@@ -72,26 +72,6 @@
                     </tbody>
                 </tgroup>
             </table>
-<!--            <simpletable>
-                <sthead>
-                    <stentry> Key </stentry>
-                    <stentry> Value </stentry>
-                    <stentry> Description </stentry>
-                </sthead>
-                <strow id="setting_start">
-                    <stentry>after</stentry>
-                    <stentry><xref keyref="SCOPE" type="reference"/></stentry>
-                    <stentry>The value of this setting is a collection of one or more
-                        commands.</stentry>
-                </strow>
-            </simpletable>
-                <strow id="setting_e">
-                    <stentry>before</stentry>
-                    <stentry><xref keyref="SCOPE" type="reference"/></stentry>
-                    <stentry>The value of this setting is a collection of one or more
-                        commands.</stentry>
-                </strow>
-            </simpletable>-->
         </section>
         <example otherprops="no_output">
             <title>Minimal Working Example</title>
