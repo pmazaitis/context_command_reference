@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_starttext" xml:lang="en">
+<reference id="r_command_starttext">
     <title>\starttext</title>
     <shortdesc>The <cmdname>\starttext</cmdname> command marks the start the text content of a
         document. Commands that appear in the file before <cmdname>\starttext</cmdname> will be
         used, but all other content will be ignored.</shortdesc>
     <prolog>
         <metadata>
-            <audience type="user"/>
             <category />
             <prodinfo>
                 <prodname>ConTeXt</prodname>
@@ -18,26 +17,24 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn id="syntax">
+        <refsyn>
             <title>Syntax</title>
             <synph>
                 <kwd>\starttext</kwd>
             </synph>
         </refsyn>
-        <example id="mwe" otherprops="no_output">
+        <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext
-
 Hello World!
-
 \stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv/" scope="external">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath></filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/" scope="external">
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath></filepath></linktext>
         </link>
     </related-links>
 </reference>

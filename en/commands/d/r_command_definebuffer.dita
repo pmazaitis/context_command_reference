@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_definebuffer" xml:lang="en">
+<reference id="r_command_definebuffer">
     <title>\definebuffer</title>
-    <shortdesc>The <cmdname>\definebuffer</cmdname> command creates a new named buffer.</shortdesc>
+    <shortdesc>The <cmdname>\definebuffer</cmdname> command creates a new named buffer using a <xref keyref="LABEL" type="reference"/>.</shortdesc>
     <prolog>
         <metadata>
-            <audience type="user"/>
             <category>block</category>
             <category>define</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
+                    
                     <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
     </prolog>
     <refbody>
-        <refsyn id="syntax">
+        <refsyn>
             <title>Syntax</title>
             <synph>
                 <kwd>\definebuffer</kwd>
@@ -28,21 +28,19 @@
                 <var importance="optional">buffer</var>
                 <delim>]</delim>
                 <delim>[</delim>
-                <var importance="optional">SETTINGS</var>
+                <var importance="optional">settings</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Description</stentry>
                     <stentry>Values</stentry>
-                  
+                    <stentry>Description</stentry>
                 </sthead>
                 <strow>
+                    <stentry>NAME</stentry>
                     <stentry><xref keyref="NAME" type="reference"/></stentry>
-                    <stentry><ph conkeyref="NAME/placeholder_desc"/></stentry>
-                    <stentry><ph conkeyref="NAME/placeholder_value"/></stentry>
-                    
+                    <stentry>The label for the new buffer command.</stentry>
                 </strow>
                 <strow>
                     <stentry>buffer</stentry>
@@ -50,46 +48,53 @@
                     <stentry>?</stentry>
                 </strow>
                 <strow>
-                    <stentry><xref keyref="SETTINGS" type="reference"/></stentry>
-                    <stentry><ph conkeyref="SETTINGS/placeholder_desc"/></stentry>
-                    <stentry>See <xref href="#r_command_definebuffer/settings_table">settings table</xref>.</stentry>
-                    
+                    <stentry>settings</stentry>
+                    <stentry></stentry>
+                    <stentry><p conkeyref="definitions/settings_description" /></stentry>
                 </strow>
             </simpletable>
         </refsyn>
-        <section id="settings">
+        <section>
             <title>Settings</title>
             <table frame="all" rowsep="1" colsep="1" id="table_command_definebuffer_settings">
-                <tgroup conkeyref="command_setupbuffer/settings_start" conrefend="default.dita#default/settings_end" cols="2">
-                    <colspec/>
-                    <colspec/>
-                    <thead><row><entry></entry><entry></entry></row></thead>
-                    <tbody><row><entry></entry><entry></entry></row></tbody>
+                <title></title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1.23*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="3.86*"/>
+                    <thead>
+                        <row>
+                            <entry>Key</entry>
+                            <entry>Value</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row conkeyref="command_setupbuffer/settings_start"
+                            conrefend="default.dita#default/settings_end">
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                    </tbody>
                 </tgroup>
-            </table>  
-            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/>.</note>
+            </table>
+            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
         </section>
-        <example id="mwe" otherprops="no_output">
+        <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
-\starttext
-                
 \definebuffer[MyBuffer]
 
 \startMyBuffer
     \input knuth
 \stopMyBuffer
-
-\stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
-        <link
-            href="https://source.contextgarden.net/tex/context/base/mkiv/buff-ini.mkiv"
-            scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source
-                file <filepath>buff-ini.mkiv</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
         </link>
     </related-links>
 </reference>

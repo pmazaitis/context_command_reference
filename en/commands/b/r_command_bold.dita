@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_bold" xml:lang="en">
+<reference id="r_command_Untitled">
     <title>\bold</title>
     <shortdesc>The <cmdname>\bold</cmdname> command changes the font family of the content within
         its scope, or as a switch to bold face for the content following the switch, until another
         font switch or the end of the current scope.</shortdesc>
     <prolog>
         <metadata>
-            <audience type="user"/>
-            <category>style</category>
+            <category/>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
+                    
                     <vrm version="iv" release="production"/>
                 </vrmlist>
             </prodinfo>
         </metadata>
     </prolog>
     <refbody>
-        <refsyn id="syntax">
+        <refsyn>
             <title>Syntax</title>
             <synph><kwd>\bold</kwd><delim>{</delim>
                 <var importance="optional">SCOPE</var>
@@ -27,37 +27,33 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Description</stentry>
                     <stentry>Values</stentry>
-                    
+                    <stentry>Description</stentry>
                 </sthead>
                 <strow>
+                    <stentry>scope</stentry>
                     <stentry><xref keyref="SCOPE" type="reference"/></stentry>
-                    <stentry><ph conkeyref="SCOPE/placeholder_desc"/></stentry>
-                    <stentry><ph conkeyref="SCOPE/placeholder_value"/></stentry>
-             
+                    <stentry>A meaningful name for retreiving the buffer.</stentry>
                 </strow>
             </simpletable>
         </refsyn>
-        <section id="notes">
+        <section>
             <title>Notes</title>
             <p>The <cmdname>\bold</cmdname> command can be used with a scope, or as a font
                 switch.</p>
         </section>
-        <example id="mwe" otherprops="no_output">
+        <example otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock outputclass="normalize-space">
 \starttext
-
-This is \bold{bold} and so is {\bold this}. But this is not.
-
+This is {\bold bold} and so is \bold{this}. But this is not.
 \stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-pre.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-pre.mkiv</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/font-pre.mkiv" scope="external" format="html">
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-pre.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
