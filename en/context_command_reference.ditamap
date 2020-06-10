@@ -21,8 +21,8 @@
             <topicref href="frontmatter/c_font_switching.dita"/>
         </topicref>
         <topicref href="frontmatter/c_extending_commands.dita">
-            <topicref href="frontmatter/example_of_extending_a_command.dita"/>
-            <topicref href="frontmatter/extendable_commands.dita"/>
+            <topicref href="frontmatter/c_example_of_extending_a_command.dita"/>
+            <topicref href="frontmatter/c_extendable_commands.dita"/>
         </topicref>
     </topichead>
     <mapref href="commands.ditamap" format="ditamap"/>
