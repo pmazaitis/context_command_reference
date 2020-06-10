@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_vspacing" xml:lang="en">
+<reference id="r_command_vspacing">
     <title>\vspacing</title>
     <shortdesc>The <cmdname>\vspacing</cmdname> command inserts <term keyref="skip">skip</term> into the text block. Use keywords to indicate preset amounts
         of skip, or use dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
         <metadata>
-            <audience type="user"/>
-            <category>spacing</category>
+            <category />
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
@@ -18,147 +17,36 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn id="syntax">
+        <refsyn>
             <title>Syntax</title>
             <synph>
                 <kwd>\vspacing</kwd>
                 <delim>[</delim>
-                <var importance="optional">OPTIONS</var>
+                <var importance="optional">options</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Description</stentry>
                     <stentry>Values</stentry>
-                    
+                    <stentry>Description</stentry>
                 </sthead>
                 <strow id="short_options">
-                    <stentry><xref keyref="OPTIONS" type="reference"/></stentry>
-                    <stentry><ph conkeyref="OPTIONS/placeholder_desc"/></stentry>
+                    <stentry>options</stentry>
                     <stentry>none, <ph importance="default">big</ph>, medium, small, line, halfline, quaterline, formula, white,
                         height, depth, standard, preference, samepage, max, force, disable, nowhite,
                         back, <xref keyref="DIMENSION" type="reference"/></stentry>
-                    
+                    <stentry><p conkeyref="definitions/options_description"/></stentry>
                 </strow>
             </simpletable>
         </refsyn>
         <section id="options">
             <title>Options</title>
             <p>Spacing keywords determine how much vertical blank space is added.</p>
-            
-            <note><p>Not all of these values are not given in absolute units: vertical spacing is
-                dependent on the current font size (except <cmdname>\zeropoint</cmdname> which is always 0pt).</p></note><note><p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>[4*big]</tt></p></note>
-            <table frame="all" rowsep="1" colsep="1" id="options_table">
-                <tgroup cols="2">
-                    <colspec colname="c1" colnum="1" colwidth="1*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
-                    <thead>
-                        <row>
-                            <entry>Keyword</entry>
-                            <entry>Description</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row id="options_start">
-                            <entry>preference</entry>
-                            <entry>good break (<codeph>\penalty-500</codeph>)</entry>
-                        </row>
-                        <row>
-                            <entry>samepage</entry>
-                            <entry>no break (<codeph>\penalty10000</codeph>)</entry>
-                        </row>
-                        <row>
-                            <entry>max</entry>
-                            <entry>Truncate whitespace, but only if larger than indicated.</entry>
-                        </row>
-                        <row>
-                            <entry>force</entry>
-                            <entry>Force this whitespace value.</entry>
-                        </row>
-                        <row>
-                            <entry>disable</entry>
-                            <entry>Ignore the following whitespace.</entry>
-                        </row>
-                        <row>
-                            <entry>nowhite</entry>
-                            <entry>No whitespace.</entry>
-                        </row>
-                        <row>
-                            <entry>back</entry>
-                            <entry>Discard the previous whitespace.</entry>
-                        </row>
-                        <row>
-                            <entry>none</entry>
-                            <entry><cmdname>\zeropoint</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>big</entry>
-                            <entry><cmdname>\bigskipamount</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>medium</entry>
-                            <entry><cmdname>\medskipamount</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>small</entry>
-                            <entry><cmdname>\smallskipamount</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>line</entry>
-                            <entry><cmdname>\openlineheight</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>halfline</entry>
-                            <entry>
-                                <p>0.5<cmdname>\openlineheight</cmdname></p>
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>quarterline</entry>
-                            <entry>0.25<cmdname>\openlineheight</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>formula</entry>
-                            <entry><cmdname>\medskipamount</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>white</entry>
-                            <entry><cmdname>\parskip</cmdname></entry>
-                        </row>
-                        <row>
-                            <entry>height</entry>
-                            <entry>
-                                <p><cmdname>\strutht</cmdname></p>
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>depth</entry>
-                            <entry>
-                                <p><cmdname>\strutdp</cmdname></p>
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>standard</entry>
-                            <entry>
-                                <p>0.75<cmdname>\openlineheight</cmdname></p>
-                            </entry>
-                        </row>
-                        <row>
-                            <entry><xref keyref="DIMENSION" type="reference"/></entry>
-                            <entry>
-                                <ph conkeyref="DIMENSION/placeholder_desc"/>
-                            </entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </section>
-        <section id="notes">
-            <title>Notes</title>
-            
             <note><p>To maintain grid consistency, the amount of skip is different if gridsnapping is
                 enabled.</p></note>
+            <note><p>Not all of these values are not given in absolute units: vertical spacing is
+                dependent on the current font size (except \zeropoint which is always 0pt).</p></note><note><p>Keywords accept multipliers. For example, to insert whitespace as large as four lines:</p><p><tt>[4*big]</tt></p></note>
             
             <simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_vspacing_options_1">
                 <sthead>
@@ -168,108 +56,140 @@
                 </sthead>
                 <strow>
                     <stentry>none</stentry>
-                    <stentry><cmdname>\zeropoint</cmdname></stentry>
-                    <stentry><cmdname>\zeropoint</cmdname></stentry>
+                    <stentry>\zeropoint</stentry>
+                    <stentry>\zeropoint</stentry>
                 </strow>
                 <strow importance="default">
                     <stentry>big</stentry>
-                    <stentry><cmdname>\bigskipamount</cmdname></stentry>
-                    <stentry><cmdname>\bodyfontlineheight</cmdname></stentry>
+                    <stentry>\bigskipamount</stentry>
+                    <stentry>\bodyfontlineheight</stentry>
                 </strow>
                 <strow>
                     <stentry>medium</stentry>
-                    <stentry><cmdname>\medskipamount</cmdname></stentry>
+                    <stentry>\medskipamount</stentry>
                     <stentry>
-                        <p>0.5<cmdname>\bodyfontlineheight</cmdname></p>
+                        <p>0.5\bodyfontlineheight</p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>small</stentry>
-                    <stentry><cmdname>\smallskipamount</cmdname></stentry>
+                    <stentry>\smallskipamount</stentry>
                     <stentry>
-                        <p>0.25<cmdname>\bodyfontlineheight</cmdname></p>
+                        <p>0.25\bodyfontlineheight</p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>line</stentry>
-                    <stentry><cmdname>\openlineheight</cmdname></stentry>
-                    <stentry><cmdname>\bodyfontlineheight</cmdname></stentry>
+                    <stentry>\openlineheight</stentry>
+                    <stentry>\bodyfontlineheight</stentry>
                 </strow>
                 <strow>
                     <stentry>halfline</stentry>
                     <stentry>
-                        <p>0.5<cmdname>\openlineheight</cmdname></p>
+                        <p>0.5\openlineheight</p>
                     </stentry>
                     <stentry>
-                        <p>0.5<cmdname>\bodyfontlineheight</cmdname></p>
+                        <p>0.5\bodyfontlineheight</p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>quarterline</stentry>
-                    <stentry>0.25<cmdname>\openlineheight</cmdname></stentry>
-                    <stentry>0.25<cmdname>\bodyfontlineheight</cmdname></stentry>
+                    <stentry>0.25\openlineheight</stentry>
+                    <stentry>0.25\bodyfontlineheight</stentry>
                 </strow>
                 <strow>
                     <stentry>formula</stentry>
-                    <stentry><cmdname>\medskipamount</cmdname></stentry>
-                    <stentry>0.5<cmdname>\bodyfontlineheight</cmdname></stentry>
+                    <stentry>\medskipamount</stentry>
+                    <stentry>0.5\bodyfontlineheight</stentry>
                 </strow>
                 <strow>
                     <stentry>white</stentry>
-                    <stentry><cmdname>\parskip</cmdname></stentry>
-                    <stentry><cmdname>\bodyfontwhitespace</cmdname></stentry>
+                    <stentry>\parskip</stentry>
+                    <stentry>\bodyfontwhitespace</stentry>
                 </strow>
                 <strow>
                     <stentry>height</stentry>
                     <stentry>
-                        <p><cmdname>\strutht</cmdname></p>
+                        <p>\strutht</p>
                     </stentry>
                     <stentry>
-                        <p><cmdname>\bodyfontstrutheight</cmdname></p>
+                        <p>\bodyfontstrutheight</p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>depth</stentry>
                     <stentry>
-                        <p><cmdname>\strutdp</cmdname></p>
+                        <p>\strutdp</p>
                     </stentry>
                     <stentry>
-                        <p><cmdname>\bodyfontstrutdepth</cmdname></p>
+                        <p>\bodyfontstrutdepth</p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry>standard</stentry>
                     <stentry>
-                        <p>0.75<cmdname>\openlineheight</cmdname></p>
+                        <p>0.75\openlineheight</p>
                     </stentry>
                     <stentry>
-                        <p>0.75<cmdname>\openlineheight</cmdname></p>
+                        <p>0.75\openlineheight</p>
                     </stentry>
                 </strow>
             </simpletable>
+            <p>Options to modify the behaviour of how space is placed:</p>
+            <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_vspacing_options_2">
+                <sthead>
+                    <stentry>Keyword</stentry>
+                    <stentry>Effect</stentry>
+                </sthead>
+                <strow>
+                    <stentry>preference</stentry>
+                    <stentry>good break (<codeph>\penalty-500</codeph>)</stentry>
+                </strow>
+                <strow>
+                    <stentry>samepage</stentry>
+                    <stentry>no break (<codeph>\penalty10000</codeph>)</stentry>
+                </strow>
+                <strow>
+                    <stentry>max</stentry>
+                    <stentry>Truncate whitespace, but only if larger than indicated.</stentry>
+                </strow>
+                <strow>
+                    <stentry>force</stentry>
+                    <stentry>Force this whitespace value.</stentry>
+                </strow>
+                <strow>
+                    <stentry>disable</stentry>
+                    <stentry>Ignore the following whitespace.</stentry>
+                </strow>
+                <strow>
+                    <stentry>nowhite</stentry>
+                    <stentry>No whitespace.</stentry>
+                </strow>
+                <strow>
+                    <stentry>back</stentry>
+                    <stentry>Discard the previous whitespace.</stentry>
+                </strow>
+            </simpletable>
         </section>
-        <example id="mwe" otherprops="output">
+<!--        <section id="notes">
+            <title>Notes</title>
+        </section>-->
+        <example otherprops="output">
             <title>Minimal Working Example</title>
             <codeblock>
-\starttext       
-
+\starttext                
 Here's our first sentence.
-
 \vspacing[big]
-
 We need to put more space above and less space below this sentence.
-
 \vspacing[medium]
-
 Here's our last sentence.
-
 \stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
-            <linktext>Command definition in the source file <filepath>spac-ver.mkiv</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/spac-ver.mkxl" scope="external" format="html">
+            <linktext>Commmand definition in the source file <filepath>spac-ver.mkxl</filepath></linktext>
         </link>
     </related-links>
 </reference>

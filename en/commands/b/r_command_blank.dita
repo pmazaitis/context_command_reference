@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_blank" xml:lang="en">
+<reference id="r_command_blank">
     <title>\blank</title>
-    <shortdesc>The <cmdname>\blank</cmdname> command inserts <term keyref="skip">skip</term> into the text block. The command can be used with keywords to indicate preset amounts
+    <shortdesc>The <cmdname>\blank</cmdname> command inserts <keyword>skip</keyword> (vertical
+        space) into the text block. The command can be used with keywords to indicate preset amounts
         of skip, or with dimensions to create spaces of arbitrary skip.</shortdesc>
     <prolog>
         <metadata>
-            <audience type="user"/>
             <category>spacing</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
@@ -17,18 +17,17 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn id="syntax">
+        <refsyn>
             <title>Syntax</title>
             <synph> \blank <delim>[</delim>
-                <var importance="optional">OPTIONS</var>
+                <var importance="optional">options</var>
                 <delim>]</delim>
             </synph>
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Description</stentry>
                     <stentry>Values</stentry>
-                    
+                    <stentry>Description</stentry>
                 </sthead>
                 <strow conkeyref="command_vspacing/short_options">
                     <stentry/> 
@@ -38,29 +37,22 @@
             </simpletable>
         </refsyn>
         <section conkeyref="command_vspacing/options" />
-        <example id="mwe" otherprops="output">
+        <example otherprops="output">
             <title>Minimal Working Example</title>
-            <p>Use <cmdname>\blank</cmdname> commands to add skip in the text flow.</p>
+            <p>Use <cmdname>\blank</cmdname> commands directly in the text flow.</p>
             <codeblock>
-\starttext  
-
+\starttext                
 Here's our first sentence.
-
 \blank[big]
-
 We need to put more space above and less space below this sentence.
-
 \blank[medium]
-
 Here's our last sentence.
-
 \stoptext
             </codeblock>
         </example>
-        <example id="example_02">
+        <example>
             <title>Extended Example</title>
-            <p>This is an extended example from the language  manual (likely too big for this
-                command reference manual).</p>
+            <p>[best way to handle this? -PGM]</p>
             <codeblock>
 \enableregime[utf]
 
@@ -138,8 +130,8 @@ Don’t want an antelope nibbling the hoops.
         </example>
     </refbody>
     <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>spac-ver.mkiv</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/font-sty.mklx" scope="external" format="html">
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>/tex/context/base/mkiv/font-sty.mklx</filepath></linktext>
         </link>
     </related-links>
 </reference>

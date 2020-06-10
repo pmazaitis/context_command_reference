@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_input" xml:lang="en">
+<reference id="r_command_input">
     <title>\input</title>
     <shortdesc>Places the contents of an external file into the document.</shortdesc>
     <prolog>
         <metadata>
-            <audience type="user"/>
             <category/>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
@@ -25,41 +24,29 @@
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Description</stentry>
                     <stentry>Values</stentry>
+                    <stentry>Description</stentry>
                 </sthead>
                 <strow>
+                    <stentry>filename</stentry>
                     <stentry><xref keyref="FILENAME" type="reference"/></stentry>
-                    <stentry><ph conkeyref="FILENAME/placeholder_desc"/></stentry>
-                    <stentry><ph conkeyref="FILENAME/placeholder_value"/></stentry>
+                    <stentry>The filename for the content to be loaded.</stentry>
                 </strow>
             </simpletable>
             <note>An alternate syntax for this command omits the curly braces.</note>
         </refsyn>
-        <example id="mwe" otherprops="no_output">
+        <example otherprops="no_output">
         <title>Minimal Working Example</title>  
             <codeblock>
 \starttext
-
 \input{knuth}
-
-\stoptext
-            </codeblock>
-        </example>
-        <example id="example_02" otherprops="no_output">
-            <title>Alternate Syntax</title>  
-            <codeblock>
-\starttext
-
-\input knuth
-
 \stoptext
             </codeblock>
         </example>
     </refbody>
     <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/file-ini.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>file-ini.mkiv</filepath></linktext>
+        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/file-ini.mkiv" scope="external" format="html">
+            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>file-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
