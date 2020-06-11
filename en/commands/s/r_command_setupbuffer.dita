@@ -47,7 +47,7 @@
         <section id="settings">
             <title>Settings</title>
             <table frame="all" rowsep="1" colsep="1" id="settings_table">
-                <tgroup cols="2" id="settings_start">
+                <tgroup cols="2">
                     <colspec colname="value_name" colnum="1" colwidth="1*"/>
                     <colspec colname="value_desc" colnum="2" colwidth="1*"/>
                     <thead>
@@ -68,7 +68,7 @@
                         </row>
                     </tbody>
                 </tgroup>
-                <tgroup cols="2">
+                <tgroup cols="2" id="settings_start">
                     <colspec colname="value_name" colnum="1" colwidth="1*"/>
                     <colspec colname="value_desc" colnum="2" colwidth="1*"/>
                     <thead>
@@ -142,8 +142,10 @@
     </example>-->
     </refbody>
     <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>buff-ini.mkiv</filepath></linktext>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/buff-ini.mkiv"
+            scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source
+                file <filepath>buff-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>

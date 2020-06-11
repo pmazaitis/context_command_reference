@@ -1,100 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_definebuffer">
+<reference id="r_command_definebuffer" xml:lang="en">
     <title>\definebuffer</title>
-    <shortdesc>The <cmdname>\definebuffer</cmdname> command creates a new named buffer using a <xref keyref="LABEL" type="reference"/>.</shortdesc>
+    <shortdesc>The <cmdname>\definebuffer</cmdname> command creates a new named buffer.</shortdesc>
     <prolog>
         <metadata>
-            <category>block</category>
-            <category>define</category>
+            <audience type="user"/>
+            <category>style</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    
-                    <vrm version="iv" release="production"/>
+                    <vrm version="iv" release="production" modification=""/>
                 </vrmlist>
             </prodinfo>
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
-            <synph>
-                <kwd>\definebuffer</kwd>
-                <delim>[</delim>
-                <var importance="required">NAME</var>
-                <delim>]</delim>
-                <delim>[</delim>
-                <var importance="optional">buffer</var>
-                <delim>]</delim>
-                <delim>[</delim>
-                <var importance="optional">settings</var>
-                <delim>]</delim>
-            </synph>
+            <synph>\definebuffer <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">BUFFER</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
                 </sthead>
                 <strow>
                     <stentry>NAME</stentry>
-                    <stentry><xref keyref="NAME" type="reference"/></stentry>
-                    <stentry>The label for the new buffer command.</stentry>
+                    <stentry>
+                        <xref keyref="NAME" type="reference"/>
+                    </stentry>
+                    <stentry>
+                        <ph conkeyref="NAME/placeholder_desc"/>
+                    </stentry>
                 </strow>
                 <strow>
-                    <stentry>buffer</stentry>
-                    <stentry>?</stentry>
-                    <stentry>?</stentry>
+                    <stentry>BUFFER</stentry>
+                    <stentry>
+                        <xref keyref="BUFFER" type="reference"/>
+                    </stentry>
+                    <stentry>
+                        <ph conkeyref="BUFFER/placeholder_desc"/>
+                    </stentry>
                 </strow>
                 <strow>
-                    <stentry>settings</stentry>
-                    <stentry></stentry>
-                    <stentry><p conkeyref="definitions/settings_description" /></stentry>
+                    <stentry>SETTINGS</stentry>
+                    <stentry>
+                        <xref keyref="SETTINGS" type="reference"/>
+                    </stentry>
+                    <stentry>See <xref href="#./settings"/>.</stentry>
                 </strow>
             </simpletable>
         </refsyn>
-        <section>
+        <section id="settings">
             <title>Settings</title>
-            <table frame="all" rowsep="1" colsep="1" id="table_command_definebuffer_settings">
-                <title></title>
-                <tgroup cols="3">
-                    <colspec colname="c1" colnum="1" colwidth="1.23*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
-                    <colspec colname="c3" colnum="3" colwidth="3.86*"/>
+            <table frame="all" rowsep="1" colsep="1" id="settings_table">
+                <tgroup conkeyref="command_setupbuffer/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+                    <colspec/>
+                    <colspec/>
                     <thead>
                         <row>
-                            <entry>Key</entry>
-                            <entry>Value</entry>
-                            <entry>Description</entry>
+                            <entry></entry>
                         </row>
                     </thead>
                     <tbody>
-                        <row conkeyref="command_setupbuffer/settings_start"
-                            conrefend="default.dita#default/settings_end">
-                            <entry/>
-                            <entry/>
-                            <entry/>
+                        <row>
+                            <entry></entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
-            <note>Inherits settings from <xref href="../s/r_command_setupbuffer.dita"/></note>
+            <note>Inherits settings from <xref href="../../commands/s/r_command_setupbuffer.dita"/>.</note>
         </section>
-        <example otherprops="no_output">
+        <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
-            <codeblock>
-\definebuffer[MyBuffer]
+            <codeblock outputclass="normalize-space">
+\starttext
 
-\startMyBuffer
-    \input knuth
-\stopMyBuffer
+\definebuffer[ExampleBuffer]
+
+\startExampleBuffer
+
+\input knuth
+
+\stopExampleBuffer 
+
+\stoptext
             </codeblock>
         </example>
+        <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
-            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>tex/context/base/mkiv/buff-ini.mkvi</filepath></linktext>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/buff-ini.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>buff-ini.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
