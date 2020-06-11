@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_stoptext">
+<reference id="r_command_stoptext" xml:lang="en">
     <title>\stoptext</title>
     <shortdesc>Use the <cmdname>\stoptext</cmdname> command to mark the end of the text content in a
         document. Everything after <cmdname>\stoptext</cmdname> will be
@@ -17,7 +17,7 @@
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
                 <kwd>\stoptext</kwd>
@@ -27,14 +27,16 @@
             <title>Minimal Working Example</title>
             <codeblock>
 \starttext
+
 Hello World!
+
 \stoptext
             </codeblock>
         </example>
     </refbody>
-    <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/caee9d5ac3c65f78671a9786318358cd647247eb/tex/context/base/mkiv/core-ini.mkiv" scope="external" format="html">
+<!--    <related-links>
+        <link href="" scope="external" format="html">
             <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>core-ini.mkiv</filepath></linktext>
         </link>
-    </related-links>
+    </related-links>-->
 </reference>

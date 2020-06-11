@@ -1,43 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_bf">
+<reference id="r_command_bf" xml:lang="en">
     <title>\bf</title>
     <shortdesc>The <cmdname>\bf</cmdname> command changes the font family to
         bold face for the content following the switch, until another font switch or the end of the current scope.</shortdesc>
     <prolog>
         <metadata>
-            <category />
+            <audience type="user"/>
+            <category>document</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    <vrm version="iv" release="production"/>
+                    <vrm version="iv" release="production" modification=""/>
                 </vrmlist>
             </prodinfo>
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
             <synph>
-                <kwd>\bf</kwd>
+                \bf
             </synph>
         </refsyn>
-        <section>
+        <section id="notes">
             <title>Notes</title>
             <p>Font switches may be combined.</p>
         </section>
-        <example otherprops="no_output">
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
-            <codeblock>
+            <codeblock outputclass="normalize-space">
 \starttext
-Sometimes, we must be {\bf bold}.
+
+Sometimes, we must be {\bf bold}.              
+
 \stoptext
             </codeblock>
         </example>
+        <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
     </refbody>
     <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-emp.mkvi" scope="external" format="html">
-            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>tex/context/base/mkiv/font-emp.mkvi</filepath></linktext>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-pre.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-pre.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
