@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_blank">
+<reference id="r_command_blank" xml:lang="en">
     <title>\blank</title>
     <shortdesc>The <cmdname>\blank</cmdname> command inserts <keyword>skip</keyword> (vertical
         space) into the text block. The command can be used with keywords to indicate preset amounts
@@ -8,27 +8,24 @@
     <prolog>
         <metadata>
             <audience type="user"/>
-            <category>spacing</category>
+            <category>document</category>
             <prodinfo>
                 <prodname>ConTeXt</prodname>
                 <vrmlist>
-                    <vrm version="iv" release="production"/>
+                    <vrm version="iv" release="production" modification=""/>
                 </vrmlist>
             </prodinfo>
         </metadata>
     </prolog>
     <refbody>
-        <refsyn>
+        <refsyn id="syntax">
             <title>Syntax</title>
-            <synph> \blank <delim>[</delim>
-                <var importance="optional">options</var>
-                <delim>]</delim>
-            </synph>
+            <synph>\blank <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
             <simpletable>
                 <sthead>
                     <stentry>Name</stentry>
-                    <stentry>Values</stentry>
                     <stentry>Description</stentry>
+                    <stentry>Values</stentry>
                 </sthead>
                 <strow conkeyref="command_vspacing/short_options">
                     <stentry/> 
@@ -37,23 +34,51 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section conkeyref="command_vspacing/options" />
-        <example otherprops="output">
+        <section id="options">
+            <title>Options</title>
+            <table frame="all" rowsep="1" colsep="1" id="options_table">
+                <tgroup cols="2">
+                    <colspec colname="value_name" colnum="1" colwidth="1*"/>
+                    <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Keyword</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop" >                            
+                            <entry/>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section conkeyref="command_vspacing/notes"/>
+        <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <p>Use <cmdname>\blank</cmdname> commands directly in the text flow.</p>
-            <codeblock>
-\starttext                
+            <codeblock outputclass="normalize-space">
+                \starttext
+\starttext
+
 Here's our first sentence.
+
 \blank[big]
+
 We need to put more space above and less space below this sentence.
+
 \blank[medium]
+
 Here's our last sentence.
+
 \stoptext
             </codeblock>
         </example>
-        <example>
+        <example id="example02" otherprops="no_output">
             <title>Extended Example</title>
-            <p>[best way to handle this? -PGM]</p>
+            <p>Taken from the language manual; probably too involved for this reference.</p>
             <codeblock>
 \enableregime[utf]
 
@@ -131,8 +156,9 @@ Don’t want an antelope nibbling the hoops.
         </example>
     </refbody>
     <related-links>
-        <link href="https://github.com/contextgarden/context-mirror/blob/f7049c2619684d6bfe6688d3a669455a6ecb6713/tex/context/base/mkiv/font-sty.mklx" scope="external" format="html">
-            <linktext>Commmand definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>/tex/context/base/mkiv/font-sty.mklx</filepath></linktext>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
+

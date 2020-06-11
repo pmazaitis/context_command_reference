@@ -44,7 +44,27 @@
                 </strow>
             </simpletable>
         </refsyn>
-        <section conkeyref="command_vspacing/options"/>
+        <section id="options">
+            <title>Options</title>
+            <table frame="all" rowsep="1" colsep="1" id="options_table">
+                <tgroup cols="2">
+                    <colspec colname="value_name" colnum="1" colwidth="1*"/>
+                    <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Keyword</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop" >                            
+                            <entry/>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
         <example id="mwe" otherprops="no_output">
             <title>Minimal Working Example</title>
             <codeblock>
@@ -61,7 +81,7 @@
     </refbody>
     <related-links>
         <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file <filepath>spac-ver.mkiv</filepath></linktext>
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>spac-ver.mkiv</filepath></linktext>
         </link>
     </related-links>
 </reference>
