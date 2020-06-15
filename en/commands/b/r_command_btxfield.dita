@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_btxfield" xml:lang="en">
+  <title>\btxfield</title>
+  <shortdesc>The <cmdname>\btxfield</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\btxfield <delim>{</delim><var>OPTIONS</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>address, assignee, author, booktitle, chapter, day, dayfiled, edition, editor, howpublished, institution, journal, language, month, monthfiled, nationality, note, number, one, two, organization, pages, publisher, school, series, title, type, volume, year, yearfiled, <xref keyref="NAME" type="reference"/></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>address</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>assignee</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>author</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>booktitle</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>chapter</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>day</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>dayfiled</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>edition</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>editor</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>howpublished</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>institution</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>journal</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>language</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>month</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>monthfiled</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nationality</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>note</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>number</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>one</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>two</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>organization</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>pages</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>publisher</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>school</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>series</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>title</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>type</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>volume</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>year</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>yearfiled</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>NAME</entry>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/publ-ini.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>publ-ini.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

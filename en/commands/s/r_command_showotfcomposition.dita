@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_showotfcomposition" xml:lang="en">
+  <title>\showotfcomposition</title>
+  <shortdesc>The <cmdname>\showotfcomposition</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\showotfcomposition <delim>{</delim><var>FONT</var><delim>}</delim><delim>{</delim><var>OPTIONS</var><delim>}</delim><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>FONT</stentry>
+          <stentry>
+            <xref keyref="FONT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="FONT/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>-1, 1, +1, l2r, r2l</stentry>
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/placeholder_desc"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>-1</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>+1</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>l2r</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>r2l</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-tra.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-tra.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

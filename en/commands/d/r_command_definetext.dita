@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_definetext" xml:lang="en">
+  <title>\definetext</title>
+  <shortdesc>The <cmdname>\definetext</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\definetext <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>top, header, text, footer, bottom</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>text, margin, edge</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>top</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>header</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>text</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>footer</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>bottom</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>text</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>margin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>edge</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>date</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>pagenumber</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>MARK</entry>
+              <entry>
+                <xref keyref="MARK" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>TEXT</entry>
+              <entry>
+                <xref keyref="TEXT" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>COMMAND</entry>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>date</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>pagenumber</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>MARK</entry>
+              <entry>
+                <xref keyref="MARK" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>TEXT</entry>
+              <entry>
+                <xref keyref="TEXT" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>COMMAND</entry>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>date</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>pagenumber</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>MARK</entry>
+              <entry>
+                <xref keyref="MARK" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>TEXT</entry>
+              <entry>
+                <xref keyref="TEXT" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>COMMAND</entry>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>date</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>pagenumber</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>MARK</entry>
+              <entry>
+                <xref keyref="MARK" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>TEXT</entry>
+              <entry>
+                <xref keyref="TEXT" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>COMMAND</entry>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-txt.mkvi" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-txt.mkvi</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

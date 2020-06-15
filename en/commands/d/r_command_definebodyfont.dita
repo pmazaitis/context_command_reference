@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_definebodyfont" xml:lang="en">
+  <title>\definebodyfont</title>
+  <shortdesc>The <cmdname>\definebodyfont</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\definebodyfont <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry><xref keyref="NAME" type="reference"/>, default</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="DIMENSION" type="reference"/></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry><ph importance="default">rm</ph>, ss, tt, hw, cg</stentry>
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>NAME</entry>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>default</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>NAME</entry>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>DIMENSION</entry>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row importance="default">
+              <entry>rm</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ss</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>tt</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>hw</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>cg</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2" id="settings_start">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">tf</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">bf</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">it</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">sl</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">bi</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">bs</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">sc</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">mr</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">mrlr</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">mrrl</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">mb</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">mblr</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2" id="settings_stop">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">mbrl</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-fil.mkvi" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-fil.mkvi</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

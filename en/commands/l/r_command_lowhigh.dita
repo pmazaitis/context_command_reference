@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_lowhigh" xml:lang="en">
+  <title>\lowhigh</title>
+  <shortdesc>The <cmdname>\lowhigh</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\lowhigh <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>{</delim><var>SCOPE</var><delim>}</delim><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>left, <ph importance="default">right</ph></stentry>
+        </strow>
+        <strow>
+          <stentry>SCOPE</stentry>
+          <stentry>
+            <xref keyref="SCOPE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>SCOPE</stentry>
+          <stentry>
+            <xref keyref="SCOPE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/placeholder_desc"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>left</entry>
+              <entry></entry>
+            </row>
+            <row importance="default">
+              <entry>right</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-scr.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>typo-scr.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

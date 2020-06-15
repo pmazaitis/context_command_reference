@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_aligned" xml:lang="en">
+  <title>\aligned</title>
+  <shortdesc>The <cmdname>\aligned</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\aligned <delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>left, middle, right, top, bottom, line, l, c, r, m, t, b, g</stentry>
+        </strow>
+        <strow>
+          <stentry>SCOPE</stentry>
+          <stentry>
+            <xref keyref="SCOPE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/placeholder_desc"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>left</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>middle</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>right</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>top</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>bottom</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>line</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>l</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>c</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>r</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>m</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>t</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>b</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>g</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-box.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-box.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_fetchmark" xml:lang="en">
+  <title>\fetchmark</title>
+  <shortdesc>The <cmdname>\fetchmark</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\fetchmark <delim>[</delim><var>MARK</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>MARK</stentry>
+          <stentry>
+            <xref keyref="MARK" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="MARK/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>first, last, current, previous, next, top, bottom, default, both, all, nocheck, nocheck, nocheck, nocheck, nocheck, nocheck</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>first</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>last</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>current</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>previous</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>next</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>top</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>bottom</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>default</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>both</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>all</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nocheck</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nocheck</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nocheck</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nocheck</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nocheck</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>nocheck</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-mar.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>strc-mar.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

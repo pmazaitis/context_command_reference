@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_setupbackend" xml:lang="en">
+  <title>\setupbackend</title>
+  <shortdesc>The <cmdname>\setupbackend</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\setupbackend <delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2" id="settings_start">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">export</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>yes</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">xhtml</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">file</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">intent</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Coated FOGRA39 (ISO 12647-2:2004)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>GRACoL2006_Coated1v2.icc</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ISO Coated v2 300% (ECI)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ISO Coated v2 (ECI)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ISOnewspaper26v4</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ISOnewspaper26v4_gr</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ISO Uncoated</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ISO Uncoated Yellowish</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>ISO Web Coated</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Japan Color 2001 Coated</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Japan Color 2002 Newspaper</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Japan Web Coated (Ad)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>SNAP 2007</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>SWOP2006_Coated3v2.icc</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>SWOP2006_Coated5v2.icc</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Uncoated FOGRA29 (ISO 12647-2:2004)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Web Coated FOGRA28 (ISO 12647-2:2004)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PSR_LWC_PLUS_V2_PT</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PSR_LWC_STD_V2_PT</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PSR_SC_PLUS_V2_PT</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PSR_SC_STD_V2_PT</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PSRgravureMF</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">space</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>yes</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>
+                <ph importance="default">no</ph>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">xmpfile</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">format</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>version</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>default</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-1a:2001</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-1a:2003</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-3:2002</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-3:2003</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-4</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-4p</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-5g</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-5pg</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/X-5n</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/A-1a:2005</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/A-1b:2005</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/A-2a</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/A-3a</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>PDF/UA-1</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">level</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">option</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>always</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>never</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2" id="settings_stop">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">profile</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/back-ini.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>back-ini.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

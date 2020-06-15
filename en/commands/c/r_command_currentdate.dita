@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_currentdate" xml:lang="en">
+  <title>\currentdate</title>
+  <shortdesc>The <cmdname>\currentdate</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\currentdate <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>year, month, day, weekday, y, yy, Y, m, mm, M, d, dd, D, w, W, space, \\\\\\\\␣, month:mnem, m:mnem, d:ord, day:ord, dd:ord, D:ord, <xref keyref="TEXT" type="reference"/>, referral, day:+, day:++, d:+, d:++, dd:+, dd:++, D:+, D:++, month:jalali, m:jalali, jalali:to, jalali:from</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>year</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>month</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>day</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>weekday</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>y</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>yy</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Y</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>m</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>mm</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>M</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>d</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>dd</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>D</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>w</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>W</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>space</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\␣</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>month:mnem</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>m:mnem</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>d:ord</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>day:ord</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>dd:ord</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>D:ord</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>TEXT</entry>
+              <entry>
+                <xref keyref="TEXT" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>referral</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>day:+</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>day:++</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>d:+</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>d:++</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>dd:+</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>dd:++</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>D:+</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>D:++</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>month:jalali</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>m:jalali</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>jalali:to</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>jalali:from</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/core-con.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>core-con.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

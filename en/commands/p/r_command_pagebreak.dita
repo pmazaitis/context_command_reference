@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_pagebreak" xml:lang="en">
+  <title>\pagebreak</title>
+  <shortdesc>The <cmdname>\pagebreak</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\pagebreak <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>empty, header, footer, dummy, frame, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NUMBER" type="reference"/>, default, reset, disable, yes, no, makeup, blank, preference, bigpreference, left, right, even, odd, quadruple, last, lastpage, start, stop, <xref keyref="NAME" type="reference"/></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>empty</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>header</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>footer</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>dummy</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>frame</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>NUMBER</entry>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>NUMBER</entry>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>default</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>reset</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>disable</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>yes</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>no</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>makeup</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>blank</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>preference</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>bigpreference</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>left</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>right</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>even</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>odd</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>quadruple</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>last</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>lastpage</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>start</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>stop</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>NAME</entry>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-brk.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-brk.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

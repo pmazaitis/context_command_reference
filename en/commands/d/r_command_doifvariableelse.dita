@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_doifvariableelse" xml:lang="en">
+  <title>\doifvariableelse</title>
+  <shortdesc>The <cmdname>\doifvariableelse</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\doifvariableelse <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var>KEY</var><delim>}</delim><delim>{</delim><var>TRUE</var><delim>}</delim><delim>{</delim><var>FALSE</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>KEY</stentry>
+          <stentry>
+            <xref keyref="KEY" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="KEY/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>TRUE</stentry>
+          <stentry>
+            <xref keyref="TRUE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TRUE/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>FALSE</stentry>
+          <stentry>
+            <xref keyref="FALSE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="FALSE/placeholder_desc"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/core-env.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>core-env.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

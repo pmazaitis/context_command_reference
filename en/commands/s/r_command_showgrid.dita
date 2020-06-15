@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_showgrid" xml:lang="en">
+  <title>\showgrid</title>
+  <shortdesc>The <cmdname>\showgrid</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\showgrid <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>reset, <ph importance="default">bottom</ph>, top, none, <ph importance="default">all</ph>, lines, frame, nonumber, <ph importance="default">right</ph>, left, outer, <ph importance="default">columns</ph></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>reset</entry>
+              <entry></entry>
+            </row>
+            <row importance="default">
+              <entry>bottom</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>top</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>none</entry>
+              <entry></entry>
+            </row>
+            <row importance="default">
+              <entry>all</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>lines</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>frame</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nonumber</entry>
+              <entry></entry>
+            </row>
+            <row importance="default">
+              <entry>right</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>left</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>outer</entry>
+              <entry></entry>
+            </row>
+            <row importance="default" id="options_stop">
+              <entry>columns</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-grd.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-grd.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

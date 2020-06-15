@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_placefloatwithsetups" xml:lang="en">
+  <title>\placefloatwithsetups</title>
+  <shortdesc>The <cmdname>\placefloatwithsetups</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\placefloatwithsetups <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">REFERENCE</var><delim>]</delim><delim>{</delim><var>TEXT</var><delim>}</delim><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>split, always, left, right, inner, outer, backspace, cutspace, inleft, inright, inmargin, leftmargin, rightmargin, leftedge, rightedge, innermargin, outermargin, inneredge, outeredge, text, opposite, reset, height, depth, line, halfline, grid, high, low, fit, 90, 180, 270, nonumber, none, local, here, force, margin, hang, hanging, tall, both, middle, offset, top, bottom, auto, page, leftpage, rightpage, somewhere, effective, header, footer</stentry>
+        </strow>
+        <strow>
+          <stentry>REFERENCE</stentry>
+          <stentry>
+            <xref keyref="REFERENCE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="REFERENCE/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>SCOPE</stentry>
+          <stentry>
+            <xref keyref="SCOPE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/placeholder_desc"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry>split</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>always</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>left</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>right</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>inner</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>outer</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>backspace</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>cutspace</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>inleft</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>inright</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>inmargin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>leftmargin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>rightmargin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>leftedge</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>rightedge</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>innermargin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>outermargin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>inneredge</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>outeredge</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>text</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>opposite</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>reset</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>height</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>depth</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>line</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>halfline</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>grid</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>high</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>low</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>fit</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>90</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>180</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>270</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nonumber</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>none</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>local</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>here</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>force</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>margin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>hang</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>hanging</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>tall</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>both</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>middle</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>offset</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>top</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>bottom</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>auto</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>page</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>leftpage</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>rightpage</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>somewhere</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>effective</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>header</entry>
+              <entry></entry>
+            </row>
+            <row id="options_stop">
+              <entry>footer</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-flt.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-flt.mkiv</filepath></linktext>
+        </link>
+    </related-links>
+</reference>

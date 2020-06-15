@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_depthspanningtext" xml:lang="en">
+  <title>\depthspanningtext</title>
+  <shortdesc>The <cmdname>\depthspanningtext</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\depthspanningtext <delim>{</delim><var>TEXT</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>FONT</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>DIMENSION</stentry>
+          <stentry>
+            <xref keyref="DIMENSION" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="DIMENSION/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>FONT</stentry>
+          <stentry>
+            <xref keyref="FONT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="FONT/placeholder_desc"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-txt.mkvi" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>typo-txt.mkvi</filepath></linktext>
+        </link>
+    </related-links>
+</reference>
