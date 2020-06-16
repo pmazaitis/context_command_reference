@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_setMPvariable" xml:lang="en">
+  <title>\setMPvariable</title>
+  <shortdesc>The <cmdname>\setMPvariable</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\setMPvariable <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference" href="../../placeholders/r_placeholder_NAME.dita">NAME<desc><ph>A <term>NAME</term> is used as a label for referencing content.</ph><ph>Use <term>NAME</term>s that clearly and unambiguously identify the content.</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>A <term>NAME</term> is used as a label for referencing content.</ph>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference" href="../../placeholders/r_placeholder_SETTINGS.dita">SETTINGS<desc><ph><term>SETTINGS</term> are one or more key=value pairs, sparated by a comma.</ph> Use             <term>SETTINGS</term> to customize the behavior of a command.</desc></xref>
+          </stentry>
+          <stentry>See <xref href="#r_command_setMPvariable/settings" type="section">Settings</xref>.</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">cd:key</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="VALUE" type="reference" href="../../placeholders/r_placeholder_VALUE.dita">VALUE<desc><ph>The <term>VALUE</term> is a kind of thing.</ph> <ph>Use values for <term>VALUE</term> that...</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/meta-ini.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>meta-ini.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

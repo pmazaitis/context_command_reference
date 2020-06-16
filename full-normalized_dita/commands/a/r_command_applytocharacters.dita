@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_applytocharacters" xml:lang="en">
+  <title>\applytocharacters</title>
+  <shortdesc>The <cmdname>\applytocharacters</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\applytocharacters <var>COMMAND</var><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>COMMAND</stentry>
+          <stentry>
+            <xref keyref="COMMAND" type="reference" href="../../placeholders/r_placeholder_COMMAND.dita">COMMAND<desc><ph>A <term>COMMAND</term> is any ConTeXt command.</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>A <term>COMMAND</term> is any ConTeXt command.</ph>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>TEXT</term> is a piece of text.</ph>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/supp-box.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>supp-box.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

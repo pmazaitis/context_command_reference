@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_placefloat" xml:lang="en">
+  <title>\placefloat</title>
+  <shortdesc>The <cmdname>\placefloat</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\placefloat <delim>[</delim><var>SINGULAR</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">REFERENCE</var><delim>]</delim><delim>{</delim><var>TEXT</var><delim>}</delim><delim>{</delim><var>CONTENT</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>SINGULAR</stentry>
+          <stentry>
+            <xref keyref="SINGULAR" type="reference" href="../../placeholders/r_placeholder_SINGULAR.dita">SINGULAR<desc><ph>The <term>SINGULAR</term> is a kind of thing.</ph> <ph>Use values for <term>SINGULAR</term> that...</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>The <term>SINGULAR</term> is a kind of thing.</ph>
+          </stentry>
+        </strow>
+        <strow id="short_options">
+          <stentry><xref keyref="OPTIONS" type="reference" href="../../placeholders/r_placeholder_OPTIONS.dita">OPTIONS<desc><ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph> Use             <term>OPTIONS</term> to customize the behavior of a command.</desc></xref></stentry>
+          <stentry>
+            <ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph>
+          </stentry>
+          <stentry>split, always, left, right, inner, outer, backspace, cutspace, inleft, inright, inmargin, leftmargin, rightmargin, leftedge, rightedge, innermargin, outermargin, inneredge, outeredge, text, opposite, reset, height, depth, -line, +line, halfline, grid, high, low, fit, 90, 180, 270, nonumber, none, local, here, force, margin, -hang, +hang, hanging, tall, both, middle, offset, top, bottom, auto, page, leftpage, rightpage, somewhere, effective, header, footer, tblr, lrtb, tbrl, rltb, fxtb, btlr, lrbt, btrl, rlbt, fxbt, fixd</stentry>
+        </strow>
+        <strow>
+          <stentry>REFERENCE</stentry>
+          <stentry>
+            <xref keyref="REFERENCE" type="reference" href="../../placeholders/r_placeholder_REFERENCE.dita">REFERENCE<desc><ph>The <term>REFERENCE</term> is a kind of thing.</ph> <ph>Use values for <term>REFERENCE</term> that...</ph></desc></xref>
+          </stentry>
+          <stentry><ph>The <term>REFERENCE</term> is a kind of thing.</ph></stentry>
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+          </stentry>
+          <stentry><ph><term>TEXT</term> is a piece of text.</ph></stentry>
+        </strow>
+        <strow>
+          <stentry>CONTENT</stentry>
+          <stentry>
+            <xref keyref="CONTENT" type="reference" href="../../placeholders/r_placeholder_CONTENT.dita">CONTENT<desc><ph>The <term>CONTENT</term> placeholder is used in the syntax wherever content can be added within a scope as an argument. <term>CONTENT</term> can be any mixture of text or <ph>ConTeXt</ph> commands.</ph></desc></xref>
+          </stentry>
+          <stentry><ph>The <term>CONTENT</term> placeholder is used in the syntax wherever content can be added within a scope as an argument. <term>CONTENT</term> can be any mixture of text or <ph>ConTeXt</ph> commands.</ph></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry colname="col1">Keyword</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            
+            <row id="options_start"><entry colname="col1">split</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">always</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">left</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">right</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">inner</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">outer</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">backspace</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">cutspace</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">inleft</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">inright</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">inmargin</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">leftmargin</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">rightmargin</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">leftedge</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">rightedge</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">innermargin</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">outermargin</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">inneredge</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">outeredge</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">text</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">opposite</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">reset</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">height</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">depth</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">-line</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">+line</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">halfline</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">grid</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">high</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">low</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">fit</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">90</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">180</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">270</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">nonumber</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">none</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">local</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">here</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">force</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">margin</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">-hang</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">+hang</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">hanging</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">tall</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">both</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">middle</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">offset</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">top</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">bottom</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">auto</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">page</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">leftpage</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">rightpage</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">somewhere</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">effective</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">header</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">footer</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">tblr</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">lrtb</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">tbrl</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">rltb</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">fxtb</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">btlr</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">lrbt</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">btrl</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">rlbt</entry><entry colname="col2"/></row>
+            <row><entry colname="col1">fxbt</entry><entry colname="col2"/></row>
+            <row id="options_stop"><entry colname="col1">fixd</entry><entry colname="col2"/></row>
+            
+          </tbody>
+        </tgroup>
+      </table>
+      
+    </section>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-flt.mkvi" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>strc-flt.mkvi</filepath></linktext></link>
+    </related-links>
+</reference>

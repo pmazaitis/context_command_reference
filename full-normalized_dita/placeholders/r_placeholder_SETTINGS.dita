@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_placeholder_SETTINGS" xml:lang="en">
+    <title>SETTINGS</title>
+    <shortdesc><ph id="placeholder_desc"><term>SETTINGS</term> are one or more key=value pairs, sparated by a comma.</ph> Use
+            <term>SETTINGS</term> to customize the behavior of a command.</shortdesc>
+    <refbody>
+        <section>
+            <p>Include example here for inclusion?</p>
+        </section>
+    </refbody>
+<related-links><linkpool><link format="dita" href="../placeholders/c_placeholders.dita" role="parent" scope="local" type="concept"><linktext>Placeholders</linktext><desc>Placeholders in this documentation are parts of commands that can be specified by the user. Placeholders come in types; some commands require particular types of variables as input.</desc></link></linkpool></related-links></reference>

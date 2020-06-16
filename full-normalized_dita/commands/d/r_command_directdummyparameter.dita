@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_directdummyparameter" xml:lang="en">
+  <title>\directdummyparameter</title>
+  <shortdesc>The <cmdname>\directdummyparameter</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\directdummyparameter <delim>{</delim><var>KEY</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>KEY</stentry>
+          <stentry>
+            <xref keyref="KEY" type="reference" href="../../placeholders/r_placeholder_KEY.dita">KEY<desc><ph>The <term>KEY</term> is a kind of thing.</ph> <ph>Use values for <term>KEY</term> that...</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>The <term>KEY</term> is a kind of thing.</ph>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/mult-aux.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>mult-aux.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

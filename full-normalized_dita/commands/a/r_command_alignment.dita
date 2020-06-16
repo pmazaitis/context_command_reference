@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_alignment" xml:lang="en">
+  <title>\alignment</title>
+  <shortdesc>The <cmdname>\alignment</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\alignment <delim>[</delim><var>OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="OPTIONS" type="reference" href="../s/../../placeholders/r_placeholder_OPTIONS.dita">OPTIONS<desc><ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph> Use             <term>OPTIONS</term> to customize the behavior of a command.</desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph>
+          </stentry>
+          <stentry>broad, wide, <ph importance="default">bottom</ph>, height, line, high, low, lohi, flushright, flushleft, middle, yes, no, <ph importance="default">width</ph>, normal, reset, inner, outer, flushinner, flushouter, left, right, center, disable, last, end, paragraph, lefttoright, righttoleft, l2r, r2l, table, lesshyphenation, morehyphenation, hanging, hangingboth, nothanging, hz, fullhz, nohz, hyphenated, nothyphenated, tolerant, verytolerant, stretch, extremestretch, final, 1*final, 2*final, 3*final, 4*final, more, 1*more, 2*more</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ali.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>spac-ali.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

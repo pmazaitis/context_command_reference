@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_command_setups" xml:lang="en">
+    <title>Command Setups</title>
+    <shortdesc>Commands can accept parameters. Collections of parameters that change the behavior of
+        the command are <term>setups</term>. Setups come after the command in blocks, delimited into
+        blocks by square brackets.</shortdesc>
+    <conbody>
+        <p>Setups come in two types: <term>options</term> and <term>settings</term>.</p>
+        <p>Options are keywords. Commands that accept options can accept one or more keywords in an options block, separated by a comma. </p>
+        <p>Settings are key/value pairs. Commands that accept settings can accept one or more settings in a settings block, separated by a comma.</p>
+        <p>Setup blocks must not mix options and settings.</p>
+    </conbody>
+<related-links><linkpool><link format="dita" href="../frontmatter/c_parts_of_a_command.dita" role="parent" scope="local" type="concept"><linktext>The Parts of a Command</linktext><desc>Each <ph>ConTeXt</ph> command must have a name, and may also take setups (either as keywords,         keyval pairs, or sets of each) and can have a scope.</desc></link><linkpool><link format="dita" href="../frontmatter/c_command_options.dita" role="child" scope="local" type="concept"><linktext>Command Options</linktext><desc>Options are single keywords. Commands that accept options use an <term>options             block</term>, delimited by square brackets, which comes after the command. The options         block can accept one or more options, separated by a comma.</desc></link><link format="dita" href="../frontmatter/c_command_settings.dita" role="child" scope="local" type="concept"><linktext>Command Settings</linktext><desc>Settings are key/value pairs. Commands that accept settings use an <term>settings block</term>, delimited by square brackets, which comes after the command. A settings block can can accept one or more settings, separated by a comma.</desc></link></linkpool></linkpool></related-links></concept>

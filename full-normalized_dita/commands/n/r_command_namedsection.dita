@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_namedsection" xml:lang="en">
+  <title>\namedsection</title>
+  <shortdesc>The <cmdname>\namedsection</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\namedsection <delim>[</delim><var>SECTION</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>SECTION</stentry>
+          <stentry>
+            <xref keyref="SECTION" type="reference" href="../../placeholders/r_placeholder_SECTION.dita">SECTION<desc><ph>The <term>SECTION</term> is a kind of thing.</ph> <ph>Use values for <term>SECTION</term> that...</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>The <term>SECTION</term> is a kind of thing.</ph>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference" href="../../placeholders/r_placeholder_SETTINGS.dita">SETTINGS<desc><ph><term>SETTINGS</term> are one or more key=value pairs, sparated by a comma.</ph> Use             <term>SETTINGS</term> to customize the behavior of a command.</desc></xref>
+          </stentry>
+          <stentry>See <xref href="#r_command_namedsection/settings" type="section">Settings</xref>.</stentry>
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference" href="../../placeholders/r_placeholder_SETTINGS.dita">SETTINGS<desc><ph><term>SETTINGS</term> are one or more key=value pairs, sparated by a comma.</ph> Use             <term>SETTINGS</term> to customize the behavior of a command.</desc></xref>
+          </stentry>
+          <stentry>See <xref href="#r_command_namedsection/settings" type="section">Settings</xref>.</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2" id="settings_start">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">title</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">bookmark</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">marking</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">list</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">reference</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="REFERENCE" type="reference" href="../../placeholders/r_placeholder_REFERENCE.dita">REFERENCE<desc><ph>The <term>REFERENCE</term> is a kind of thing.</ph> <ph>Use values for <term>REFERENCE</term> that...</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2" id="settings_stop">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">ownnumber</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col2" colname="col1">cd:key</entry>
+            </row>
+            <row>
+              <entry colname="col1">Value</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <xref keyref="VALUE" type="reference" href="../../placeholders/r_placeholder_VALUE.dita">VALUE<desc><ph>The <term>VALUE</term> is a kind of thing.</ph> <ph>Use values for <term>VALUE</term> that...</ph></desc></xref>
+              </entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-sec.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>strc-sec.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

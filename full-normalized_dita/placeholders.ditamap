@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ./?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map cascade="merge" xml:lang="en">
+    <title>Placeholders</title>
+    
+    
+    <keydef href="placeholders/r_placeholder_HTEXT.dita" processing-role="resource-only" keys="HTEXT"/>
+    <keydef href="placeholders/r_placeholder_AULT.dita" processing-role="resource-only" keys="AULT"/>
+    <keydef href="placeholders/r_placeholder_TINUE.dita" processing-role="resource-only" keys="TINUE"/>
+    <keydef href="placeholders/r_placeholder_NK.dita" processing-role="resource-only" keys="NK"/>
+    <keydef href="placeholders/r_placeholder_E.dita" processing-role="resource-only" keys="E"/>
+    <keydef href="placeholders/r_placeholder_P.dita" processing-role="resource-only" keys="P"/>
+    <keydef href="placeholders/r_placeholder_D.dita" processing-role="resource-only" keys="D"/>
+    <keydef href="placeholders/r_placeholder_S.dita" processing-role="resource-only" keys="S"/>
+    <keydef href="placeholders/r_placeholder_COMMAND.dita" processing-role="resource-only" keys="COMMAND"/>
+    <keydef href="placeholders/r_placeholder_CONTENT.dita" processing-role="resource-only" keys="CONTENT"/>
+    <keydef href="placeholders/r_placeholder_DIMENSION.dita" processing-role="resource-only" keys="DIMENSION"/>
+    <keydef href="placeholders/r_placeholder_FILENAME.dita" processing-role="resource-only" keys="FILENAME"/>
+    <keydef href="placeholders/r_placeholder_IDENTIFIER.dita" processing-role="resource-only" keys="IDENTIFIER"/>
+    <keydef href="placeholders/r_placeholder_LABEL.dita" processing-role="resource-only" keys="LABEL"/>
+    <keydef href="placeholders/r_placeholder_NUMBER.dita" processing-role="resource-only" keys="NUMBER"/>
+    <keydef href="placeholders/r_placeholder_NAME.dita" processing-role="resource-only" keys="NAME"/>
+    <keydef href="placeholders/r_placeholder_OPTIONS.dita" processing-role="resource-only" keys="OPTIONS"/>
+    <keydef href="placeholders/r_placeholder_ORDINAL.dita" processing-role="resource-only" keys="ORDINAL"/>
+    <keydef href="placeholders/r_placeholder_SCOPE.dita" processing-role="resource-only" keys="SCOPE"/>
+    <keydef href="placeholders/r_placeholder_SETTINGS.dita" processing-role="resource-only" keys="SETTINGS"/>
+    <keydef href="placeholders/r_placeholder_SUBTYPE.dita" processing-role="resource-only" keys="SUBTYPE"/>
+    <keydef href="placeholders/r_placeholder_SWITCH.dita" processing-role="resource-only" keys="SWITCH"/>
+    <keydef href="placeholders/r_placeholder_TEXT.dita" processing-role="resource-only" keys="TEXT"/>
+    <keydef href="placeholders/r_placeholder_TYPE.dita" processing-role="resource-only" keys="TYPE"/>
+    <keydef href="placeholders/r_placeholder_BUFFER.dita" processing-role="resource-only" keys="BUFFER"/>
+    <keydef href="placeholders/r_placeholder_CATEGORY.dita" processing-role="resource-only" keys="CATEGORY"/>
+    <keydef href="placeholders/r_placeholder_CHARACTER.dita" processing-role="resource-only" keys="CHARACTER"/>
+    <keydef href="placeholders/r_placeholder_COLOR.dita" processing-role="resource-only" keys="COLOR"/>
+    <keydef href="placeholders/r_placeholder_CSNAME.dita" processing-role="resource-only" keys="CSNAME"/>
+    <keydef href="placeholders/r_placeholder_FALSE.dita" processing-role="resource-only" keys="FALSE"/>
+    <keydef href="placeholders/r_placeholder_FILE.dita" processing-role="resource-only" keys="FILE"/>
+    <keydef href="placeholders/r_placeholder_FIRST.dita" processing-role="resource-only" keys="FIRST"/>
+    <keydef href="placeholders/r_placeholder_FONT.dita" processing-role="resource-only" keys="FONT"/>
+    <keydef href="placeholders/r_placeholder_KEY.dita" processing-role="resource-only" keys="KEY"/>
+    <keydef href="placeholders/r_placeholder_LANGUAGE.dita" processing-role="resource-only" keys="LANGUAGE"/>
+    <keydef href="placeholders/r_placeholder_LAST.dita" processing-role="resource-only" keys="LAST"/>
+    <keydef href="placeholders/r_placeholder_LIST.dita" processing-role="resource-only" keys="LIST"/>
+    <keydef href="placeholders/r_placeholder_LPATH.dita" processing-role="resource-only" keys="LPATH"/>
+    <keydef href="placeholders/r_placeholder_LUAFUNCTION.dita" processing-role="resource-only" keys="LUAFUNCTION"/>
+    <keydef href="placeholders/r_placeholder_MARK.dita" processing-role="resource-only" keys="MARK"/>
+    <keydef href="placeholders/r_placeholder_MATRIX.dita" processing-role="resource-only" keys="MATRIX"/>
+    <keydef href="placeholders/r_placeholder_NODE.dita" processing-role="resource-only" keys="NODE"/>
+    <keydef href="placeholders/r_placeholder_ONEARGUMENT.dita" processing-role="resource-only" keys="ONEARGUMENT"/>
+    <keydef href="placeholders/r_placeholder_PATH.dita" processing-role="resource-only" keys="PATH"/>
+    <keydef href="placeholders/r_placeholder_PLURAL.dita" processing-role="resource-only" keys="PLURAL"/>
+    <keydef href="placeholders/r_placeholder_REFERENCE.dita" processing-role="resource-only" keys="REFERENCE"/>
+    <keydef href="placeholders/r_placeholder_SECTION.dita" processing-role="resource-only" keys="SECTION"/>
+    <keydef href="placeholders/r_placeholder_SETUP.dita" processing-role="resource-only" keys="SETUP"/>
+    <keydef href="placeholders/r_placeholder_SINGULAR.dita" processing-role="resource-only" keys="SINGULAR"/>
+    <keydef href="placeholders/r_placeholder_STYLE.dita" processing-role="resource-only" keys="STYLE"/>
+    <keydef href="placeholders/r_placeholder_TEMPLATE.dita" processing-role="resource-only" keys="TEMPLATE"/>
+    <keydef href="placeholders/r_placeholder_THREEARGUMENTS.dita" processing-role="resource-only" keys="THREEARGUMENTS"/>
+    <keydef href="placeholders/r_placeholder_TRUE.dita" processing-role="resource-only" keys="TRUE"/>
+    <keydef href="placeholders/r_placeholder_TWOARGUMENTS.dita" processing-role="resource-only" keys="TWOARGUMENTS"/>
+    <keydef href="placeholders/r_placeholder_URL.dita" processing-role="resource-only" keys="URL"/>
+    <keydef href="placeholders/r_placeholder_VALUE.dita" processing-role="resource-only" keys="VALUE"/>
+    <keydef href="placeholders/r_placeholder_XMLSETUP.dita" processing-role="resource-only" keys="XMLSETUP"/>
+    
+    
+    
+    <topicref href="placeholders/c_placeholders.dita">
+        <topicref href="placeholders/r_placeholder_AULT.dita"/>
+        <topicref href="placeholders/r_placeholder_BUFFER.dita"/>
+        <topicref href="placeholders/r_placeholder_CATEGORY.dita"/>
+        <topicref href="placeholders/r_placeholder_CHARACTER.dita"/>
+        <topicref href="placeholders/r_placeholder_COLOR.dita"/>
+        <topicref href="placeholders/r_placeholder_COMMAND.dita"/>
+        <topicref href="placeholders/r_placeholder_CONTENT.dita"/>
+        <topicref href="placeholders/r_placeholder_CSNAME.dita"/>
+        <topicref href="placeholders/r_placeholder_D.dita"/>
+        <topicref href="placeholders/r_placeholder_DIMENSION.dita"/>
+        <topicref href="placeholders/r_placeholder_E.dita"/>
+        <topicref href="placeholders/r_placeholder_FALSE.dita"/>
+        <topicref href="placeholders/r_placeholder_FILE.dita"/>
+        <topicref href="placeholders/r_placeholder_FILENAME.dita"/>
+        <topicref href="placeholders/r_placeholder_FIRST.dita"/>
+        <topicref href="placeholders/r_placeholder_FONT.dita"/>
+        <topicref href="placeholders/r_placeholder_HTEXT.dita"/>
+        <topicref href="placeholders/r_placeholder_IDENTIFIER.dita"/>
+        <topicref href="placeholders/r_placeholder_KEY.dita"/>
+        <topicref href="placeholders/r_placeholder_KIND.dita"/>
+        <topicref href="placeholders/r_placeholder_LABEL.dita"/>
+        <topicref href="placeholders/r_placeholder_LANGUAGE.dita"/>
+        <topicref href="placeholders/r_placeholder_LAST.dita"/>
+        <topicref href="placeholders/r_placeholder_LIST.dita"/>
+        <topicref href="placeholders/r_placeholder_LPATH.dita"/>
+        <topicref href="placeholders/r_placeholder_LUAFUNCTION.dita"/>
+        <topicref href="placeholders/r_placeholder_MARK.dita"/>
+        <topicref href="placeholders/r_placeholder_MATRIX.dita"/>
+        <topicref href="placeholders/r_placeholder_NAME.dita"/>
+        <topicref href="placeholders/r_placeholder_NK.dita"/>
+        <topicref href="placeholders/r_placeholder_NODE.dita"/>
+        <topicref href="placeholders/r_placeholder_NUMBER.dita"/>
+        <topicref href="placeholders/r_placeholder_ONEARGUMENT.dita"/>
+        <topicref href="placeholders/r_placeholder_OPTIONS.dita"/>
+        <topicref href="placeholders/r_placeholder_ORDINAL.dita"/>
+        <topicref href="placeholders/r_placeholder_P.dita"/>
+        <topicref href="placeholders/r_placeholder_PATH.dita"/>
+        <topicref href="placeholders/r_placeholder_PLURAL.dita"/>
+        <topicref href="placeholders/r_placeholder_REFERENCE.dita"/>
+        <topicref href="placeholders/r_placeholder_S.dita"/>
+        <topicref href="placeholders/r_placeholder_SCOPE.dita"/>
+        <topicref href="placeholders/r_placeholder_SECTION.dita"/>
+        <topicref href="placeholders/r_placeholder_SETTINGS.dita"/>
+        <topicref href="placeholders/r_placeholder_SETUP.dita"/>
+        <topicref href="placeholders/r_placeholder_SINGULAR.dita"/>
+        <topicref href="placeholders/r_placeholder_STYLE.dita"/>
+        <topicref href="placeholders/r_placeholder_SUBTYPE.dita"/>
+        <topicref href="placeholders/r_placeholder_SWITCH.dita"/>
+        <topicref href="placeholders/r_placeholder_TEMPLATE.dita"/>
+        <topicref href="placeholders/r_placeholder_TEXT.dita"/>
+        <topicref href="placeholders/r_placeholder_THREEARGUMENTS.dita"/>
+        <topicref href="placeholders/r_placeholder_TINUE.dita"/>
+        <topicref href="placeholders/r_placeholder_TRUE.dita"/>
+        <topicref href="placeholders/r_placeholder_TWOARGUMENTS.dita"/>
+        <topicref href="placeholders/r_placeholder_TYPE.dita"/>
+        <topicref href="placeholders/r_placeholder_URL.dita"/>
+        <topicref href="placeholders/r_placeholder_VALUE.dita"/>
+        <topicref href="placeholders/r_placeholder_XMLSETUP.dita"/>
+    </topicref>
+</map>

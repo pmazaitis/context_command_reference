@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_ref" xml:lang="en">
+  <title>\ref</title>
+  <shortdesc>The <cmdname>\ref</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\ref <delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var>REFERENCE</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference" href="../../placeholders/r_placeholder_OPTIONS.dita">OPTIONS<desc><ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph> Use             <term>OPTIONS</term> to customize the behavior of a command.</desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph>
+          </stentry>
+          <stentry>default, text, title, number, page, realpage</stentry>
+        </strow>
+        <strow>
+          <stentry>REFERENCE</stentry>
+          <stentry>
+            <xref keyref="REFERENCE" type="reference" href="../../placeholders/r_placeholder_REFERENCE.dita">REFERENCE<desc><ph>The <term>REFERENCE</term> is a kind of thing.</ph> <ph>Use values for <term>REFERENCE</term> that...</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>The <term>REFERENCE</term> is a kind of thing.</ph>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry colname="col1">Keyword</entry>
+                          <entry colname="col2">Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry colname="col1">default</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">text</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">title</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">number</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">page</entry>
+              <entry colname="col2"/>
+            </row>
+            <row id="options_stop">
+              <entry colname="col1">realpage</entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-ref.mkvi" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>strc-ref.mkvi</filepath></linktext></link>
+    </related-links>
+</reference>
