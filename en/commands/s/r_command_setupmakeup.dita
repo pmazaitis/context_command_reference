@@ -59,7 +59,7 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_page/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_pagebreak/options_start" conrefend="default.dita#default/options_stop">
               <entry/>
             </row>
           </tbody>
@@ -598,7 +598,7 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/p/r_command_page.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/p/r_command_pagebreak.dita"/>.</note>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupalign.dita"/>.</note>
     </section>
     <!--<section id="notes">

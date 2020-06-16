@@ -72,7 +72,7 @@
             </row>
           </tbody>
         </tgroup>
-        <tgroup cols="2" id="">
+        <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -95,7 +95,7 @@
             </row>
           </tbody>
         </tgroup>
-               <tgroup cols="2" id="">
+               <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -118,7 +118,7 @@
             </row>
           </tbody>
         </tgroup>
-               <tgroup cols="2" id="">
+               <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -141,7 +141,7 @@
             </row>
           </tbody>
         </tgroup>
-               <tgroup cols="2" id="">
+               <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -163,8 +163,8 @@
               </entry>
             </row>
           </tbody>
-        </tgroup id="settings_stop">
-               <tgroup cols="2" id="">
+        </tgroup >
+        <tgroup cols="2" id="settings_stop">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>

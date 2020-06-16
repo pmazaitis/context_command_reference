@@ -25,11 +25,19 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-        <strow conkeyref="command_setuppapersize/short_options">
-          <stentry/>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
-        <strow conkeyref="command_setuppapersize/short_options">
-          <stentry/>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
         <strow>
           <stentry>SETTINGS</stentry>
@@ -43,6 +51,30 @@
     <section id="settings">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup conkeyref="command_setuppapersize/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+          <colspec/>
+          <colspec/>
+          <thead><row><entry/><entry/></row></thead>
+          <tbody><row><entry/><entry/></row></tbody>
+        </tgroup>
+      </table>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setuppapersize.dita"/>.</note>
+    </section>
+    <section>
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup conkeyref="command_setuppapersize/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+          <colspec/>
+          <colspec/>
+          <thead><row><entry/><entry/></row></thead>
+          <tbody><row><entry/><entry/></row></tbody>
+        </tgroup>
+      </table>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setuppapersize.dita"/>.</note>
+    </section>
+    <section>
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
         <tgroup conkeyref="command_setuplayout/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
             <colspec/>
             <colspec/>

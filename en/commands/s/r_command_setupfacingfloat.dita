@@ -80,7 +80,7 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_page/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_pagebreak/options_start" conrefend="default.dita#default/options_stop">
               <entry/>
             </row>
           </tbody>
@@ -98,7 +98,8 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start"
+              conrefend="default.dita#default/options_stop">
               <entry/>
             </row>
           </tbody>
@@ -159,8 +160,8 @@
             </tgroup>
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
-      <note>Inherits settings from <xref href="../../commands/p/r_command_page.dita"/>.</note>
-      <note>Inherits settings from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/p/r_command_pagebreak.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>
@@ -188,8 +189,10 @@
     </example>-->
   </refbody>
   <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-ffl.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-ffl.mkiv</filepath></linktext>
-        </link>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-ffl.mkiv"
+      scope="external" format="html">
+      <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file
+          <filepath>page-ffl.mkiv</filepath></linktext>
+    </link>
     </related-links>
 </reference>

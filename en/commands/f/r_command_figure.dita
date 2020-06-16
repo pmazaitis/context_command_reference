@@ -55,14 +55,14 @@
     <section id="settings">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup conkeyref="command_externalfigure/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+        <tgroup conkeyref="command_setupexternalfigure/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
             <colspec/>
             <colspec/>
             <thead><row><entry/><entry/></row></thead>
             <tbody><row><entry/><entry/></row></tbody>
             </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/e/r_command_externalfigure.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setupexternalfigure.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>

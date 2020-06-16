@@ -854,7 +854,7 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
               <entry/>
             </row>
           </tbody>
@@ -872,7 +872,7 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
               <entry/>
             </row>
           </tbody>
@@ -885,7 +885,7 @@
             </tgroup>
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
-      <note>Inherits settings from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupbodyfont.dita"/>.</note>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupalign.dita"/>.</note>
     </section>

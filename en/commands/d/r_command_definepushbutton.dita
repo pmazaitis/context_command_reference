@@ -9,16 +9,17 @@
       <category>style</category>
       <prodinfo>
         <prodname>ConTeXt</prodname>
-          <vrmlist>
-            <vrm version="iv" release="production" modification=""/>
-          </vrmlist>
-        </prodinfo>
+        <vrmlist>
+          <vrm version="iv" release="production" modification=""/>
+        </vrmlist>
+      </prodinfo>
     </metadata>
   </prolog>
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\definepushbutton <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+      <synph>\definepushbutton <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var
+          importance="optional">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -46,22 +47,53 @@
     <section id="settings">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup conkeyref="command_setupfieldcontentframed/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
-            <colspec/>
-            <colspec/>
-            <thead><row><entry/><entry/></row></thead>
-            <tbody><row><entry/><entry/></row></tbody>
-            </tgroup>
+        <tgroup conkeyref="command_setupframed/settings_start"
+          conrefend="default.dita#default/settings_stop" cols="2">
+          <colspec/>
+          <colspec/>
+          <thead>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup conkeyref="command_setupfieldcategory/settings_start"
+          conrefend="default.dita#default/settings_stop" cols="2">
+          <colspec/>
+          <colspec/>
+          <thead>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupfieldcontentframed.dita"/>.</note>
+      <note>Inherits settings from <xref
+          href="../../commands/s/r_command_setupframed.dita"/>.</note>
+      <note>Inherits settings from <xref
+        href="../../commands/s/r_command_setupfieldcategory.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>
             <p></p>
         </section>-->
     <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
 \starttext
 
 
@@ -81,8 +113,10 @@
     </example>-->
   </refbody>
   <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/scrn-fld.mkvi" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>scrn-fld.mkvi</filepath></linktext>
-        </link>
-    </related-links>
+    <link href="https://source.contextgarden.net/tex/context/base/mkiv/scrn-fld.mkvi"
+      scope="external" format="html">
+      <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file
+          <filepath>scrn-fld.mkvi</filepath></linktext>
+    </link>
+  </related-links>
 </reference>

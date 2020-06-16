@@ -53,12 +53,13 @@
               <entry>blank</entry>
               <entry></entry>
             </row>
-            <row id="options_start" conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row id="options_start" conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
                 <entry/>
             </row>
           </tbody>
         </tgroup>
       </table>
+      <note>Inherits options from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>

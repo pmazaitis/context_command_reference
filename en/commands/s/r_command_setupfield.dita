@@ -118,7 +118,7 @@
     <section>
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
-        <tgroup conkeyref="command_setupfieldlabelframed/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+        <tgroup conkeyref="command_setupframed/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
             <colspec/>
             <colspec/>
             <thead><row><entry/><entry/></row></thead>
@@ -130,14 +130,21 @@
     <section>
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
-        <tgroup conkeyref="command_setupfieldcontentframed/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+        <tgroup conkeyref="command_setupframed/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
             <colspec/>
             <colspec/>
             <thead><row><entry/><entry/></row></thead>
             <tbody><row><entry/><entry/></row></tbody>
-            </tgroup>
+        </tgroup>
+        <tgroup conkeyref="command_setupfieldcategory/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+          <colspec/>
+          <colspec/>
+          <thead><row><entry/><entry/></row></thead>
+          <tbody><row><entry/><entry/></row></tbody>
+        </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupfieldcontentframed.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setupfieldcategory.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>

@@ -55,14 +55,44 @@
     <section id="settings">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup conkeyref="command_setupinsertion/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
-            <colspec/>
-            <colspec/>
-            <thead><row><entry/><entry/></row></thead>
-            <tbody><row><entry/><entry/></row></tbody>
-            </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">location</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <ph importance="default">page</ph>
+              </entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>text</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>columns</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>firstcolumn</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>lastcolumn</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupinsertion.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>

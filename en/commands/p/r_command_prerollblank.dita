@@ -25,11 +25,33 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-        <strow conkeyref="command_blank/short_options">
+        <strow conkeyref="command_vspacing/short_options">
           <stentry/>
         </strow>
       </simpletable>
     </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop" >                            
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note>Inherits options from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
+    </section>
     <!--<section id="notes">
             <title>Notes</title>
             <p></p>

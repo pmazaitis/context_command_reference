@@ -804,7 +804,7 @@
               <entry>none</entry>
               <entry></entry>
             </row>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
                       <entry/>
                       <entry/>
                     </row>
@@ -827,7 +827,7 @@
               <entry>none</entry>
               <entry></entry>
             </row>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
                       <entry/>
                       <entry/>
                     </row>
@@ -921,7 +921,7 @@
               <entry>none</entry>
               <entry></entry>
             </row>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
                       <entry/>
                       <entry/>
                     </row>
@@ -944,7 +944,7 @@
               <entry>none</entry>
               <entry></entry>
             </row>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
                       <entry/>
                       <entry/>
                     </row>
@@ -967,7 +967,7 @@
               <entry>none</entry>
               <entry></entry>
             </row>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
                       <entry/>
                       <entry/>
                     </row>
@@ -990,7 +990,7 @@
               <entry>none</entry>
               <entry></entry>
             </row>
-            <row conkeyref="command_blank/options_start" conrefend="default.dita#default/options_stop">
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
                       <entry/>
                       <entry/>
                     </row>
@@ -1170,7 +1170,7 @@
       </table>
       <note>Inherits settings from <xref href="../../commands/p/r_command_placefloat.dita"/>.</note>
       <note>Inherits settings from <xref href="../../commands/s/r_command_snaptogrid.dita"/>.</note>
-      <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>
