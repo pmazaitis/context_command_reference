@@ -91,7 +91,7 @@
             <tbody><row><entry/><entry/></row></tbody>
             </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/e/r_command_setupexternalfigure.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setupexternalfigure.dita"/>.</note>
     </section>
     <!--<section id="notes">
             <title>Notes</title>

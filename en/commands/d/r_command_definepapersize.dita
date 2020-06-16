@@ -193,42 +193,12 @@
             </row>
           </tbody>
         </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">page</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row conkeyref="command_setuppapersize/options_start" conrefend="default.dita#default/options_stop">
-              <entry/>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2" id="settings_stop">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">paper</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row conkeyref="command_setuppapersize/options_start" conrefend="default.dita#default/options_stop">
-              <entry/>
-            </row>
-          </tbody>
-        </tgroup>
+          <tgroup conkeyref="command_setuppapersize/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+            <colspec/>
+            <colspec/>
+            <thead><row><entry/><entry/></row></thead>
+            <tbody><row><entry/><entry/></row></tbody>
+          </tgroup>
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setuppapersize.dita"/>.</note>
     </section>
