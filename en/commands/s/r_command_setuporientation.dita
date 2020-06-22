@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setuporientation" xml:lang="en">
   <title>\setuporientation</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setuporientation</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-ori.mkxl</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>alignment</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\setuporientation</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,12 +42,17 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
@@ -51,14 +64,29 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
+=======
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2" id="settings1_start">
+=======
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2" id="settings_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -95,8 +123,15 @@
               <entry>bottom</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>normal</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">normal</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
           </tbody>
@@ -134,13 +169,24 @@
               <entry>flushright</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>normal</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">normal</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
           </tbody>
         </tgroup>
+<<<<<<< HEAD
         <tgroup cols="2" id="settings1_stop">
+=======
+        <tgroup cols="2" id="settings_stop">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -169,8 +215,15 @@
               <entry>bottom</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>normal</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">normal</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
           </tbody>
@@ -178,27 +231,45 @@
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -206,5 +277,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-ori.mkxl" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-ori.mkxl</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-ori.mkxl" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-ori.mkxl</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

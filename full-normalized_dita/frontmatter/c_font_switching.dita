@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_font_switching" xml:lang="en">
+    <title>Font Switching</title>
+    <shortdesc>One way we can manipulate fonts choices in <ph keyref="definitions/product_name" href="../support/definitions.dita#definitions/product_name" type="ph"/>  is with <term>Font Switches</term>. Font Switches change all following text in the text stream until an overriding font switch, or the end of a scope.</shortdesc>
+    <conbody>
+        <p/>
+    </conbody>
+<related-links><linkpool><link format="dita" href="../frontmatter/c_command_special_cases.dita" role="parent" scope="local" type="concept"><linktext>Special Cases</linktext><desc/></link></linkpool></related-links></concept>

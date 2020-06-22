@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_setuparranging" xml:lang="en">
+  <title>\setuparranging</title>
+  <shortdesc>The <cmdname>\setuparranging</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\setuparranging <delim>[</delim><var>OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference" href="../../placeholders/r_placeholder_OPTIONS.dita">OPTIONS<desc><ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph> Use             <term>OPTIONS</term> to customize the behavior of a command.</desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph>
+          </stentry>
+          <stentry>disable, mirrored, doublesided, negative, 90, 180, 270, reset, background, normal, 2*16, 2*8, 2*4, 2*2, 2**2, 2SIDE, 2TOP, 2UP, 2DOWN, 2*4*2, 2*2*4, 2TOPSIDE, 2*8*Z, 2*6*Z, 1*8, 1*4, 3SIDE, TRYPTICHON, ZFLYER-8, ZFLYER-10, ZFLYER-12, MAPFLYER-12, DOUBLEWINDOW, 1*2-Conference, 1*4-Conference, 2*2*2, 2*2*3, XY, <xref keyref="NAME" type="reference" href="../../placeholders/r_placeholder_NAME.dita">NAME<desc><ph>A <term>NAME</term> is used as a label for referencing content.</ph><ph>Use <term>NAME</term>s that clearly and unambiguously identify the content.</ph></desc></xref></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry colname="col1">Keyword</entry>
+                          <entry colname="col2">Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+              <entry colname="col1">disable</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">mirrored</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">doublesided</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">negative</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">90</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">180</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">270</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">reset</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">background</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">normal</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*16</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*8</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*4</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*2</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2**2</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2SIDE</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2TOP</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2UP</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2DOWN</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*4*2</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*2*4</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2TOPSIDE</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*8*Z</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*6*Z</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">1*8</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">1*4</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">3SIDE</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">TRYPTICHON</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">ZFLYER-8</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">ZFLYER-10</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">ZFLYER-12</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">MAPFLYER-12</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">DOUBLEWINDOW</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">1*2-Conference</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">1*4-Conference</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*2*2</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*2*3</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">XY</entry>
+              <entry colname="col2"/>
+            </row>
+            <row id="options_stop">
+              <entry colname="col1">NAME</entry>
+              <entry colname="col2">
+                <xref keyref="NAME" type="reference" href="../../placeholders/r_placeholder_NAME.dita">NAME<desc><ph>A <term>NAME</term> is used as a label for referencing content.</ph><ph>Use <term>NAME</term>s that clearly and unambiguously identify the content.</ph></desc></xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-imp.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>page-imp.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

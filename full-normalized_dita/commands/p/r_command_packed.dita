@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_packed" xml:lang="en">
+  <title>\packed</title>
+  <shortdesc>The <cmdname>\packed</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\packed <delim>[</delim><var importance="optional">NK</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>blank</stentry>
+          <stentry>UNKNOWN</stentry>
+          <stentry>UNKNOWN</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>spac-ver.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

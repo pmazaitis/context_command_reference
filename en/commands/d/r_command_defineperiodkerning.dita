@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_defineperiodkerning" xml:lang="en">
   <title>\defineperiodkerning</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\defineperiodkerning</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/typo-pnc.mkic</source>
@@ -13,6 +14,13 @@
       <audience type="user"/>
       <category>style</category>
       <keywords/>
+=======
+  <shortdesc>The <cmdname>\defineperiodkerning</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -32,23 +40,34 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
         </strow>
         <strow>
+=======
+        </strow>
+        <strow>
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
@@ -60,10 +79,19 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
+=======
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
@@ -91,21 +119,65 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">factor</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -113,5 +185,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-pnc.mkic" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>typo-pnc.mkic</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-pnc.mkic" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>typo-pnc.mkic</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

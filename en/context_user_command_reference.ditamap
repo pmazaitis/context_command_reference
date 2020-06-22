@@ -33,4 +33,5 @@
     
     <mapref href="relations.ditamap" format="ditamap"/>
     <topicref href="inheritance.ditamap" format="ditamap"/>
+    <topicref href="inheritance_extra.ditamap" format="ditamap"/>
 </map>

@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_definestyleinstance" xml:lang="en">
   <title>\definestyleinstance</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\definestyleinstance</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-sty.mkvi</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>fonts</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\definestyleinstance</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,17 +42,26 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
+=======
+        </strow>
+        <strow id="short_options">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -53,7 +70,11 @@
           </stentry>
           <stentry>rm, ss, tt, mm, hw, cg</stentry>
         </strow>
+<<<<<<< HEAD
         <strow id="short_options2">
+=======
+        <strow>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -63,12 +84,17 @@
           <stentry>tf, bf, it, sl, bi, bs, sc</stentry>
         </strow>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>COMMAND</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="COMMAND/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="COMMAND/placeholder_value"/>
           </stentry>
@@ -78,10 +104,19 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -89,6 +124,15 @@
           </thead>
           <tbody>
             <row id="options1_start">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>rm</entry>
               <entry></entry>
             </row>
@@ -108,7 +152,11 @@
               <entry>hw</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row id="options1_stop">
+=======
+            <row id="options_stop">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>cg</entry>
               <entry></entry>
             </row>
@@ -116,13 +164,20 @@
         </tgroup>
       </table>
     </section>
+<<<<<<< HEAD
     <section id="options2">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options2_table">
+=======
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -130,6 +185,15 @@
           </thead>
           <tbody>
             <row id="options2_start">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>tf</entry>
               <entry></entry>
             </row>
@@ -153,7 +217,11 @@
               <entry>bs</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row id="options2_stop">
+=======
+            <row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>sc</entry>
               <entry></entry>
             </row>
@@ -162,27 +230,45 @@
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -190,5 +276,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-sty.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-sty.mkvi</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/font-sty.mkvi" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>font-sty.mkvi</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

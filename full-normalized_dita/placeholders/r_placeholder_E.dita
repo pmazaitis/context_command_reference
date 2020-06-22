@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_placeholder_E">
+    <title>E</title>
+    <shortdesc><ph id="placeholder_desc">The <term>E</term> is a kind of thing.</ph> <ph id="placeholder_value">Use values for <term>E</term> that...</ph></shortdesc>
+    <refbody>
+        <section>
+            <p>Examples and other supporting information for transclusion.</p>
+        </section>
+    </refbody>
+<related-links><linkpool><link format="dita" href="../placeholders/c_placeholders.dita" role="parent" scope="local" type="concept"><linktext>Placeholders</linktext><desc>Placeholders in this documentation are parts of commands that can be specified by the user. Placeholders come in types; some commands require particular types of variables as input.</desc></link></linkpool></related-links></reference>

@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_placefloatwithsetups" xml:lang="en">
   <title>\placefloatwithsetups</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\placefloatwithsetups</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-flt.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>structure</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\placefloatwithsetups</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,54 +42,83 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
+=======
+        </strow>
+        <strow id="short_options">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>split, always, left, right, inner, outer, backspace, cutspace, inleft, inright, inmargin, leftmargin, rightmargin, leftedge, rightedge, innermargin, outermargin, inneredge, outeredge, text, opposite, reset, height, depth, line, halfline, grid, high, low, fit, 90, 180, 270, nonumber, none, local, here, force, margin, hang, hanging, tall, both, middle, offset, top, bottom, auto, page, leftpage, rightpage, somewhere, effective, header, footer, tblr, lrtb, tbrl, rltb, fxtb, btlr, lrbt, btrl, rlbt, fxbt, fixd</stentry>
         </strow>
         <strow>
+=======
+          <stentry>split, always, left, right, inner, outer, backspace, cutspace, inleft, inright, inmargin, leftmargin, rightmargin, leftedge, rightedge, innermargin, outermargin, inneredge, outeredge, text, opposite, reset, height, depth, line, halfline, grid, high, low, fit, 90, 180, 270, nonumber, none, local, here, force, margin, hang, hanging, tall, both, middle, offset, top, bottom, auto, page, leftpage, rightpage, somewhere, effective, header, footer</stentry>
+        </strow>
+        <strow>
+          <stentry>REFERENCE</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="REFERENCE" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="REFERENCE/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="REFERENCE/placeholder_value"/>
           </stentry>
         </strow>
         <strow>
+=======
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="TEXT" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="TEXT/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="TEXT/placeholder_value"/>
           </stentry>
         </strow>
         <strow>
+=======
+        </strow>
+        <strow>
+          <stentry>SCOPE</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SCOPE/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="SCOPE/placeholder_value"/>
           </stentry>
@@ -91,10 +128,19 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -102,6 +148,15 @@
           </thead>
           <tbody>
             <row id="options1_start">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>split</entry>
               <entry></entry>
             </row>
@@ -317,6 +372,7 @@
               <entry>header</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row>
               <entry>footer</entry>
               <entry></entry>
@@ -365,32 +421,56 @@
               <entry>fixd</entry>
               <entry></entry>
             </row>
+=======
+            <row id="options_stop">
+              <entry>footer</entry>
+              <entry></entry>
+            </row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -398,5 +478,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-flt.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-flt.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-flt.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-flt.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

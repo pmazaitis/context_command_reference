@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_background" xml:lang="en">
   <title>\background</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\background</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-bck.mkvi</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>background</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\background</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -26,7 +34,11 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
+<<<<<<< HEAD
       <synph>\background <delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+=======
+      <synph>\background <delim>[</delim><var>NAME</var><delim>]</delim></synph>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -34,6 +46,7 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
@@ -71,21 +84,49 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_desc"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -93,5 +134,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-bck.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-bck.mkvi</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-bck.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-bck.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

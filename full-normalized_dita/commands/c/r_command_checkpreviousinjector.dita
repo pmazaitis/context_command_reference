@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_checkpreviousinjector" xml:lang="en">
+  <title>\checkpreviousinjector</title>
+  <shortdesc>The <cmdname>\checkpreviousinjector</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\checkpreviousinjector <delim>[</delim><var>NAME</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference" href="../../placeholders/r_placeholder_NAME.dita">NAME<desc><ph>A <term>NAME</term> is used as a label for referencing content.</ph><ph>Use <term>NAME</term>s that clearly and unambiguously identify the content.</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>A <term>NAME</term> is used as a label for referencing content.</ph>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-inj.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>typo-inj.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

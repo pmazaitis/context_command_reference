@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="extendable_commands" xml:lang="en">
+    <title>Extendable Commands</title>
+    <shortdesc/>
+    <refbody>
+  
+    </refbody>
+<related-links><linkpool><link format="dita" href="../frontmatter/c_extending_commands.dita" role="parent" scope="local" type="concept"><linktext>Extending Commands</linktext><desc>Some <ph href="../support/definitions.dita#definitions/product_name" keyref="definitions/product_name" type="ph"/> commands can be used to create new commands. New commands inhierit the setups of the original command, but can be further customized.     </desc></link></linkpool></related-links></reference>

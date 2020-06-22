@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_definemathstyle" xml:lang="en">
   <title>\definemathstyle</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\definemathstyle</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-ini.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>mathematics</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\definemathstyle</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,17 +42,26 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
+=======
+        </strow>
+        <strow id="short_options">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -55,13 +72,20 @@
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -69,6 +93,15 @@
           </thead>
           <tbody>
             <row id="options1_start">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>display</entry>
               <entry></entry>
             </row>
@@ -104,7 +137,11 @@
               <entry>small</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row id="options1_stop">
+=======
+            <row id="options_stop">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>big</entry>
               <entry></entry>
             </row>
@@ -113,27 +150,45 @@
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -141,5 +196,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-ini.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>math-ini.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-ini.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>math-ini.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

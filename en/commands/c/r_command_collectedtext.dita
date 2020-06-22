@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_collectedtext" xml:lang="en">
   <title>\collectedtext</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\collectedtext</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-box.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>graphics</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\collectedtext</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,6 +42,7 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
@@ -52,23 +61,47 @@
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
         <strow>
+=======
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="TEXT" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="TEXT/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="TEXT/placeholder_value"/>
           </stentry>
         </strow>
         <strow>
+=======
+        </strow>
+        <strow>
+          <stentry>SCOPE</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SCOPE/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="SCOPE/placeholder_value"/>
           </stentry>
@@ -99,6 +132,27 @@
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2" id="settings2_start">
+=======
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup conkeyref="command_setupcollector/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+            <colspec/>
+            <colspec/>
+            <thead><row><entry/><entry/></row></thead>
+            <tbody><row><entry/><entry/></row></tbody>
+            </tgroup>
+      </table>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setupcollector.dita"/>.</note>
+    </section>
+    <section>
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -115,17 +169,25 @@
               <entry>
                 <xref keyref="STYLE" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="STYLE/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
             <row>
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -146,6 +208,7 @@
               <entry>
                 <xref keyref="COLOR" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COLOR/placeholder_desc"/>
               </entry>
@@ -166,31 +229,61 @@
                             </row>
                         </tbody>
                     </tgroup>
+=======
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup conkeyref="command_setupframed/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+            <colspec/>
+            <colspec/>
+            <thead><row><entry/><entry/></row></thead>
+            <tbody><row><entry/><entry/></row></tbody>
+            </tgroup>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -198,5 +291,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-box.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-box.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-box.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-box.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

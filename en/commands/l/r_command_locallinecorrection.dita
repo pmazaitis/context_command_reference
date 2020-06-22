@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_locallinecorrection" xml:lang="en">
   <title>\locallinecorrection</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\locallinecorrection</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/spac-ver.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>whitespace</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\locallinecorrection</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>UNKNOWN</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -33,6 +41,7 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
+<<<<<<< HEAD
         <strow conkeyref="command_blank/short_options1" id="short_options1">
           <stentry/>
           <stentry/>
@@ -43,10 +52,27 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>blank</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -59,10 +85,25 @@
             </row>
             <row conkeyref="command_blank/options1_start" conrefend="default.dita#default/options1_stop" id="options1_stop">
               <entry/>
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>blank</entry>
+              <entry></entry>
+            </row>
+            <row id="options_start" conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
+                <entry/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
+<<<<<<< HEAD
       <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
     </section>
     <!--<section id="notes">
@@ -72,21 +113,41 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+      <note>Inherits options from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -94,5 +155,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>spac-ver.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>spac-ver.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

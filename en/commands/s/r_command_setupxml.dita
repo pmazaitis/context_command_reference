@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setupxml" xml:lang="en">
   <title>\setupxml</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setupxml</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/lxml-ini.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>xml</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\setupxml</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,20 +42,34 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
+=======
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2" id="settings1_start">
+=======
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2" id="settings_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -74,7 +96,11 @@
             </row>
           </tbody>
         </tgroup>
+<<<<<<< HEAD
         <tgroup cols="2">
+=======
+        <tgroup cols="2" id="settings_stop">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -97,6 +123,7 @@
             </row>
           </tbody>
         </tgroup>
+<<<<<<< HEAD
         <tgroup cols="2" id="settings1_stop">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
@@ -129,21 +156,41 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+      </table>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -151,5 +198,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/lxml-ini.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>lxml-ini.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/lxml-ini.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>lxml-ini.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

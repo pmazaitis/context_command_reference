@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_btxflushauthor" xml:lang="en">
   <title>\btxflushauthor</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\btxflushauthor</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/publ-ini.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>bibliography</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\btxflushauthor</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -33,7 +41,11 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
+<<<<<<< HEAD
         <strow id="short_options1">
+=======
+        <strow id="short_options">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -42,7 +54,11 @@
           </stentry>
           <stentry>num, normal, normalshort, inverted, invertedshort</stentry>
         </strow>
+<<<<<<< HEAD
         <strow id="short_options2">
+=======
+        <strow>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -53,13 +69,20 @@
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -67,6 +90,15 @@
           </thead>
           <tbody>
             <row id="options1_start">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>num</entry>
               <entry></entry>
             </row>
@@ -82,7 +114,11 @@
               <entry>inverted</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row id="options1_stop">
+=======
+            <row id="options_stop">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>invertedshort</entry>
               <entry></entry>
             </row>
@@ -90,13 +126,20 @@
         </tgroup>
       </table>
     </section>
+<<<<<<< HEAD
     <section id="options2">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options2_table">
+=======
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -108,6 +151,19 @@
               <entry></entry>
             </row>
             <row id="options2_stop">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>author</entry>
+              <entry></entry>
+            </row>
+            <row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>editor</entry>
               <entry></entry>
             </row>
@@ -116,27 +172,45 @@
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -144,5 +218,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/publ-ini.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>publ-ini.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/publ-ini.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>publ-ini.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

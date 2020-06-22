@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_xcolumn" xml:lang="en">
   <title>\xcolumn</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\xcolumn</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/tabl-xtb.mkvi</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>tables</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\xcolumn</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -26,7 +34,11 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
+<<<<<<< HEAD
       <synph>\xcolumn <delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+=======
+      <synph>\xcolumn <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -34,16 +46,32 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
+=======
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           </stentry>
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
@@ -61,31 +89,60 @@
                             </row>
                         </tbody>
                     </tgroup>
+=======
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup conkeyref="command_setupxtable/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
+            <colspec/>
+            <colspec/>
+            <thead><row><entry/><entry/></row></thead>
+            <tbody><row><entry/><entry/></row></tbody>
+            </tgroup>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupxtable.dita"/>.</note>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -93,5 +150,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/tabl-xtb.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>tabl-xtb.mkvi</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/tabl-xtb.mkvi" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>tabl-xtb.mkvi</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

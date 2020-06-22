@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ./?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map cascade="merge" xml:lang="en">
+  <title>Extra Command Inheritance</title>
+   
+    <keydef href="commands/c/r_command_columnbreak.dita" processing-role="resource-only" keys="command_columnbreak"/>
+    <keydef href="commands/c/r_command_convertnumber.dita" processing-role="resource-only" keys="command_convertnumber"/>
+    <keydef href="commands/e/r_command_enableregime.dita" processing-role="resource-only" keys="command_enableregime"/>
+    <keydef href="commands/p/r_command_pagebreak.dita" processing-role="resource-only" keys="command_pagebreak"/>
+    <keydef href="commands/s/r_command_startnarrower.dita" processing-role="resource-only" keys="command_startnarrower"/>
+    <keydef href="commands/v/r_command_vspacing.dita" processing-role="resource-only" keys="command_vspacing"/>
+    <keydef href="commands/p/r_command_placefloat.dita" processing-role="resource-only" keys="command_placefloat"/>
+</map>

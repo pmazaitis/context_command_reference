@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_NormalizeTextWidth" xml:lang="en">
+  <title>\NormalizeTextWidth</title>
+  <shortdesc>The <cmdname>\NormalizeTextWidth</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>system</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\NormalizeTextWidth <delim>{</delim><var>FONT</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>FONT</stentry>
+          <stentry>
+            <xref keyref="FONT" type="reference" href="../../placeholders/r_placeholder_FONT.dita">FONT<desc><ph>The <term>FONT</term> is a kind of thing.</ph> <ph>Use values for <term>FONT</term> that...</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph>The <term>FONT</term> is a kind of thing.</ph>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>DIMENSION</stentry>
+          <stentry>
+            <xref keyref="DIMENSION" type="reference" href="../../placeholders/r_placeholder_DIMENSION.dita">DIMENSION<desc><ph>A <term>DIMENSION</term> is an amount         of linear distance.</ph> ConTeXt understands several units of         measurement, and we can mix different units in the same document.</desc></xref>
+          </stentry>
+          <stentry>
+            <ph>A <term>DIMENSION</term> is an amount
+        of linear distance.</ph>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>TEXT</term> is a piece of text.</ph>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-txt.mkvi" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>typo-txt.mkvi</filepath></linktext></link>
+    </related-links>
+</reference>

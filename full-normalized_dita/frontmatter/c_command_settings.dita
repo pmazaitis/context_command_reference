@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_command_settings" xml:lang="en">
+    <title>Command Settings</title>
+    <shortdesc>Settings are key/value pairs. Commands that accept settings use an <term>settings block</term>, delimited by square brackets, which comes after the command. A settings block can can accept one or more settings, separated by a comma.</shortdesc>
+    <conbody>
+        <example>
+            <p>Commands that accept settings can have an settings block with just a single option.</p>
+            <codeblock xml:space="preserve">
+\command_name[key=val]
+            </codeblock>
+        </example>
+        <example>
+            <p>Commands that accept settings can have an settings block with multiple options separated
+                by a comma.</p>
+            <codeblock xml:space="preserve">
+\command_name[key=val, 
+              key=val, 
+              key=val]
+            </codeblock>
+        </example>
+    </conbody>
+<related-links><linkpool><link format="dita" href="../frontmatter/c_command_setups.dita" role="parent" scope="local" type="concept"><linktext>Command Setups</linktext><desc>Commands can accept parameters. Collections of parameters that change the behavior of         the command are <term>setups</term>. Setups come after the command in blocks, delimited into         blocks by square brackets.</desc></link></linkpool></related-links></concept>

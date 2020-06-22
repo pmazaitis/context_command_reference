@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setuppapersize" xml:lang="en">
   <title>\setuppapersize</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setuppapersize</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-lay.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>layout</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\setuppapersize</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -26,13 +34,18 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
+<<<<<<< HEAD
       <synph>\setuppapersize <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+=======
+      <synph>\setuppapersize <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
+<<<<<<< HEAD
         <strow id="short_options1">
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
@@ -56,17 +69,376 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+        <strow>
+          <stentry>NAME</stentry>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_desc"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2" id="settings_start">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">top</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry>Keyword</entry>
+              <entry namest="value_name" nameend="value_desc">bottom</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
               <entry>Description</entry>
             </row>
           </thead>
           <tbody>
+            <row>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">left</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">right</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">method</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <ph importance="default">normal</ph>
+              </entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>none</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">scale</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">nx</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">ny</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">dx</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">dy</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+<<<<<<< HEAD
+              <entry>Keyword</entry>
+=======
+              <entry namest="value_name" nameend="value_desc">width</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+<<<<<<< HEAD
             <row id="options1_start">
+=======
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">height</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">topspace</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">backspace</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">offset</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">page</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>reset</entry>
               <entry></entry>
             </row>
@@ -98,6 +470,7 @@
               <entry>270</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row id="options1_stop">
               <entry>
                 <xref keyref="NAME" type="reference"/>
@@ -113,17 +486,38 @@
     <section id="options2">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options2_table">
+=======
+            <row>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
+<<<<<<< HEAD
               <entry>Keyword</entry>
+=======
+              <entry namest="value_name" nameend="value_desc">paper</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>Description</entry>
             </row>
           </thead>
           <tbody>
+<<<<<<< HEAD
             <row id="options2_start">
+=======
+            <row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>reset</entry>
               <entry></entry>
             </row>
@@ -155,6 +549,7 @@
               <entry>270</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row id="options2_stop">
               <entry>
                 <xref keyref="NAME" type="reference"/>
@@ -162,33 +557,104 @@
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
+=======
+            <row>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">option</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>fit</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>
+                <ph importance="default">max</ph>
+              </entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2" id="settings_stop">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">distance</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -196,5 +662,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-lay.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-lay.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-lay.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-lay.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

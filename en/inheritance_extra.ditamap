@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en">
+  <title>Extra Command Inheritance</title>
+  <!--Conrefs for commands that use settings that other command inherit, but are _not_ getting automatically generated yet. We only ever want to update these in one place, and have all of the dependant commands also update.--> 
+    <keydef keys="command_columnbreak" href="commands/c/r_command_columnbreak.dita"/>
+    <keydef keys="command_convertnumber" href="commands/c/r_command_convertnumber.dita"/>
+    <keydef keys="command_enableregime" href="commands/e/r_command_enableregime.dita"/>
+    <keydef keys="command_pagebreak" href="commands/p/r_command_pagebreak.dita"/>
+    <keydef keys="command_startnarrower" href="commands/s/r_command_startnarrower.dita"/>
+    <keydef keys="command_vspacing" href="commands/v/r_command_vspacing.dita"/>
+    <keydef keys="command_placefloat" href="commands/p/r_command_placefloat.dita"/>
+</map>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="extending_commands" xml:lang="en">
+    <title>Extending Commands</title>
+    <shortdesc>Some <ph keyref="definitions/product_name" href="../support/definitions.dita#definitions/product_name" type="ph"/> commands can be used to create new commands. New commands inhierit the setups of the original command, but can be further customized.
+    </shortdesc>
+    <conbody>
+        <p>
+
+        </p>
+    </conbody>
+<related-links><linkpool><linkpool><link format="dita" href="../frontmatter/c_example_of_extending_a_command.dita" role="child" scope="local" type="reference"><linktext>Example of Extending a Command</linktext><desc/></link><link format="dita" href="../frontmatter/c_extendable_commands.dita" role="child" scope="local" type="reference"><linktext>Extendable Commands</linktext><desc/></link></linkpool></linkpool></related-links></concept>

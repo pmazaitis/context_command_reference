@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_mathwordbs" xml:lang="en">
+  <title>\mathwordbs</title>
+  <shortdesc>The <cmdname>\mathwordbs</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\mathwordbs <var importance="optional">TEXT</var><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>TEXT</term> is a piece of text.</ph>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>TEXT</stentry>
+          <stentry>
+            <xref keyref="TEXT" type="reference" href="../../placeholders/r_placeholder_TEXT.dita">TEXT<desc><ph><term>TEXT</term> is a piece of text.</ph></desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>TEXT</term> is a piece of text.</ph>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-ini.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>math-ini.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

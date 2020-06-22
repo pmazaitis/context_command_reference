@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ./?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map cascade="merge" xml:lang="en">
+    <title>Related Commands</title>
+
+    
+
+    <reltable toc="no">
+        <title>Related Commands</title>
+        <relheader>
+            <relcolspec toc="no" type="reference"/>
+            <relcolspec toc="no" type="reference"/>
+        </relheader>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/t/r_command_typebuffer.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/d/r_command_definebuffer.dita"/>
+                <topicref href="commands/s/r_command_setupbuffer.dita"/>
+                <topicref href="commands/s/r_command_startbuffer.dita"/>
+                <topicref href="commands/s/r_command_stopbuffer.dita"/>
+                <topicref href="commands/g/r_command_getbuffer.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/b/r_command_bf.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/b/r_command_bold.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no">
+                <topicref href="commands/b/r_command_bold.dita"/>
+            </relcell>
+            <relcell toc="no">
+                <topicref href="commands/b/r_command_bf.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no"><topicref href="commands/b/r_command_blank.dita"/></relcell>
+            <relcell toc="no">
+                <topicref href="commands/d/r_command_defineblank.dita"/>
+                <topicref href="commands/s/r_command_setupblank.dita"/>
+                <topicref href="commands/v/r_command_vspacing.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no"><topicref href="commands/d/r_command_defineblank.dita"/></relcell>
+            <relcell toc="no">
+                <topicref href="commands/b/r_command_blank.dita"/>
+                <topicref href="commands/s/r_command_setupblank.dita"/>
+                <topicref href="commands/v/r_command_vspacing.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no"><topicref href="commands/s/r_command_setupblank.dita"/></relcell>
+            <relcell toc="no">
+                <topicref href="commands/b/r_command_blank.dita"/>
+                <topicref href="commands/d/r_command_defineblank.dita"/>
+                <topicref href="commands/v/r_command_vspacing.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell toc="no"><topicref href="commands/v/r_command_vspacing.dita"/></relcell>
+            <relcell toc="no">
+                <topicref href="commands/b/r_command_blank.dita"/>
+                <topicref href="commands/d/r_command_defineblank.dita"/>
+                <topicref href="commands/s/r_command_setupblank.dita"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

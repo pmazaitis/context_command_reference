@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_definepushbutton" xml:lang="en">
   <title>\definepushbutton</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\definepushbutton</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/scrn-fld.mkvi</source>
@@ -19,12 +20,30 @@
             <vrm version="iv" release="production" modification=""/>
           </vrmlist>
         </prodinfo>
+=======
+  <shortdesc>The <cmdname>\definepushbutton</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+        <vrmlist>
+          <vrm version="iv" release="production" modification=""/>
+        </vrmlist>
+      </prodinfo>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </metadata>
   </prolog>
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
+<<<<<<< HEAD
       <synph>\definepushbutton <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+=======
+      <synph>\definepushbutton <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var
+          importance="optional">SETTINGS</var><delim>]</delim></synph>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -32,12 +51,17 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
@@ -49,10 +73,19 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
+=======
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
@@ -78,6 +111,56 @@
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
+=======
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup conkeyref="command_setupframed/settings_start"
+          conrefend="default.dita#default/settings_stop" cols="2">
+          <colspec/>
+          <colspec/>
+          <thead>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup conkeyref="command_setupfieldcategory/settings_start"
+          conrefend="default.dita#default/settings_stop" cols="2">
+          <colspec/>
+          <colspec/>
+          <thead>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note>Inherits settings from <xref
+          href="../../commands/s/r_command_setupframed.dita"/>.</note>
+      <note>Inherits settings from <xref
+        href="../../commands/s/r_command_setupfieldcategory.dita"/>.</note>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
 \starttext
@@ -85,16 +168,25 @@
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -103,4 +195,16 @@
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>scrn-fld.mkvi</filepath></linktext>
       </link>
     </related-links>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+    <link href="https://source.contextgarden.net/tex/context/base/mkiv/scrn-fld.mkvi"
+      scope="external" format="html">
+      <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file
+          <filepath>scrn-fld.mkvi</filepath></linktext>
+    </link>
+  </related-links>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 </reference>

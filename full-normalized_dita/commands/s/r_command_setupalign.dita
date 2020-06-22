@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../../?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_setupalign" xml:lang="en">
+  <title>\setupalign</title>
+  <shortdesc>The <cmdname>\setupalign</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\setupalign <delim>[</delim><var>OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference" href="../../placeholders/r_placeholder_OPTIONS.dita">OPTIONS<desc><ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph> Use             <term>OPTIONS</term> to customize the behavior of a command.</desc></xref>
+          </stentry>
+          <stentry>
+            <ph><term>OPTIONS</term> are one or more keywords, sparated by a comma.</ph>
+          </stentry>
+          <stentry>broad, wide, <ph importance="default">bottom</ph>, height, line, high, low, lohi, flushright, flushleft, middle, yes, no, <ph importance="default">width</ph>, normal, reset, inner, outer, flushinner, flushouter, left, right, center, disable, last, end, paragraph, lefttoright, righttoleft, l2r, r2l, table, lesshyphenation, morehyphenation, hanging, hangingboth, nothanging, hz, fullhz, nohz, hyphenated, nothyphenated, tolerant, verytolerant, stretch, extremestretch, final, 1*final, 2*final, 3*final, 4*final, more, 1*more, 2*more</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+        <tgroup cols="2">
+          <colspec colname="col1" colnum="1" colwidth="1*"/>
+          <colspec colname="col2" colnum="2" colwidth="1*"/>
+          <thead>
+                        <row>
+                          <entry colname="col1">Keyword</entry>
+                          <entry colname="col2">Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">broad</entry>
+              <entry colname="col2"/>
+            </row>
+              <row id="options_start">
+              <entry colname="col1">wide</entry>
+              <entry colname="col2"/>
+            </row>
+            <row importance="default">
+              <entry colname="col1">bottom</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">height</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">line</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">high</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">low</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">lohi</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">flushright</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">flushleft</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">middle</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">yes</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">no</entry>
+              <entry colname="col2"/>
+            </row>
+            <row importance="default">
+              <entry colname="col1">width</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">normal</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">reset</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">inner</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">outer</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">flushinner</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">flushouter</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">left</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">right</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">center</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">disable</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">last</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">end</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">paragraph</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">lefttoright</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">righttoleft</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">l2r</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">r2l</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">table</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">lesshyphenation</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">morehyphenation</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">hanging</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">hangingboth</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">nothanging</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">hz</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">fullhz</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">nohz</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">hyphenated</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">nothyphenated</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">tolerant</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">verytolerant</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">stretch</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">extremestretch</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">final</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">1*final</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">2*final</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">3*final</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">4*final</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">more</entry>
+              <entry colname="col2"/>
+            </row>
+            <row>
+              <entry colname="col1">1*more</entry>
+              <entry colname="col2"/>
+            </row>
+              <row id="options_stop">
+              <entry colname="col1">2*more</entry>
+              <entry colname="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space" xml:space="preserve">
+\starttext
+
+
+
+\stoptext
+        </codeblock>
+    </example>
+    
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ali.mkiv" scope="external" format="html"><linktext>Command definition in the <ph>ConTeXt</ph> source file  <filepath>spac-ali.mkiv</filepath></linktext></link>
+    </related-links>
+</reference>

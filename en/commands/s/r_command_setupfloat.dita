@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setupfloat" xml:lang="en">
   <title>\setupfloat</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setupfloat</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-flt.mkvi</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>structure</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\setupfloat</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,12 +42,17 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>SINGULAR</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="SINGULAR" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SINGULAR/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="SINGULAR/placeholder_value"/>
           </stentry>
@@ -51,14 +64,29 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
+=======
+        </strow>
+        <strow>
+          <stentry>SETTINGS</stentry>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2" id="settings1_start">
+=======
+    <section id="settings">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1" id="settings_table">
+        <tgroup cols="2" id="settings_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -98,9 +126,15 @@
             </row>
           </thead>
           <tbody>
+<<<<<<< HEAD
             <row conkeyref="command_placefloat/options1_start" conrefend="default.dita#default/options1_stop">
                       <entry/>
                     </row>
+=======
+            <row conkeyref="command_placefloat/options_start" conrefend="default.dita#default/options_stop">
+              <entry/>
+            </row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           </tbody>
         </tgroup>
         <tgroup cols="2">
@@ -116,9 +150,15 @@
             </row>
           </thead>
           <tbody>
+<<<<<<< HEAD
             <row conkeyref="command_placefloat/options1_start" conrefend="default.dita#default/options1_stop">
                       <entry/>
                     </row>
+=======
+            <row conkeyref="command_placefloat/options_start" conrefend="default.dita#default/options_stop">
+              <entry/>
+            </row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           </tbody>
         </tgroup>
         <tgroup cols="2">
@@ -138,9 +178,13 @@
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -161,9 +205,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -184,9 +232,13 @@
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NUMBER/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -207,9 +259,13 @@
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NUMBER/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -230,9 +286,13 @@
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NUMBER/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -269,8 +329,15 @@
               <entry>grid</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>normal</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">normal</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
           </tbody>
@@ -288,9 +355,15 @@
             </row>
           </thead>
           <tbody>
+<<<<<<< HEAD
             <row conkeyref="command_snaptogrid/options1_start" conrefend="default.dita#default/options1_stop">
                       <entry/>
                     </row>
+=======
+            <row conkeyref="command_snaptogrid/options_start" conrefend="default.dita#default/options_stop">
+              <entry/>
+            </row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           </tbody>
         </tgroup>
         <tgroup cols="2">
@@ -310,8 +383,15 @@
               <entry>yes</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>no</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">no</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
           </tbody>
@@ -333,9 +413,13 @@
               <entry>
                 <xref keyref="ONEARGUMENT" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="ONEARGUMENT/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -356,9 +440,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -379,9 +467,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -402,9 +494,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -425,9 +521,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -539,9 +639,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -562,9 +666,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -585,9 +693,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -608,9 +720,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -631,9 +747,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -654,9 +774,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -677,9 +801,13 @@
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -700,9 +828,13 @@
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -723,8 +855,15 @@
               <entry>yes</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>no</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">no</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -758,9 +897,13 @@
               <entry>
                 <xref keyref="TEXT" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="TEXT/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -781,9 +924,13 @@
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -804,9 +951,13 @@
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -823,8 +974,15 @@
             </row>
           </thead>
           <tbody>
+<<<<<<< HEAD
             <row importance="default">
               <entry>yes</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">yes</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -850,7 +1008,12 @@
               <entry>none</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row conkeyref="command_blank/options1_start" conrefend="default.dita#default/options1_stop">
+=======
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
+                      <entry/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
                       <entry/>
                     </row>
           </tbody>
@@ -872,7 +1035,12 @@
               <entry>none</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row conkeyref="command_blank/options1_start" conrefend="default.dita#default/options1_stop">
+=======
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
+                      <entry/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
                       <entry/>
                     </row>
           </tbody>
@@ -894,9 +1062,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -917,9 +1089,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -940,9 +1116,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
             <row>
               <entry>none</entry>
@@ -971,7 +1151,12 @@
               <entry>none</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row conkeyref="command_blank/options1_start" conrefend="default.dita#default/options1_stop">
+=======
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
+                      <entry/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
                       <entry/>
                     </row>
           </tbody>
@@ -993,7 +1178,12 @@
               <entry>none</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row conkeyref="command_blank/options1_start" conrefend="default.dita#default/options1_stop">
+=======
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
+                      <entry/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
                       <entry/>
                     </row>
           </tbody>
@@ -1015,7 +1205,12 @@
               <entry>none</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row conkeyref="command_blank/options1_start" conrefend="default.dita#default/options1_stop">
+=======
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
+                      <entry/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
                       <entry/>
                     </row>
           </tbody>
@@ -1037,7 +1232,12 @@
               <entry>none</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row conkeyref="command_blank/options1_start" conrefend="default.dita#default/options1_stop">
+=======
+            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
+                      <entry/>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
                       <entry/>
                     </row>
           </tbody>
@@ -1059,8 +1259,15 @@
               <entry>old</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>dimension</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">dimension</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
           </tbody>
@@ -1082,9 +1289,13 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -1105,9 +1316,13 @@
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NUMBER/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -1128,9 +1343,13 @@
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NUMBER/placeholder_desc"/>
               </entry>
+=======
+              <entry></entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -1155,8 +1374,15 @@
               <entry>medium</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row importance="default">
               <entry>big</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">big</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -1186,6 +1412,7 @@
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
+<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NUMBER/placeholder_desc"/>
               </entry>
@@ -1193,6 +1420,13 @@
           </tbody>
         </tgroup>
         <tgroup cols="2">
+=======
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2" id="settings_stop">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -1205,6 +1439,7 @@
             </row>
           </thead>
           <tbody>
+<<<<<<< HEAD
             <row importance="default">
               <entry>yes</entry>
               <entry></entry>
@@ -1230,6 +1465,12 @@
           <tbody>
             <row importance="default">
               <entry>yes</entry>
+=======
+            <row>
+              <entry>
+                <ph importance="default">yes</ph>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -1238,6 +1479,7 @@
             </row>
           </tbody>
         </tgroup>
+<<<<<<< HEAD
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
@@ -1288,21 +1530,44 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+      </table>
+      <note>Inherits settings from <xref href="../../commands/p/r_command_placefloat.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_snaptogrid.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
+    </section>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -1310,5 +1575,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-flt.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>strc-flt.mkvi</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-flt.mkvi" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>strc-flt.mkvi</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

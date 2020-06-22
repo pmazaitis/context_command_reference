@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_definemathcommand" xml:lang="en">
   <title>\definemathcommand</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\definemathcommand</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-ini.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>mathematics</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\definemathcommand</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,17 +42,26 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
+<<<<<<< HEAD
+=======
+          <stentry>NAME</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
+=======
+        </strow>
+        <strow id="short_options">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -53,7 +70,11 @@
           </stentry>
           <stentry>ord, op, bin, rel, open, close, punct, alpha, inner, <ph importance="default">nothing</ph>, limop, nolop, box</stentry>
         </strow>
+<<<<<<< HEAD
         <strow id="short_options2">
+=======
+        <strow>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -62,7 +83,11 @@
           </stentry>
           <stentry>one, two</stentry>
         </strow>
+<<<<<<< HEAD
         <strow id="short_options3">
+=======
+        <strow>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -73,13 +98,20 @@
         </strow>
       </simpletable>
     </refsyn>
+<<<<<<< HEAD
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -87,6 +119,15 @@
           </thead>
           <tbody>
             <row id="options1_start">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>ord</entry>
               <entry></entry>
             </row>
@@ -134,7 +175,11 @@
               <entry>nolop</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row id="options1_stop">
+=======
+            <row id="options_stop">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>box</entry>
               <entry></entry>
             </row>
@@ -142,13 +187,20 @@
         </tgroup>
       </table>
     </section>
+<<<<<<< HEAD
     <section id="options2">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options2_table">
+=======
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -160,6 +212,19 @@
               <entry></entry>
             </row>
             <row id="options2_stop">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>one</entry>
+              <entry></entry>
+            </row>
+            <row>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>two</entry>
               <entry></entry>
             </row>
@@ -167,13 +232,20 @@
         </tgroup>
       </table>
     </section>
+<<<<<<< HEAD
     <section id="options3">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options3_table">
+=======
+    <section>
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -203,33 +275,76 @@
               <entry>
                 <ph conkeyref="TWOARGUMENTS/placeholder_desc"/>
               </entry>
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row>
+              <entry>COMMAND</entry>
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>ONEARGUMENT</entry>
+              <entry>
+                <xref keyref="ONEARGUMENT" type="reference"/>
+              </entry>
+            </row>
+            <row>
+              <entry>TWOARGUMENTS</entry>
+              <entry>
+                <xref keyref="TWOARGUMENTS" type="reference"/>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -237,5 +352,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-ini.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>math-ini.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-ini.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>math-ini.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

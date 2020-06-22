@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_textrule" xml:lang="en">
   <title>\textrule</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\textrule</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-mrl.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>rules</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\textrule</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -26,13 +34,18 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
+<<<<<<< HEAD
       <synph>\textrule <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>{</delim><var importance="optional">TEXT</var><delim>}</delim></synph>
+=======
+      <synph>\textrule <delim>{</delim><var>TEXT</var><delim>}</delim></synph>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
+<<<<<<< HEAD
         <strow id="short_options1">
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
@@ -43,12 +56,17 @@
           <stentry>top, middle, <ph importance="default">bottom</ph></stentry>
         </strow>
         <strow>
+=======
+        <strow>
+          <stentry>TEXT</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="TEXT" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="TEXT/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="TEXT/placeholder_value"/>
           </stentry>
@@ -91,21 +109,42 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+        </strow>
+      </simpletable>
+    </refsyn>
+    <!--<section id="notes">
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -113,5 +152,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-mrl.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-mrl.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-mrl.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-mrl.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_convertnumber" xml:lang="en">
   <title>\convertnumber</title>
+<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\convertnumber</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/core-con.mkiv</source>
@@ -15,6 +16,13 @@
       <keywords>
         <keyword>counter</keyword>
       </keywords>
+=======
+  <shortdesc>The <cmdname>\convertnumber</cmdname>...</shortdesc>
+  <prolog>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -33,22 +41,34 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
+<<<<<<< HEAD
         <strow id="short_options1">
+=======
+        <strow id="short_options">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>empty, default, none, month, month:mnem, character, Character, characters, Characters, a, A, Numbers, word, words, Word, Words, n, N, romannumerals, Romannumerals, i, I, r, R, KR, RK, greek, Greek, g, G, abjadnumerals, abjadnodotnumerals, abjadnaivenumerals, thainumerals, devanagarinumerals, gurmurkhinumerals, gujaratinnumerals, tibetannumerals, greeknumerals, Greeknumerals, arabicnumerals, persiannumerals, arabicexnumerals, arabicdecimals, persiandecimals, koreannumerals, koreanparentnumerals, koreancirclenumerals, kr, kr-p, kr-c, chinesenumerals, chinesecapnumerals, chineseallnumerals, cn, cn-c, cn-a, sloveniannumerals, slovenianNumerals, spanishnumerals, spanishNumerals, mathgreek, set␣0, set␣1, set␣2, set␣3, continued, zero, <xref keyref="NAME" type="reference"/></stentry>
         </strow>
         <strow>
+=======
+          <stentry>empty, default, none, month, month:mnem, character, Character, characters, Characters, a, A, Numbers, word, words, Word, Words, n, N, romannumerals, Romannumerals, i, I, r, R, KR, RK, greek, Greek, g, G, abjadnumerals, abjadnodotnumerals, abjadnaivenumerals, thainumerals, devanagarinumerals, gurmurkhinumerals, gujaratinnumerals, tibetannumerals, greeknumerals, Greeknumerals, arabicnumerals, persiannumerals, arabicexnumerals, arabicdecimals, persiandecimals, koreannumerals, koreanparentnumerals, koreancirclenumerals, kr, kr-p, kr-c, chinesenumerals, chinesecapnumerals, chineseallnumerals, cn, cn-c, cn-a, sloveniannumerals, slovenianNumerals, spanishnumerals, spanishNumerals, mathgreek, set␣0, set␣1, set␣2, set␣3, continued, <xref keyref="NAME" type="reference"/></stentry>
+        </strow>
+        <strow>
+          <stentry>NUMBER</stentry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NUMBER" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NUMBER/placeholder_desc"/>
           </stentry>
+<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NUMBER/placeholder_value"/>
           </stentry>
@@ -58,10 +78,19 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
+=======
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options_table">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
+<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -69,6 +98,15 @@
           </thead>
           <tbody>
             <row id="options1_start">
+=======
+                        <row>
+                          <entry>Keyword</entry>
+                          <entry>Description</entry>
+                        </row>
+                    </thead>
+          <tbody>
+            <row id="options_start">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>empty</entry>
               <entry></entry>
             </row>
@@ -336,6 +374,7 @@
               <entry>continued</entry>
               <entry></entry>
             </row>
+<<<<<<< HEAD
             <row>
               <entry>zero</entry>
               <entry></entry>
@@ -347,33 +386,58 @@
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
+=======
+            <row id="options_stop">
+              <entry>NAME</entry>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
+<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
+=======
+            <title>Notes</title>
+            <p></p>
+        </section>-->
+    <example id="mwe" otherprops="no_output">
+        <title>Minimal Working Example</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
+=======
+        </codeblock>
+    </example>
+    <!--<example id="example_02" otherprops="no_output">
+        <title>Descriptive Example Title</title>
+        <codeblock outputclass="normalize-space">
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
+<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -381,5 +445,14 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/core-con.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>core-con.mkiv</filepath></linktext>
       </link>
+=======
+        </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+        <link href="https://source.contextgarden.net/tex/context/base/mkiv/core-con.mkiv" scope="external" format="html">
+            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>core-con.mkiv</filepath></linktext>
+        </link>
+>>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>
