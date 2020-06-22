@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ../?>
-<!DOCTYPE glossentry
-  PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
-<glossentry id="glossary_skip" xml:lang="en">
-    <glossterm>skip</glossterm>
-    <glossdef><p>Blank vertical space.</p></glossdef>
-</glossentry>
