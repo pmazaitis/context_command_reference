@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_filterpages" xml:lang="en">
+  <title>\filterpages</title>
+  <shortdesc rev="0">The <cmdname>\filterpages</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/page-sel.mkvi</source>
+    <critdates>
+      <created date="2020-06-22" expiry="2020-11-17"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords/>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\filterpages <delim>[</delim><var>FILE</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="FILE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="FILE/placeholder_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="FILE/placeholder_value"/>
+          </stentry>
+        </strow>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>even, odd, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NUMBER" type="reference"/></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SETTINGS/placeholder_desc"/>
+          </stentry>
+          <stentry>See <xref href="#./settings"/>.</stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>even</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>odd</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NUMBER/placeholder_desc"/>
+              </entry>
+            </row>
+            <row id="options1_stop">
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NUMBER/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="settings1">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2" id="settings1_start">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">width</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="DIMENSION/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">n</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NUMBER/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <tgroup cols="2" id="settings1_stop">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="value_name" nameend="value_desc">category</entry>
+            </row>
+            <row>
+              <entry>Value</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NAME/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-sel.mkvi" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-sel.mkvi</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

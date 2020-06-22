@@ -3,7 +3,7 @@
 <reference id="r_placeholder_DIMENSION" xml:lang="en">
     <title>DIMENSION</title>
     <shortdesc><ph id="placeholder_desc">A <term>DIMENSION</term> is an amount
-        of linear distance.</ph> ConTeXt understands several units of
+        of linear distance.</ph><ph id="placeholder_value">Use values for <term>DIMENSION</term> that use supported units.</ph> ConTeXt understands several units of
         measurement, and we can mix different units in the same document.</shortdesc>
     <refbody>
         <simpletable id="simpletable_rkv_bfg_1hb">

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_stophboxestohbox" xml:lang="en">
+  <title>\stophboxestohbox</title>
+  <shortdesc rev="0">The <cmdname>\stophboxestohbox</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/supp-box.mkiv</source>
+    <critdates>
+      <created date="2020-06-22" expiry="2021-01-10"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="internal"/>
+      <category>system</category>
+      <keywords/>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\stophboxestohbox </synph>
+    </refsyn>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/supp-box.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>supp-box.mkiv</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

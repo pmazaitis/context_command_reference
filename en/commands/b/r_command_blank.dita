@@ -1,164 +1,298 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_blank" xml:lang="en">
-    <title>\blank</title>
-    <shortdesc>The <cmdname>\blank</cmdname> command inserts <keyword>skip</keyword> (vertical
-        space) into the text block. The command can be used with keywords to indicate preset amounts
-        of skip, or with dimensions to create spaces of arbitrary skip.</shortdesc>
-    <prolog>
-        <metadata>
-            <audience type="user"/>
-            <category>document</category>
-            <prodinfo>
-                <prodname>ConTeXt</prodname>
-                <vrmlist>
-                    <vrm version="iv" release="production" modification=""/>
-                </vrmlist>
-            </prodinfo>
-        </metadata>
-    </prolog>
-    <refbody>
-        <refsyn id="syntax">
-            <title>Syntax</title>
-            <synph>\blank <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
-            <simpletable>
-                <sthead>
-                    <stentry>Name</stentry>
-                    <stentry>Description</stentry>
-                    <stentry>Values</stentry>
-                </sthead>
-                <strow conkeyref="command_vspacing/short_options">
-                    <stentry/> 
-                    <stentry/>
-                    <stentry/>
-                </strow>
-            </simpletable>
-        </refsyn>
-        <section id="options">
-            <title>Options</title>
-            <table frame="all" rowsep="1" colsep="1" id="options_table">
-                <tgroup cols="2">
-                    <colspec colname="value_name" colnum="1" colwidth="1*"/>
-                    <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-                    <thead>
-                        <row>
-                            <entry>Keyword</entry>
-                            <entry>Description</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop" >                            
-                            <entry/>
-                            <entry/>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </section>
-        <section conkeyref="command_vspacing/notes"/>
-        <example id="mwe" otherprops="no_output">
-            <title>Minimal Working Example</title>
-            <p>Use <cmdname>\blank</cmdname> commands directly in the text flow.</p>
-            <codeblock outputclass="normalize-space">
-                \starttext
+  <title>\blank</title>
+  <shortdesc rev="0">The <cmdname>\blank</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/spac-ver.mkiv</source>
+    <critdates>
+      <created date="2020-06-22" expiry="2020-11-17"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords>
+        <keyword>whitespace</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\blank <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>preference, samepage, max, force, enable, disable, nowhite, packed, back, overlay, always, weak, strong, default, before, inbetween, after, fixed, flexible, none, small, medium, big, line, halfline, quarterline, formula, white, height, depth, standard, small, medium, big, line, halfline, quarterline, formula, white, height, depth, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NUMBER" type="reference"/>, <xref keyref="DIMENSION" type="reference"/>, <xref keyref="NAME" type="reference"/></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>preference</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>samepage</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>max</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>force</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>enable</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>disable</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nowhite</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>packed</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>back</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>overlay</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>always</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>weak</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>strong</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>default</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>before</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>inbetween</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>after</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>fixed</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>flexible</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>none</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>small</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>medium</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>big</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>line</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>halfline</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>quarterline</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>formula</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>white</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>height</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>depth</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>standard</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>small</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>medium</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>big</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>line</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>halfline</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>quarterline</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>formula</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>white</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>height</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>depth</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NUMBER/placeholder_desc"/>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NUMBER/placeholder_desc"/>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="NUMBER" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NUMBER/placeholder_desc"/>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="DIMENSION" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="DIMENSION/placeholder_desc"/>
+              </entry>
+            </row>
+            <row id="options1_stop">
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NAME/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
 \starttext
 
-Here's our first sentence.
 
-\blank[big]
-
-We need to put more space above and less space below this sentence.
-
-\blank[medium]
-
-Here's our last sentence.
 
 \stoptext
-            </codeblock>
-        </example>
-        <example id="example02" otherprops="no_output">
-            <title>Extended Example</title>
-            <p>Taken from the language manual; probably too involved for this reference.</p>
-            <codeblock>
-\enableregime[utf]
-
-% To fit all the examples on one page, we need a taller page
-\definepapersize[tall][width=15cm, height=35cm]
-\setuppapersize[tall]
-
-The table below has a row for each \type{\blank[#1]} keyword, and three columns: 
-\startitemize[packed]
-\item column 1 demonstrates \type{\blank[#1]} on its own;
-\item column 2 shows what \type{\blank[#1]} does when it comes after a \type{\blank[medium]};
-\item column 3 shows what does \type{\blank[#1]} when it comes before a \type{\blank[medium]}.
-\stopitemize
-
-\defineparagraphs[whiting]
-[n=3,
-before={\blank[none]},     % Minimal padding, please.
-after={\blank[nowhite]}]   %
-
-\definestartstop[whiteafter][
-before={\blank[none]} ,    % No padding, please
-after={\blank[medium]}     % The blank of interest
-]
-\definestartstop[whitebefore]
-[before={\blank[medium]},  % The blank of interest
-after={\blank[none]}       % No padding, please
-]
-
-\def\example#1{%
-\startwhiting
-\type{#1} \crlf
-Antelope, caribou, ocelot.
-\blank[#1]
-Don’t want an antelope nibbling the hoops.
-\whiting
-medium + {\tt #1}  
-% No crlf here, or it'll combine with \blank[none] to create a blank line anyway. 
-% (I assume it's equivalent to \crlf\crlf, or something.)
-\startwhiteafter
-Antelope, caribou, ocelot.
-\stopwhiteafter
-\blank[#1]
-Don’t want an antelope nibbling the hoops.
-\whiting
-{\tt #1} + medium \crlf
-Antelope, caribou, ocelot.
-\blank[#1]
-\startwhitebefore
-Don’t want an antelope nibbling the hoops.
-\stopwhitebefore
-\stopwhiting
-\hairline
-}
-
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
 \starttext
 
-\example{small}
-\example{medium}
-\example{big}
-\example{nowhite}
-\example{back}
-\example{white}
-\example{disable}
-\example{reset}     % doesn’t seem to work with mkiv
-\example{line}
-\example{halfline}
-\example{formula}
-%\example{fixed}    % mkiv only?
-%\example{flexible} % mkiv only?
-\example{none}
-%\example{samepage} % mkiv only?
 
-\stoptext 
-            </codeblock>
-        </example>
-    </refbody>
-    <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>spac-ver.mkiv</filepath></linktext>
-        </link>
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-ver.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>spac-ver.mkiv</filepath></linktext>
+      </link>
     </related-links>
 </reference>
-

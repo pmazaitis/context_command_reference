@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_rfence" xml:lang="en">
+  <title>\rfence</title>
+  <shortdesc rev="0">The <cmdname>\rfence</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/math-fen.mkiv</source>
+    <critdates>
+      <created date="2020-06-22" expiry="2021-02-10"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords>
+        <keyword>mathematics</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\rfence <delim>{</delim><var>OPTIONS</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>\\\\\\\\egroup, \\\\\\\\bgroup, \\\\\\\\letterclosebrace, ], [, ), (, &gt;, &lt;, /, |, ⌋, ⌊, ⌉, ⌈, ⟩, ⟨, ⟫, ⟪, ‖, ⦀, ⦘, \\\\\\\\rbrace, \\\\\\\\rbracket, \\\\\\\\rbracket, \\\\\\\\rparenthesis, \\\\\\\\rparent, \\\\\\\\rparen, \\\\\\\\rangle, \\\\\\\\rrangle, \\\\\\\\rVert, \\\\\\\\vert, \\\\\\\\solidus, \\\\\\\\rfloor, \\\\\\\\rceiling, \\\\\\\\rceil, \\\\\\\\urcorner, \\\\\\\\lrcorner, \\\\\\\\rmoustache, \\\\\\\\rrbracket, \\\\\\\\rgroup, \\\\\\\\rinterval, \\\\\\\\rointerval, \\\\\\\\rlointerval, \\\\\\\\rrointerval, \\\\\\\\}, \\\\\\\\], \\\\\\\\), \\\\\\\\&gt;, \\\\\\\\|, <xref keyref="CHARACTER" type="reference"/></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>\\\\\\\\egroup</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\bgroup</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\letterclosebrace</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>]</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>[</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>(</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>&gt;</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>&lt;</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>/</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>|</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⌋</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⌊</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⌉</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⌈</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⟩</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⟨</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⟫</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⟪</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>‖</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⦀</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>⦘</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rbrace</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rbracket</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rbracket</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rparenthesis</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rparent</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rparen</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rangle</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rrangle</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rVert</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\vert</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\solidus</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rfloor</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rceiling</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rceil</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\urcorner</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\lrcorner</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rmoustache</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rrbracket</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rgroup</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rinterval</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rointerval</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rlointerval</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\rrointerval</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\}</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\]</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\)</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\&gt;</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>\\\\\\\\|</entry>
+              <entry></entry>
+            </row>
+            <row id="options1_stop">
+              <entry>
+                <xref keyref="CHARACTER" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="CHARACTER/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-fen.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>math-fen.mkiv</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

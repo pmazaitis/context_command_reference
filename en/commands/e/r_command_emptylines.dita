@@ -1,64 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN" "/Users/goob/Opt/dita-ot/src/main/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/reference.dtd">
-<reference id="ctx_command_emptylines">
-	<title>\emptylines</title>
-	<shortdesc>Inserts a number of emptylines.</shortdesc>
-	<prolog>
-		<author>Paul Mazaitis</author>
-		<metadata>
-			<category>ii</category>
-			<category>iv</category>
-		</metadata>
-	</prolog>
-	<refbody>
-		<refsyn>
-			<synph>
-				<codeph>\emptylines</codeph>
-				<delim>[</delim>
-				<var>number of empty lines</var>
-				<delim>]</delim>
-			</synph>
-		</refsyn>
-		<section>
-			<title>Spacing Keywords</title>
-			<p>Spacing keywords determine how much vertical blank space is added.</p>
-			<ul>
-				<li>none</li>
-				<li>big</li>
-				<li>medium</li>
-				<li>small</li>
-				<li>line</li>
-				<li>halfline</li>
-				<li>quarterline</li>
-				<li>formula</li>
-				<li>white</li>
-				<li>height</li>
-				<li>depth</li>
-				<li>standard</li>
-			</ul>
-		</section>
-		<section>
-			<title>Flag Keywords</title>
-			<p>Flag keywords modify the behaviour of how space is placed.</p>
-			<ul>
-				<li>preference</li>
-				<li>samepage</li>
-				<li>max</li>
-				<li>force</li>
-				<li>disable</li>
-				<li>nowhite</li>
-				<li>back</li>
-			</ul>
-		</section>
-		<properties>
-			<property>
-				<proptype>Data type</proptype>
-				<propvalue>Boolean</propvalue>
-			</property>
-			<property>
-				<proptype>Legal values</proptype>
-				<propvalue>True (1) or False (0)</propvalue>
-			</property>
-		</properties>
-	</refbody>
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_emptylines" xml:lang="en">
+  <title>\emptylines</title>
+  <shortdesc rev="0">The <cmdname>\emptylines</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/spac-lin.mkiv</source>
+    <critdates>
+      <created date="2020-06-22" expiry="2020-11-24"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords/>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\emptylines <delim>[</delim><var importance="optional">NUMBER</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="NUMBER" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NUMBER/placeholder_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NUMBER/placeholder_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/spac-lin.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>spac-lin.mkiv</filepath></linktext>
+      </link>
+    </related-links>
 </reference>

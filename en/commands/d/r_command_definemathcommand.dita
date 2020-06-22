@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_definemathcommand" xml:lang="en">
+  <title>\definemathcommand</title>
+  <shortdesc rev="0">The <cmdname>\definemathcommand</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/math-ini.mkiv</source>
+    <critdates>
+      <created date="2020-06-22" expiry="2021-01-24"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>style</category>
+      <keywords>
+        <keyword>mathematics</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\definemathcommand <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>{</delim><var importance="optional">OPTIONS</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/placeholder_value"/>
+          </stentry>
+        </strow>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>ord, op, bin, rel, open, close, punct, alpha, inner, <ph importance="default">nothing</ph>, limop, nolop, box</stentry>
+        </strow>
+        <strow id="short_options2">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>one, two</stentry>
+        </strow>
+        <strow id="short_options3">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry><xref keyref="COMMAND" type="reference"/>, <xref keyref="ONEARGUMENT" type="reference"/>, <xref keyref="TWOARGUMENTS" type="reference"/></stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>ord</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>op</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>bin</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>rel</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>open</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>close</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>punct</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>alpha</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>inner</entry>
+              <entry></entry>
+            </row>
+            <row importance="default">
+              <entry>nothing</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>limop</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>nolop</entry>
+              <entry></entry>
+            </row>
+            <row id="options1_stop">
+              <entry>box</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="options2">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options2_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options2_start">
+              <entry>one</entry>
+              <entry></entry>
+            </row>
+            <row id="options2_stop">
+              <entry>two</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="options3">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options3_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options3_start">
+              <entry>
+                <xref keyref="COMMAND" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="COMMAND/placeholder_desc"/>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <xref keyref="ONEARGUMENT" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="ONEARGUMENT/placeholder_desc"/>
+              </entry>
+            </row>
+            <row id="options3_stop">
+              <entry>
+                <xref keyref="TWOARGUMENTS" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="TWOARGUMENTS/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-ini.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>math-ini.mkiv</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

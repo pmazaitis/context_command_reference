@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_convertnumber" xml:lang="en">
+  <title>\convertnumber</title>
+  <shortdesc rev="0">The <cmdname>\convertnumber</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/core-con.mkiv</source>
+    <critdates>
+      <created date="2020-06-22" expiry="2020-11-23"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords>
+        <keyword>counter</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\convertnumber <delim>{</delim><var>OPTIONS</var><delim>}</delim><delim>{</delim><var>NUMBER</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/placeholder_desc"/>
+          </stentry>
+          <stentry>empty, default, none, month, month:mnem, character, Character, characters, Characters, a, A, Numbers, word, words, Word, Words, n, N, romannumerals, Romannumerals, i, I, r, R, KR, RK, greek, Greek, g, G, abjadnumerals, abjadnodotnumerals, abjadnaivenumerals, thainumerals, devanagarinumerals, gurmurkhinumerals, gujaratinnumerals, tibetannumerals, greeknumerals, Greeknumerals, arabicnumerals, persiannumerals, arabicexnumerals, arabicdecimals, persiandecimals, koreannumerals, koreanparentnumerals, koreancirclenumerals, kr, kr-p, kr-c, chinesenumerals, chinesecapnumerals, chineseallnumerals, cn, cn-c, cn-a, sloveniannumerals, slovenianNumerals, spanishnumerals, spanishNumerals, mathgreek, set␣0, set␣1, set␣2, set␣3, continued, zero, <xref keyref="NAME" type="reference"/></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="NUMBER" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NUMBER/placeholder_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NUMBER/placeholder_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>empty</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>default</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>none</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>month</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>month:mnem</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>character</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Character</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>characters</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Characters</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>a</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>A</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Numbers</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>word</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>words</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Word</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Words</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>n</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>N</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>romannumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Romannumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>i</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>I</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>r</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>R</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>KR</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>RK</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>greek</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Greek</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>g</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>G</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>abjadnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>abjadnodotnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>abjadnaivenumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>thainumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>devanagarinumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>gurmurkhinumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>gujaratinnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>tibetannumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>greeknumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Greeknumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>arabicnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>persiannumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>arabicexnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>arabicdecimals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>persiandecimals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>koreannumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>koreanparentnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>koreancirclenumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>kr</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>kr-p</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>kr-c</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>chinesenumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>chinesecapnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>chineseallnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>cn</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>cn-c</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>cn-a</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>sloveniannumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>slovenianNumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>spanishnumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>spanishNumerals</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>mathgreek</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>set␣0</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>set␣1</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>set␣2</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>set␣3</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>continued</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>zero</entry>
+              <entry></entry>
+            </row>
+            <row id="options1_stop">
+              <entry>
+                <xref keyref="NAME" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="NAME/placeholder_desc"/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/core-con.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>core-con.mkiv</filepath></linktext>
+      </link>
+    </related-links>
+</reference>
