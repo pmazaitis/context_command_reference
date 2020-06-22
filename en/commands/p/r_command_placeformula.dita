@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_placeformula" xml:lang="en">
   <title>\placeformula</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\placeformula</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-mat.mkiv</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>mathematics</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\placeformula</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>document</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,18 +26,13 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-<<<<<<< HEAD
       <synph>\placeformula <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>{</delim><var importance="optional">TEXT</var><delim>}</delim></synph>
-=======
-      <synph>\placeformula <delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-<<<<<<< HEAD
         <strow id="short_options1">
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
@@ -71,84 +58,17 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
-=======
-        <strow>
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
-          <stentry>See <xref href="#./settings"/>.</stentry>
-        </strow>
-      </simpletable>
-    </refsyn>
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup cols="2" id="settings_start">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">title</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="TEXT" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-<<<<<<< HEAD
               <entry>Keyword</entry>
-=======
-              <entry namest="value_name" nameend="value_desc">suffix</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>Description</entry>
             </row>
           </thead>
           <tbody>
-<<<<<<< HEAD
             <row id="options1_start">
-=======
-            <row>
-              <entry>
-                <xref keyref="TEXT" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2" id="settings_stop">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">reference</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>+</entry>
               <entry></entry>
             </row>
@@ -156,7 +76,6 @@
               <entry>-</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options1_stop">
               <entry>
                 <xref keyref="REFERENCE" type="reference"/>
@@ -164,58 +83,33 @@
               <entry>
                 <ph conkeyref="REFERENCE/placeholder_desc"/>
               </entry>
-=======
-            <row>
-              <entry>
-                <xref keyref="REFERENCE" type="reference"/>
-              </entry>
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -223,14 +117,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-mat.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>strc-mat.mkiv</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-mat.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>strc-mat.mkiv</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

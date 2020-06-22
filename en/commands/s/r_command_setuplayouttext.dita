@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setuplayouttext" xml:lang="en">
   <title>\setuplayouttext</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setuplayouttext</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-txt.mkvi</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>layout</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\setuplayouttext</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>style</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -41,11 +33,7 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-<<<<<<< HEAD
         <strow id="short_options1">
-=======
-        <strow id="short_options">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -54,11 +42,7 @@
           </stentry>
           <stentry>top, header, text, footer, bottom</stentry>
         </strow>
-<<<<<<< HEAD
         <strow id="short_options2">
-=======
-        <strow>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -68,37 +52,23 @@
           <stentry>text, margin, edge</stentry>
         </strow>
         <strow>
-<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-=======
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
-<<<<<<< HEAD
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
-=======
-    <section id="options">
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1" id="options_table">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -106,15 +76,6 @@
           </thead>
           <tbody>
             <row id="options1_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row id="options_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>top</entry>
               <entry></entry>
             </row>
@@ -130,11 +91,7 @@
               <entry>footer</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options1_stop">
-=======
-            <row id="options_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>bottom</entry>
               <entry></entry>
             </row>
@@ -142,20 +99,13 @@
         </tgroup>
       </table>
     </section>
-<<<<<<< HEAD
     <section id="options2">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options2_table">
-=======
-    <section>
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -163,15 +113,6 @@
           </thead>
           <tbody>
             <row id="options2_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>text</entry>
               <entry></entry>
             </row>
@@ -179,11 +120,7 @@
               <entry>margin</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options2_stop">
-=======
-            <row>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>edge</entry>
               <entry></entry>
             </row>
@@ -191,17 +128,10 @@
         </tgroup>
       </table>
     </section>
-<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2" id="settings1_start">
-=======
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup cols="2" id="settings_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -234,15 +164,8 @@
               <entry>none</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row importance="default">
               <entry>normal</entry>
-=======
-            <row>
-              <entry>
-                <ph importance="default">normal</ph>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -253,13 +176,9 @@
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -280,25 +199,17 @@
               <entry>
                 <xref keyref="STYLE" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="STYLE/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
             <row>
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -319,13 +230,9 @@
               <entry>
                 <xref keyref="COLOR" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COLOR/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -342,15 +249,8 @@
             </row>
           </thead>
           <tbody>
-<<<<<<< HEAD
             <row importance="default">
               <entry>yes</entry>
-=======
-            <row>
-              <entry>
-                <ph importance="default">yes</ph>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -376,13 +276,9 @@
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NUMBER/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -403,13 +299,9 @@
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -430,7 +322,6 @@
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
@@ -503,9 +394,6 @@
               <entry>
                 <ph conkeyref="TEXT/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -526,7 +414,6 @@
               <entry>
                 <xref keyref="STYLE" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="STYLE/placeholder_desc"/>
               </entry>
@@ -561,21 +448,14 @@
               <entry>
                 <ph conkeyref="STYLE/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
             <row>
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -596,25 +476,17 @@
               <entry>
                 <xref keyref="STYLE" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="STYLE/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
             <row>
               <entry>
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COMMAND/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -635,7 +507,6 @@
               <entry>
                 <xref keyref="COLOR" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COLOR/placeholder_desc"/>
               </entry>
@@ -662,9 +533,6 @@
               <entry>
                 <ph conkeyref="COLOR/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -685,13 +553,9 @@
               <entry>
                 <xref keyref="COLOR" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COLOR/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -712,13 +576,9 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -739,7 +599,6 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
@@ -770,13 +629,6 @@
           </tbody>
         </tgroup>
         <tgroup cols="2" id="settings1_stop">
-=======
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2" id="settings_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -793,58 +645,36 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -852,14 +682,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-txt.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-txt.mkvi</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-txt.mkvi" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-txt.mkvi</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

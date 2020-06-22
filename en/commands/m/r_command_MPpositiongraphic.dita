@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_MPpositiongraphic" xml:lang="en">
   <title>\MPpositiongraphic</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\MPpositiongraphic</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/anch-pgr.mkiv</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>background metapost</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\MPpositiongraphic</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>system</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -34,11 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-<<<<<<< HEAD
       <synph>\MPpositiongraphic <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var importance="optional">KEY</var><delim>}</delim></synph>
-=======
-      <synph>\MPpositiongraphic <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var importance="optional">SETTINGS</var><delim>}</delim></synph>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -46,17 +34,12 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
-<<<<<<< HEAD
-=======
-          <stentry>NAME</stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
-<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
@@ -81,75 +64,21 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-        </strow>
-        <strow>
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
-          <stentry>See <xref href="#./settings"/>.</stentry>
-        </strow>
-      </simpletable>
-    </refsyn>
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">cd:key</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="VALUE" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
-    </section>
-    <!--<section id="notes">
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -157,14 +86,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/anch-pgr.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>anch-pgr.mkiv</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/anch-pgr.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>anch-pgr.mkiv</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

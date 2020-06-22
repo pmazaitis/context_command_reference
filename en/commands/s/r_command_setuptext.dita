@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setuptext" xml:lang="en">
   <title>\setuptext</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setuptext</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-txt.mkvi</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>layout</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\setuptext</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>style</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -41,11 +33,7 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-<<<<<<< HEAD
         <strow id="short_options1">
-=======
-        <strow id="short_options">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -55,37 +43,23 @@
           <stentry>text, margin, edge</stentry>
         </strow>
         <strow>
-<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-=======
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
-<<<<<<< HEAD
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
-=======
-    <section id="options">
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1" id="options_table">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -93,15 +67,6 @@
           </thead>
           <tbody>
             <row id="options1_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row id="options_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>text</entry>
               <entry></entry>
             </row>
@@ -109,11 +74,7 @@
               <entry>margin</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options1_stop">
-=======
-            <row id="options_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>edge</entry>
               <entry></entry>
             </row>
@@ -121,7 +82,6 @@
         </tgroup>
       </table>
     </section>
-<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
@@ -654,51 +614,21 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup conkeyref="command_setuplayouttext/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
-            <colspec/>
-            <colspec/>
-            <thead><row><entry/><entry/></row></thead>
-            <tbody><row><entry/><entry/></row></tbody>
-            </tgroup>
-      </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setuplayouttext.dita"/>.</note>
-    </section>
-    <!--<section id="notes">
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -706,14 +636,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-txt.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-txt.mkvi</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-txt.mkvi" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-txt.mkvi</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

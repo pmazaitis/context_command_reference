@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_nicelyfilledbox" xml:lang="en">
   <title>\nicelyfilledbox</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\nicelyfilledbox</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/typo-txt.mkvi</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>fonts</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\nicelyfilledbox</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>system</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -42,34 +34,20 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
-<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-=======
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
-<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2" id="settings1_start">
-=======
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup cols="2" id="settings_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -86,13 +64,9 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -113,13 +87,9 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -140,7 +110,6 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
@@ -148,13 +117,6 @@
           </tbody>
         </tgroup>
         <tgroup cols="2" id="settings1_stop">
-=======
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2" id="settings_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -167,15 +129,8 @@
             </row>
           </thead>
           <tbody>
-<<<<<<< HEAD
             <row importance="default">
               <entry>yes</entry>
-=======
-            <row>
-              <entry>
-                <ph importance="default">yes</ph>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -187,45 +142,27 @@
       </table>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -233,14 +170,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-txt.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>typo-txt.mkvi</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/typo-txt.mkvi" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>typo-txt.mkvi</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

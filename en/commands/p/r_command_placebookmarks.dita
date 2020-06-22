@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_placebookmarks" xml:lang="en">
   <title>\placebookmarks</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\placebookmarks</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/src-bkm.mkiv</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>pdf</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\placebookmarks</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>style</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -41,11 +33,7 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-<<<<<<< HEAD
         <strow id="short_options1">
-=======
-        <strow id="short_options">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -54,11 +42,7 @@
           </stentry>
           <stentry><xref keyref="SECTION" type="reference"/>, <xref keyref="LIST" type="reference"/></stentry>
         </strow>
-<<<<<<< HEAD
         <strow id="short_options2">
-=======
-        <strow>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -68,37 +52,23 @@
           <stentry><xref keyref="SECTION" type="reference"/>, <xref keyref="LIST" type="reference"/></stentry>
         </strow>
         <strow>
-<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-=======
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
-<<<<<<< HEAD
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
-=======
-    <section id="options">
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1" id="options_table">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -120,44 +90,18 @@
               <entry>
                 <ph conkeyref="LIST/placeholder_desc"/>
               </entry>
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row>
-              <entry>SECTION</entry>
-              <entry>
-                <xref keyref="SECTION" type="reference"/>
-              </entry>
-            </row>
-            <row>
-              <entry>LIST</entry>
-              <entry>
-                <xref keyref="LIST" type="reference"/>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
-<<<<<<< HEAD
     <section id="options2">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options2_table">
-=======
-    <section>
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -179,31 +123,11 @@
               <entry>
                 <ph conkeyref="LIST/placeholder_desc"/>
               </entry>
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row>
-              <entry>SECTION</entry>
-              <entry>
-                <xref keyref="SECTION" type="reference"/>
-              </entry>
-            </row>
-            <row>
-              <entry>LIST</entry>
-              <entry>
-                <xref keyref="LIST" type="reference"/>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
-<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
@@ -221,60 +145,31 @@
                             </row>
                         </tbody>
                     </tgroup>
-=======
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup conkeyref="command_setupbookmark/settings_start" conrefend="default.dita#default/settings_stop" cols="2">
-            <colspec/>
-            <colspec/>
-            <thead><row><entry/><entry/></row></thead>
-            <tbody><row><entry/><entry/></row></tbody>
-            </tgroup>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupbookmark.dita"/>.</note>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -282,14 +177,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/src-bkm.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>src-bkm.mkiv</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/src-bkm.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>src-bkm.mkiv</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

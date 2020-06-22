@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_doifelseorientation" xml:lang="en">
   <title>\doifelseorientation</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\doifelseorientation</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-ori.mkxl</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>conditional</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\doifelseorientation</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>system</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -41,11 +33,7 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-<<<<<<< HEAD
         <strow id="short_options1">
-=======
-        <strow id="short_options">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -55,34 +43,23 @@
           <stentry>normal, up, down, left, right, top, bottom, <xref keyref="NAME" type="reference"/></stentry>
         </strow>
         <strow>
-<<<<<<< HEAD
-=======
-          <stentry>TRUE</stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="TRUE/placeholder_desc"/>
           </stentry>
-<<<<<<< HEAD
           <stentry>
             <ph conkeyref="TRUE/placeholder_value"/>
           </stentry>
         </strow>
         <strow>
-=======
-        </strow>
-        <strow>
-          <stentry>FALSE</stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="FALSE" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="FALSE/placeholder_desc"/>
           </stentry>
-<<<<<<< HEAD
           <stentry>
             <ph conkeyref="FALSE/placeholder_value"/>
           </stentry>
@@ -92,19 +69,10 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
-=======
-        </strow>
-      </simpletable>
-    </refsyn>
-    <section id="options">
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1" id="options_table">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -112,15 +80,6 @@
           </thead>
           <tbody>
             <row id="options1_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row id="options_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>normal</entry>
               <entry></entry>
             </row>
@@ -148,7 +107,6 @@
               <entry>bottom</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options1_stop">
               <entry>
                 <xref keyref="NAME" type="reference"/>
@@ -156,58 +114,33 @@
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
-=======
-            <row id="options_stop">
-              <entry>NAME</entry>
-              <entry>
-                <xref keyref="NAME" type="reference"/>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -215,14 +148,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-ori.mkxl" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-ori.mkxl</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/pack-ori.mkxl" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>pack-ori.mkxl</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_showgrid" xml:lang="en">
   <title>\showgrid</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\showgrid</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-grd.mkiv</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>layout</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\showgrid</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>document</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -41,18 +33,13 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-<<<<<<< HEAD
         <strow id="short_options1">
-=======
-        <strow id="short_options">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-<<<<<<< HEAD
           <stentry>reset, <ph importance="default">columns</ph></stentry>
         </strow>
       </simpletable>
@@ -60,20 +47,10 @@
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
-=======
-          <stentry>reset, <ph importance="default">bottom</ph>, top, none, <ph importance="default">all</ph>, lines, frame, nonumber, <ph importance="default">right</ph>, left, outer, <ph importance="default">columns</ph></stentry>
-        </strow>
-      </simpletable>
-    </refsyn>
-    <section id="options">
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1" id="options_table">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -81,15 +58,6 @@
           </thead>
           <tbody>
             <row id="options1_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row id="options_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>reset</entry>
               <entry></entry>
             </row>
@@ -133,15 +101,11 @@
               <entry>outer</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row>
               <entry>inner</entry>
               <entry></entry>
             </row>
             <row importance="default" id="options1_stop">
-=======
-            <row importance="default" id="options_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>columns</entry>
               <entry></entry>
             </row>
@@ -150,45 +114,27 @@
       </table>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -196,14 +142,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-grd.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-grd.mkiv</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-grd.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-grd.mkiv</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

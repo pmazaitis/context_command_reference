@@ -93,11 +93,7 @@
             </row>
           </tbody>
         </tgroup>
-<<<<<<< HEAD
         <tgroup cols="2">
-=======
-               <tgroup cols="2">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -120,11 +116,7 @@
             </row>
           </tbody>
         </tgroup>
-<<<<<<< HEAD
         <tgroup cols="2">
-=======
-               <tgroup cols="2">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -147,11 +139,7 @@
             </row>
           </tbody>
         </tgroup>
-<<<<<<< HEAD
         <tgroup cols="2">
-=======
-               <tgroup cols="2">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -173,13 +161,8 @@
               </entry>
             </row>
           </tbody>
-<<<<<<< HEAD
         </tgroup>
         <tgroup cols="2">
-=======
-        </tgroup >
-        <tgroup cols="2" id="settings_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>

@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setupattachment" xml:lang="en">
   <title>\setupattachment</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setupattachment</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/scrn-wid.mkvi</source>
@@ -14,13 +13,6 @@
       <audience type="user"/>
       <category>style</category>
       <keywords/>
-=======
-  <shortdesc>The <cmdname>\setupattachment</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>style</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -40,17 +32,12 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
-<<<<<<< HEAD
-=======
-          <stentry>NAME</stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
-<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
@@ -62,29 +49,14 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-=======
-        </strow>
-        <strow>
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
-<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2" id="settings1_start">
-=======
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup cols="2" id="settings_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -101,13 +73,9 @@
               <entry>
                 <xref keyref="TEXT" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="TEXT/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -128,13 +96,9 @@
               <entry>
                 <xref keyref="TEXT" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="TEXT/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -155,13 +119,9 @@
               <entry>
                 <xref keyref="TEXT" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="TEXT/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -182,13 +142,9 @@
               <entry>
                 <xref keyref="FILE" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="FILE/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -209,13 +165,9 @@
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -236,13 +188,9 @@
               <entry>
                 <xref keyref="BUFFER" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="BUFFER/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -251,11 +199,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-<<<<<<< HEAD
               <entry namest="value_name" nameend="value_desc">type</entry>
-=======
-              <entry namest="value_name" nameend="value_desc">state</entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
             <row>
               <entry>Value</entry>
@@ -265,7 +209,6 @@
           <tbody>
             <row>
               <entry>
-<<<<<<< HEAD
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
@@ -289,10 +232,6 @@
           <tbody>
             <row importance="default">
               <entry>start</entry>
-=======
-                <ph importance="default">start</ph>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -314,15 +253,8 @@
             </row>
           </thead>
           <tbody>
-<<<<<<< HEAD
             <row importance="default">
               <entry>normal</entry>
-=======
-            <row>
-              <entry>
-                <ph importance="default">normal</ph>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -383,13 +315,9 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -414,13 +342,9 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -445,13 +369,9 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -472,13 +392,9 @@
               <entry>
                 <xref keyref="COLOR" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="COLOR/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -499,13 +415,9 @@
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="NAME/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
@@ -542,15 +454,8 @@
               <entry>rightmargin</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row importance="default">
               <entry>text</entry>
-=======
-            <row>
-              <entry>
-                <ph importance="default">text</ph>
-              </entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry></entry>
             </row>
             <row>
@@ -563,11 +468,7 @@
             </row>
           </tbody>
         </tgroup>
-<<<<<<< HEAD
         <tgroup cols="2" id="settings1_stop">
-=======
-        <tgroup cols="2" id="settings_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
@@ -584,58 +485,36 @@
               <entry>
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
-<<<<<<< HEAD
               <entry>
                 <ph conkeyref="DIMENSION/placeholder_desc"/>
               </entry>
-=======
-              <entry></entry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
             </row>
           </tbody>
         </tgroup>
       </table>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -643,14 +522,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/scrn-wid.mkvi" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>scrn-wid.mkvi</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/scrn-wid.mkvi" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>scrn-wid.mkvi</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

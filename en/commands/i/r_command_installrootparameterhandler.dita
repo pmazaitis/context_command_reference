@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_installrootparameterhandler" xml:lang="en">
   <title>\installrootparameterhandler</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\installrootparameterhandler</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/mult-aux.mkiv</source>
@@ -14,13 +13,6 @@
       <audience type="internal"/>
       <category>system</category>
       <keywords/>
-=======
-  <shortdesc>The <cmdname>\installrootparameterhandler</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>system</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -32,11 +24,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-<<<<<<< HEAD
       <synph>\installrootparameterhandler <delim>[</delim><var>COMMAND</var><delim>]</delim><delim>{</delim><var>NAME</var><delim>}</delim></synph>
-=======
-      <synph>\installrootparameterhandler <var>COMMAND</var><delim>{</delim><var>NAME</var><delim>}</delim></synph>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -44,82 +32,51 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
-<<<<<<< HEAD
-=======
-          <stentry>COMMAND</stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="COMMAND/placeholder_desc"/>
           </stentry>
-<<<<<<< HEAD
           <stentry>
             <ph conkeyref="COMMAND/placeholder_value"/>
           </stentry>
         </strow>
         <strow>
-=======
-        </strow>
-        <strow>
-          <stentry>NAME</stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="NAME/placeholder_desc"/>
           </stentry>
-<<<<<<< HEAD
           <stentry>
             <ph conkeyref="NAME/placeholder_value"/>
           </stentry>
-=======
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         </strow>
       </simpletable>
     </refsyn>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -127,14 +84,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/mult-aux.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>mult-aux.mkiv</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/mult-aux.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>mult-aux.mkiv</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

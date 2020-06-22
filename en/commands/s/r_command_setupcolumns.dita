@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_setupcolumns" xml:lang="en">
   <title>\setupcolumns</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\setupcolumns</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-smp.mkiv</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>structure layout</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\setupcolumns</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>style</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -42,24 +34,16 @@
           <stentry>Values</stentry>
         </sthead>
         <strow>
-<<<<<<< HEAD
           <stentry>
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-=======
-          <stentry>SETTINGS</stentry>
-          <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
-          </stentry>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>See <xref href="#./settings"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
-<<<<<<< HEAD
     <section id="settings1">
       <title>Settings</title>
       <table frame="all" rowsep="1" colsep="1">
@@ -87,327 +71,21 @@
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-    <section id="settings">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1" id="settings_table">
-        <tgroup cols="2" id="settings_start">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">n</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="NUMBER" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">distance</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="DIMENSION" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">option</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>background</entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">offset</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="DIMENSION" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">command</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="ONEARGUMENT" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">height</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="DIMENSION" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">direction</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>left</entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>
-                <ph importance="default">right</ph>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">balance</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <ph importance="default">yes</ph>
-              </entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>no</entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">align</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>setupalign</entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">tolerance</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>setuptolerance</entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">blank</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row conkeyref="command_vspacing/options_start" conrefend="default.dita#default/options_stop">
-              <entry/>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">ntop</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <xref keyref="NUMBER" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-        <tgroup cols="2" id="settings_stop">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry namest="value_name" nameend="value_desc">rule</entry>
-            </row>
-            <row>
-              <entry>Value</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>on</entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>
-                <ph importance="default">off</ph>
-              </entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>
-                <xref keyref="COMMAND" type="reference"/>
-              </entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
-      <note>Inherits settings from <xref href="../../commands/v/r_command_vspacing.dita"/>.</note>
-    </section>
-    <!--<section id="notes">
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -415,14 +93,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-smp.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-smp.mkiv</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-mul.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-mul.mkiv</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>

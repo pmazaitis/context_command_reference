@@ -2,7 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r_command_pagearea" xml:lang="en">
   <title>\pagearea</title>
-<<<<<<< HEAD
   <shortdesc rev="0">The <cmdname>\pagearea</cmdname> command...</shortdesc>
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-plg.mkiv</source>
@@ -16,13 +15,6 @@
       <keywords>
         <keyword>layout</keyword>
       </keywords>
-=======
-  <shortdesc>The <cmdname>\pagearea</cmdname>...</shortdesc>
-  <prolog>
-    <metadata>
-      <audience type="user"/>
-      <category>style</category>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
       <prodinfo>
         <prodname>ConTeXt</prodname>
           <vrmlist>
@@ -41,11 +33,7 @@
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-<<<<<<< HEAD
         <strow id="short_options1">
-=======
-        <strow id="short_options">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -54,11 +42,7 @@
           </stentry>
           <stentry>top, header, text, footer, bottom</stentry>
         </strow>
-<<<<<<< HEAD
         <strow id="short_options2">
-=======
-        <strow>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -67,11 +51,7 @@
           </stentry>
           <stentry>text, margin, edge</stentry>
         </strow>
-<<<<<<< HEAD
         <strow id="short_options3">
-=======
-        <strow>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
           <stentry>
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
@@ -82,20 +62,13 @@
         </strow>
       </simpletable>
     </refsyn>
-<<<<<<< HEAD
     <section id="options1">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options1_table">
-=======
-    <section id="options">
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1" id="options_table">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -103,15 +76,6 @@
           </thead>
           <tbody>
             <row id="options1_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row id="options_start">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>top</entry>
               <entry></entry>
             </row>
@@ -127,11 +91,7 @@
               <entry>footer</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options1_stop">
-=======
-            <row id="options_stop">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>bottom</entry>
               <entry></entry>
             </row>
@@ -139,20 +99,13 @@
         </tgroup>
       </table>
     </section>
-<<<<<<< HEAD
     <section id="options2">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options2_table">
-=======
-    <section>
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -160,15 +113,6 @@
           </thead>
           <tbody>
             <row id="options2_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>text</entry>
               <entry></entry>
             </row>
@@ -176,11 +120,7 @@
               <entry>margin</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options2_stop">
-=======
-            <row>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>edge</entry>
               <entry></entry>
             </row>
@@ -188,20 +128,13 @@
         </tgroup>
       </table>
     </section>
-<<<<<<< HEAD
     <section id="options3">
       <title>Options</title>
       <table frame="all" rowsep="1" colsep="1" id="options3_table">
-=======
-    <section>
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
         <tgroup cols="2">
           <colspec colname="value_name" colnum="1" colwidth="1*"/>
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
-<<<<<<< HEAD
             <row>
               <entry>Keyword</entry>
               <entry>Description</entry>
@@ -209,15 +142,6 @@
           </thead>
           <tbody>
             <row id="options3_start">
-=======
-                        <row>
-                          <entry>Keyword</entry>
-                          <entry>Description</entry>
-                        </row>
-                    </thead>
-          <tbody>
-            <row>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>left</entry>
               <entry></entry>
             </row>
@@ -233,11 +157,7 @@
               <entry>middletext</entry>
               <entry></entry>
             </row>
-<<<<<<< HEAD
             <row id="options3_stop">
-=======
-            <row>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
               <entry>righttext</entry>
               <entry></entry>
             </row>
@@ -246,45 +166,27 @@
       </table>
     </section>
     <!--<section id="notes">
-<<<<<<< HEAD
       <title>Notes</title>
       <p></p>
     </section>-->
     <example id="mwe" rev="0" otherprops="no_output">
       <title>Minimal Working Example</title>
       <codeblock outputclass="normalize-space">
-=======
-            <title>Notes</title>
-            <p></p>
-        </section>-->
-    <example id="mwe" otherprops="no_output">
-        <title>Minimal Working Example</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>
     <!--<example id="example_02" rev="0" otherprops="no_output">
       <title>Descriptive Example Title</title>
       <codeblock outputclass="normalize-space">
-=======
-        </codeblock>
-    </example>
-    <!--<example id="example_02" otherprops="no_output">
-        <title>Descriptive Example Title</title>
-        <codeblock outputclass="normalize-space">
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
 \starttext
 
 
 
 \stoptext
-<<<<<<< HEAD
       </codeblock>
     </example>-->
   </refbody>
@@ -292,14 +194,5 @@
       <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-plg.mkiv" scope="external" format="html">
         <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-plg.mkiv</filepath></linktext>
       </link>
-=======
-        </codeblock>
-    </example>-->
-  </refbody>
-  <related-links>
-        <link href="https://source.contextgarden.net/tex/context/base/mkiv/page-plg.mkiv" scope="external" format="html">
-            <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>page-plg.mkiv</filepath></linktext>
-        </link>
->>>>>>> 4e19189daa89493ffc37fc7bf2e703f614e84e5b
     </related-links>
 </reference>
