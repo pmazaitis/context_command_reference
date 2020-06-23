@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-sec.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-10"/>
+      <created date="2020-06-23" expiry="2021-02-11"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\setuphead <delim>[</delim><var importance="optional">SECTION</var><delim>]</delim><delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <synph>\setuphead <delim>[</delim><var importance="optional">SECTION</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -51,7 +51,9 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings1"/>.</stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -846,7 +848,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">page</entry>
+              <entry namest="value_name" nameend="value_desc">page<ph> (Inherits from <xref href="../p/r_command_page.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -1359,7 +1361,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">align</entry>
+              <entry namest="value_name" nameend="value_desc">align<ph> (Inherits from <xref href="../s/r_command_setupalign.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -1377,7 +1379,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">tolerance</entry>
+              <entry namest="value_name" nameend="value_desc">tolerance<ph> (Inherits from <xref href="../s/r_command_setuptolerance.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -1915,9 +1917,9 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_setuptolerance.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/p/r_command_page.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/s/r_command_setupalign.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/s/r_command_setuptolerance.dita"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

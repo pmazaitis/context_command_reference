@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/trc-vis.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-12-01"/>
+      <created date="2020-06-23" expiry="2021-01-04"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -24,7 +24,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\showmakeup <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <synph>\showmakeup <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -38,7 +38,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><ph importance="default">makeup</ph>, reset, boxes, all, hbox, vbox, vtop, kern, glue, penalty, fontkern, strut, whatsit, glyph, simple, simplehbox, simplevbox, simplevtop, user, math, italic, origin, discretionary, expansion, line, space, depth</stentry>
+          <stentry><ph importance="default">makeup</ph>, reset, boxes, all, hbox, vbox, vtop, kern, glue, penalty, fontkern, strut, whatsit, glyph, simple, simplehbox, simplevbox, simplevtop, user, math, italic, origin, discretionary, expansion, line, space, depth<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
       </simpletable>
     </refsyn>

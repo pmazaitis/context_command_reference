@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-pcl.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-11-19"/>
+      <created date="2020-06-23" expiry="2021-01-12"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\setuppagecolumns <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <synph>\setuppagecolumns <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -51,7 +51,9 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings1"/>.</stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -178,7 +180,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">align</entry>
+              <entry namest="value_name" nameend="value_desc">align<ph> (Inherits from <xref href="../s/r_command_setupalign.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -196,7 +198,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">blank</entry>
+              <entry namest="value_name" nameend="value_desc">blank<ph> (Inherits from <xref href="../b/r_command_blank.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -260,7 +262,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">page</entry>
+              <entry namest="value_name" nameend="value_desc">page<ph> (Inherits from <xref href="../p/r_command_page.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>

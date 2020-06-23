@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/supp-box.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-10-26"/>
+      <created date="2020-06-23" expiry="2020-11-28"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -24,7 +24,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\setboxlly <var>OPTIONS</var><delim>{</delim><var>DIMENSION</var><delim>}</delim></synph>
+      <synph>\setboxlly <var id="synvar_options1">OPTIONS</var><delim>{</delim><var>DIMENSION</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -38,7 +38,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><xref keyref="CSNAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/></stentry>
+          <stentry><xref keyref="CSNAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow>
           <stentry>

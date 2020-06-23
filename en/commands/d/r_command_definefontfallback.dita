@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-col.mkvi</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-10-24"/>
+      <created date="2020-06-23" expiry="2020-12-30"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\definefontfallback <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">SETTINGS</var><delim>]</delim></synph>
+      <synph>\definefontfallback <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var id="synvar_options2">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -51,7 +51,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><xref keyref="FONT" type="reference"/>, <xref keyref="NAME" type="reference"/></stentry>
+          <stentry><xref keyref="FONT" type="reference"/>, <xref keyref="NAME" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow id="short_options2">
           <stentry>
@@ -60,7 +60,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/></stentry>
+          <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/><xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
         <strow>
           <stentry>
@@ -69,7 +69,9 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings1"/>.</stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>

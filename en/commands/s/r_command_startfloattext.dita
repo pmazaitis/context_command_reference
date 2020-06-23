@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-flt.mkvi</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-11-26"/>
+      <created date="2020-06-23" expiry="2021-01-30"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\startfloattext <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">REFERENCE</var><delim>]</delim><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
+      <synph>\startfloattext <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">REFERENCE</var><delim>]</delim><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -40,7 +40,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>split, always, left, right, inner, outer, backspace, cutspace, inleft, inright, inmargin, leftmargin, rightmargin, leftedge, rightedge, innermargin, outermargin, inneredge, outeredge, text, opposite, reset, height, depth, line, halfline, grid, high, low, fit, 90, 180, 270, nonumber, none, local, here, force, margin, hang, hanging, tall, both, middle, offset, top, bottom, auto, page, leftpage, rightpage, somewhere, effective, header, footer, tblr, lrtb, tbrl, rltb, fxtb, btlr, lrbt, btrl, rlbt, fxbt, fixd</stentry>
+          <stentry>split, always, left, right, inner, outer, backspace, cutspace, inleft, inright, inmargin, leftmargin, rightmargin, leftedge, rightedge, innermargin, outermargin, inneredge, outeredge, text, opposite, reset, height, depth, line, halfline, grid, high, low, fit, 90, 180, 270, nonumber, none, local, here, force, margin, hang, hanging, tall, both, middle, offset, top, bottom, auto, page, leftpage, rightpage, somewhere, effective, header, footer, tblr, lrtb, tbrl, rltb, fxtb, btlr, lrbt, btrl, rlbt, fxbt, fixd<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow>
           <stentry>

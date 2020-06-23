@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-imp.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-12-02"/>
+      <created date="2020-06-23" expiry="2020-12-27"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\setuparranging <delim>[</delim><var>OPTIONS</var><delim>]</delim></synph>
+      <synph>\setuparranging <delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -40,7 +40,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>disable, mirrored, doublesided, negative, 90, 180, 270, reset, background, normal, 2*16, 2*8, 2*4, 2*2, 2**2, 2SIDE, 2TOP, 2UP, 2DOWN, 2*4*2, 2*2*4, 2TOPSIDE, 2*8*Z, 2*6*Z, 1*8, 1*4, 3SIDE, TRYPTICHON, ZFLYER-8, ZFLYER-10, ZFLYER-12, MAPFLYER-12, DOUBLEWINDOW, 1*2-Conference, 1*4-Conference, 2*2*2, 2*2*3, XY, <xref keyref="NAME" type="reference"/></stentry>
+          <stentry>disable, mirrored, doublesided, negative, 90, 180, 270, reset, background, normal, 2*16, 2*8, 2*4, 2*2, 2**2, 2SIDE, 2TOP, 2UP, 2DOWN, 2*4*2, 2*2*4, 2TOPSIDE, 2*8*Z, 2*6*Z, 1*8, 1*4, 3SIDE, TRYPTICHON, ZFLYER-8, ZFLYER-10, ZFLYER-12, MAPFLYER-12, DOUBLEWINDOW, 1*2-Conference, 1*4-Conference, 2*2*2, 2*2*3, XY, <xref keyref="NAME" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
       </simpletable>
     </refsyn>

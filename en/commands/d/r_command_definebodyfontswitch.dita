@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-ini.mkvi</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-02"/>
+      <created date="2020-06-23" expiry="2021-02-09"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\definebodyfontswitch <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim></synph>
+      <synph>\definebodyfontswitch <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>

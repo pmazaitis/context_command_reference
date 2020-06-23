@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-lay.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-05"/>
+      <created date="2020-06-23" expiry="2021-02-17"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\adaptpapersize <delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim></synph>
+      <synph>\adaptpapersize <delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-08"/>
+      <created date="2020-06-23" expiry="2021-01-11"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\definemathcommand <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>{</delim><var importance="optional">OPTIONS</var><delim>}</delim></synph>
+      <synph>\definemathcommand <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim><delim>{</delim><var importance="optional" id="synvar_options3">OPTIONS</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -51,7 +51,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>ord, op, bin, rel, open, close, punct, alpha, inner, <ph importance="default">nothing</ph>, limop, nolop, box</stentry>
+          <stentry>ord, op, bin, rel, open, close, punct, alpha, inner, <ph importance="default">nothing</ph>, limop, nolop, box<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow id="short_options2">
           <stentry>
@@ -60,7 +60,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>one, two</stentry>
+          <stentry>one, two<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
         <strow id="short_options3">
           <stentry>
@@ -69,7 +69,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><xref keyref="COMMAND" type="reference"/>, <xref keyref="ONEARGUMENT" type="reference"/>, <xref keyref="TWOARGUMENTS" type="reference"/></stentry>
+          <stentry><xref keyref="COMMAND" type="reference"/>, <xref keyref="ONEARGUMENT" type="reference"/>, <xref keyref="TWOARGUMENTS" type="reference"/><xref href="#./options3"> (See options table for details.)</xref></stentry>
         </strow>
       </simpletable>
     </refsyn>

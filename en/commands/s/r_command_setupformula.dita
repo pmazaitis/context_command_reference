@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-for.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-05"/>
+      <created date="2020-06-23" expiry="2020-10-28"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\setupformula <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <synph>\setupformula <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -51,7 +51,9 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings1"/>.</stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -248,7 +250,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">spacebefore</entry>
+              <entry namest="value_name" nameend="value_desc">spacebefore<ph> (Inherits from <xref href="../b/r_command_blank.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -266,7 +268,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">spaceafter</entry>
+              <entry namest="value_name" nameend="value_desc">spaceafter<ph> (Inherits from <xref href="../b/r_command_blank.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -384,7 +386,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">option</entry>
+              <entry namest="value_name" nameend="value_desc">option<ph> (Inherits from <xref href="../s/r_command_setupbodyfont.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -569,7 +571,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">grid</entry>
+              <entry namest="value_name" nameend="value_desc">grid<ph> (Inherits from <xref href="../s/r_command_snaptogrid.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -744,8 +746,8 @@
                     </tgroup>
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupcounter.dita"/>.</note>
-      <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/s/r_command_setupbodyfont.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/s/r_command_snaptogrid.dita"/>.</note>
     </section>
     <!--<section id="notes">

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/core-env.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-12-04"/>
+      <created date="2020-06-23" expiry="2020-12-24"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -24,7 +24,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\startsetups <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var>NAME</var><delim>]</delim></synph>
+      <synph>\startsetups <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var>NAME</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -38,7 +38,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>grid</stentry>
+          <stentry>grid<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow>
           <stentry>

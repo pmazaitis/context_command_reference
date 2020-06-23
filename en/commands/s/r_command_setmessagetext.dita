@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/mult-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-11-25"/>
+      <created date="2020-06-23" expiry="2020-12-24"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -24,7 +24,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\setmessagetext <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var>OPTIONS</var><delim>}</delim></synph>
+      <synph>\setmessagetext <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -49,7 +49,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/></stentry>
+          <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
       </simpletable>
     </refsyn>

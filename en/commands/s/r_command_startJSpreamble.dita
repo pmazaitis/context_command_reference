@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/java-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-22"/>
+      <created date="2020-06-23" expiry="2020-10-31"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\startJSpreamble <var>NAME</var><var>OPTIONS</var><var>OPTIONS</var></synph>
+      <synph>\startJSpreamble <var>NAME</var><var id="synvar_options1">OPTIONS</var><var id="synvar_options2">OPTIONS</var></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -51,7 +51,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>used</stentry>
+          <stentry>used<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow id="short_options2">
           <stentry>
@@ -60,7 +60,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>now, later</stentry>
+          <stentry>now, later<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
       </simpletable>
     </refsyn>

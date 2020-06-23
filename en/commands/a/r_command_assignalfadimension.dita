@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/mult-dim.mkvi</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-13"/>
+      <created date="2020-06-23" expiry="2021-01-19"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -24,7 +24,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\assignalfadimension <delim>{</delim><var>OPTIONS</var><delim>}</delim><delim>[</delim><var>COMMAND</var><delim>]</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim></synph>
+      <synph>\assignalfadimension <delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim><delim>[</delim><var>COMMAND</var><delim>]</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -38,7 +38,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>small, medium, big, none, <xref keyref="DIMENSION" type="reference"/></stentry>
+          <stentry>small, medium, big, none, <xref keyref="DIMENSION" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow>
           <stentry>

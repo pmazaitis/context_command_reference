@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/publ-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-01"/>
+      <created date="2020-06-23" expiry="2020-12-22"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\btxfieldname <delim>{</delim><var>OPTIONS</var><delim>}</delim></synph>
+      <synph>\btxfieldname <delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -40,7 +40,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>address, assignee, author, booktitle, chapter, day, dayfiled, edition, editor, howpublished, institution, journal, language, month, monthfiled, nationality, note, number, one, two, organization, pages, publisher, school, series, title, type, volume, year, yearfiled, <xref keyref="NAME" type="reference"/></stentry>
+          <stentry>address, assignee, author, booktitle, chapter, day, dayfiled, edition, editor, howpublished, institution, journal, language, month, monthfiled, nationality, note, number, one, two, organization, pages, publisher, school, series, title, type, volume, year, yearfiled, <xref keyref="NAME" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
       </simpletable>
     </refsyn>

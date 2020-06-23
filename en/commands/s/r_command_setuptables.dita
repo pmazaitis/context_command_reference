@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/tabl-tab.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2021-01-12"/>
+      <created date="2020-06-23" expiry="2020-11-06"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\setuptables <delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <synph>\setuptables <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -40,7 +40,9 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings1"/>.</stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -133,7 +135,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">NL</entry>
+              <entry namest="value_name" nameend="value_desc">NL<ph> (Inherits from <xref href="../b/r_command_blank.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -310,7 +312,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">bodyfont</entry>
+              <entry namest="value_name" nameend="value_desc">bodyfont<ph> (Inherits from <xref href="../s/r_command_setupbodyfont.dita"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -424,8 +426,8 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/s/r_command_setupbodyfont.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

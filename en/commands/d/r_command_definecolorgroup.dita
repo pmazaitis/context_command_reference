@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/colo-grp.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-11-23"/>
+      <created date="2020-06-23" expiry="2020-10-28"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\definecolorgroup <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var>TRIPLET</var><delim>]</delim></synph>
+      <synph>\definecolorgroup <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var>TRIPLET</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -51,7 +51,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry>gray, <ph importance="default">rgb</ph>, cmyk, spot</stentry>
+          <stentry>gray, <ph importance="default">rgb</ph>, cmyk, spot<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow>
           <stentry>

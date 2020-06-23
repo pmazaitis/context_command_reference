@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-fil.mkvi</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-11-27"/>
+      <created date="2020-06-23" expiry="2020-12-28"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\definebodyfont <delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var>OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">OPTIONS</var><delim>]</delim><delim>[</delim><var>SETTINGS</var><delim>]</delim></synph>
+      <synph>\definebodyfont <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var id="synvar_options2">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options3">OPTIONS</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
           <stentry>Name</stentry>
@@ -40,7 +40,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><xref keyref="NAME" type="reference"/>, default</stentry>
+          <stentry><xref keyref="NAME" type="reference"/>, default<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
         <strow id="short_options2">
           <stentry>
@@ -49,7 +49,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="DIMENSION" type="reference"/></stentry>
+          <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="DIMENSION" type="reference"/><xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
         <strow id="short_options3">
           <stentry>
@@ -58,7 +58,7 @@
           <stentry>
             <ph conkeyref="OPTIONS/placeholder_desc"/>
           </stentry>
-          <stentry><ph importance="default">rm</ph>, ss, tt, hw, cg</stentry>
+          <stentry><ph importance="default">rm</ph>, ss, tt, hw, cg<xref href="#./options3"> (See options table for details.)</xref></stentry>
         </strow>
         <strow>
           <stentry>
@@ -67,7 +67,9 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings1"/>.</stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>
