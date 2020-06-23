@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-box.mkiv</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-12-13"/>
+      <created date="2020-06-22" expiry="2020-10-21"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -60,7 +60,7 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings"/>.</stentry>
+          <stentry>See <xref href="#./settings1"/>.</stentry>
         </strow>
         <strow>
           <stentry>
@@ -69,7 +69,7 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings"/>.</stentry>
+          <stentry>See <xref href="#./settings2"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -125,8 +125,8 @@
                         </tbody>
                     </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setuplayer.dita"/>.</note>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

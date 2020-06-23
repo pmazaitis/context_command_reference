@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-flt.mkvi</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-11-09"/>
+      <created date="2020-06-22" expiry="2020-12-11"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -51,7 +51,7 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings"/>.</stentry>
+          <stentry>See <xref href="#./settings1"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -1277,9 +1277,9 @@
                     </tgroup>
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
-      <note>Inherits options from <xref href="../../commands/s/r_command_snaptogrid.dita"/>.</note>
-      <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/p/r_command_placefloat.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/b/r_command_blank.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/s/r_command_snaptogrid.dita"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

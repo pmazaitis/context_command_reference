@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-itm.mkvi</source>
     <critdates>
-      <created date="2020-06-22" expiry="2020-12-27"/>
+      <created date="2020-06-22" expiry="2020-12-13"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -69,7 +69,7 @@
           <stentry>
             <ph conkeyref="SETTINGS/placeholder_desc"/>
           </stentry>
-          <stentry>See <xref href="#./settings"/>.</stentry>
+          <stentry>See <xref href="#./settings1"/>.</stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -1436,8 +1436,8 @@
                     </tgroup>
       </table>
       <note>Inherits settings from <xref href="../../commands/s/r_command_setupcounter.dita"/>.</note>
-      <note>Inherits options from <xref href="../../commands/d/r_command_definegridsnapping.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/s/r_command_setupindenting.dita"/>.</note>
+      <note>Inherits options from <xref href="../../commands/d/r_command_definegridsnapping.dita"/>.</note>
       <note>Inherits options from <xref href="../../commands/s/r_command_setupalign.dita"/>.</note>
     </section>
     <!--<section id="notes">
