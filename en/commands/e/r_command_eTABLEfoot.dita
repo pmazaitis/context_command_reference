@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/tabl-ntb.mkxl</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-02"/>
+      <created date="2020-07-10" expiry="2021-01-08"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,8 +26,46 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\eTABLEfoot </synph>
+      <synph>\eTABLEfoot <delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SETTINGS/argument_desc"/>
+          </stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
+    <section id="settings1">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup conkeyref="command_setupTABLE/settings1_start" conrefend="default.dita#default/settings1_stop" cols="2" id="settings1_entry">
+                        <colspec/>
+                        <colspec/>
+                        <thead>
+                            <row>
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+      </table>
+      <note>Inherits settings from <xref keyref="command_setupTABLE"/>.</note>
+    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>

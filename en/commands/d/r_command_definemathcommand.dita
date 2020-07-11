@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-11"/>
+      <created date="2020-07-10" expiry="2021-01-12"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\definemathcommand <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim><delim>{</delim><var importance="optional" id="synvar_options3">OPTIONS</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
@@ -49,7 +49,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>ord, op, bin, rel, open, close, punct, alpha, inner, <ph importance="default">nothing</ph>, limop, nolop, box<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -58,7 +58,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>one, two<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
@@ -67,7 +67,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="COMMAND" type="reference"/>, <xref keyref="ONEARGUMENT" type="reference"/>, <xref keyref="TWOARGUMENTS" type="reference"/><xref href="#./options3"> (See options table for details.)</xref></stentry>
         </strow>
@@ -88,55 +88,55 @@
           <tbody>
             <row id="options1_start">
               <entry>ord</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>op</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>bin</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>rel</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>open</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>close</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>punct</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>alpha</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>inner</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>nothing</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>limop</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>nolop</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>box</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -157,11 +157,11 @@
           <tbody>
             <row id="options2_start">
               <entry>one</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options2_stop">
               <entry>two</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -185,7 +185,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -193,7 +193,7 @@
                 <xref keyref="ONEARGUMENT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="ONEARGUMENT/placeholder_desc"/>
+                <ph conkeyref="ONEARGUMENT/argument_desc"/>
               </entry>
             </row>
             <row id="options3_stop">
@@ -201,7 +201,7 @@
                 <xref keyref="TWOARGUMENTS" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TWOARGUMENTS/placeholder_desc"/>
+                <ph conkeyref="TWOARGUMENTS/argument_desc"/>
               </entry>
             </row>
           </tbody>

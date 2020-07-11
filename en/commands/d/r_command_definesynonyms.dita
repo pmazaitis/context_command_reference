@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-syn.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-16"/>
+      <created date="2020-07-10" expiry="2021-01-16"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\definesynonyms <delim>[</delim><var>SINGULAR</var><delim>]</delim><delim>[</delim><var>PLURAL</var><delim>]</delim><delim>[</delim><var importance="optional">CSNAME</var><delim>]</delim><delim>[</delim><var importance="optional">CSNAME</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="SINGULAR" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SINGULAR/placeholder_desc"/>
+            <ph conkeyref="SINGULAR/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SINGULAR/placeholder_value"/>
+            <ph conkeyref="SINGULAR/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,21 +49,10 @@
             <xref keyref="PLURAL" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="PLURAL/placeholder_desc"/>
+            <ph conkeyref="PLURAL/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="PLURAL/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="CSNAME" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="CSNAME/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="CSNAME/placeholder_value"/>
+            <ph conkeyref="PLURAL/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -71,10 +60,21 @@
             <xref keyref="CSNAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="CSNAME/placeholder_desc"/>
+            <ph conkeyref="CSNAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="CSNAME/placeholder_value"/>
+            <ph conkeyref="CSNAME/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="CSNAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="CSNAME/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="CSNAME/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

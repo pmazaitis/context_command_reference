@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-lay.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-16"/>
+      <created date="2020-07-10" expiry="2020-12-06"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\setuplayout <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,7 +49,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -75,19 +75,19 @@
           <tbody>
             <row importance="default">
               <entry>start</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>stop</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>repeat</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -109,7 +109,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -132,7 +132,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -155,7 +155,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -178,7 +178,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -201,7 +201,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -224,7 +224,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -247,7 +247,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -270,7 +270,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -293,7 +293,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -316,7 +316,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -339,7 +339,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -362,7 +362,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -385,7 +385,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -408,7 +408,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -431,7 +431,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -454,7 +454,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -477,7 +477,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -500,7 +500,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -523,7 +523,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -546,7 +546,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -569,7 +569,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -592,7 +592,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -615,7 +615,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -638,7 +638,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -661,7 +661,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -684,16 +684,16 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
             <row>
               <entry>middle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>fit</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -715,7 +715,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -738,7 +738,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -761,16 +761,16 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
             <row>
               <entry>middle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>fit</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -792,7 +792,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -815,7 +815,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -838,7 +838,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -861,7 +861,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -881,18 +881,18 @@
           <tbody>
             <row>
               <entry>default</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -912,31 +912,31 @@
           <tbody>
             <row>
               <entry>left</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>middle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>right</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>top</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>bottom</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>singlesided</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>doublesided</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -958,7 +958,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -981,7 +981,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1004,7 +1004,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1027,7 +1027,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1050,7 +1050,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1073,7 +1073,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1096,7 +1096,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1119,7 +1119,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1142,7 +1142,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1162,35 +1162,35 @@
           <tbody>
             <row>
               <entry>on</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>off</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>page</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>empty</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>color</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>one</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>two</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>four</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -1209,15 +1209,15 @@
           <tbody>
             <row>
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>no</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>off</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -1239,7 +1239,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1259,22 +1259,22 @@
           <tbody>
             <row>
               <entry>default</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>makeup</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1297,7 +1297,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1320,12 +1320,12 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
             <row>
               <entry>auto</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -1347,7 +1347,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1370,7 +1370,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1393,7 +1393,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -1413,11 +1413,11 @@
           <tbody>
             <row importance="default">
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>reverse</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

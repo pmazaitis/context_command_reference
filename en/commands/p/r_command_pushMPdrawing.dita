@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/meta-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-25"/>
+      <created date="2020-07-10" expiry="2020-11-14"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="internal"/>
       <category>system</category>
       <keywords>
-        <keyword>graphics metapost</keyword>
+        <keyword>graphics</keyword>
+        <keyword>metapost</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>

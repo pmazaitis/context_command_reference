@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_lua" xml:lang="en">
-  <title>\lua</title>
-  <shortdesc rev="0">The <cmdname>\lua</cmdname> command...</shortdesc>
+<reference id="r_command_Lua" xml:lang="en">
+  <title>\Lua</title>
+  <shortdesc rev="0">The <cmdname>\Lua</cmdname> command...</shortdesc>
   <prolog>
-    <source>tex/texmf-context/tex/context/base/mkiv/luat-ini.mkiv</source>
+    <source>tex/texmf-context/tex/context/base/mkiv/cont-log.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-03"/>
+      <created date="2020-07-10" expiry="2021-01-02"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
-      <audience type="internal"/>
-      <category>system</category>
+      <audience type="user"/>
+      <category>document</category>
       <keywords>
-        <keyword>lua</keyword>
+        <keyword>symbols</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -26,7 +26,7 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\lua </synph>
+      <synph>\Lua </synph>
     </refsyn>
     <!--<section id="notes">
       <title>Notes</title>
@@ -54,8 +54,8 @@
     </example>-->
   </refbody>
   <related-links>
-      <link href="https://source.contextgarden.net/tex/context/base/mkiv/luat-ini.mkiv" scope="external" format="html">
-        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>luat-ini.mkiv</filepath></linktext>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/cont-log.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>cont-log.mkiv</filepath></linktext>
       </link>
     </related-links>
 </reference>

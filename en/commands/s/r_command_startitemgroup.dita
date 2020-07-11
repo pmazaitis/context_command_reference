@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-itm.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-10-27"/>
+      <created date="2020-07-10" expiry="2021-03-02"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,13 +26,24 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\startitemgroup <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <synph>\startitemgroup <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_value"/>
+          </stentry>
+        </strow>
         <strow conkeyref="command_setupitemgroup/short_options1" id="short_options1">
           <stentry/>
           <stentry/>
@@ -43,7 +54,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -70,7 +81,7 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_setupitemgroup.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_setupitemgroup"/>.</note>
     </section>
     <section id="settings1">
       <title>Settings</title>
@@ -90,7 +101,7 @@
                         </tbody>
                     </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupitemgroup.dita"/>.</note>
+      <note>Inherits settings from <xref keyref="command_setupitemgroup"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

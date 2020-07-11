@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-bck.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-09"/>
+      <created date="2020-07-10" expiry="2020-11-27"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,46 +26,26 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\background <delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <synph>\background <delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
         <strow>
           <stentry>
-            <xref keyref="SETTINGS" type="reference"/>
+            <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SCOPE/argument_desc"/>
           </stentry>
           <stentry>
-            <xref href="#./settings1"> (See settings table for details.)</xref>
+            <ph conkeyref="SCOPE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
     </refsyn>
-    <section id="settings1">
-      <title>Settings</title>
-      <table frame="all" rowsep="1" colsep="1">
-        <tgroup conkeyref="command_setupbackground/settings1_start" conrefend="default.dita#default/settings1_stop" cols="2" id="settings1_entry">
-                        <colspec/>
-                        <colspec/>
-                        <thead>
-                            <row>
-                                <entry/>
-                            </row>
-                        </thead>
-                        <tbody>
-                            <row>
-                                <entry/>
-                            </row>
-                        </tbody>
-                    </tgroup>
-      </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupbackground.dita"/>.</note>
-    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>

@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-tnt.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-01"/>
+      <created date="2020-07-10" expiry="2021-02-03"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>style</category>
       <keywords>
-        <keyword>structure notes</keyword>
+        <keyword>structure</keyword>
+        <keyword>notes</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\setuptextnote <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +39,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,7 +50,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -78,7 +79,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -101,7 +102,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -121,14 +122,14 @@
           <tbody>
             <row>
               <entry>*</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -148,19 +149,19 @@
           <tbody>
             <row>
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>no</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>none</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>number</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

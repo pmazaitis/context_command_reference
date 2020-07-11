@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-ori.mkxl</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-15"/>
+      <created date="2020-07-10" expiry="2021-02-17"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\setuporientation <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,7 +49,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -75,31 +75,31 @@
           <tbody>
             <row>
               <entry>up</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>down</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>left</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>right</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>top</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>bottom</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -118,27 +118,27 @@
           <tbody>
             <row>
               <entry>left</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>middle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>right</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>flushleft</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>flushright</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -157,23 +157,23 @@
           <tbody>
             <row>
               <entry>line</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>top</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>middle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>bottom</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

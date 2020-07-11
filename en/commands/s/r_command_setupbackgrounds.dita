@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-bck.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-15"/>
+      <created date="2020-07-10" expiry="2020-12-07"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\setupbackgrounds <delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +38,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>top, header, text, footer, bottom<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -47,7 +47,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>leftedge, leftmargin, text, rightmargin, rightedge<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
@@ -56,7 +56,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -79,23 +79,23 @@
           <tbody>
             <row id="options1_start">
               <entry>top</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>header</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>text</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>footer</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>bottom</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -116,23 +116,23 @@
           <tbody>
             <row id="options2_start">
               <entry>leftedge</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>leftmargin</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>text</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>rightmargin</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options2_stop">
               <entry>rightedge</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -156,7 +156,7 @@
                         </tbody>
                     </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupframed.dita"/>.</note>
+      <note>Inherits settings from <xref keyref="command_setupframed"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

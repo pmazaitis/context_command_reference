@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_typing" xml:lang="en">
+  <title>\typing</title>
+  <shortdesc rev="0">The <cmdname>\typing</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/buff-ver.mkiv</source>
+    <critdates>
+      <created date="2020-06-25" expiry="2021-01-28"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords>
+        <keyword>verbatim</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\typing <delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SETTINGS/placeholder_desc"/>
+          </stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="settings1">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup conkeyref="command_setuptyping/settings1_start" conrefend="default.dita#default/settings1_stop" cols="2" id="settings1_entry">
+                        <colspec/>
+                        <colspec/>
+                        <thead>
+                            <row>
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+      </table>
+      <note>Inherits settings from <xref href="../../commands/s/r_command_setuptyping.dita"/>.</note>
+    </section>
+    <section>
+      <title>Instances</title>
+      <p>This command has the following instances:</p>
+      <ul>
+        <li>
+          <xref href="../../commands/l/r_command_LUA.dita">LUA</xref>
+        </li>
+        <li>
+          <xref href="../../commands/m/r_command_MP.dita">MP</xref>
+        </li>
+        <li>
+          <xref href="../../commands/p/r_command_PARSEDXML.dita">PARSEDXML</xref>
+        </li>
+        <li>
+          <xref href="../../commands/t/r_command_TEX.dita">TEX</xref>
+        </li>
+        <li>
+          <xref href="../../commands/x/r_command_XML.dita">XML</xref>
+        </li>
+      </ul>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/buff-ver.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>buff-ver.mkiv</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-box.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-05"/>
+      <created date="2020-07-10" expiry="2021-02-27"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\backgroundimage <delim>{</delim><var>NUMBER</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>DIMENSION</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,21 +38,10 @@
             <xref keyref="NUMBER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_desc"/>
+            <ph conkeyref="NUMBER/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="DIMENSION" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="DIMENSION/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="DIMENSION/placeholder_value"/>
+            <ph conkeyref="NUMBER/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -60,10 +49,21 @@
             <xref keyref="DIMENSION" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DIMENSION/placeholder_desc"/>
+            <ph conkeyref="DIMENSION/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DIMENSION/placeholder_value"/>
+            <ph conkeyref="DIMENSION/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="DIMENSION" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="DIMENSION/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="DIMENSION/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -71,10 +71,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

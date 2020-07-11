@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-smp.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-09"/>
+      <created date="2020-07-10" expiry="2021-02-11"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="internal"/>
       <category>system</category>
       <keywords>
-        <keyword>structure layout</keyword>
+        <keyword>structure</keyword>
+        <keyword>layout</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\setsimplecolumnshsize <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +39,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -67,7 +68,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -90,7 +91,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -113,7 +114,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -136,7 +137,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>

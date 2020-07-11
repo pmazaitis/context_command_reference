@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_command_startlua" xml:lang="en">
-  <title>\startlua</title>
-  <shortdesc rev="0">The <cmdname>\startlua</cmdname> command...</shortdesc>
+<reference id="r_command_startLUA" xml:lang="en">
+  <title>\startLUA</title>
+  <shortdesc rev="0">The <cmdname>\startLUA</cmdname> command...</shortdesc>
   <prolog>
-    <source>tex/texmf-context/tex/context/base/mkiv/luat-ini.mkiv</source>
+    <source>tex/texmf-context/tex/context/base/mkiv/buff-ver.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-12"/>
+      <created date="2020-07-10" expiry="2020-12-18"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
-      <audience type="internal"/>
-      <category>system</category>
+      <audience type="user"/>
+      <category>document</category>
       <keywords>
-        <keyword>lua</keyword>
+        <keyword>verbatim</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -26,8 +26,46 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\startlua </synph>
+      <synph>\startLUA <delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SETTINGS/argument_desc"/>
+          </stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
+    <section id="settings1">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup conkeyref="command_setuptyping/settings1_start" conrefend="default.dita#default/settings1_stop" cols="2" id="settings1_entry">
+                        <colspec/>
+                        <colspec/>
+                        <thead>
+                            <row>
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+      </table>
+      <note>Inherits settings from <xref keyref="command_setuptyping"/>.</note>
+    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>
@@ -54,8 +92,8 @@
     </example>-->
   </refbody>
   <related-links>
-      <link href="https://source.contextgarden.net/tex/context/base/mkiv/luat-ini.mkiv" scope="external" format="html">
-        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>luat-ini.mkiv</filepath></linktext>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/buff-ver.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>buff-ver.mkiv</filepath></linktext>
       </link>
     </related-links>
 </reference>

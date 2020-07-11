@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-fen.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-29"/>
+      <created date="2020-07-10" expiry="2021-01-09"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\right <var id="synvar_options1">OPTIONS</var></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +38,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>\\\\\\\\egroup, \\\\\\\\bgroup, \\\\\\\\letterclosebrace, ], [, ), (, &gt;, &lt;, /, |, ⌋, ⌊, ⌉, ⌈, ⟩, ⟨, ⟫, ⟪, ‖, ⦀, ⦘, \\\\\\\\rbrace, \\\\\\\\rbracket, \\\\\\\\rbracket, \\\\\\\\rparenthesis, \\\\\\\\rparent, \\\\\\\\rparen, \\\\\\\\rangle, \\\\\\\\rrangle, \\\\\\\\rVert, \\\\\\\\vert, \\\\\\\\solidus, \\\\\\\\rfloor, \\\\\\\\rceiling, \\\\\\\\rceil, \\\\\\\\urcorner, \\\\\\\\lrcorner, \\\\\\\\rmoustache, \\\\\\\\rrbracket, \\\\\\\\rgroup, \\\\\\\\rinterval, \\\\\\\\rointerval, \\\\\\\\rlointerval, \\\\\\\\rrointerval, \\\\\\\\}, \\\\\\\\], \\\\\\\\), \\\\\\\\&gt;, \\\\\\\\|, <xref keyref="CHARACTER" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -59,210 +59,210 @@
           <tbody>
             <row id="options1_start">
               <entry>\\\\\\\\egroup</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\bgroup</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\letterclosebrace</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>]</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>[</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>(</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>&gt;</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>&lt;</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>/</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>|</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⌋</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⌊</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⌉</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⌈</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⟩</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⟨</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⟫</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⟪</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>‖</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⦀</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>⦘</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rbrace</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rbracket</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rbracket</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rparenthesis</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rparent</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rparen</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rangle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rrangle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rVert</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\vert</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\solidus</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rfloor</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rceiling</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rceil</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\urcorner</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\lrcorner</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rmoustache</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rrbracket</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rgroup</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rinterval</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rointerval</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rlointerval</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\rrointerval</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\}</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\]</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\&gt;</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>\\\\\\\\|</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>
                 <xref keyref="CHARACTER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="CHARACTER/placeholder_desc"/>
+                <ph conkeyref="CHARACTER/argument_desc"/>
               </entry>
             </row>
           </tbody>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-sym.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-15"/>
+      <created date="2020-07-10" expiry="2020-12-11"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\resolvedglyphstyled <delim>{</delim><var>FONT</var><delim>}</delim><delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="FONT" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FONT/placeholder_desc"/>
+            <ph conkeyref="FONT/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FONT/placeholder_value"/>
+            <ph conkeyref="FONT/argument_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
@@ -49,7 +49,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NUMBER" type="reference"/>, <xref keyref="NAME" type="reference"/>, <xref keyref="NAME" type="reference"/>, <xref keyref="NAME" type="reference"/>, <xref keyref="NAME" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -73,7 +73,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -81,7 +81,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -89,7 +89,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -97,7 +97,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -105,7 +105,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -113,7 +113,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -121,7 +121,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -129,7 +129,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
             <row id="options1_stop">
@@ -137,7 +137,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>

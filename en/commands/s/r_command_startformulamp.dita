@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_startformulamp" xml:lang="en">
+  <title>\startformulamp</title>
+  <shortdesc rev="0">The <cmdname>\startformulamp</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/strc-mat.mkiv</source>
+    <critdates>
+      <created date="2020-06-25" expiry="2021-01-07"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords>
+        <keyword>mathematics</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\startformulamp <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Name</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow conkeyref="command_setupbodyfont/short_options1" id="short_options1">
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+      </simpletable>
+      <note>Instance of <xref href="../../commands/s/r_command_startformula.dita"/>.</note>
+    </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>packed</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>tight</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>middle</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>frame</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>depth</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>line</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>halfline</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>line</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>halfline</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row conkeyref="command_setupbodyfont/options1_start" conrefend="default.dita#default/options1_stop" id="options1_stop">
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note>Inherits options from <xref href="../../commands/s/r_command_setupbodyfont.dita"/>.</note>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-mat.mkiv" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>strc-mat.mkiv</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

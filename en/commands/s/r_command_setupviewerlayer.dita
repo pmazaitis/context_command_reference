@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/attr-lay.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-21"/>
+      <created date="2020-07-10" expiry="2020-12-29"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\setupviewerlayer <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +38,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -67,7 +67,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -87,11 +87,11 @@
           <tbody>
             <row importance="default">
               <entry>start</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>stop</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -110,11 +110,11 @@
           <tbody>
             <row importance="default">
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>no</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -133,11 +133,11 @@
           <tbody>
             <row importance="default">
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>no</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -156,11 +156,11 @@
           <tbody>
             <row importance="default">
               <entry>local</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>global</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -179,11 +179,11 @@
           <tbody>
             <row importance="default">
               <entry>none</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>command</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

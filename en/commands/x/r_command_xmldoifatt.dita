@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/lxml-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-01"/>
+      <created date="2020-07-10" expiry="2021-02-15"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\xmldoifatt <delim>{</delim><var>NODE</var><delim>}</delim><delim>[</delim><var>STRING</var><delim>]</delim><delim>[</delim><var>STRING</var><delim>]</delim><delim>{</delim><var>TRUE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,21 +38,10 @@
             <xref keyref="NODE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NODE/placeholder_desc"/>
+            <ph conkeyref="NODE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NODE/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="STRING" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="STRING/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="STRING/placeholder_value"/>
+            <ph conkeyref="NODE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -60,10 +49,21 @@
             <xref keyref="STRING" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="STRING/placeholder_desc"/>
+            <ph conkeyref="STRING/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="STRING/placeholder_value"/>
+            <ph conkeyref="STRING/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="STRING" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="STRING/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="STRING/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -71,10 +71,10 @@
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_desc"/>
+            <ph conkeyref="TRUE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_value"/>
+            <ph conkeyref="TRUE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

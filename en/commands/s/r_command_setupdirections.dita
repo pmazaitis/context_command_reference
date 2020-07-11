@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/typo-dir.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-04"/>
+      <created date="2020-07-10" expiry="2020-12-25"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>style</category>
       <keywords>
-        <keyword>language alignment</keyword>
+        <keyword>language</keyword>
+        <keyword>alignment</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\setupdirections <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +39,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -64,19 +65,19 @@
           <tbody>
             <row>
               <entry>on</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>off</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>local</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>global</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -95,15 +96,15 @@
           <tbody>
             <row>
               <entry>one</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>two</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>default</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -122,11 +123,11 @@
           <tbody>
             <row importance="default">
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>no</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -145,11 +146,11 @@
           <tbody>
             <row importance="default">
               <entry>both</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>before</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

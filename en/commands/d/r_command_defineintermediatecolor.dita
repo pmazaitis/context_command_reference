@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/colo-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-08"/>
+      <created date="2020-07-10" expiry="2021-01-11"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\defineintermediatecolor <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
@@ -49,7 +49,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="COLOR" type="reference"/>, <xref keyref="NUMBER" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -58,7 +58,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -84,7 +84,7 @@
                 <xref keyref="COLOR" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COLOR/placeholder_desc"/>
+                <ph conkeyref="COLOR/argument_desc"/>
               </entry>
             </row>
             <row id="options1_stop">
@@ -92,7 +92,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -120,7 +120,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -143,7 +143,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>

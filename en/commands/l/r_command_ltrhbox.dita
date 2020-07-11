@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/spac-ali.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-30"/>
+      <created date="2020-07-10" expiry="2020-12-04"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\ltrhbox <var importance="optional">TEXT</var><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="TEXT" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_desc"/>
+            <ph conkeyref="TEXT/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_value"/>
+            <ph conkeyref="TEXT/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,10 +49,10 @@
             <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_desc"/>
+            <ph conkeyref="SCOPE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_value"/>
+            <ph conkeyref="SCOPE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/anch-pgr.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-27"/>
+      <created date="2020-07-10" expiry="2020-12-02"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="internal"/>
       <category>system</category>
       <keywords>
-        <keyword>background metapost</keyword>
+        <keyword>background</keyword>
+        <keyword>metapost</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\startMPpositionmethod <delim>{</delim><var>NAME</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +39,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

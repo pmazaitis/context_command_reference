@@ -31,8 +31,6 @@
   <topicref keys="command_GotoPar" href="commands/G/r_command_GotoPar.dita"/>
   <topicref keys="command_Greeknumerals" href="commands/G/r_command_Greeknumerals.dita"/>
   <topicref keys="command_INRSTEX" href="commands/I/r_command_INRSTEX.dita"/>
-  <topicref keys="command_JScode" href="commands/J/r_command_JScode.dita"/>
-  <topicref keys="command_JSpreamble" href="commands/J/r_command_JSpreamble.dita"/>
   <topicref keys="command_LAMSTEX" href="commands/L/r_command_LAMSTEX.dita"/>
   <topicref keys="command_LATEX" href="commands/L/r_command_LATEX.dita"/>
   <topicref keys="command_LUAJITTEX" href="commands/L/r_command_LUAJITTEX.dita"/>
@@ -61,23 +59,18 @@
   <topicref keys="command_MPanchor" href="commands/M/r_command_MPanchor.dita"/>
   <topicref keys="command_MPbetex" href="commands/M/r_command_MPbetex.dita"/>
   <topicref keys="command_MPc" href="commands/M/r_command_MPc.dita"/>
-  <topicref keys="command_MPclip" href="commands/M/r_command_MPclip.dita"/>
   <topicref keys="command_MPcode" href="commands/M/r_command_MPcode.dita"/>
   <topicref keys="command_MPcolor" href="commands/M/r_command_MPcolor.dita"/>
   <topicref keys="command_MPcoloronly" href="commands/M/r_command_MPcoloronly.dita"/>
   <topicref keys="command_MPcolumn" href="commands/M/r_command_MPcolumn.dita"/>
   <topicref keys="command_MPd" href="commands/M/r_command_MPd.dita"/>
-  <topicref keys="command_MPdefinitions" href="commands/M/r_command_MPdefinitions.dita"/>
   <topicref keys="command_MPdrawing" href="commands/M/r_command_MPdrawing.dita"/>
-  <topicref keys="command_MPenvironment" href="commands/M/r_command_MPenvironment.dita"/>
-  <topicref keys="command_MPextensions" href="commands/M/r_command_MPextensions.dita"/>
   <topicref keys="command_MPfontsizehskip" href="commands/M/r_command_MPfontsizehskip.dita"/>
   <topicref keys="command_MPgetmultipars" href="commands/M/r_command_MPgetmultipars.dita"/>
   <topicref keys="command_MPgetmultishape" href="commands/M/r_command_MPgetmultishape.dita"/>
   <topicref keys="command_MPgetposboxes" href="commands/M/r_command_MPgetposboxes.dita"/>
   <topicref keys="command_MPh" href="commands/M/r_command_MPh.dita"/>
   <topicref keys="command_MPinclusions" href="commands/M/r_command_MPinclusions.dita"/>
-  <topicref keys="command_MPinitializations" href="commands/M/r_command_MPinitializations.dita"/>
   <topicref keys="command_MPleftskip" href="commands/M/r_command_MPleftskip.dita"/>
   <topicref keys="command_MPll" href="commands/M/r_command_MPll.dita"/>
   <topicref keys="command_MPlr" href="commands/M/r_command_MPlr.dita"/>
@@ -92,7 +85,6 @@
   <topicref keys="command_MPplus" href="commands/M/r_command_MPplus.dita"/>
   <topicref keys="command_MPpos" href="commands/M/r_command_MPpos.dita"/>
   <topicref keys="command_MPpositiongraphic" href="commands/M/r_command_MPpositiongraphic.dita"/>
-  <topicref keys="command_MPpositionmethod" href="commands/M/r_command_MPpositionmethod.dita"/>
   <topicref keys="command_MPposset" href="commands/M/r_command_MPposset.dita"/>
   <topicref keys="command_MPr" href="commands/M/r_command_MPr.dita"/>
   <topicref keys="command_MPrawvar" href="commands/M/r_command_MPrawvar.dita"/>
@@ -100,7 +92,6 @@
   <topicref keys="command_MPrest" href="commands/M/r_command_MPrest.dita"/>
   <topicref keys="command_MPrightskip" href="commands/M/r_command_MPrightskip.dita"/>
   <topicref keys="command_MPrs" href="commands/M/r_command_MPrs.dita"/>
-  <topicref keys="command_MPrun" href="commands/M/r_command_MPrun.dita"/>
   <topicref keys="command_MPstring" href="commands/M/r_command_MPstring.dita"/>
   <topicref keys="command_MPtext" href="commands/M/r_command_MPtext.dita"/>
   <topicref keys="command_MPtransparency" href="commands/M/r_command_MPtransparency.dita"/>
@@ -143,10 +134,6 @@
   <topicref keys="command_SmallCapped" href="commands/S/r_command_SmallCapped.dita"/>
   <topicref keys="command_Smallcapped" href="commands/S/r_command_Smallcapped.dita"/>
   <topicref keys="command_TABLE" href="commands/T/r_command_TABLE.dita"/>
-  <topicref keys="command_TABLEbody" href="commands/T/r_command_TABLEbody.dita"/>
-  <topicref keys="command_TABLEfoot" href="commands/T/r_command_TABLEfoot.dita"/>
-  <topicref keys="command_TABLEhead" href="commands/T/r_command_TABLEhead.dita"/>
-  <topicref keys="command_TABLEnext" href="commands/T/r_command_TABLEnext.dita"/>
   <topicref keys="command_TEX" href="commands/T/r_command_TEX.dita"/>
   <topicref keys="command_TaBlE" href="commands/T/r_command_TaBlE.dita"/>
   <topicref keys="command_TeX" href="commands/T/r_command_TeX.dita"/>
@@ -161,6 +148,7 @@
   <topicref keys="command_Words" href="commands/W/r_command_Words.dita"/>
   <topicref keys="command_XETEX" href="commands/X/r_command_XETEX.dita"/>
   <topicref keys="command_XeTeX" href="commands/X/r_command_XeTeX.dita"/>
+  <topicref keys="command_abbreviation" href="commands/a/r_command_abbreviation.dita"/>
   <topicref keys="command_abjadnaivenumerals" href="commands/a/r_command_abjadnaivenumerals.dita"/>
   <topicref keys="command_abjadnodotnumerals" href="commands/a/r_command_abjadnodotnumerals.dita"/>
   <topicref keys="command_abjadnumerals" href="commands/a/r_command_abjadnumerals.dita"/>
@@ -186,10 +174,8 @@
   <topicref keys="command_alignedbox" href="commands/a/r_command_alignedbox.dita"/>
   <topicref keys="command_alignedline" href="commands/a/r_command_alignedline.dita"/>
   <topicref keys="command_alignhere" href="commands/a/r_command_alignhere.dita"/>
-  <topicref keys="command_alignment" href="commands/a/r_command_alignment.dita"/>
   <topicref keys="command_alignmentcharacter" href="commands/a/r_command_alignmentcharacter.dita"/>
   <topicref keys="command_allinputpaths" href="commands/a/r_command_allinputpaths.dita"/>
-  <topicref keys="command_allmodes" href="commands/a/r_command_allmodes.dita"/>
   <topicref keys="command_alphabeticnumerals" href="commands/a/r_command_alphabeticnumerals.dita"/>
   <topicref keys="command_alwayscitation" href="commands/a/r_command_alwayscitation.dita"/>
   <topicref keys="command_alwayscite" href="commands/a/r_command_alwayscite.dita"/>
@@ -218,6 +204,7 @@
   <topicref keys="command_arabicnumerals" href="commands/a/r_command_arabicnumerals.dita"/>
   <topicref keys="command_arg" href="commands/a/r_command_arg.dita"/>
   <topicref keys="command_asciistr" href="commands/a/r_command_asciistr.dita"/>
+  <topicref keys="command_aside" href="commands/a/r_command_aside.dita"/>
   <topicref keys="command_assignalfadimension" href="commands/a/r_command_assignalfadimension.dita"/>
   <topicref keys="command_assigndimen" href="commands/a/r_command_assigndimen.dita"/>
   <topicref keys="command_assigndimension" href="commands/a/r_command_assigndimension.dita"/>
@@ -228,7 +215,10 @@
   <topicref keys="command_assumelongusagecs" href="commands/a/r_command_assumelongusagecs.dita"/>
   <topicref keys="command_astype" href="commands/a/r_command_astype.dita"/>
   <topicref keys="command_at" href="commands/a/r_command_at.dita"/>
+  <topicref keys="command_atleftmargin" href="commands/a/r_command_atleftmargin.dita"/>
   <topicref keys="command_atpage" href="commands/a/r_command_atpage.dita"/>
+  <topicref keys="command_atrightmargin" href="commands/a/r_command_atrightmargin.dita"/>
+  <topicref keys="command_attachment" href="commands/a/r_command_attachment.dita"/>
   <topicref keys="command_autocap" href="commands/a/r_command_autocap.dita"/>
   <topicref keys="command_autodirhbox" href="commands/a/r_command_autodirhbox.dita"/>
   <topicref keys="command_autodirvbox" href="commands/a/r_command_autodirvbox.dita"/>
@@ -289,6 +279,7 @@
   <topicref keys="command_bigm" href="commands/b/r_command_bigm.dita"/>
   <topicref keys="command_bigr" href="commands/b/r_command_bigr.dita"/>
   <topicref keys="command_bigskip" href="commands/b/r_command_bigskip.dita"/>
+  <topicref keys="command_binom" href="commands/b/r_command_binom.dita"/>
   <topicref keys="command_bitmapimage" href="commands/b/r_command_bitmapimage.dita"/>
   <topicref keys="command_blackrule" href="commands/b/r_command_blackrule.dita"/>
   <topicref keys="command_blackrules" href="commands/b/r_command_blackrules.dita"/>
@@ -298,6 +289,7 @@
   <topicref keys="command_bleedheight" href="commands/b/r_command_bleedheight.dita"/>
   <topicref keys="command_bleedwidth" href="commands/b/r_command_bleedwidth.dita"/>
   <topicref keys="command_blockligatures" href="commands/b/r_command_blockligatures.dita"/>
+  <topicref keys="command_blockquote" href="commands/b/r_command_blockquote.dita"/>
   <topicref keys="command_blocksynctexfile" href="commands/b/r_command_blocksynctexfile.dita"/>
   <topicref keys="command_blockuservariable" href="commands/b/r_command_blockuservariable.dita"/>
   <topicref keys="command_bodyfontenvironmentlist" href="commands/b/r_command_bodyfontenvironmentlist.dita"/>
@@ -354,17 +346,17 @@
   <topicref keys="command_btxfoundtype" href="commands/b/r_command_btxfoundtype.dita"/>
   <topicref keys="command_btxhiddencitation" href="commands/b/r_command_btxhiddencitation.dita"/>
   <topicref keys="command_btxhybridcite" href="commands/b/r_command_btxhybridcite.dita"/>
+  <topicref keys="command_btxlabellanguage" href="commands/b/r_command_btxlabellanguage.dita"/>
+  <topicref keys="command_btxlabeltext" href="commands/b/r_command_btxlabeltext.dita"/>
   <topicref keys="command_btxlistcitation" href="commands/b/r_command_btxlistcitation.dita"/>
   <topicref keys="command_btxloadjournalist" href="commands/b/r_command_btxloadjournalist.dita"/>
   <topicref keys="command_btxoneorrange" href="commands/b/r_command_btxoneorrange.dita"/>
   <topicref keys="command_btxremapauthor" href="commands/b/r_command_btxremapauthor.dita"/>
-  <topicref keys="command_btxrenderingdefinitions" href="commands/b/r_command_btxrenderingdefinitions.dita"/>
   <topicref keys="command_btxsavejournalist" href="commands/b/r_command_btxsavejournalist.dita"/>
   <topicref keys="command_btxsetup" href="commands/b/r_command_btxsetup.dita"/>
   <topicref keys="command_btxsingularorplural" href="commands/b/r_command_btxsingularorplural.dita"/>
   <topicref keys="command_btxsingularplural" href="commands/b/r_command_btxsingularplural.dita"/>
   <topicref keys="command_btxtextcitation" href="commands/b/r_command_btxtextcitation.dita"/>
-  <topicref keys="command_buffer" href="commands/b/r_command_buffer.dita"/>
   <topicref keys="command_buildmathaccent" href="commands/b/r_command_buildmathaccent.dita"/>
   <topicref keys="command_buildtextaccent" href="commands/b/r_command_buildtextaccent.dita"/>
   <topicref keys="command_buildtextbottomcomma" href="commands/b/r_command_buildtextbottomcomma.dita"/>
@@ -378,7 +370,6 @@
   <topicref keys="command_camel" href="commands/c/r_command_camel.dita"/>
   <topicref keys="command_cap" href="commands/c/r_command_cap.dita"/>
   <topicref keys="command_capital" href="commands/c/r_command_capital.dita"/>
-  <topicref keys="command_catcodetable" href="commands/c/r_command_catcodetable.dita"/>
   <topicref keys="command_catcodetablename" href="commands/c/r_command_catcodetablename.dita"/>
   <topicref keys="command_cbox" href="commands/c/r_command_cbox.dita"/>
   <topicref keys="command_centeraligned" href="commands/c/r_command_centeraligned.dita"/>
@@ -388,8 +379,8 @@
   <topicref keys="command_centerednextbox" href="commands/c/r_command_centerednextbox.dita"/>
   <topicref keys="command_centerline" href="commands/c/r_command_centerline.dita"/>
   <topicref keys="command_cfrac" href="commands/c/r_command_cfrac.dita"/>
+  <topicref keys="command_chapter" href="commands/c/r_command_chapter.dita"/>
   <topicref keys="command_character" href="commands/c/r_command_character.dita"/>
-  <topicref keys="command_characteralign" href="commands/c/r_command_characteralign.dita"/>
   <topicref keys="command_characters" href="commands/c/r_command_characters.dita"/>
   <topicref keys="command_chardescription" href="commands/c/r_command_chardescription.dita"/>
   <topicref keys="command_charwidthlanguage" href="commands/c/r_command_charwidthlanguage.dita"/>
@@ -397,7 +388,6 @@
   <topicref keys="command_checkcharacteralign" href="commands/c/r_command_checkcharacteralign.dita"/>
   <topicref keys="command_checkedblank" href="commands/c/r_command_checkedblank.dita"/>
   <topicref keys="command_checkedchar" href="commands/c/r_command_checkedchar.dita"/>
-  <topicref keys="command_checkedfences" href="commands/c/r_command_checkedfences.dita"/>
   <topicref keys="command_checkedfiller" href="commands/c/r_command_checkedfiller.dita"/>
   <topicref keys="command_checkedstrippedcsname" href="commands/c/r_command_checkedstrippedcsname.dita"/>
   <topicref keys="command_checkinjector" href="commands/c/r_command_checkinjector.dita"/>
@@ -427,40 +417,45 @@
   <topicref keys="command_cldcontext" href="commands/c/r_command_cldcontext.dita"/>
   <topicref keys="command_cldloadfile" href="commands/c/r_command_cldloadfile.dita"/>
   <topicref keys="command_cldprocessfile" href="commands/c/r_command_cldprocessfile.dita"/>
+  <topicref keys="command_cleftarrow" href="commands/c/r_command_cleftarrow.dita"/>
   <topicref keys="command_clip" href="commands/c/r_command_clip.dita"/>
   <topicref keys="command_clippedoverlayimage" href="commands/c/r_command_clippedoverlayimage.dita"/>
   <topicref keys="command_clonefield" href="commands/c/r_command_clonefield.dita"/>
   <topicref keys="command_collect" href="commands/c/r_command_collect.dita"/>
   <topicref keys="command_collectedtext" href="commands/c/r_command_collectedtext.dita"/>
   <topicref keys="command_collectexpanded" href="commands/c/r_command_collectexpanded.dita"/>
-  <topicref keys="command_collecting" href="commands/c/r_command_collecting.dita"/>
   <topicref keys="command_color" href="commands/c/r_command_color.dita"/>
   <topicref keys="command_colorbar" href="commands/c/r_command_colorbar.dita"/>
   <topicref keys="command_colorcomponents" href="commands/c/r_command_colorcomponents.dita"/>
   <topicref keys="command_colored" href="commands/c/r_command_colored.dita"/>
-  <topicref keys="command_colorintent" href="commands/c/r_command_colorintent.dita"/>
   <topicref keys="command_coloronly" href="commands/c/r_command_coloronly.dita"/>
-  <topicref keys="command_colorset" href="commands/c/r_command_colorset.dita"/>
   <topicref keys="command_colorvalue" href="commands/c/r_command_colorvalue.dita"/>
   <topicref keys="command_column" href="commands/c/r_command_column.dita"/>
   <topicref keys="command_columnbreak" href="commands/c/r_command_columnbreak.dita"/>
-  <topicref keys="command_columnset" href="commands/c/r_command_columnset.dita"/>
-  <topicref keys="command_columnsetspan" href="commands/c/r_command_columnsetspan.dita"/>
   <topicref keys="command_columnsetspanwidth" href="commands/c/r_command_columnsetspanwidth.dita"/>
-  <topicref keys="command_combination" href="commands/c/r_command_combination.dita"/>
   <topicref keys="command_combinepages" href="commands/c/r_command_combinepages.dita"/>
   <topicref keys="command_commalistelement" href="commands/c/r_command_commalistelement.dita"/>
   <topicref keys="command_commalistsentence" href="commands/c/r_command_commalistsentence.dita"/>
   <topicref keys="command_commalistsize" href="commands/c/r_command_commalistsize.dita"/>
+  <topicref keys="command_comment" href="commands/c/r_command_comment.dita"/>
   <topicref keys="command_comparecolorgroup" href="commands/c/r_command_comparecolorgroup.dita"/>
   <topicref keys="command_comparedimension" href="commands/c/r_command_comparedimension.dita"/>
   <topicref keys="command_comparedimensioneps" href="commands/c/r_command_comparedimensioneps.dita"/>
   <topicref keys="command_comparepalet" href="commands/c/r_command_comparepalet.dita"/>
   <topicref keys="command_completebtxrendering" href="commands/c/r_command_completebtxrendering.dita"/>
+  <topicref keys="command_completecontent" href="commands/c/r_command_completecontent.dita"/>
+  <topicref keys="command_completeindex" href="commands/c/r_command_completeindex.dita"/>
   <topicref keys="command_completelist" href="commands/c/r_command_completelist.dita"/>
+  <topicref keys="command_completelistofabbreviations" href="commands/c/r_command_completelistofabbreviations.dita"/>
+  <topicref keys="command_completelistofchemicals" href="commands/c/r_command_completelistofchemicals.dita"/>
+  <topicref keys="command_completelistoffigures" href="commands/c/r_command_completelistoffigures.dita"/>
+  <topicref keys="command_completelistofgraphics" href="commands/c/r_command_completelistofgraphics.dita"/>
+  <topicref keys="command_completelistofintermezzi" href="commands/c/r_command_completelistofintermezzi.dita"/>
+  <topicref keys="command_completelistoflogos" href="commands/c/r_command_completelistoflogos.dita"/>
   <topicref keys="command_completelistofpublications" href="commands/c/r_command_completelistofpublications.dita"/>
   <topicref keys="command_completelistofsorts" href="commands/c/r_command_completelistofsorts.dita"/>
   <topicref keys="command_completelistofsynonyms" href="commands/c/r_command_completelistofsynonyms.dita"/>
+  <topicref keys="command_completelistoftables" href="commands/c/r_command_completelistoftables.dita"/>
   <topicref keys="command_completepagenumber" href="commands/c/r_command_completepagenumber.dita"/>
   <topicref keys="command_completeregister" href="commands/c/r_command_completeregister.dita"/>
   <topicref keys="command_complexorsimple" href="commands/c/r_command_complexorsimple.dita"/>
@@ -475,8 +470,6 @@
   <topicref keys="command_constantnumber" href="commands/c/r_command_constantnumber.dita"/>
   <topicref keys="command_constantnumberargument" href="commands/c/r_command_constantnumberargument.dita"/>
   <topicref keys="command_contentreference" href="commands/c/r_command_contentreference.dita"/>
-  <topicref keys="command_contextcode" href="commands/c/r_command_contextcode.dita"/>
-  <topicref keys="command_contextdefinitioncode" href="commands/c/r_command_contextdefinitioncode.dita"/>
   <topicref keys="command_continuednumber" href="commands/c/r_command_continuednumber.dita"/>
   <topicref keys="command_continueifinputfile" href="commands/c/r_command_continueifinputfile.dita"/>
   <topicref keys="command_convertargument" href="commands/c/r_command_convertargument.dita"/>
@@ -489,11 +482,20 @@
   <topicref keys="command_convertvalue" href="commands/c/r_command_convertvalue.dita"/>
   <topicref keys="command_convertvboxtohbox" href="commands/c/r_command_convertvboxtohbox.dita"/>
   <topicref keys="command_copyboxfromcache" href="commands/c/r_command_copyboxfromcache.dita"/>
+  <topicref keys="command_copybtxlabeltext" href="commands/c/r_command_copybtxlabeltext.dita"/>
   <topicref keys="command_copyfield" href="commands/c/r_command_copyfield.dita"/>
+  <topicref keys="command_copyheadtext" href="commands/c/r_command_copyheadtext.dita"/>
+  <topicref keys="command_copylabeltext" href="commands/c/r_command_copylabeltext.dita"/>
+  <topicref keys="command_copymathlabeltext" href="commands/c/r_command_copymathlabeltext.dita"/>
+  <topicref keys="command_copyoperatortext" href="commands/c/r_command_copyoperatortext.dita"/>
   <topicref keys="command_copypages" href="commands/c/r_command_copypages.dita"/>
   <topicref keys="command_copyparameters" href="commands/c/r_command_copyparameters.dita"/>
   <topicref keys="command_copyposition" href="commands/c/r_command_copyposition.dita"/>
+  <topicref keys="command_copyprefixtext" href="commands/c/r_command_copyprefixtext.dita"/>
   <topicref keys="command_copysetups" href="commands/c/r_command_copysetups.dita"/>
+  <topicref keys="command_copysuffixtext" href="commands/c/r_command_copysuffixtext.dita"/>
+  <topicref keys="command_copytaglabeltext" href="commands/c/r_command_copytaglabeltext.dita"/>
+  <topicref keys="command_copyunittext" href="commands/c/r_command_copyunittext.dita"/>
   <topicref keys="command_correctwhitespace" href="commands/c/r_command_correctwhitespace.dita"/>
   <topicref keys="command_countersubs" href="commands/c/r_command_countersubs.dita"/>
   <topicref keys="command_counttoken" href="commands/c/r_command_counttoken.dita"/>
@@ -502,6 +504,8 @@
   <topicref keys="command_crampedclap" href="commands/c/r_command_crampedclap.dita"/>
   <topicref keys="command_crampedllap" href="commands/c/r_command_crampedllap.dita"/>
   <topicref keys="command_crampedrlap" href="commands/c/r_command_crampedrlap.dita"/>
+  <topicref keys="command_crightarrow" href="commands/c/r_command_crightarrow.dita"/>
+  <topicref keys="command_crightoverleftarrow" href="commands/c/r_command_crightoverleftarrow.dita"/>
   <topicref keys="command_crlf" href="commands/c/r_command_crlf.dita"/>
   <topicref keys="command_crlfplaceholder" href="commands/c/r_command_crlfplaceholder.dita"/>
   <topicref keys="command_ctop" href="commands/c/r_command_ctop.dita"/>
@@ -509,7 +513,6 @@
   <topicref keys="command_ctxdirectcommand" href="commands/c/r_command_ctxdirectcommand.dita"/>
   <topicref keys="command_ctxdirectlua" href="commands/c/r_command_ctxdirectlua.dita"/>
   <topicref keys="command_ctxfunction" href="commands/c/r_command_ctxfunction.dita"/>
-  <topicref keys="command_ctxfunctiondefinition" href="commands/c/r_command_ctxfunctiondefinition.dita"/>
   <topicref keys="command_ctxlatecommand" href="commands/c/r_command_ctxlatecommand.dita"/>
   <topicref keys="command_ctxlatelua" href="commands/c/r_command_ctxlatelua.dita"/>
   <topicref keys="command_ctxloadluafile" href="commands/c/r_command_ctxloadluafile.dita"/>
@@ -521,7 +524,6 @@
   <topicref keys="command_currentassignmentlistkey" href="commands/c/r_command_currentassignmentlistkey.dita"/>
   <topicref keys="command_currentassignmentlistvalue" href="commands/c/r_command_currentassignmentlistvalue.dita"/>
   <topicref keys="command_currentbtxuservariable" href="commands/c/r_command_currentbtxuservariable.dita"/>
-  <topicref keys="command_currentcolor" href="commands/c/r_command_currentcolor.dita"/>
   <topicref keys="command_currentcommalistitem" href="commands/c/r_command_currentcommalistitem.dita"/>
   <topicref keys="command_currentcomponent" href="commands/c/r_command_currentcomponent.dita"/>
   <topicref keys="command_currentdate" href="commands/c/r_command_currentdate.dita"/>
@@ -537,7 +539,6 @@
   <topicref keys="command_currentlistentryreferenceattribute" href="commands/c/r_command_currentlistentryreferenceattribute.dita"/>
   <topicref keys="command_currentlistentrytitle" href="commands/c/r_command_currentlistentrytitle.dita"/>
   <topicref keys="command_currentlistentrytitlerendered" href="commands/c/r_command_currentlistentrytitlerendered.dita"/>
-  <topicref keys="command_currentlistentrywrapper" href="commands/c/r_command_currentlistentrywrapper.dita"/>
   <topicref keys="command_currentlistsymbol" href="commands/c/r_command_currentlistsymbol.dita"/>
   <topicref keys="command_currentmainlanguage" href="commands/c/r_command_currentmainlanguage.dita"/>
   <topicref keys="command_currentmessagetext" href="commands/c/r_command_currentmessagetext.dita"/>
@@ -557,6 +558,7 @@
   <topicref keys="command_date" href="commands/d/r_command_date.dita"/>
   <topicref keys="command_dayoftheweek" href="commands/d/r_command_dayoftheweek.dita"/>
   <topicref keys="command_dayspermonth" href="commands/d/r_command_dayspermonth.dita"/>
+  <topicref keys="command_dbinom" href="commands/d/r_command_dbinom.dita"/>
   <topicref keys="command_dddot" href="commands/d/r_command_dddot.dita"/>
   <topicref keys="command_ddot" href="commands/d/r_command_ddot.dita"/>
   <topicref keys="command_decrement" href="commands/d/r_command_decrement.dita"/>
@@ -754,6 +756,7 @@
   <topicref keys="command_definepairedbox" href="commands/d/r_command_definepairedbox.dita"/>
   <topicref keys="command_definepalet" href="commands/d/r_command_definepalet.dita"/>
   <topicref keys="command_definepapersize" href="commands/d/r_command_definepapersize.dita"/>
+  <topicref keys="command_definepapersizeoptions" href="commands/d/r_command_definepapersizeoptions.dita"/>
   <topicref keys="command_defineparagraph" href="commands/d/r_command_defineparagraph.dita"/>
   <topicref keys="command_defineparagraphs" href="commands/d/r_command_defineparagraphs.dita"/>
   <topicref keys="command_defineparallel" href="commands/d/r_command_defineparallel.dita"/>
@@ -832,6 +835,7 @@
   <topicref keys="command_determinenoflines" href="commands/d/r_command_determinenoflines.dita"/>
   <topicref keys="command_determineregistercharacteristics" href="commands/d/r_command_determineregistercharacteristics.dita"/>
   <topicref keys="command_devanagarinumerals" href="commands/d/r_command_devanagarinumerals.dita"/>
+  <topicref keys="command_dfrac" href="commands/d/r_command_dfrac.dita"/>
   <topicref keys="command_digits" href="commands/d/r_command_digits.dita"/>
   <topicref keys="command_dimensiontocount" href="commands/d/r_command_dimensiontocount.dita"/>
   <topicref keys="command_directboxfromcache" href="commands/d/r_command_directboxfromcache.dita"/>
@@ -863,7 +867,6 @@
   <topicref keys="command_displaymessage" href="commands/d/r_command_displaymessage.dita"/>
   <topicref keys="command_distributedhsize" href="commands/d/r_command_distributedhsize.dita"/>
   <topicref keys="command_dividedsize" href="commands/d/r_command_dividedsize.dita"/>
-  <topicref keys="command_dmath" href="commands/d/r_command_dmath.dita"/>
   <topicref keys="command_doadaptleftskip" href="commands/d/r_command_doadaptleftskip.dita"/>
   <topicref keys="command_doadaptrightskip" href="commands/d/r_command_doadaptrightskip.dita"/>
   <topicref keys="command_doaddfeature" href="commands/d/r_command_doaddfeature.dita"/>
@@ -872,7 +875,6 @@
   <topicref keys="command_doboundtext" href="commands/d/r_command_doboundtext.dita"/>
   <topicref keys="command_docheckassignment" href="commands/d/r_command_docheckassignment.dita"/>
   <topicref keys="command_docheckedpair" href="commands/d/r_command_docheckedpair.dita"/>
-  <topicref keys="command_document" href="commands/d/r_command_document.dita"/>
   <topicref keys="command_documentvariable" href="commands/d/r_command_documentvariable.dita"/>
   <topicref keys="command_dodoubleargument" href="commands/d/r_command_dodoubleargument.dita"/>
   <topicref keys="command_dodoubleargumentwithset" href="commands/d/r_command_dodoubleargumentwithset.dita"/>
@@ -1255,7 +1257,11 @@
   <topicref keys="command_dotripleempty" href="commands/d/r_command_dotripleempty.dita"/>
   <topicref keys="command_dotripleemptywithset" href="commands/d/r_command_dotripleemptywithset.dita"/>
   <topicref keys="command_dotriplegroupempty" href="commands/d/r_command_dotriplegroupempty.dita"/>
+  <topicref keys="command_doublebar" href="commands/d/r_command_doublebar.dita"/>
   <topicref keys="command_doublebond" href="commands/d/r_command_doublebond.dita"/>
+  <topicref keys="command_doublebrace" href="commands/d/r_command_doublebrace.dita"/>
+  <topicref keys="command_doublebracket" href="commands/d/r_command_doublebracket.dita"/>
+  <topicref keys="command_doubleparent" href="commands/d/r_command_doubleparent.dita"/>
   <topicref keys="command_dowith" href="commands/d/r_command_dowith.dita"/>
   <topicref keys="command_dowithnextbox" href="commands/d/r_command_dowithnextbox.dita"/>
   <topicref keys="command_dowithnextboxcontent" href="commands/d/r_command_dowithnextboxcontent.dita"/>
@@ -1292,9 +1298,11 @@
   <topicref keys="command_effect" href="commands/e/r_command_effect.dita"/>
   <topicref keys="command_elapsedseconds" href="commands/e/r_command_elapsedseconds.dita"/>
   <topicref keys="command_elapsedtime" href="commands/e/r_command_elapsedtime.dita"/>
-  <topicref keys="command_element" href="commands/e/r_command_element.dita"/>
+  <topicref keys="command_eleftarrowfill" href="commands/e/r_command_eleftarrowfill.dita"/>
+  <topicref keys="command_eleftharpoondownfill" href="commands/e/r_command_eleftharpoondownfill.dita"/>
+  <topicref keys="command_eleftharpoonupfill" href="commands/e/r_command_eleftharpoonupfill.dita"/>
+  <topicref keys="command_eleftrightarrowfill" href="commands/e/r_command_eleftrightarrowfill.dita"/>
   <topicref keys="command_em" href="commands/e/r_command_em.dita"/>
-  <topicref keys="command_embeddedxtable" href="commands/e/r_command_embeddedxtable.dita"/>
   <topicref keys="command_emphasisboldface" href="commands/e/r_command_emphasisboldface.dita"/>
   <topicref keys="command_emphasistypeface" href="commands/e/r_command_emphasistypeface.dita"/>
   <topicref keys="command_emptylines" href="commands/e/r_command_emptylines.dita"/>
@@ -1308,6 +1316,7 @@
   <topicref keys="command_enabletrackers" href="commands/e/r_command_enabletrackers.dita"/>
   <topicref keys="command_endbuffer" href="commands/e/r_command_endbuffer.dita"/>
   <topicref keys="command_endhbox" href="commands/e/r_command_endhbox.dita"/>
+  <topicref keys="command_endnote" href="commands/e/r_command_endnote.dita"/>
   <topicref keys="command_endofshapebox" href="commands/e/r_command_endofshapebox.dita"/>
   <topicref keys="command_endstrut" href="commands/e/r_command_endstrut.dita"/>
   <topicref keys="command_endvbox" href="commands/e/r_command_endvbox.dita"/>
@@ -1317,16 +1326,27 @@
   <topicref keys="command_env" href="commands/e/r_command_env.dita"/>
   <topicref keys="command_environment" href="commands/e/r_command_environment.dita"/>
   <topicref keys="command_envvar" href="commands/e/r_command_envvar.dita"/>
+  <topicref keys="command_eoverbarfill" href="commands/e/r_command_eoverbarfill.dita"/>
+  <topicref keys="command_eoverbracefill" href="commands/e/r_command_eoverbracefill.dita"/>
+  <topicref keys="command_eoverbracketfill" href="commands/e/r_command_eoverbracketfill.dita"/>
+  <topicref keys="command_eoverparentfill" href="commands/e/r_command_eoverparentfill.dita"/>
   <topicref keys="command_epar" href="commands/e/r_command_epar.dita"/>
   <topicref keys="command_epos" href="commands/e/r_command_epos.dita"/>
   <topicref keys="command_equaldigits" href="commands/e/r_command_equaldigits.dita"/>
-  <topicref keys="command_exceptions" href="commands/e/r_command_exceptions.dita"/>
+  <topicref keys="command_erightarrowfill" href="commands/e/r_command_erightarrowfill.dita"/>
+  <topicref keys="command_erightharpoondownfill" href="commands/e/r_command_erightharpoondownfill.dita"/>
+  <topicref keys="command_erightharpoonupfill" href="commands/e/r_command_erightharpoonupfill.dita"/>
+  <topicref keys="command_ethiopic" href="commands/e/r_command_ethiopic.dita"/>
+  <topicref keys="command_etwoheadrightarrowfill" href="commands/e/r_command_etwoheadrightarrowfill.dita"/>
+  <topicref keys="command_eunderbarfill" href="commands/e/r_command_eunderbarfill.dita"/>
+  <topicref keys="command_eunderbracefill" href="commands/e/r_command_eunderbracefill.dita"/>
+  <topicref keys="command_eunderbracketfill" href="commands/e/r_command_eunderbracketfill.dita"/>
+  <topicref keys="command_eunderparentfill" href="commands/e/r_command_eunderparentfill.dita"/>
   <topicref keys="command_executeifdefined" href="commands/e/r_command_executeifdefined.dita"/>
   <topicref keys="command_exitloop" href="commands/e/r_command_exitloop.dita"/>
   <topicref keys="command_exitloopnow" href="commands/e/r_command_exitloopnow.dita"/>
   <topicref keys="command_expandcheckedcsname" href="commands/e/r_command_expandcheckedcsname.dita"/>
   <topicref keys="command_expanded" href="commands/e/r_command_expanded.dita"/>
-  <topicref keys="command_expandedcollect" href="commands/e/r_command_expandedcollect.dita"/>
   <topicref keys="command_expandeddoif" href="commands/e/r_command_expandeddoif.dita"/>
   <topicref keys="command_expandeddoifelse" href="commands/e/r_command_expandeddoifelse.dita"/>
   <topicref keys="command_expandeddoifnot" href="commands/e/r_command_expandeddoifnot.dita"/>
@@ -1338,15 +1358,12 @@
   <topicref keys="command_expdoifelseinset" href="commands/e/r_command_expdoifelseinset.dita"/>
   <topicref keys="command_expdoifinsetelse" href="commands/e/r_command_expdoifinsetelse.dita"/>
   <topicref keys="command_expdoifnot" href="commands/e/r_command_expdoifnot.dita"/>
-  <topicref keys="command_extendedcatcodetable" href="commands/e/r_command_extendedcatcodetable.dita"/>
   <topicref keys="command_externalfigure" href="commands/e/r_command_externalfigure.dita"/>
-  <topicref keys="command_externalfigurecollection" href="commands/e/r_command_externalfigurecollection.dita"/>
   <topicref keys="command_externalfigurecollectionmaxheight" href="commands/e/r_command_externalfigurecollectionmaxheight.dita"/>
   <topicref keys="command_externalfigurecollectionmaxwidth" href="commands/e/r_command_externalfigurecollectionmaxwidth.dita"/>
   <topicref keys="command_externalfigurecollectionminheight" href="commands/e/r_command_externalfigurecollectionminheight.dita"/>
   <topicref keys="command_externalfigurecollectionminwidth" href="commands/e/r_command_externalfigurecollectionminwidth.dita"/>
   <topicref keys="command_externalfigurecollectionparameter" href="commands/e/r_command_externalfigurecollectionparameter.dita"/>
-  <topicref keys="command_facingfloat" href="commands/f/r_command_facingfloat.dita"/>
   <topicref keys="command_fakebox" href="commands/f/r_command_fakebox.dita"/>
   <topicref keys="command_fastdecrement" href="commands/f/r_command_fastdecrement.dita"/>
   <topicref keys="command_fastincrement" href="commands/f/r_command_fastincrement.dita"/>
@@ -1376,7 +1393,6 @@
   <topicref keys="command_fieldstack" href="commands/f/r_command_fieldstack.dita"/>
   <topicref keys="command_fifthoffivearguments" href="commands/f/r_command_fifthoffivearguments.dita"/>
   <topicref keys="command_fifthofsixarguments" href="commands/f/r_command_fifthofsixarguments.dita"/>
-  <topicref keys="command_figure" href="commands/f/r_command_figure.dita"/>
   <topicref keys="command_figurefilename" href="commands/f/r_command_figurefilename.dita"/>
   <topicref keys="command_figurefilepath" href="commands/f/r_command_figurefilepath.dita"/>
   <topicref keys="command_figurefiletype" href="commands/f/r_command_figurefiletype.dita"/>
@@ -1427,13 +1443,10 @@
   <topicref keys="command_firstuserpagenumber" href="commands/f/r_command_firstuserpagenumber.dita"/>
   <topicref keys="command_fitfield" href="commands/f/r_command_fitfield.dita"/>
   <topicref keys="command_fitfieldframed" href="commands/f/r_command_fitfieldframed.dita"/>
-  <topicref keys="command_fittingpage" href="commands/f/r_command_fittingpage.dita"/>
   <topicref keys="command_fittopbaselinegrid" href="commands/f/r_command_fittopbaselinegrid.dita"/>
-  <topicref keys="command_fixed" href="commands/f/r_command_fixed.dita"/>
   <topicref keys="command_fixedspace" href="commands/f/r_command_fixedspace.dita"/>
   <topicref keys="command_fixedspaces" href="commands/f/r_command_fixedspaces.dita"/>
   <topicref keys="command_flag" href="commands/f/r_command_flag.dita"/>
-  <topicref keys="command_floatcombination" href="commands/f/r_command_floatcombination.dita"/>
   <topicref keys="command_floatuserdataparameter" href="commands/f/r_command_floatuserdataparameter.dita"/>
   <topicref keys="command_flushbox" href="commands/f/r_command_flushbox.dita"/>
   <topicref keys="command_flushboxregister" href="commands/f/r_command_flushboxregister.dita"/>
@@ -1448,7 +1461,6 @@
   <topicref keys="command_flushtextflow" href="commands/f/r_command_flushtextflow.dita"/>
   <topicref keys="command_flushtokens" href="commands/f/r_command_flushtokens.dita"/>
   <topicref keys="command_flushtoks" href="commands/f/r_command_flushtoks.dita"/>
-  <topicref keys="command_font" href="commands/f/r_command_font.dita"/>
   <topicref keys="command_fontalternative" href="commands/f/r_command_fontalternative.dita"/>
   <topicref keys="command_fontbody" href="commands/f/r_command_fontbody.dita"/>
   <topicref keys="command_fontchar" href="commands/f/r_command_fontchar.dita"/>
@@ -1458,8 +1470,8 @@
   <topicref keys="command_fontface" href="commands/f/r_command_fontface.dita"/>
   <topicref keys="command_fontfeaturelist" href="commands/f/r_command_fontfeaturelist.dita"/>
   <topicref keys="command_fontsize" href="commands/f/r_command_fontsize.dita"/>
-  <topicref keys="command_fontsolution" href="commands/f/r_command_fontsolution.dita"/>
   <topicref keys="command_fontstyle" href="commands/f/r_command_fontstyle.dita"/>
+  <topicref keys="command_footnote" href="commands/f/r_command_footnote.dita"/>
   <topicref keys="command_footnotetext" href="commands/f/r_command_footnotetext.dita"/>
   <topicref keys="command_forcecharacterstripping" href="commands/f/r_command_forcecharacterstripping.dita"/>
   <topicref keys="command_forcelocalfloats" href="commands/f/r_command_forcelocalfloats.dita"/>
@@ -1469,18 +1481,15 @@
   <topicref keys="command_forgetragged" href="commands/f/r_command_forgetragged.dita"/>
   <topicref keys="command_formula" href="commands/f/r_command_formula.dita"/>
   <topicref keys="command_formulanumber" href="commands/f/r_command_formulanumber.dita"/>
-  <topicref keys="command_formulas" href="commands/f/r_command_formulas.dita"/>
   <topicref keys="command_foundbox" href="commands/f/r_command_foundbox.dita"/>
   <topicref keys="command_fourthoffivearguments" href="commands/f/r_command_fourthoffivearguments.dita"/>
   <topicref keys="command_fourthoffourarguments" href="commands/f/r_command_fourthoffourarguments.dita"/>
   <topicref keys="command_fourthofsixarguments" href="commands/f/r_command_fourthofsixarguments.dita"/>
+  <topicref keys="command_frac" href="commands/f/r_command_frac.dita"/>
   <topicref keys="command_framed" href="commands/f/r_command_framed.dita"/>
-  <topicref keys="command_framedcell" href="commands/f/r_command_framedcell.dita"/>
-  <topicref keys="command_framedcontent" href="commands/f/r_command_framedcontent.dita"/>
   <topicref keys="command_frameddimension" href="commands/f/r_command_frameddimension.dita"/>
   <topicref keys="command_framedparameter" href="commands/f/r_command_framedparameter.dita"/>
-  <topicref keys="command_framedrow" href="commands/f/r_command_framedrow.dita"/>
-  <topicref keys="command_framedtable" href="commands/f/r_command_framedtable.dita"/>
+  <topicref keys="command_framedtext" href="commands/f/r_command_framedtext.dita"/>
   <topicref keys="command_freezedimenmacro" href="commands/f/r_command_freezedimenmacro.dita"/>
   <topicref keys="command_freezemeasure" href="commands/f/r_command_freezemeasure.dita"/>
   <topicref keys="command_frenchspacing" href="commands/f/r_command_frenchspacing.dita"/>
@@ -1607,7 +1616,6 @@
   <topicref keys="command_greedysplitstring" href="commands/g/r_command_greedysplitstring.dita"/>
   <topicref keys="command_greeknumerals" href="commands/g/r_command_greeknumerals.dita"/>
   <topicref keys="command_grid" href="commands/g/r_command_grid.dita"/>
-  <topicref keys="command_gridsnapping" href="commands/g/r_command_gridsnapping.dita"/>
   <topicref keys="command_groupedcommand" href="commands/g/r_command_groupedcommand.dita"/>
   <topicref keys="command_gsetboxllx" href="commands/g/r_command_gsetboxllx.dita"/>
   <topicref keys="command_gsetboxlly" href="commands/g/r_command_gsetboxlly.dita"/>
@@ -1620,24 +1628,25 @@
   <topicref keys="command_halfwaybox" href="commands/h/r_command_halfwaybox.dita"/>
   <topicref keys="command_handletokens" href="commands/h/r_command_handletokens.dita"/>
   <topicref keys="command_handwritten" href="commands/h/r_command_handwritten.dita"/>
-  <topicref keys="command_hanging" href="commands/h/r_command_hanging.dita"/>
+  <topicref keys="command_hangul" href="commands/h/r_command_hangul.dita"/>
+  <topicref keys="command_hanzi" href="commands/h/r_command_hanzi.dita"/>
   <topicref keys="command_hash" href="commands/h/r_command_hash.dita"/>
   <topicref keys="command_hat" href="commands/h/r_command_hat.dita"/>
-  <topicref keys="command_hboxestohbox" href="commands/h/r_command_hboxestohbox.dita"/>
   <topicref keys="command_hboxofvbox" href="commands/h/r_command_hboxofvbox.dita"/>
   <topicref keys="command_hboxreference" href="commands/h/r_command_hboxreference.dita"/>
-  <topicref keys="command_hboxregister" href="commands/h/r_command_hboxregister.dita"/>
   <topicref keys="command_hdofstring" href="commands/h/r_command_hdofstring.dita"/>
-  <topicref keys="command_head" href="commands/h/r_command_head.dita"/>
   <topicref keys="command_headhbox" href="commands/h/r_command_headhbox.dita"/>
+  <topicref keys="command_headlanguage" href="commands/h/r_command_headlanguage.dita"/>
   <topicref keys="command_headnumber" href="commands/h/r_command_headnumber.dita"/>
   <topicref keys="command_headnumbercontent" href="commands/h/r_command_headnumbercontent.dita"/>
   <topicref keys="command_headnumberdistance" href="commands/h/r_command_headnumberdistance.dita"/>
   <topicref keys="command_headnumberwidth" href="commands/h/r_command_headnumberwidth.dita"/>
   <topicref keys="command_headreferenceattributes" href="commands/h/r_command_headreferenceattributes.dita"/>
   <topicref keys="command_headsetupspacing" href="commands/h/r_command_headsetupspacing.dita"/>
+  <topicref keys="command_headtext" href="commands/h/r_command_headtext.dita"/>
   <topicref keys="command_headtextcontent" href="commands/h/r_command_headtextcontent.dita"/>
   <topicref keys="command_headtextdistance" href="commands/h/r_command_headtextdistance.dita"/>
+  <topicref keys="command_headtexts" href="commands/h/r_command_headtexts.dita"/>
   <topicref keys="command_headtextwidth" href="commands/h/r_command_headtextwidth.dita"/>
   <topicref keys="command_headvbox" href="commands/h/r_command_headvbox.dita"/>
   <topicref keys="command_headwidth" href="commands/h/r_command_headwidth.dita"/>
@@ -1646,6 +1655,7 @@
   <topicref keys="command_heightspanningtext" href="commands/h/r_command_heightspanningtext.dita"/>
   <topicref keys="command_helptext" href="commands/h/r_command_helptext.dita"/>
   <topicref keys="command_hglue" href="commands/h/r_command_hglue.dita"/>
+  <topicref keys="command_hiddenbar" href="commands/h/r_command_hiddenbar.dita"/>
   <topicref keys="command_hiddencitation" href="commands/h/r_command_hiddencitation.dita"/>
   <topicref keys="command_hiddencite" href="commands/h/r_command_hiddencite.dita"/>
   <topicref keys="command_hideblocks" href="commands/h/r_command_hideblocks.dita"/>
@@ -1676,7 +1686,6 @@
   <topicref keys="command_hyphenatedpar" href="commands/h/r_command_hyphenatedpar.dita"/>
   <topicref keys="command_hyphenatedurl" href="commands/h/r_command_hyphenatedurl.dita"/>
   <topicref keys="command_hyphenatedword" href="commands/h/r_command_hyphenatedword.dita"/>
-  <topicref keys="command_hyphenation" href="commands/h/r_command_hyphenation.dita"/>
   <topicref keys="command_ibox" href="commands/i/r_command_ibox.dita"/>
   <topicref keys="command_ifassignment" href="commands/i/r_command_ifassignment.dita"/>
   <topicref keys="command_iff" href="commands/i/r_command_iff.dita"/>
@@ -1687,7 +1696,6 @@
   <topicref keys="command_ignoreimplicitspaces" href="commands/i/r_command_ignoreimplicitspaces.dita"/>
   <topicref keys="command_ignoretagsinexport" href="commands/i/r_command_ignoretagsinexport.dita"/>
   <topicref keys="command_ignorevalue" href="commands/i/r_command_ignorevalue.dita"/>
-  <topicref keys="command_imath" href="commands/i/r_command_imath.dita"/>
   <topicref keys="command_immediatesavetwopassdata" href="commands/i/r_command_immediatesavetwopassdata.dita"/>
   <topicref keys="command_impliedby" href="commands/i/r_command_impliedby.dita"/>
   <topicref keys="command_implies" href="commands/i/r_command_implies.dita"/>
@@ -1701,14 +1709,20 @@
   <topicref keys="command_incrementsubpagenumber" href="commands/i/r_command_incrementsubpagenumber.dita"/>
   <topicref keys="command_incrementvalue" href="commands/i/r_command_incrementvalue.dita"/>
   <topicref keys="command_indentation" href="commands/i/r_command_indentation.dita"/>
-  <topicref keys="command_indentedtext" href="commands/i/r_command_indentedtext.dita"/>
+  <topicref keys="command_index" href="commands/i/r_command_index.dita"/>
   <topicref keys="command_infofont" href="commands/i/r_command_infofont.dita"/>
   <topicref keys="command_infofontbold" href="commands/i/r_command_infofontbold.dita"/>
   <topicref keys="command_inframed" href="commands/i/r_command_inframed.dita"/>
   <topicref keys="command_infull" href="commands/i/r_command_infull.dita"/>
   <topicref keys="command_inheritparameter" href="commands/i/r_command_inheritparameter.dita"/>
   <topicref keys="command_inhibitblank" href="commands/i/r_command_inhibitblank.dita"/>
+  <topicref keys="command_ininner" href="commands/i/r_command_ininner.dita"/>
+  <topicref keys="command_ininneredge" href="commands/i/r_command_ininneredge.dita"/>
+  <topicref keys="command_ininnermargin" href="commands/i/r_command_ininnermargin.dita"/>
   <topicref keys="command_initializeboxstack" href="commands/i/r_command_initializeboxstack.dita"/>
+  <topicref keys="command_inleft" href="commands/i/r_command_inleft.dita"/>
+  <topicref keys="command_inleftedge" href="commands/i/r_command_inleftedge.dita"/>
+  <topicref keys="command_inleftmargin" href="commands/i/r_command_inleftmargin.dita"/>
   <topicref keys="command_inline" href="commands/i/r_command_inline.dita"/>
   <topicref keys="command_inlinebuffer" href="commands/i/r_command_inlinebuffer.dita"/>
   <topicref keys="command_inlinedbox" href="commands/i/r_command_inlinedbox.dita"/>
@@ -1718,13 +1732,22 @@
   <topicref keys="command_inlineordisplaymath" href="commands/i/r_command_inlineordisplaymath.dita"/>
   <topicref keys="command_inlineprettyprintbuffer" href="commands/i/r_command_inlineprettyprintbuffer.dita"/>
   <topicref keys="command_inlinerange" href="commands/i/r_command_inlinerange.dita"/>
+  <topicref keys="command_inmargin" href="commands/i/r_command_inmargin.dita"/>
+  <topicref keys="command_inmframed" href="commands/i/r_command_inmframed.dita"/>
   <topicref keys="command_innerflushshapebox" href="commands/i/r_command_innerflushshapebox.dita"/>
+  <topicref keys="command_inother" href="commands/i/r_command_inother.dita"/>
+  <topicref keys="command_inouter" href="commands/i/r_command_inouter.dita"/>
+  <topicref keys="command_inouteredge" href="commands/i/r_command_inouteredge.dita"/>
+  <topicref keys="command_inoutermargin" href="commands/i/r_command_inoutermargin.dita"/>
   <topicref keys="command_input" href="commands/i/r_command_input.dita"/>
   <topicref keys="command_inputfilebarename" href="commands/i/r_command_inputfilebarename.dita"/>
   <topicref keys="command_inputfilename" href="commands/i/r_command_inputfilename.dita"/>
   <topicref keys="command_inputfilerealsuffix" href="commands/i/r_command_inputfilerealsuffix.dita"/>
   <topicref keys="command_inputfilesuffix" href="commands/i/r_command_inputfilesuffix.dita"/>
   <topicref keys="command_inputgivenfile" href="commands/i/r_command_inputgivenfile.dita"/>
+  <topicref keys="command_inright" href="commands/i/r_command_inright.dita"/>
+  <topicref keys="command_inrightedge" href="commands/i/r_command_inrightedge.dita"/>
+  <topicref keys="command_inrightmargin" href="commands/i/r_command_inrightmargin.dita"/>
   <topicref keys="command_insertpages" href="commands/i/r_command_insertpages.dita"/>
   <topicref keys="command_installactionhandler" href="commands/i/r_command_installactionhandler.dita"/>
   <topicref keys="command_installactivecharacter" href="commands/i/r_command_installactivecharacter.dita"/>
@@ -1775,11 +1798,9 @@
   <topicref keys="command_installunitsspace" href="commands/i/r_command_installunitsspace.dita"/>
   <topicref keys="command_installversioninfo" href="commands/i/r_command_installversioninfo.dita"/>
   <topicref keys="command_integerrounding" href="commands/i/r_command_integerrounding.dita"/>
-  <topicref keys="command_interaction" href="commands/i/r_command_interaction.dita"/>
   <topicref keys="command_interactionbar" href="commands/i/r_command_interactionbar.dita"/>
   <topicref keys="command_interactionbuttons" href="commands/i/r_command_interactionbuttons.dita"/>
   <topicref keys="command_interactionmenu" href="commands/i/r_command_interactionmenu.dita"/>
-  <topicref keys="command_interface" href="commands/i/r_command_interface.dita"/>
   <topicref keys="command_intertext" href="commands/i/r_command_intertext.dita"/>
   <topicref keys="command_invokepagehandler" href="commands/i/r_command_invokepagehandler.dita"/>
   <topicref keys="command_italic" href="commands/i/r_command_italic.dita"/>
@@ -1787,7 +1808,6 @@
   <topicref keys="command_italiccorrection" href="commands/i/r_command_italiccorrection.dita"/>
   <topicref keys="command_italicface" href="commands/i/r_command_italicface.dita"/>
   <topicref keys="command_item" href="commands/i/r_command_item.dita"/>
-  <topicref keys="command_itemgroup" href="commands/i/r_command_itemgroup.dita"/>
   <topicref keys="command_items" href="commands/i/r_command_items.dita"/>
   <topicref keys="command_itemtag" href="commands/i/r_command_itemtag.dita"/>
   <topicref keys="command_jobfilename" href="commands/j/r_command_jobfilename.dita"/>
@@ -1797,12 +1817,14 @@
   <topicref keys="command_keeplinestogether" href="commands/k/r_command_keeplinestogether.dita"/>
   <topicref keys="command_keepunwantedspaces" href="commands/k/r_command_keepunwantedspaces.dita"/>
   <topicref keys="command_kerncharacters" href="commands/k/r_command_kerncharacters.dita"/>
-  <topicref keys="command_knockout" href="commands/k/r_command_knockout.dita"/>
   <topicref keys="command_koreancirclenumerals" href="commands/k/r_command_koreancirclenumerals.dita"/>
   <topicref keys="command_koreannumerals" href="commands/k/r_command_koreannumerals.dita"/>
   <topicref keys="command_koreannumeralsc" href="commands/k/r_command_koreannumeralsc.dita"/>
   <topicref keys="command_koreannumeralsp" href="commands/k/r_command_koreannumeralsp.dita"/>
   <topicref keys="command_koreanparentnumerals" href="commands/k/r_command_koreanparentnumerals.dita"/>
+  <topicref keys="command_labellanguage" href="commands/l/r_command_labellanguage.dita"/>
+  <topicref keys="command_labeltext" href="commands/l/r_command_labeltext.dita"/>
+  <topicref keys="command_labeltexts" href="commands/l/r_command_labeltexts.dita"/>
   <topicref keys="command_language" href="commands/l/r_command_language.dita"/>
   <topicref keys="command_languageCharacters" href="commands/l/r_command_languageCharacters.dita"/>
   <topicref keys="command_languagecharacters" href="commands/l/r_command_languagecharacters.dita"/>
@@ -1824,10 +1846,10 @@
   <topicref keys="command_lastuserpage" href="commands/l/r_command_lastuserpage.dita"/>
   <topicref keys="command_lastuserpagenumber" href="commands/l/r_command_lastuserpagenumber.dita"/>
   <topicref keys="command_lateluacode" href="commands/l/r_command_lateluacode.dita"/>
+  <topicref keys="command_latin" href="commands/l/r_command_latin.dita"/>
   <topicref keys="command_layeredtext" href="commands/l/r_command_layeredtext.dita"/>
   <topicref keys="command_layerheight" href="commands/l/r_command_layerheight.dita"/>
   <topicref keys="command_layerwidth" href="commands/l/r_command_layerwidth.dita"/>
-  <topicref keys="command_layout" href="commands/l/r_command_layout.dita"/>
   <topicref keys="command_lazysavetaggedtwopassdata" href="commands/l/r_command_lazysavetaggedtwopassdata.dita"/>
   <topicref keys="command_lazysavetwopassdata" href="commands/l/r_command_lazysavetwopassdata.dita"/>
   <topicref keys="command_lbox" href="commands/l/r_command_lbox.dita"/>
@@ -1836,7 +1858,10 @@
   <topicref keys="command_leftbottombox" href="commands/l/r_command_leftbottombox.dita"/>
   <topicref keys="command_leftbox" href="commands/l/r_command_leftbox.dita"/>
   <topicref keys="command_lefthbox" href="commands/l/r_command_lefthbox.dita"/>
+  <topicref keys="command_leftheadtext" href="commands/l/r_command_leftheadtext.dita"/>
+  <topicref keys="command_leftlabeltext" href="commands/l/r_command_leftlabeltext.dita"/>
   <topicref keys="command_leftline" href="commands/l/r_command_leftline.dita"/>
+  <topicref keys="command_leftmathlabeltext" href="commands/l/r_command_leftmathlabeltext.dita"/>
   <topicref keys="command_leftorrighthbox" href="commands/l/r_command_leftorrighthbox.dita"/>
   <topicref keys="command_leftorrightvbox" href="commands/l/r_command_leftorrightvbox.dita"/>
   <topicref keys="command_leftorrightvtop" href="commands/l/r_command_leftorrightvtop.dita"/>
@@ -1896,16 +1921,9 @@
   <topicref keys="command_limitatelines" href="commands/l/r_command_limitatelines.dita"/>
   <topicref keys="command_limitatetext" href="commands/l/r_command_limitatetext.dita"/>
   <topicref keys="command_line" href="commands/l/r_command_line.dita"/>
-  <topicref keys="command_linealignment" href="commands/l/r_command_linealignment.dita"/>
   <topicref keys="command_linebox" href="commands/l/r_command_linebox.dita"/>
-  <topicref keys="command_linecorrection" href="commands/l/r_command_linecorrection.dita"/>
-  <topicref keys="command_linefiller" href="commands/l/r_command_linefiller.dita"/>
-  <topicref keys="command_linenumbering" href="commands/l/r_command_linenumbering.dita"/>
+  <topicref keys="command_linenote" href="commands/l/r_command_linenote.dita"/>
   <topicref keys="command_linespanningtext" href="commands/l/r_command_linespanningtext.dita"/>
-  <topicref keys="command_linetable" href="commands/l/r_command_linetable.dita"/>
-  <topicref keys="command_linetablebody" href="commands/l/r_command_linetablebody.dita"/>
-  <topicref keys="command_linetablecell" href="commands/l/r_command_linetablecell.dita"/>
-  <topicref keys="command_linetablehead" href="commands/l/r_command_linetablehead.dita"/>
   <topicref keys="command_linewidth" href="commands/l/r_command_linewidth.dita"/>
   <topicref keys="command_listcitation" href="commands/l/r_command_listcitation.dita"/>
   <topicref keys="command_listcite" href="commands/l/r_command_listcite.dita"/>
@@ -1925,22 +1943,18 @@
   <topicref keys="command_loadtexfile" href="commands/l/r_command_loadtexfile.dita"/>
   <topicref keys="command_loadtexfileonce" href="commands/l/r_command_loadtexfileonce.dita"/>
   <topicref keys="command_loadtypescriptfile" href="commands/l/r_command_loadtypescriptfile.dita"/>
-  <topicref keys="command_localfootnotes" href="commands/l/r_command_localfootnotes.dita"/>
   <topicref keys="command_localframed" href="commands/l/r_command_localframed.dita"/>
   <topicref keys="command_localframedwithsettings" href="commands/l/r_command_localframedwithsettings.dita"/>
-  <topicref keys="command_localheadsetup" href="commands/l/r_command_localheadsetup.dita"/>
   <topicref keys="command_localhsize" href="commands/l/r_command_localhsize.dita"/>
-  <topicref keys="command_locallinecorrection" href="commands/l/r_command_locallinecorrection.dita"/>
-  <topicref keys="command_localnotes" href="commands/l/r_command_localnotes.dita"/>
   <topicref keys="command_localpopbox" href="commands/l/r_command_localpopbox.dita"/>
   <topicref keys="command_localpopmacro" href="commands/l/r_command_localpopmacro.dita"/>
   <topicref keys="command_localpushbox" href="commands/l/r_command_localpushbox.dita"/>
   <topicref keys="command_localpushmacro" href="commands/l/r_command_localpushmacro.dita"/>
-  <topicref keys="command_localsetups" href="commands/l/r_command_localsetups.dita"/>
   <topicref keys="command_localundefine" href="commands/l/r_command_localundefine.dita"/>
   <topicref keys="command_locatedfilepath" href="commands/l/r_command_locatedfilepath.dita"/>
   <topicref keys="command_locatefilepath" href="commands/l/r_command_locatefilepath.dita"/>
   <topicref keys="command_locfilename" href="commands/l/r_command_locfilename.dita"/>
+  <topicref keys="command_logo" href="commands/l/r_command_logo.dita"/>
   <topicref keys="command_lohi" href="commands/l/r_command_lohi.dita"/>
   <topicref keys="command_lomihi" href="commands/l/r_command_lomihi.dita"/>
   <topicref keys="command_low" href="commands/l/r_command_low.dita"/>
@@ -1956,7 +1970,6 @@
   <topicref keys="command_ltrhbox" href="commands/l/r_command_ltrhbox.dita"/>
   <topicref keys="command_ltrvbox" href="commands/l/r_command_ltrvbox.dita"/>
   <topicref keys="command_ltrvtop" href="commands/l/r_command_ltrvtop.dita"/>
-  <topicref keys="command_lua" href="commands/l/r_command_lua.dita"/>
   <topicref keys="command_luaTeX" href="commands/l/r_command_luaTeX.dita"/>
   <topicref keys="command_luacode" href="commands/l/r_command_luacode.dita"/>
   <topicref keys="command_luaconditional" href="commands/l/r_command_luaconditional.dita"/>
@@ -1970,25 +1983,23 @@
   <topicref keys="command_luaminorversion" href="commands/l/r_command_luaminorversion.dita"/>
   <topicref keys="command_luaparameterset" href="commands/l/r_command_luaparameterset.dita"/>
   <topicref keys="command_luasetup" href="commands/l/r_command_luasetup.dita"/>
-  <topicref keys="command_luasetups" href="commands/l/r_command_luasetups.dita"/>
   <topicref keys="command_luaversion" href="commands/l/r_command_luaversion.dita"/>
   <topicref keys="command_m" href="commands/m/r_command_m.dita"/>
+  <topicref keys="command_mLeftarrow" href="commands/m/r_command_mLeftarrow.dita"/>
+  <topicref keys="command_mLeftrightarrow" href="commands/m/r_command_mLeftrightarrow.dita"/>
+  <topicref keys="command_mRightarrow" href="commands/m/r_command_mRightarrow.dita"/>
   <topicref keys="command_mainlanguage" href="commands/m/r_command_mainlanguage.dita"/>
   <topicref keys="command_makecharacteractive" href="commands/m/r_command_makecharacteractive.dita"/>
   <topicref keys="command_makerawcommalist" href="commands/m/r_command_makerawcommalist.dita"/>
   <topicref keys="command_makestrutofbox" href="commands/m/r_command_makestrutofbox.dita"/>
-  <topicref keys="command_makeup" href="commands/m/r_command_makeup.dita"/>
   <topicref keys="command_mapfontsize" href="commands/m/r_command_mapfontsize.dita"/>
-  <topicref keys="command_marginblock" href="commands/m/r_command_marginblock.dita"/>
   <topicref keys="command_margindata" href="commands/m/r_command_margindata.dita"/>
-  <topicref keys="command_marginrule" href="commands/m/r_command_marginrule.dita"/>
+  <topicref keys="command_margintext" href="commands/m/r_command_margintext.dita"/>
   <topicref keys="command_markcontent" href="commands/m/r_command_markcontent.dita"/>
-  <topicref keys="command_markedcontent" href="commands/m/r_command_markedcontent.dita"/>
   <topicref keys="command_markedpages" href="commands/m/r_command_markedpages.dita"/>
   <topicref keys="command_marking" href="commands/m/r_command_marking.dita"/>
   <topicref keys="command_markinjector" href="commands/m/r_command_markinjector.dita"/>
   <topicref keys="command_markpage" href="commands/m/r_command_markpage.dita"/>
-  <topicref keys="command_markpages" href="commands/m/r_command_markpages.dita"/>
   <topicref keys="command_markreferencepage" href="commands/m/r_command_markreferencepage.dita"/>
   <topicref keys="command_mat" href="commands/m/r_command_mat.dita"/>
   <topicref keys="command_math" href="commands/m/r_command_math.dita"/>
@@ -2003,15 +2014,16 @@
   <topicref keys="command_mathfunction" href="commands/m/r_command_mathfunction.dita"/>
   <topicref keys="command_mathit" href="commands/m/r_command_mathit.dita"/>
   <topicref keys="command_mathitalic" href="commands/m/r_command_mathitalic.dita"/>
+  <topicref keys="command_mathlabellanguage" href="commands/m/r_command_mathlabellanguage.dita"/>
+  <topicref keys="command_mathlabeltext" href="commands/m/r_command_mathlabeltext.dita"/>
+  <topicref keys="command_mathlabeltexts" href="commands/m/r_command_mathlabeltexts.dita"/>
   <topicref keys="command_mathmatrix" href="commands/m/r_command_mathmatrix.dita"/>
-  <topicref keys="command_mathmode" href="commands/m/r_command_mathmode.dita"/>
   <topicref keys="command_mathop" href="commands/m/r_command_mathop.dita"/>
   <topicref keys="command_mathover" href="commands/m/r_command_mathover.dita"/>
   <topicref keys="command_mathrm" href="commands/m/r_command_mathrm.dita"/>
   <topicref keys="command_mathscript" href="commands/m/r_command_mathscript.dita"/>
   <topicref keys="command_mathsl" href="commands/m/r_command_mathsl.dita"/>
   <topicref keys="command_mathss" href="commands/m/r_command_mathss.dita"/>
-  <topicref keys="command_mathstyle" href="commands/m/r_command_mathstyle.dita"/>
   <topicref keys="command_mathtext" href="commands/m/r_command_mathtext.dita"/>
   <topicref keys="command_mathtextbf" href="commands/m/r_command_mathtextbf.dita"/>
   <topicref keys="command_mathtextbi" href="commands/m/r_command_mathtextbi.dita"/>
@@ -2031,18 +2043,22 @@
   <topicref keys="command_mathwordit" href="commands/m/r_command_mathwordit.dita"/>
   <topicref keys="command_mathwordsl" href="commands/m/r_command_mathwordsl.dita"/>
   <topicref keys="command_mathwordtf" href="commands/m/r_command_mathwordtf.dita"/>
-  <topicref keys="command_matrices" href="commands/m/r_command_matrices.dita"/>
   <topicref keys="command_maxaligned" href="commands/m/r_command_maxaligned.dita"/>
   <topicref keys="command_mbox" href="commands/m/r_command_mbox.dita"/>
+  <topicref keys="command_mcframed" href="commands/m/r_command_mcframed.dita"/>
   <topicref keys="command_measure" href="commands/m/r_command_measure.dita"/>
   <topicref keys="command_measured" href="commands/m/r_command_measured.dita"/>
   <topicref keys="command_medskip" href="commands/m/r_command_medskip.dita"/>
   <topicref keys="command_medspace" href="commands/m/r_command_medspace.dita"/>
+  <topicref keys="command_mequal" href="commands/m/r_command_mequal.dita"/>
   <topicref keys="command_message" href="commands/m/r_command_message.dita"/>
   <topicref keys="command_mfence" href="commands/m/r_command_mfence.dita"/>
+  <topicref keys="command_mframed" href="commands/m/r_command_mframed.dita"/>
   <topicref keys="command_mfunction" href="commands/m/r_command_mfunction.dita"/>
   <topicref keys="command_mfunctionlabeltext" href="commands/m/r_command_mfunctionlabeltext.dita"/>
   <topicref keys="command_mhbox" href="commands/m/r_command_mhbox.dita"/>
+  <topicref keys="command_mhookleftarrow" href="commands/m/r_command_mhookleftarrow.dita"/>
+  <topicref keys="command_mhookrightarrow" href="commands/m/r_command_mhookrightarrow.dita"/>
   <topicref keys="command_midaligned" href="commands/m/r_command_midaligned.dita"/>
   <topicref keys="command_middle" href="commands/m/r_command_middle.dita"/>
   <topicref keys="command_middlealigned" href="commands/m/r_command_middlealigned.dita"/>
@@ -2052,13 +2068,14 @@
   <topicref keys="command_minimalhbox" href="commands/m/r_command_minimalhbox.dita"/>
   <topicref keys="command_mirror" href="commands/m/r_command_mirror.dita"/>
   <topicref keys="command_mixedcaps" href="commands/m/r_command_mixedcaps.dita"/>
-  <topicref keys="command_mixedcolumns" href="commands/m/r_command_mixedcolumns.dita"/>
   <topicref keys="command_mkvibuffer" href="commands/m/r_command_mkvibuffer.dita"/>
-  <topicref keys="command_mode" href="commands/m/r_command_mode.dita"/>
-  <topicref keys="command_modeset" href="commands/m/r_command_modeset.dita"/>
-  <topicref keys="command_module" href="commands/m/r_command_module.dita"/>
+  <topicref keys="command_mleftarrow" href="commands/m/r_command_mleftarrow.dita"/>
+  <topicref keys="command_mleftharpoondown" href="commands/m/r_command_mleftharpoondown.dita"/>
+  <topicref keys="command_mleftharpoonup" href="commands/m/r_command_mleftharpoonup.dita"/>
+  <topicref keys="command_mleftrightarrow" href="commands/m/r_command_mleftrightarrow.dita"/>
+  <topicref keys="command_mleftrightharpoons" href="commands/m/r_command_mleftrightharpoons.dita"/>
+  <topicref keys="command_mmapsto" href="commands/m/r_command_mmapsto.dita"/>
   <topicref keys="command_moduleparameter" href="commands/m/r_command_moduleparameter.dita"/>
-  <topicref keys="command_moduletestsection" href="commands/m/r_command_moduletestsection.dita"/>
   <topicref keys="command_molecule" href="commands/m/r_command_molecule.dita"/>
   <topicref keys="command_mono" href="commands/m/r_command_mono.dita"/>
   <topicref keys="command_monobold" href="commands/m/r_command_monobold.dita"/>
@@ -2067,16 +2084,21 @@
   <topicref keys="command_monthlong" href="commands/m/r_command_monthlong.dita"/>
   <topicref keys="command_monthshort" href="commands/m/r_command_monthshort.dita"/>
   <topicref keys="command_mprandomnumber" href="commands/m/r_command_mprandomnumber.dita"/>
+  <topicref keys="command_mrel" href="commands/m/r_command_mrel.dita"/>
+  <topicref keys="command_mrightarrow" href="commands/m/r_command_mrightarrow.dita"/>
+  <topicref keys="command_mrightharpoondown" href="commands/m/r_command_mrightharpoondown.dita"/>
+  <topicref keys="command_mrightharpoonup" href="commands/m/r_command_mrightharpoonup.dita"/>
+  <topicref keys="command_mrightleftharpoons" href="commands/m/r_command_mrightleftharpoons.dita"/>
+  <topicref keys="command_mrightoverleftarrow" href="commands/m/r_command_mrightoverleftarrow.dita"/>
   <topicref keys="command_mtext" href="commands/m/r_command_mtext.dita"/>
+  <topicref keys="command_mtriplerel" href="commands/m/r_command_mtriplerel.dita"/>
+  <topicref keys="command_mtwoheadleftarrow" href="commands/m/r_command_mtwoheadleftarrow.dita"/>
+  <topicref keys="command_mtwoheadrightarrow" href="commands/m/r_command_mtwoheadrightarrow.dita"/>
   <topicref keys="command_namedheadnumber" href="commands/n/r_command_namedheadnumber.dita"/>
-  <topicref keys="command_namedsection" href="commands/n/r_command_namedsection.dita"/>
   <topicref keys="command_namedstructureheadlocation" href="commands/n/r_command_namedstructureheadlocation.dita"/>
   <topicref keys="command_namedstructureuservariable" href="commands/n/r_command_namedstructureuservariable.dita"/>
   <topicref keys="command_namedstructurevariable" href="commands/n/r_command_namedstructurevariable.dita"/>
-  <topicref keys="command_namedsubformulas" href="commands/n/r_command_namedsubformulas.dita"/>
   <topicref keys="command_namedtaggedlabeltexts" href="commands/n/r_command_namedtaggedlabeltexts.dita"/>
-  <topicref keys="command_narrow" href="commands/n/r_command_narrow.dita"/>
-  <topicref keys="command_narrower" href="commands/n/r_command_narrower.dita"/>
   <topicref keys="command_naturalhbox" href="commands/n/r_command_naturalhbox.dita"/>
   <topicref keys="command_naturalhpack" href="commands/n/r_command_naturalhpack.dita"/>
   <topicref keys="command_naturaltpack" href="commands/n/r_command_naturaltpack.dita"/>
@@ -2087,7 +2109,6 @@
   <topicref keys="command_naturalwd" href="commands/n/r_command_naturalwd.dita"/>
   <topicref keys="command_negatecolorbox" href="commands/n/r_command_negatecolorbox.dita"/>
   <topicref keys="command_negated" href="commands/n/r_command_negated.dita"/>
-  <topicref keys="command_negative" href="commands/n/r_command_negative.dita"/>
   <topicref keys="command_negemspace" href="commands/n/r_command_negemspace.dita"/>
   <topicref keys="command_negenspace" href="commands/n/r_command_negenspace.dita"/>
   <topicref keys="command_negthinspace" href="commands/n/r_command_negthinspace.dita"/>
@@ -2115,7 +2136,8 @@
   <topicref keys="command_nextsubpagenumber" href="commands/n/r_command_nextsubpagenumber.dita"/>
   <topicref keys="command_nextuserpage" href="commands/n/r_command_nextuserpage.dita"/>
   <topicref keys="command_nextuserpagenumber" href="commands/n/r_command_nextuserpagenumber.dita"/>
-  <topicref keys="command_nicelyfilledbox" href="commands/n/r_command_nicelyfilledbox.dita"/>
+  <topicref keys="command_nihongo" href="commands/n/r_command_nihongo.dita"/>
+  <topicref keys="command_nobar" href="commands/n/r_command_nobar.dita"/>
   <topicref keys="command_nocharacteralign" href="commands/n/r_command_nocharacteralign.dita"/>
   <topicref keys="command_nocitation" href="commands/n/r_command_nocitation.dita"/>
   <topicref keys="command_nocite" href="commands/n/r_command_nocite.dita"/>
@@ -2126,7 +2148,6 @@
   <topicref keys="command_noheaderandfooterlines" href="commands/n/r_command_noheaderandfooterlines.dita"/>
   <topicref keys="command_noheightstrut" href="commands/n/r_command_noheightstrut.dita"/>
   <topicref keys="command_noindentation" href="commands/n/r_command_noindentation.dita"/>
-  <topicref keys="command_nointerference" href="commands/n/r_command_nointerference.dita"/>
   <topicref keys="command_noitem" href="commands/n/r_command_noitem.dita"/>
   <topicref keys="command_nonfrenchspacing" href="commands/n/r_command_nonfrenchspacing.dita"/>
   <topicref keys="command_nonmathematics" href="commands/n/r_command_nonmathematics.dita"/>
@@ -2147,11 +2168,8 @@
   <topicref keys="command_normalslantedface" href="commands/n/r_command_normalslantedface.dita"/>
   <topicref keys="command_normaltypeface" href="commands/n/r_command_normaltypeface.dita"/>
   <topicref keys="command_nospace" href="commands/n/r_command_nospace.dita"/>
-  <topicref keys="command_notallmodes" href="commands/n/r_command_notallmodes.dita"/>
   <topicref keys="command_note" href="commands/n/r_command_note.dita"/>
   <topicref keys="command_notesymbol" href="commands/n/r_command_notesymbol.dita"/>
-  <topicref keys="command_notext" href="commands/n/r_command_notext.dita"/>
-  <topicref keys="command_notmode" href="commands/n/r_command_notmode.dita"/>
   <topicref keys="command_notopandbottomlines" href="commands/n/r_command_notopandbottomlines.dita"/>
   <topicref keys="command_notragged" href="commands/n/r_command_notragged.dita"/>
   <topicref keys="command_notsmallcapped" href="commands/n/r_command_notsmallcapped.dita"/>
@@ -2167,17 +2185,21 @@
   <topicref keys="command_offset" href="commands/o/r_command_offset.dita"/>
   <topicref keys="command_offsetbox" href="commands/o/r_command_offsetbox.dita"/>
   <topicref keys="command_onedigitrounding" href="commands/o/r_command_onedigitrounding.dita"/>
-  <topicref keys="command_opposite" href="commands/o/r_command_opposite.dita"/>
+  <topicref keys="command_operatorlanguage" href="commands/o/r_command_operatorlanguage.dita"/>
+  <topicref keys="command_operatortext" href="commands/o/r_command_operatortext.dita"/>
   <topicref keys="command_ordinaldaynumber" href="commands/o/r_command_ordinaldaynumber.dita"/>
   <topicref keys="command_ordinalstr" href="commands/o/r_command_ordinalstr.dita"/>
   <topicref keys="command_outputfilename" href="commands/o/r_command_outputfilename.dita"/>
-  <topicref keys="command_outputstream" href="commands/o/r_command_outputstream.dita"/>
   <topicref keys="command_outputstreambox" href="commands/o/r_command_outputstreambox.dita"/>
   <topicref keys="command_outputstreamcopy" href="commands/o/r_command_outputstreamcopy.dita"/>
   <topicref keys="command_outputstreamunvbox" href="commands/o/r_command_outputstreamunvbox.dita"/>
   <topicref keys="command_outputstreamunvcopy" href="commands/o/r_command_outputstreamunvcopy.dita"/>
   <topicref keys="command_over" href="commands/o/r_command_over.dita"/>
-  <topicref keys="command_overlay" href="commands/o/r_command_overlay.dita"/>
+  <topicref keys="command_overbar" href="commands/o/r_command_overbar.dita"/>
+  <topicref keys="command_overbars" href="commands/o/r_command_overbars.dita"/>
+  <topicref keys="command_overbarunderbar" href="commands/o/r_command_overbarunderbar.dita"/>
+  <topicref keys="command_overbraceunderbrace" href="commands/o/r_command_overbraceunderbrace.dita"/>
+  <topicref keys="command_overbracketunderbracket" href="commands/o/r_command_overbracketunderbracket.dita"/>
   <topicref keys="command_overlaybutton" href="commands/o/r_command_overlaybutton.dita"/>
   <topicref keys="command_overlaycolor" href="commands/o/r_command_overlaycolor.dita"/>
   <topicref keys="command_overlaydepth" href="commands/o/r_command_overlaydepth.dita"/>
@@ -2190,27 +2212,21 @@
   <topicref keys="command_overlayrollbutton" href="commands/o/r_command_overlayrollbutton.dita"/>
   <topicref keys="command_overlaywidth" href="commands/o/r_command_overlaywidth.dita"/>
   <topicref keys="command_overloaderror" href="commands/o/r_command_overloaderror.dita"/>
-  <topicref keys="command_overprint" href="commands/o/r_command_overprint.dita"/>
+  <topicref keys="command_overparentunderparent" href="commands/o/r_command_overparentunderparent.dita"/>
   <topicref keys="command_overset" href="commands/o/r_command_overset.dita"/>
-  <topicref keys="command_packed" href="commands/p/r_command_packed.dita"/>
+  <topicref keys="command_overstrike" href="commands/o/r_command_overstrike.dita"/>
+  <topicref keys="command_overstrikes" href="commands/o/r_command_overstrikes.dita"/>
   <topicref keys="command_page" href="commands/p/r_command_page.dita"/>
   <topicref keys="command_pagearea" href="commands/p/r_command_pagearea.dita"/>
   <topicref keys="command_pagebreak" href="commands/p/r_command_pagebreak.dita"/>
-  <topicref keys="command_pagecolumns" href="commands/p/r_command_pagecolumns.dita"/>
-  <topicref keys="command_pagecomment" href="commands/p/r_command_pagecomment.dita"/>
   <topicref keys="command_pagefigure" href="commands/p/r_command_pagefigure.dita"/>
   <topicref keys="command_pageinjection" href="commands/p/r_command_pageinjection.dita"/>
-  <topicref keys="command_pagelayout" href="commands/p/r_command_pagelayout.dita"/>
   <topicref keys="command_pagenumber" href="commands/p/r_command_pagenumber.dita"/>
   <topicref keys="command_pagereference" href="commands/p/r_command_pagereference.dita"/>
   <topicref keys="command_pagestaterealpage" href="commands/p/r_command_pagestaterealpage.dita"/>
   <topicref keys="command_pagestaterealpageorder" href="commands/p/r_command_pagestaterealpageorder.dita"/>
   <topicref keys="command_paletsize" href="commands/p/r_command_paletsize.dita"/>
-  <topicref keys="command_par" href="commands/p/r_command_par.dita"/>
-  <topicref keys="command_paragraph" href="commands/p/r_command_paragraph.dita"/>
-  <topicref keys="command_paragraphs" href="commands/p/r_command_paragraphs.dita"/>
-  <topicref keys="command_paragraphscell" href="commands/p/r_command_paragraphscell.dita"/>
-  <topicref keys="command_parbuilder" href="commands/p/r_command_parbuilder.dita"/>
+  <topicref keys="command_part" href="commands/p/r_command_part.dita"/>
   <topicref keys="command_pdfTeX" href="commands/p/r_command_pdfTeX.dita"/>
   <topicref keys="command_pdfactualtext" href="commands/p/r_command_pdfactualtext.dita"/>
   <topicref keys="command_pdfbackendactualtext" href="commands/p/r_command_pdfbackendactualtext.dita"/>
@@ -2241,26 +2257,40 @@
   <topicref keys="command_placeattachments" href="commands/p/r_command_placeattachments.dita"/>
   <topicref keys="command_placebookmarks" href="commands/p/r_command_placebookmarks.dita"/>
   <topicref keys="command_placebtxrendering" href="commands/p/r_command_placebtxrendering.dita"/>
+  <topicref keys="command_placechemical" href="commands/p/r_command_placechemical.dita"/>
   <topicref keys="command_placecitation" href="commands/p/r_command_placecitation.dita"/>
   <topicref keys="command_placecombinedlist" href="commands/p/r_command_placecombinedlist.dita"/>
   <topicref keys="command_placecomments" href="commands/p/r_command_placecomments.dita"/>
+  <topicref keys="command_placecontent" href="commands/p/r_command_placecontent.dita"/>
   <topicref keys="command_placecurrentformulanumber" href="commands/p/r_command_placecurrentformulanumber.dita"/>
   <topicref keys="command_placedbox" href="commands/p/r_command_placedbox.dita"/>
+  <topicref keys="command_placefigure" href="commands/p/r_command_placefigure.dita"/>
   <topicref keys="command_placefloat" href="commands/p/r_command_placefloat.dita"/>
   <topicref keys="command_placefloatwithsetups" href="commands/p/r_command_placefloatwithsetups.dita"/>
   <topicref keys="command_placefootnotes" href="commands/p/r_command_placefootnotes.dita"/>
   <topicref keys="command_placeformula" href="commands/p/r_command_placeformula.dita"/>
   <topicref keys="command_placeframed" href="commands/p/r_command_placeframed.dita"/>
+  <topicref keys="command_placegraphic" href="commands/p/r_command_placegraphic.dita"/>
   <topicref keys="command_placeheadnumber" href="commands/p/r_command_placeheadnumber.dita"/>
   <topicref keys="command_placeheadtext" href="commands/p/r_command_placeheadtext.dita"/>
   <topicref keys="command_placehelp" href="commands/p/r_command_placehelp.dita"/>
+  <topicref keys="command_placeindex" href="commands/p/r_command_placeindex.dita"/>
   <topicref keys="command_placeinitial" href="commands/p/r_command_placeinitial.dita"/>
+  <topicref keys="command_placeintermezzo" href="commands/p/r_command_placeintermezzo.dita"/>
   <topicref keys="command_placelayer" href="commands/p/r_command_placelayer.dita"/>
   <topicref keys="command_placelayeredtext" href="commands/p/r_command_placelayeredtext.dita"/>
+  <topicref keys="command_placelegend" href="commands/p/r_command_placelegend.dita"/>
   <topicref keys="command_placelist" href="commands/p/r_command_placelist.dita"/>
+  <topicref keys="command_placelistofabbreviations" href="commands/p/r_command_placelistofabbreviations.dita"/>
+  <topicref keys="command_placelistofchemicals" href="commands/p/r_command_placelistofchemicals.dita"/>
+  <topicref keys="command_placelistoffigures" href="commands/p/r_command_placelistoffigures.dita"/>
+  <topicref keys="command_placelistofgraphics" href="commands/p/r_command_placelistofgraphics.dita"/>
+  <topicref keys="command_placelistofintermezzi" href="commands/p/r_command_placelistofintermezzi.dita"/>
+  <topicref keys="command_placelistoflogos" href="commands/p/r_command_placelistoflogos.dita"/>
   <topicref keys="command_placelistofpublications" href="commands/p/r_command_placelistofpublications.dita"/>
   <topicref keys="command_placelistofsorts" href="commands/p/r_command_placelistofsorts.dita"/>
   <topicref keys="command_placelistofsynonyms" href="commands/p/r_command_placelistofsynonyms.dita"/>
+  <topicref keys="command_placelistoftables" href="commands/p/r_command_placelistoftables.dita"/>
   <topicref keys="command_placelocalfootnotes" href="commands/p/r_command_placelocalfootnotes.dita"/>
   <topicref keys="command_placelocalnotes" href="commands/p/r_command_placelocalnotes.dita"/>
   <topicref keys="command_placement" href="commands/p/r_command_placement.dita"/>
@@ -2280,6 +2310,7 @@
   <topicref keys="command_placerenderingwindow" href="commands/p/r_command_placerenderingwindow.dita"/>
   <topicref keys="command_placesidebyside" href="commands/p/r_command_placesidebyside.dita"/>
   <topicref keys="command_placesubformula" href="commands/p/r_command_placesubformula.dita"/>
+  <topicref keys="command_placetable" href="commands/p/r_command_placetable.dita"/>
   <topicref keys="command_popMPdrawing" href="commands/p/r_command_popMPdrawing.dita"/>
   <topicref keys="command_poparrangedpages" href="commands/p/r_command_poparrangedpages.dita"/>
   <topicref keys="command_popattribute" href="commands/p/r_command_popattribute.dita"/>
@@ -2298,17 +2329,15 @@
   <topicref keys="command_popreferenceprefix" href="commands/p/r_command_popreferenceprefix.dita"/>
   <topicref keys="command_popsystemmode" href="commands/p/r_command_popsystemmode.dita"/>
   <topicref keys="command_position" href="commands/p/r_command_position.dita"/>
-  <topicref keys="command_positioning" href="commands/p/r_command_positioning.dita"/>
   <topicref keys="command_positionoverlay" href="commands/p/r_command_positionoverlay.dita"/>
   <topicref keys="command_positionregionoverlay" href="commands/p/r_command_positionregionoverlay.dita"/>
-  <topicref keys="command_positive" href="commands/p/r_command_positive.dita"/>
   <topicref keys="command_postponenotes" href="commands/p/r_command_postponenotes.dita"/>
-  <topicref keys="command_postponing" href="commands/p/r_command_postponing.dita"/>
-  <topicref keys="command_postponingnotes" href="commands/p/r_command_postponingnotes.dita"/>
   <topicref keys="command_predefinedfont" href="commands/p/r_command_predefinedfont.dita"/>
   <topicref keys="command_predefinefont" href="commands/p/r_command_predefinefont.dita"/>
   <topicref keys="command_predefinesymbol" href="commands/p/r_command_predefinesymbol.dita"/>
   <topicref keys="command_prefixedpagenumber" href="commands/p/r_command_prefixedpagenumber.dita"/>
+  <topicref keys="command_prefixlanguage" href="commands/p/r_command_prefixlanguage.dita"/>
+  <topicref keys="command_prefixtext" href="commands/p/r_command_prefixtext.dita"/>
   <topicref keys="command_prependetoks" href="commands/p/r_command_prependetoks.dita"/>
   <topicref keys="command_prependgvalue" href="commands/p/r_command_prependgvalue.dita"/>
   <topicref keys="command_prependtocommalist" href="commands/p/r_command_prependtocommalist.dita"/>
@@ -2316,8 +2345,17 @@
   <topicref keys="command_prependtoksonce" href="commands/p/r_command_prependtoksonce.dita"/>
   <topicref keys="command_prependvalue" href="commands/p/r_command_prependvalue.dita"/>
   <topicref keys="command_prerollblank" href="commands/p/r_command_prerollblank.dita"/>
+  <topicref keys="command_presetbtxlabeltext" href="commands/p/r_command_presetbtxlabeltext.dita"/>
   <topicref keys="command_presetdocument" href="commands/p/r_command_presetdocument.dita"/>
   <topicref keys="command_presetfieldsymbols" href="commands/p/r_command_presetfieldsymbols.dita"/>
+  <topicref keys="command_presetheadtext" href="commands/p/r_command_presetheadtext.dita"/>
+  <topicref keys="command_presetlabeltext" href="commands/p/r_command_presetlabeltext.dita"/>
+  <topicref keys="command_presetmathlabeltext" href="commands/p/r_command_presetmathlabeltext.dita"/>
+  <topicref keys="command_presetoperatortext" href="commands/p/r_command_presetoperatortext.dita"/>
+  <topicref keys="command_presetprefixtext" href="commands/p/r_command_presetprefixtext.dita"/>
+  <topicref keys="command_presetsuffixtext" href="commands/p/r_command_presetsuffixtext.dita"/>
+  <topicref keys="command_presettaglabeltext" href="commands/p/r_command_presettaglabeltext.dita"/>
+  <topicref keys="command_presetunittext" href="commands/p/r_command_presetunittext.dita"/>
   <topicref keys="command_pretocommalist" href="commands/p/r_command_pretocommalist.dita"/>
   <topicref keys="command_prettyprintbuffer" href="commands/p/r_command_prettyprintbuffer.dita"/>
   <topicref keys="command_prevcounter" href="commands/p/r_command_prevcounter.dita"/>
@@ -2370,12 +2408,10 @@
   <topicref keys="command_program" href="commands/p/r_command_program.dita"/>
   <topicref keys="command_project" href="commands/p/r_command_project.dita"/>
   <topicref keys="command_protect" href="commands/p/r_command_protect.dita"/>
-  <topicref keys="command_protectedcolors" href="commands/p/r_command_protectedcolors.dita"/>
   <topicref keys="command_pseudoMixedCapped" href="commands/p/r_command_pseudoMixedCapped.dita"/>
   <topicref keys="command_pseudoSmallCapped" href="commands/p/r_command_pseudoSmallCapped.dita"/>
   <topicref keys="command_pseudoSmallcapped" href="commands/p/r_command_pseudoSmallcapped.dita"/>
   <topicref keys="command_pseudosmallcapped" href="commands/p/r_command_pseudosmallcapped.dita"/>
-  <topicref keys="command_publication" href="commands/p/r_command_publication.dita"/>
   <topicref keys="command_purenumber" href="commands/p/r_command_purenumber.dita"/>
   <topicref keys="command_pushMPdrawing" href="commands/p/r_command_pushMPdrawing.dita"/>
   <topicref keys="command_pusharrangedpages" href="commands/p/r_command_pusharrangedpages.dita"/>
@@ -2405,13 +2441,14 @@
   <topicref keys="command_quitcommalist" href="commands/q/r_command_quitcommalist.dita"/>
   <topicref keys="command_quitprevcommalist" href="commands/q/r_command_quitprevcommalist.dita"/>
   <topicref keys="command_quittypescriptscanning" href="commands/q/r_command_quittypescriptscanning.dita"/>
+  <topicref keys="command_quotation" href="commands/q/r_command_quotation.dita"/>
+  <topicref keys="command_quote" href="commands/q/r_command_quote.dita"/>
   <topicref keys="command_raggedbottom" href="commands/r/r_command_raggedbottom.dita"/>
   <topicref keys="command_raggedcenter" href="commands/r/r_command_raggedcenter.dita"/>
   <topicref keys="command_raggedleft" href="commands/r/r_command_raggedleft.dita"/>
   <topicref keys="command_raggedright" href="commands/r/r_command_raggedright.dita"/>
   <topicref keys="command_raggedwidecenter" href="commands/r/r_command_raggedwidecenter.dita"/>
   <topicref keys="command_raisebox" href="commands/r/r_command_raisebox.dita"/>
-  <topicref keys="command_randomized" href="commands/r/r_command_randomized.dita"/>
   <topicref keys="command_randomizetext" href="commands/r/r_command_randomizetext.dita"/>
   <topicref keys="command_randomnumber" href="commands/r/r_command_randomnumber.dita"/>
   <topicref keys="command_rawcounter" href="commands/r/r_command_rawcounter.dita"/>
@@ -2424,13 +2461,11 @@
   <topicref keys="command_rawprocessaction" href="commands/r/r_command_rawprocessaction.dita"/>
   <topicref keys="command_rawprocesscommacommand" href="commands/r/r_command_rawprocesscommacommand.dita"/>
   <topicref keys="command_rawprocesscommalist" href="commands/r/r_command_rawprocesscommalist.dita"/>
-  <topicref keys="command_rawsetups" href="commands/r/r_command_rawsetups.dita"/>
   <topicref keys="command_rawstructurelistuservariable" href="commands/r/r_command_rawstructurelistuservariable.dita"/>
   <topicref keys="command_rawsubcountervalue" href="commands/r/r_command_rawsubcountervalue.dita"/>
   <topicref keys="command_rbox" href="commands/r/r_command_rbox.dita"/>
   <topicref keys="command_readfile" href="commands/r/r_command_readfile.dita"/>
   <topicref keys="command_readfixfile" href="commands/r/r_command_readfixfile.dita"/>
-  <topicref keys="command_readingfile" href="commands/r/r_command_readingfile.dita"/>
   <topicref keys="command_readjobfile" href="commands/r/r_command_readjobfile.dita"/>
   <topicref keys="command_readlocfile" href="commands/r/r_command_readlocfile.dita"/>
   <topicref keys="command_readsetfile" href="commands/r/r_command_readsetfile.dita"/>
@@ -2454,7 +2489,6 @@
   <topicref keys="command_referencerealpage" href="commands/r/r_command_referencerealpage.dita"/>
   <topicref keys="command_referencesymbol" href="commands/r/r_command_referencesymbol.dita"/>
   <topicref keys="command_referring" href="commands/r/r_command_referring.dita"/>
-  <topicref keys="command_regime" href="commands/r/r_command_regime.dita"/>
   <topicref keys="command_registerattachment" href="commands/r/r_command_registerattachment.dita"/>
   <topicref keys="command_registerctxluafile" href="commands/r/r_command_registerctxluafile.dita"/>
   <topicref keys="command_registerexternalfigure" href="commands/r/r_command_registerexternalfigure.dita"/>
@@ -2570,7 +2604,10 @@
   <topicref keys="command_rightbottombox" href="commands/r/r_command_rightbottombox.dita"/>
   <topicref keys="command_rightbox" href="commands/r/r_command_rightbox.dita"/>
   <topicref keys="command_righthbox" href="commands/r/r_command_righthbox.dita"/>
+  <topicref keys="command_rightheadtext" href="commands/r/r_command_rightheadtext.dita"/>
+  <topicref keys="command_rightlabeltext" href="commands/r/r_command_rightlabeltext.dita"/>
   <topicref keys="command_rightline" href="commands/r/r_command_rightline.dita"/>
+  <topicref keys="command_rightmathlabeltext" href="commands/r/r_command_rightmathlabeltext.dita"/>
   <topicref keys="command_rightorleftpageaction" href="commands/r/r_command_rightorleftpageaction.dita"/>
   <topicref keys="command_rightpageorder" href="commands/r/r_command_rightpageorder.dita"/>
   <topicref keys="command_rightskipadaption" href="commands/r/r_command_rightskipadaption.dita"/>
@@ -2622,7 +2659,6 @@
   <topicref keys="command_sbox" href="commands/s/r_command_sbox.dita"/>
   <topicref keys="command_scale" href="commands/s/r_command_scale.dita"/>
   <topicref keys="command_screen" href="commands/s/r_command_screen.dita"/>
-  <topicref keys="command_script" href="commands/s/r_command_script.dita"/>
   <topicref keys="command_secondoffivearguments" href="commands/s/r_command_secondoffivearguments.dita"/>
   <topicref keys="command_secondoffourarguments" href="commands/s/r_command_secondoffourarguments.dita"/>
   <topicref keys="command_secondofsixarguments" href="commands/s/r_command_secondofsixarguments.dita"/>
@@ -2630,9 +2666,8 @@
   <topicref keys="command_secondofthreeunexpanded" href="commands/s/r_command_secondofthreeunexpanded.dita"/>
   <topicref keys="command_secondoftwoarguments" href="commands/s/r_command_secondoftwoarguments.dita"/>
   <topicref keys="command_secondoftwounexpanded" href="commands/s/r_command_secondoftwounexpanded.dita"/>
-  <topicref keys="command_sectionblock" href="commands/s/r_command_sectionblock.dita"/>
-  <topicref keys="command_sectionblockenvironment" href="commands/s/r_command_sectionblockenvironment.dita"/>
-  <topicref keys="command_sectionlevel" href="commands/s/r_command_sectionlevel.dita"/>
+  <topicref keys="command_section" href="commands/s/r_command_section.dita"/>
+  <topicref keys="command_seeindex" href="commands/s/r_command_seeindex.dita"/>
   <topicref keys="command_select" href="commands/s/r_command_select.dita"/>
   <topicref keys="command_selectblocks" href="commands/s/r_command_selectblocks.dita"/>
   <topicref keys="command_serializecommalist" href="commands/s/r_command_serializecommalist.dita"/>
@@ -2802,6 +2837,7 @@
   <topicref keys="command_setupbottomtexts" href="commands/s/r_command_setupbottomtexts.dita"/>
   <topicref keys="command_setupbtx" href="commands/s/r_command_setupbtx.dita"/>
   <topicref keys="command_setupbtxdataset" href="commands/s/r_command_setupbtxdataset.dita"/>
+  <topicref keys="command_setupbtxlabeltext" href="commands/s/r_command_setupbtxlabeltext.dita"/>
   <topicref keys="command_setupbtxlist" href="commands/s/r_command_setupbtxlist.dita"/>
   <topicref keys="command_setupbtxregister" href="commands/s/r_command_setupbtxregister.dita"/>
   <topicref keys="command_setupbtxrendering" href="commands/s/r_command_setupbtxrendering.dita"/>
@@ -2829,6 +2865,7 @@
   <topicref keys="command_setupcombination" href="commands/s/r_command_setupcombination.dita"/>
   <topicref keys="command_setupcombinedlist" href="commands/s/r_command_setupcombinedlist.dita"/>
   <topicref keys="command_setupcomment" href="commands/s/r_command_setupcomment.dita"/>
+  <topicref keys="command_setupcontent" href="commands/s/r_command_setupcontent.dita"/>
   <topicref keys="command_setupcounter" href="commands/s/r_command_setupcounter.dita"/>
   <topicref keys="command_setupdataset" href="commands/s/r_command_setupdataset.dita"/>
   <topicref keys="command_setupdelimitedtext" href="commands/s/r_command_setupdelimitedtext.dita"/>
@@ -2885,6 +2922,7 @@
   <topicref keys="command_setupheadertexts" href="commands/s/r_command_setupheadertexts.dita"/>
   <topicref keys="command_setupheadnumber" href="commands/s/r_command_setupheadnumber.dita"/>
   <topicref keys="command_setupheads" href="commands/s/r_command_setupheads.dita"/>
+  <topicref keys="command_setupheadtext" href="commands/s/r_command_setupheadtext.dita"/>
   <topicref keys="command_setuphelp" href="commands/s/r_command_setuphelp.dita"/>
   <topicref keys="command_setuphigh" href="commands/s/r_command_setuphigh.dita"/>
   <topicref keys="command_setuphighlight" href="commands/s/r_command_setuphighlight.dita"/>
@@ -2892,6 +2930,7 @@
   <topicref keys="command_setuphyphenmark" href="commands/s/r_command_setuphyphenmark.dita"/>
   <topicref keys="command_setupindentedtext" href="commands/s/r_command_setupindentedtext.dita"/>
   <topicref keys="command_setupindenting" href="commands/s/r_command_setupindenting.dita"/>
+  <topicref keys="command_setupindex" href="commands/s/r_command_setupindex.dita"/>
   <topicref keys="command_setupinitial" href="commands/s/r_command_setupinitial.dita"/>
   <topicref keys="command_setupinsertion" href="commands/s/r_command_setupinsertion.dita"/>
   <topicref keys="command_setupinteraction" href="commands/s/r_command_setupinteraction.dita"/>
@@ -2902,13 +2941,16 @@
   <topicref keys="command_setupitaliccorrection" href="commands/s/r_command_setupitaliccorrection.dita"/>
   <topicref keys="command_setupitemgroup" href="commands/s/r_command_setupitemgroup.dita"/>
   <topicref keys="command_setupitemgroups" href="commands/s/r_command_setupitemgroups.dita"/>
+  <topicref keys="command_setupitemize" href="commands/s/r_command_setupitemize.dita"/>
   <topicref keys="command_setupitems" href="commands/s/r_command_setupitems.dita"/>
   <topicref keys="command_setuplabel" href="commands/s/r_command_setuplabel.dita"/>
+  <topicref keys="command_setuplabeltext" href="commands/s/r_command_setuplabeltext.dita"/>
   <topicref keys="command_setuplanguage" href="commands/s/r_command_setuplanguage.dita"/>
   <topicref keys="command_setuplayer" href="commands/s/r_command_setuplayer.dita"/>
   <topicref keys="command_setuplayeredtext" href="commands/s/r_command_setuplayeredtext.dita"/>
   <topicref keys="command_setuplayout" href="commands/s/r_command_setuplayout.dita"/>
   <topicref keys="command_setuplayouttext" href="commands/s/r_command_setuplayouttext.dita"/>
+  <topicref keys="command_setuplegend" href="commands/s/r_command_setuplegend.dita"/>
   <topicref keys="command_setuplinefiller" href="commands/s/r_command_setuplinefiller.dita"/>
   <topicref keys="command_setuplinefillers" href="commands/s/r_command_setuplinefillers.dita"/>
   <topicref keys="command_setuplinenote" href="commands/s/r_command_setuplinenote.dita"/>
@@ -2938,6 +2980,7 @@
   <topicref keys="command_setupmathfraction" href="commands/s/r_command_setupmathfraction.dita"/>
   <topicref keys="command_setupmathfractions" href="commands/s/r_command_setupmathfractions.dita"/>
   <topicref keys="command_setupmathframed" href="commands/s/r_command_setupmathframed.dita"/>
+  <topicref keys="command_setupmathlabeltext" href="commands/s/r_command_setupmathlabeltext.dita"/>
   <topicref keys="command_setupmathmatrix" href="commands/s/r_command_setupmathmatrix.dita"/>
   <topicref keys="command_setupmathornament" href="commands/s/r_command_setupmathornament.dita"/>
   <topicref keys="command_setupmathradical" href="commands/s/r_command_setupmathradical.dita"/>
@@ -2952,6 +2995,7 @@
   <topicref keys="command_setupnotes" href="commands/s/r_command_setupnotes.dita"/>
   <topicref keys="command_setupoffset" href="commands/s/r_command_setupoffset.dita"/>
   <topicref keys="command_setupoffsetbox" href="commands/s/r_command_setupoffsetbox.dita"/>
+  <topicref keys="command_setupoperatortext" href="commands/s/r_command_setupoperatortext.dita"/>
   <topicref keys="command_setupoppositeplacing" href="commands/s/r_command_setupoppositeplacing.dita"/>
   <topicref keys="command_setuporientation" href="commands/s/r_command_setuporientation.dita"/>
   <topicref keys="command_setupoutputroutine" href="commands/s/r_command_setupoutputroutine.dita"/>
@@ -2969,7 +3013,7 @@
   <topicref keys="command_setuppalet" href="commands/s/r_command_setuppalet.dita"/>
   <topicref keys="command_setuppaper" href="commands/s/r_command_setuppaper.dita"/>
   <topicref keys="command_setuppapersize" href="commands/s/r_command_setuppapersize.dita"/>
-  <topicref keys="command_setuppapersizesettings" href="commands/s/r_command_setuppapersizesettings.dita"/>
+  <topicref keys="command_setuppapersizeoptions" href="commands/s/r_command_setuppapersizeoptions.dita"/>
   <topicref keys="command_setupparagraph" href="commands/s/r_command_setupparagraph.dita"/>
   <topicref keys="command_setupparagraphintro" href="commands/s/r_command_setupparagraphintro.dita"/>
   <topicref keys="command_setupparagraphnumbering" href="commands/s/r_command_setupparagraphnumbering.dita"/>
@@ -2980,6 +3024,7 @@
   <topicref keys="command_setupplacement" href="commands/s/r_command_setupplacement.dita"/>
   <topicref keys="command_setuppositionbar" href="commands/s/r_command_setuppositionbar.dita"/>
   <topicref keys="command_setuppositioning" href="commands/s/r_command_setuppositioning.dita"/>
+  <topicref keys="command_setupprefixtext" href="commands/s/r_command_setupprefixtext.dita"/>
   <topicref keys="command_setupprocessor" href="commands/s/r_command_setupprocessor.dita"/>
   <topicref keys="command_setupprofile" href="commands/s/r_command_setupprofile.dita"/>
   <topicref keys="command_setupprograms" href="commands/s/r_command_setupprograms.dita"/>
@@ -3013,6 +3058,7 @@
   <topicref keys="command_setupsubformula" href="commands/s/r_command_setupsubformula.dita"/>
   <topicref keys="command_setupsubformulas" href="commands/s/r_command_setupsubformulas.dita"/>
   <topicref keys="command_setupsubpagenumber" href="commands/s/r_command_setupsubpagenumber.dita"/>
+  <topicref keys="command_setupsuffixtext" href="commands/s/r_command_setupsuffixtext.dita"/>
   <topicref keys="command_setupsymbols" href="commands/s/r_command_setupsymbols.dita"/>
   <topicref keys="command_setupsymbolset" href="commands/s/r_command_setupsymbolset.dita"/>
   <topicref keys="command_setupsynctex" href="commands/s/r_command_setupsynctex.dita"/>
@@ -3022,6 +3068,7 @@
   <topicref keys="command_setuptabulate" href="commands/s/r_command_setuptabulate.dita"/>
   <topicref keys="command_setuptabulation" href="commands/s/r_command_setuptabulation.dita"/>
   <topicref keys="command_setuptagging" href="commands/s/r_command_setuptagging.dita"/>
+  <topicref keys="command_setuptaglabeltext" href="commands/s/r_command_setuptaglabeltext.dita"/>
   <topicref keys="command_setuptext" href="commands/s/r_command_setuptext.dita"/>
   <topicref keys="command_setuptextbackground" href="commands/s/r_command_setuptextbackground.dita"/>
   <topicref keys="command_setuptextflow" href="commands/s/r_command_setuptextflow.dita"/>
@@ -3036,6 +3083,7 @@
   <topicref keys="command_setuptype" href="commands/s/r_command_setuptype.dita"/>
   <topicref keys="command_setuptyping" href="commands/s/r_command_setuptyping.dita"/>
   <topicref keys="command_setupunit" href="commands/s/r_command_setupunit.dita"/>
+  <topicref keys="command_setupunittext" href="commands/s/r_command_setupunittext.dita"/>
   <topicref keys="command_setupurl" href="commands/s/r_command_setupurl.dita"/>
   <topicref keys="command_setupuserdata" href="commands/s/r_command_setupuserdata.dita"/>
   <topicref keys="command_setupuserdataalternative" href="commands/s/r_command_setupuserdataalternative.dita"/>
@@ -3061,9 +3109,11 @@
   <topicref keys="command_setxvalue" href="commands/s/r_command_setxvalue.dita"/>
   <topicref keys="command_setxvariable" href="commands/s/r_command_setxvariable.dita"/>
   <topicref keys="command_setxvariables" href="commands/s/r_command_setxvariables.dita"/>
+  <topicref keys="command_sfrac" href="commands/s/r_command_sfrac.dita"/>
   <topicref keys="command_shapedhbox" href="commands/s/r_command_shapedhbox.dita"/>
-  <topicref keys="command_shift" href="commands/s/r_command_shift.dita"/>
   <topicref keys="command_shiftbox" href="commands/s/r_command_shiftbox.dita"/>
+  <topicref keys="command_shiftdown" href="commands/s/r_command_shiftdown.dita"/>
+  <topicref keys="command_shiftup" href="commands/s/r_command_shiftup.dita"/>
   <topicref keys="command_showallmakeup" href="commands/s/r_command_showallmakeup.dita"/>
   <topicref keys="command_showattributes" href="commands/s/r_command_showattributes.dita"/>
   <topicref keys="command_showbodyfont" href="commands/s/r_command_showbodyfont.dita"/>
@@ -3131,12 +3181,10 @@
   <topicref keys="command_showvalue" href="commands/s/r_command_showvalue.dita"/>
   <topicref keys="command_showvariable" href="commands/s/r_command_showvariable.dita"/>
   <topicref keys="command_showwarning" href="commands/s/r_command_showwarning.dita"/>
-  <topicref keys="command_sidebar" href="commands/s/r_command_sidebar.dita"/>
   <topicref keys="command_signalrightpage" href="commands/s/r_command_signalrightpage.dita"/>
   <topicref keys="command_simplealignedbox" href="commands/s/r_command_simplealignedbox.dita"/>
   <topicref keys="command_simplealignedboxplus" href="commands/s/r_command_simplealignedboxplus.dita"/>
   <topicref keys="command_simplealignedspreadbox" href="commands/s/r_command_simplealignedspreadbox.dita"/>
-  <topicref keys="command_simplecolumns" href="commands/s/r_command_simplecolumns.dita"/>
   <topicref keys="command_simplegroupedcommand" href="commands/s/r_command_simplegroupedcommand.dita"/>
   <topicref keys="command_simplereversealignedbox" href="commands/s/r_command_simplereversealignedbox.dita"/>
   <topicref keys="command_simplereversealignedboxplus" href="commands/s/r_command_simplereversealignedboxplus.dita"/>
@@ -3185,6 +3233,7 @@
   <topicref keys="command_spaceddigitssymbol" href="commands/s/r_command_spaceddigitssymbol.dita"/>
   <topicref keys="command_spanishNumerals" href="commands/s/r_command_spanishNumerals.dita"/>
   <topicref keys="command_spanishnumerals" href="commands/s/r_command_spanishnumerals.dita"/>
+  <topicref keys="command_speech" href="commands/s/r_command_speech.dita"/>
   <topicref keys="command_splitatasterisk" href="commands/s/r_command_splitatasterisk.dita"/>
   <topicref keys="command_splitatcolon" href="commands/s/r_command_splitatcolon.dita"/>
   <topicref keys="command_splitatcolons" href="commands/s/r_command_splitatcolons.dita"/>
@@ -3193,7 +3242,6 @@
   <topicref keys="command_splitdfrac" href="commands/s/r_command_splitdfrac.dita"/>
   <topicref keys="command_splitfilename" href="commands/s/r_command_splitfilename.dita"/>
   <topicref keys="command_splitfloat" href="commands/s/r_command_splitfloat.dita"/>
-  <topicref keys="command_splitformula" href="commands/s/r_command_splitformula.dita"/>
   <topicref keys="command_splitfrac" href="commands/s/r_command_splitfrac.dita"/>
   <topicref keys="command_splitoffbase" href="commands/s/r_command_splitoffbase.dita"/>
   <topicref keys="command_splitofffull" href="commands/s/r_command_splitofffull.dita"/>
@@ -3204,14 +3252,14 @@
   <topicref keys="command_splitofftokens" href="commands/s/r_command_splitofftokens.dita"/>
   <topicref keys="command_splitofftype" href="commands/s/r_command_splitofftype.dita"/>
   <topicref keys="command_splitstring" href="commands/s/r_command_splitstring.dita"/>
-  <topicref keys="command_splittext" href="commands/s/r_command_splittext.dita"/>
-  <topicref keys="command_spread" href="commands/s/r_command_spread.dita"/>
   <topicref keys="command_spreadhbox" href="commands/s/r_command_spreadhbox.dita"/>
   <topicref keys="command_sqrt" href="commands/s/r_command_sqrt.dita"/>
   <topicref keys="command_stackrel" href="commands/s/r_command_stackrel.dita"/>
   <topicref keys="command_stackscripts" href="commands/s/r_command_stackscripts.dita"/>
   <topicref keys="command_startJScode" href="commands/s/r_command_startJScode.dita"/>
   <topicref keys="command_startJSpreamble" href="commands/s/r_command_startJSpreamble.dita"/>
+  <topicref keys="command_startLUA" href="commands/s/r_command_startLUA.dita"/>
+  <topicref keys="command_startMP" href="commands/s/r_command_startMP.dita"/>
   <topicref keys="command_startMPclip" href="commands/s/r_command_startMPclip.dita"/>
   <topicref keys="command_startMPcode" href="commands/s/r_command_startMPcode.dita"/>
   <topicref keys="command_startMPdefinitions" href="commands/s/r_command_startMPdefinitions.dita"/>
@@ -3220,47 +3268,52 @@
   <topicref keys="command_startMPextensions" href="commands/s/r_command_startMPextensions.dita"/>
   <topicref keys="command_startMPinclusions" href="commands/s/r_command_startMPinclusions.dita"/>
   <topicref keys="command_startMPinitializations" href="commands/s/r_command_startMPinitializations.dita"/>
+  <topicref keys="command_startMPpage" href="commands/s/r_command_startMPpage.dita"/>
   <topicref keys="command_startMPpositiongraphic" href="commands/s/r_command_startMPpositiongraphic.dita"/>
   <topicref keys="command_startMPpositionmethod" href="commands/s/r_command_startMPpositionmethod.dita"/>
   <topicref keys="command_startMPrun" href="commands/s/r_command_startMPrun.dita"/>
+  <topicref keys="command_startPARSEDXML" href="commands/s/r_command_startPARSEDXML.dita"/>
   <topicref keys="command_startTABLE" href="commands/s/r_command_startTABLE.dita"/>
   <topicref keys="command_startTABLEbody" href="commands/s/r_command_startTABLEbody.dita"/>
   <topicref keys="command_startTABLEfoot" href="commands/s/r_command_startTABLEfoot.dita"/>
   <topicref keys="command_startTABLEhead" href="commands/s/r_command_startTABLEhead.dita"/>
-  <topicref keys="command_startTABLEnested" href="commands/s/r_command_startTABLEnested.dita"/>
   <topicref keys="command_startTABLEnext" href="commands/s/r_command_startTABLEnext.dita"/>
-  <topicref keys="command_startTC" href="commands/s/r_command_startTC.dita"/>
-  <topicref keys="command_startTD" href="commands/s/r_command_startTD.dita"/>
-  <topicref keys="command_startTDs" href="commands/s/r_command_startTDs.dita"/>
-  <topicref keys="command_startTH" href="commands/s/r_command_startTH.dita"/>
-  <topicref keys="command_startTN" href="commands/s/r_command_startTN.dita"/>
-  <topicref keys="command_startTR" href="commands/s/r_command_startTR.dita"/>
-  <topicref keys="command_startTRs" href="commands/s/r_command_startTRs.dita"/>
-  <topicref keys="command_startTX" href="commands/s/r_command_startTX.dita"/>
-  <topicref keys="command_startTY" href="commands/s/r_command_startTY.dita"/>
+  <topicref keys="command_startTEX" href="commands/s/r_command_startTEX.dita"/>
+  <topicref keys="command_startTEXpage" href="commands/s/r_command_startTEXpage.dita"/>
+  <topicref keys="command_startXML" href="commands/s/r_command_startXML.dita"/>
+  <topicref keys="command_startalign" href="commands/s/r_command_startalign.dita"/>
   <topicref keys="command_startalignment" href="commands/s/r_command_startalignment.dita"/>
   <topicref keys="command_startallmodes" href="commands/s/r_command_startallmodes.dita"/>
-  <topicref keys="command_startarrangedpages" href="commands/s/r_command_startarrangedpages.dita"/>
+  <topicref keys="command_startappendices" href="commands/s/r_command_startappendices.dita"/>
+  <topicref keys="command_startaside" href="commands/s/r_command_startaside.dita"/>
   <topicref keys="command_startattachment" href="commands/s/r_command_startattachment.dita"/>
   <topicref keys="command_startbackground" href="commands/s/r_command_startbackground.dita"/>
+  <topicref keys="command_startbackmatter" href="commands/s/r_command_startbackmatter.dita"/>
   <topicref keys="command_startbar" href="commands/s/r_command_startbar.dita"/>
   <topicref keys="command_startbbordermatrix" href="commands/s/r_command_startbbordermatrix.dita"/>
   <topicref keys="command_startbitmapimage" href="commands/s/r_command_startbitmapimage.dita"/>
-  <topicref keys="command_startblock" href="commands/s/r_command_startblock.dita"/>
+  <topicref keys="command_startblockquote" href="commands/s/r_command_startblockquote.dita"/>
+  <topicref keys="command_startbodymatter" href="commands/s/r_command_startbodymatter.dita"/>
   <topicref keys="command_startbordermatrix" href="commands/s/r_command_startbordermatrix.dita"/>
+  <topicref keys="command_startboxedcolumns" href="commands/s/r_command_startboxedcolumns.dita"/>
+  <topicref keys="command_startbtxlabeltext" href="commands/s/r_command_startbtxlabeltext.dita"/>
   <topicref keys="command_startbtxrenderingdefinitions" href="commands/s/r_command_startbtxrenderingdefinitions.dita"/>
   <topicref keys="command_startbuffer" href="commands/s/r_command_startbuffer.dita"/>
+  <topicref keys="command_startcases" href="commands/s/r_command_startcases.dita"/>
   <topicref keys="command_startcatcodetable" href="commands/s/r_command_startcatcodetable.dita"/>
   <topicref keys="command_startcenteraligned" href="commands/s/r_command_startcenteraligned.dita"/>
+  <topicref keys="command_startchapter" href="commands/s/r_command_startchapter.dita"/>
   <topicref keys="command_startcharacteralign" href="commands/s/r_command_startcharacteralign.dita"/>
   <topicref keys="command_startcheckedfences" href="commands/s/r_command_startcheckedfences.dita"/>
   <topicref keys="command_startchemical" href="commands/s/r_command_startchemical.dita"/>
+  <topicref keys="command_startchemicaltext" href="commands/s/r_command_startchemicaltext.dita"/>
   <topicref keys="command_startcollect" href="commands/s/r_command_startcollect.dita"/>
   <topicref keys="command_startcollecting" href="commands/s/r_command_startcollecting.dita"/>
   <topicref keys="command_startcolor" href="commands/s/r_command_startcolor.dita"/>
   <topicref keys="command_startcolorintent" href="commands/s/r_command_startcolorintent.dita"/>
   <topicref keys="command_startcoloronly" href="commands/s/r_command_startcoloronly.dita"/>
   <topicref keys="command_startcolorset" href="commands/s/r_command_startcolorset.dita"/>
+  <topicref keys="command_startcolumns" href="commands/s/r_command_startcolumns.dita"/>
   <topicref keys="command_startcolumnset" href="commands/s/r_command_startcolumnset.dita"/>
   <topicref keys="command_startcolumnsetspan" href="commands/s/r_command_startcolumnsetspan.dita"/>
   <topicref keys="command_startcombination" href="commands/s/r_command_startcombination.dita"/>
@@ -3274,15 +3327,13 @@
   <topicref keys="command_startcurrentlistentrywrapper" href="commands/s/r_command_startcurrentlistentrywrapper.dita"/>
   <topicref keys="command_startdelimited" href="commands/s/r_command_startdelimited.dita"/>
   <topicref keys="command_startdelimitedtext" href="commands/s/r_command_startdelimitedtext.dita"/>
-  <topicref keys="command_startdescription" href="commands/s/r_command_startdescription.dita"/>
   <topicref keys="command_startdisplaymath" href="commands/s/r_command_startdisplaymath.dita"/>
   <topicref keys="command_startdmath" href="commands/s/r_command_startdmath.dita"/>
   <topicref keys="command_startdocument" href="commands/s/r_command_startdocument.dita"/>
   <topicref keys="command_starteffect" href="commands/s/r_command_starteffect.dita"/>
   <topicref keys="command_startelement" href="commands/s/r_command_startelement.dita"/>
   <topicref keys="command_startembeddedxtable" href="commands/s/r_command_startembeddedxtable.dita"/>
-  <topicref keys="command_startendofline" href="commands/s/r_command_startendofline.dita"/>
-  <topicref keys="command_startenumeration" href="commands/s/r_command_startenumeration.dita"/>
+  <topicref keys="command_startendnote" href="commands/s/r_command_startendnote.dita"/>
   <topicref keys="command_startenvironment" href="commands/s/r_command_startenvironment.dita"/>
   <topicref keys="command_startexceptions" href="commands/s/r_command_startexceptions.dita"/>
   <topicref keys="command_startexpanded" href="commands/s/r_command_startexpanded.dita"/>
@@ -3290,14 +3341,16 @@
   <topicref keys="command_startextendedcatcodetable" href="commands/s/r_command_startextendedcatcodetable.dita"/>
   <topicref keys="command_startexternalfigurecollection" href="commands/s/r_command_startexternalfigurecollection.dita"/>
   <topicref keys="command_startfacingfloat" href="commands/s/r_command_startfacingfloat.dita"/>
+  <topicref keys="command_startfact" href="commands/s/r_command_startfact.dita"/>
   <topicref keys="command_startfigure" href="commands/s/r_command_startfigure.dita"/>
+  <topicref keys="command_startfiguretext" href="commands/s/r_command_startfiguretext.dita"/>
   <topicref keys="command_startfittingpage" href="commands/s/r_command_startfittingpage.dita"/>
   <topicref keys="command_startfixed" href="commands/s/r_command_startfixed.dita"/>
   <topicref keys="command_startfloatcombination" href="commands/s/r_command_startfloatcombination.dita"/>
-  <topicref keys="command_startfloattext" href="commands/s/r_command_startfloattext.dita"/>
   <topicref keys="command_startfont" href="commands/s/r_command_startfont.dita"/>
   <topicref keys="command_startfontclass" href="commands/s/r_command_startfontclass.dita"/>
   <topicref keys="command_startfontsolution" href="commands/s/r_command_startfontsolution.dita"/>
+  <topicref keys="command_startfootnote" href="commands/s/r_command_startfootnote.dita"/>
   <topicref keys="command_startformula" href="commands/s/r_command_startformula.dita"/>
   <topicref keys="command_startformulas" href="commands/s/r_command_startformulas.dita"/>
   <topicref keys="command_startframed" href="commands/s/r_command_startframed.dita"/>
@@ -3306,35 +3359,41 @@
   <topicref keys="command_startframedrow" href="commands/s/r_command_startframedrow.dita"/>
   <topicref keys="command_startframedtable" href="commands/s/r_command_startframedtable.dita"/>
   <topicref keys="command_startframedtext" href="commands/s/r_command_startframedtext.dita"/>
+  <topicref keys="command_startfrontmatter" href="commands/s/r_command_startfrontmatter.dita"/>
   <topicref keys="command_startgoto" href="commands/s/r_command_startgoto.dita"/>
+  <topicref keys="command_startgraphictext" href="commands/s/r_command_startgraphictext.dita"/>
   <topicref keys="command_startgridsnapping" href="commands/s/r_command_startgridsnapping.dita"/>
   <topicref keys="command_starthanging" href="commands/s/r_command_starthanging.dita"/>
-  <topicref keys="command_starthbox" href="commands/s/r_command_starthbox.dita"/>
   <topicref keys="command_starthboxestohbox" href="commands/s/r_command_starthboxestohbox.dita"/>
   <topicref keys="command_starthboxregister" href="commands/s/r_command_starthboxregister.dita"/>
   <topicref keys="command_starthead" href="commands/s/r_command_starthead.dita"/>
-  <topicref keys="command_starthelp" href="commands/s/r_command_starthelp.dita"/>
+  <topicref keys="command_startheadtext" href="commands/s/r_command_startheadtext.dita"/>
   <topicref keys="command_starthelptext" href="commands/s/r_command_starthelptext.dita"/>
+  <topicref keys="command_starthiding" href="commands/s/r_command_starthiding.dita"/>
   <topicref keys="command_starthighlight" href="commands/s/r_command_starthighlight.dita"/>
   <topicref keys="command_starthyphenation" href="commands/s/r_command_starthyphenation.dita"/>
   <topicref keys="command_startimath" href="commands/s/r_command_startimath.dita"/>
-  <topicref keys="command_startindentation" href="commands/s/r_command_startindentation.dita"/>
   <topicref keys="command_startindentedtext" href="commands/s/r_command_startindentedtext.dita"/>
   <topicref keys="command_startinteraction" href="commands/s/r_command_startinteraction.dita"/>
   <topicref keys="command_startinteractionmenu" href="commands/s/r_command_startinteractionmenu.dita"/>
   <topicref keys="command_startinterface" href="commands/s/r_command_startinterface.dita"/>
+  <topicref keys="command_startintermezzotext" href="commands/s/r_command_startintermezzotext.dita"/>
   <topicref keys="command_startintertext" href="commands/s/r_command_startintertext.dita"/>
   <topicref keys="command_startitem" href="commands/s/r_command_startitem.dita"/>
   <topicref keys="command_startitemgroup" href="commands/s/r_command_startitemgroup.dita"/>
+  <topicref keys="command_startitemgroupcolumns" href="commands/s/r_command_startitemgroupcolumns.dita"/>
+  <topicref keys="command_startitemize" href="commands/s/r_command_startitemize.dita"/>
   <topicref keys="command_startknockout" href="commands/s/r_command_startknockout.dita"/>
   <topicref keys="command_startlabeltext" href="commands/s/r_command_startlabeltext.dita"/>
   <topicref keys="command_startlanguage" href="commands/s/r_command_startlanguage.dita"/>
   <topicref keys="command_startlayout" href="commands/s/r_command_startlayout.dita"/>
   <topicref keys="command_startleftaligned" href="commands/s/r_command_startleftaligned.dita"/>
+  <topicref keys="command_startlegend" href="commands/s/r_command_startlegend.dita"/>
   <topicref keys="command_startline" href="commands/s/r_command_startline.dita"/>
   <topicref keys="command_startlinealignment" href="commands/s/r_command_startlinealignment.dita"/>
   <topicref keys="command_startlinecorrection" href="commands/s/r_command_startlinecorrection.dita"/>
   <topicref keys="command_startlinefiller" href="commands/s/r_command_startlinefiller.dita"/>
+  <topicref keys="command_startlinenote" href="commands/s/r_command_startlinenote.dita"/>
   <topicref keys="command_startlinenumbering" href="commands/s/r_command_startlinenumbering.dita"/>
   <topicref keys="command_startlines" href="commands/s/r_command_startlines.dita"/>
   <topicref keys="command_startlinetable" href="commands/s/r_command_startlinetable.dita"/>
@@ -3357,18 +3416,23 @@
   <topicref keys="command_startmarkpages" href="commands/s/r_command_startmarkpages.dita"/>
   <topicref keys="command_startmathalignment" href="commands/s/r_command_startmathalignment.dita"/>
   <topicref keys="command_startmathcases" href="commands/s/r_command_startmathcases.dita"/>
+  <topicref keys="command_startmathlabeltext" href="commands/s/r_command_startmathlabeltext.dita"/>
   <topicref keys="command_startmathmatrix" href="commands/s/r_command_startmathmatrix.dita"/>
   <topicref keys="command_startmathmode" href="commands/s/r_command_startmathmode.dita"/>
   <topicref keys="command_startmathstyle" href="commands/s/r_command_startmathstyle.dita"/>
   <topicref keys="command_startmatrices" href="commands/s/r_command_startmatrices.dita"/>
+  <topicref keys="command_startmatrix" href="commands/s/r_command_startmatrix.dita"/>
   <topicref keys="command_startmaxaligned" href="commands/s/r_command_startmaxaligned.dita"/>
+  <topicref keys="command_startmdformula" href="commands/s/r_command_startmdformula.dita"/>
   <topicref keys="command_startmidaligned" href="commands/s/r_command_startmidaligned.dita"/>
   <topicref keys="command_startmiddlealigned" href="commands/s/r_command_startmiddlealigned.dita"/>
+  <topicref keys="command_startmiddlemakeup" href="commands/s/r_command_startmiddlemakeup.dita"/>
   <topicref keys="command_startmixedcolumns" href="commands/s/r_command_startmixedcolumns.dita"/>
   <topicref keys="command_startmode" href="commands/s/r_command_startmode.dita"/>
   <topicref keys="command_startmodeset" href="commands/s/r_command_startmodeset.dita"/>
   <topicref keys="command_startmodule" href="commands/s/r_command_startmodule.dita"/>
   <topicref keys="command_startmoduletestsection" href="commands/s/r_command_startmoduletestsection.dita"/>
+  <topicref keys="command_startmpformula" href="commands/s/r_command_startmpformula.dita"/>
   <topicref keys="command_startnamedsection" href="commands/s/r_command_startnamedsection.dita"/>
   <topicref keys="command_startnamedsubformulas" href="commands/s/r_command_startnamedsubformulas.dita"/>
   <topicref keys="command_startnarrow" href="commands/s/r_command_startnarrow.dita"/>
@@ -3377,9 +3441,9 @@
   <topicref keys="command_startnicelyfilledbox" href="commands/s/r_command_startnicelyfilledbox.dita"/>
   <topicref keys="command_startnointerference" href="commands/s/r_command_startnointerference.dita"/>
   <topicref keys="command_startnotallmodes" href="commands/s/r_command_startnotallmodes.dita"/>
-  <topicref keys="command_startnote" href="commands/s/r_command_startnote.dita"/>
   <topicref keys="command_startnotext" href="commands/s/r_command_startnotext.dita"/>
   <topicref keys="command_startnotmode" href="commands/s/r_command_startnotmode.dita"/>
+  <topicref keys="command_startoperatortext" href="commands/s/r_command_startoperatortext.dita"/>
   <topicref keys="command_startopposite" href="commands/s/r_command_startopposite.dita"/>
   <topicref keys="command_startoutputstream" href="commands/s/r_command_startoutputstream.dita"/>
   <topicref keys="command_startoverlay" href="commands/s/r_command_startoverlay.dita"/>
@@ -3389,76 +3453,91 @@
   <topicref keys="command_startpagecomment" href="commands/s/r_command_startpagecomment.dita"/>
   <topicref keys="command_startpagefigure" href="commands/s/r_command_startpagefigure.dita"/>
   <topicref keys="command_startpagelayout" href="commands/s/r_command_startpagelayout.dita"/>
+  <topicref keys="command_startpagemakeup" href="commands/s/r_command_startpagemakeup.dita"/>
   <topicref keys="command_startpar" href="commands/s/r_command_startpar.dita"/>
   <topicref keys="command_startparagraph" href="commands/s/r_command_startparagraph.dita"/>
   <topicref keys="command_startparagraphs" href="commands/s/r_command_startparagraphs.dita"/>
   <topicref keys="command_startparagraphscell" href="commands/s/r_command_startparagraphscell.dita"/>
-  <topicref keys="command_startparallel" href="commands/s/r_command_startparallel.dita"/>
   <topicref keys="command_startparbuilder" href="commands/s/r_command_startparbuilder.dita"/>
-  <topicref keys="command_startpath" href="commands/s/r_command_startpath.dita"/>
+  <topicref keys="command_startpart" href="commands/s/r_command_startpart.dita"/>
+  <topicref keys="command_startplacechemical" href="commands/s/r_command_startplacechemical.dita"/>
+  <topicref keys="command_startplacefigure" href="commands/s/r_command_startplacefigure.dita"/>
   <topicref keys="command_startplacefloat" href="commands/s/r_command_startplacefloat.dita"/>
   <topicref keys="command_startplaceformula" href="commands/s/r_command_startplaceformula.dita"/>
+  <topicref keys="command_startplacegraphic" href="commands/s/r_command_startplacegraphic.dita"/>
+  <topicref keys="command_startplaceintermezzo" href="commands/s/r_command_startplaceintermezzo.dita"/>
+  <topicref keys="command_startplacelegend" href="commands/s/r_command_startplacelegend.dita"/>
   <topicref keys="command_startplacepairedbox" href="commands/s/r_command_startplacepairedbox.dita"/>
+  <topicref keys="command_startplacetable" href="commands/s/r_command_startplacetable.dita"/>
   <topicref keys="command_startpositioning" href="commands/s/r_command_startpositioning.dita"/>
   <topicref keys="command_startpositionoverlay" href="commands/s/r_command_startpositionoverlay.dita"/>
   <topicref keys="command_startpositive" href="commands/s/r_command_startpositive.dita"/>
   <topicref keys="command_startpostponing" href="commands/s/r_command_startpostponing.dita"/>
   <topicref keys="command_startpostponingnotes" href="commands/s/r_command_startpostponingnotes.dita"/>
+  <topicref keys="command_startprefixtext" href="commands/s/r_command_startprefixtext.dita"/>
   <topicref keys="command_startprocessassignmentcommand" href="commands/s/r_command_startprocessassignmentcommand.dita"/>
   <topicref keys="command_startprocessassignmentlist" href="commands/s/r_command_startprocessassignmentlist.dita"/>
   <topicref keys="command_startprocesscommacommand" href="commands/s/r_command_startprocesscommacommand.dita"/>
   <topicref keys="command_startprocesscommalist" href="commands/s/r_command_startprocesscommalist.dita"/>
   <topicref keys="command_startproduct" href="commands/s/r_command_startproduct.dita"/>
   <topicref keys="command_startproject" href="commands/s/r_command_startproject.dita"/>
-  <topicref keys="command_startprotect" href="commands/s/r_command_startprotect.dita"/>
   <topicref keys="command_startprotectedcolors" href="commands/s/r_command_startprotectedcolors.dita"/>
   <topicref keys="command_startpublication" href="commands/s/r_command_startpublication.dita"/>
-  <topicref keys="command_startpunctuation" href="commands/s/r_command_startpunctuation.dita"/>
+  <topicref keys="command_startquotation" href="commands/s/r_command_startquotation.dita"/>
+  <topicref keys="command_startquote" href="commands/s/r_command_startquote.dita"/>
   <topicref keys="command_startrandomized" href="commands/s/r_command_startrandomized.dita"/>
-  <topicref keys="command_startrandomseed" href="commands/s/r_command_startrandomseed.dita"/>
   <topicref keys="command_startrawsetups" href="commands/s/r_command_startrawsetups.dita"/>
   <topicref keys="command_startreadingfile" href="commands/s/r_command_startreadingfile.dita"/>
-  <topicref keys="command_startreferenceprefix" href="commands/s/r_command_startreferenceprefix.dita"/>
   <topicref keys="command_startregime" href="commands/s/r_command_startregime.dita"/>
   <topicref keys="command_startregister" href="commands/s/r_command_startregister.dita"/>
   <topicref keys="command_startreusableMPgraphic" href="commands/s/r_command_startreusableMPgraphic.dita"/>
   <topicref keys="command_startrightaligned" href="commands/s/r_command_startrightaligned.dita"/>
   <topicref keys="command_startruby" href="commands/s/r_command_startruby.dita"/>
   <topicref keys="command_startscript" href="commands/s/r_command_startscript.dita"/>
+  <topicref keys="command_startsdformula" href="commands/s/r_command_startsdformula.dita"/>
   <topicref keys="command_startsection" href="commands/s/r_command_startsection.dita"/>
   <topicref keys="command_startsectionblock" href="commands/s/r_command_startsectionblock.dita"/>
   <topicref keys="command_startsectionblockenvironment" href="commands/s/r_command_startsectionblockenvironment.dita"/>
   <topicref keys="command_startsectionlevel" href="commands/s/r_command_startsectionlevel.dita"/>
   <topicref keys="command_startsetups" href="commands/s/r_command_startsetups.dita"/>
-  <topicref keys="command_startshapebox" href="commands/s/r_command_startshapebox.dita"/>
   <topicref keys="command_startshift" href="commands/s/r_command_startshift.dita"/>
   <topicref keys="command_startsidebar" href="commands/s/r_command_startsidebar.dita"/>
   <topicref keys="command_startsimplecolumns" href="commands/s/r_command_startsimplecolumns.dita"/>
-  <topicref keys="command_startspecialitem" href="commands/s/r_command_startspecialitem.dita"/>
+  <topicref keys="command_startspeech" href="commands/s/r_command_startspeech.dita"/>
+  <topicref keys="command_startspformula" href="commands/s/r_command_startspformula.dita"/>
   <topicref keys="command_startsplitformula" href="commands/s/r_command_startsplitformula.dita"/>
   <topicref keys="command_startsplittext" href="commands/s/r_command_startsplittext.dita"/>
   <topicref keys="command_startspread" href="commands/s/r_command_startspread.dita"/>
-  <topicref keys="command_startstartstop" href="commands/s/r_command_startstartstop.dita"/>
+  <topicref keys="command_startstandardmakeup" href="commands/s/r_command_startstandardmakeup.dita"/>
   <topicref keys="command_startstaticMPfigure" href="commands/s/r_command_startstaticMPfigure.dita"/>
   <topicref keys="command_startstaticMPgraphic" href="commands/s/r_command_startstaticMPgraphic.dita"/>
   <topicref keys="command_startstrictinspectnextcharacter" href="commands/s/r_command_startstrictinspectnextcharacter.dita"/>
   <topicref keys="command_startstructurepageregister" href="commands/s/r_command_startstructurepageregister.dita"/>
-  <topicref keys="command_startstrut" href="commands/s/r_command_startstrut.dita"/>
   <topicref keys="command_startstyle" href="commands/s/r_command_startstyle.dita"/>
   <topicref keys="command_startsubformulas" href="commands/s/r_command_startsubformulas.dita"/>
+  <topicref keys="command_startsubject" href="commands/s/r_command_startsubject.dita"/>
   <topicref keys="command_startsubjectlevel" href="commands/s/r_command_startsubjectlevel.dita"/>
+  <topicref keys="command_startsubsection" href="commands/s/r_command_startsubsection.dita"/>
   <topicref keys="command_startsubsentence" href="commands/s/r_command_startsubsentence.dita"/>
   <topicref keys="command_startsubstack" href="commands/s/r_command_startsubstack.dita"/>
+  <topicref keys="command_startsubsubject" href="commands/s/r_command_startsubsubject.dita"/>
+  <topicref keys="command_startsubsubsection" href="commands/s/r_command_startsubsubsection.dita"/>
+  <topicref keys="command_startsubsubsubject" href="commands/s/r_command_startsubsubsubject.dita"/>
+  <topicref keys="command_startsubsubsubsection" href="commands/s/r_command_startsubsubsubsection.dita"/>
+  <topicref keys="command_startsubsubsubsubject" href="commands/s/r_command_startsubsubsubsubject.dita"/>
+  <topicref keys="command_startsubsubsubsubsection" href="commands/s/r_command_startsubsubsubsubsection.dita"/>
+  <topicref keys="command_startsubsubsubsubsubject" href="commands/s/r_command_startsubsubsubsubsubject.dita"/>
+  <topicref keys="command_startsuffixtext" href="commands/s/r_command_startsuffixtext.dita"/>
   <topicref keys="command_startsymbolset" href="commands/s/r_command_startsymbolset.dita"/>
   <topicref keys="command_starttable" href="commands/s/r_command_starttable.dita"/>
   <topicref keys="command_starttablehead" href="commands/s/r_command_starttablehead.dita"/>
   <topicref keys="command_starttables" href="commands/s/r_command_starttables.dita"/>
   <topicref keys="command_starttabletail" href="commands/s/r_command_starttabletail.dita"/>
+  <topicref keys="command_starttabletext" href="commands/s/r_command_starttabletext.dita"/>
   <topicref keys="command_starttabulate" href="commands/s/r_command_starttabulate.dita"/>
   <topicref keys="command_starttabulatehead" href="commands/s/r_command_starttabulatehead.dita"/>
   <topicref keys="command_starttabulatetail" href="commands/s/r_command_starttabulatetail.dita"/>
-  <topicref keys="command_starttabulation" href="commands/s/r_command_starttabulation.dita"/>
-  <topicref keys="command_starttagged" href="commands/s/r_command_starttagged.dita"/>
+  <topicref keys="command_starttaglabeltext" href="commands/s/r_command_starttaglabeltext.dita"/>
   <topicref keys="command_starttexcode" href="commands/s/r_command_starttexcode.dita"/>
   <topicref keys="command_starttexdefinition" href="commands/s/r_command_starttexdefinition.dita"/>
   <topicref keys="command_starttext" href="commands/s/r_command_starttext.dita"/>
@@ -3467,7 +3546,9 @@
   <topicref keys="command_starttextcolor" href="commands/s/r_command_starttextcolor.dita"/>
   <topicref keys="command_starttextcolorintent" href="commands/s/r_command_starttextcolorintent.dita"/>
   <topicref keys="command_starttextflow" href="commands/s/r_command_starttextflow.dita"/>
+  <topicref keys="command_starttextmakeup" href="commands/s/r_command_starttextmakeup.dita"/>
   <topicref keys="command_starttextrule" href="commands/s/r_command_starttextrule.dita"/>
+  <topicref keys="command_starttitle" href="commands/s/r_command_starttitle.dita"/>
   <topicref keys="command_starttokenlist" href="commands/s/r_command_starttokenlist.dita"/>
   <topicref keys="command_starttokens" href="commands/s/r_command_starttokens.dita"/>
   <topicref keys="command_starttransparent" href="commands/s/r_command_starttransparent.dita"/>
@@ -3476,18 +3557,17 @@
   <topicref keys="command_starttyping" href="commands/s/r_command_starttyping.dita"/>
   <topicref keys="command_startuniqueMPgraphic" href="commands/s/r_command_startuniqueMPgraphic.dita"/>
   <topicref keys="command_startuniqueMPpagegraphic" href="commands/s/r_command_startuniqueMPpagegraphic.dita"/>
+  <topicref keys="command_startunittext" href="commands/s/r_command_startunittext.dita"/>
   <topicref keys="command_startunpacked" href="commands/s/r_command_startunpacked.dita"/>
   <topicref keys="command_startusableMPgraphic" href="commands/s/r_command_startusableMPgraphic.dita"/>
   <topicref keys="command_startuseMPgraphic" href="commands/s/r_command_startuseMPgraphic.dita"/>
   <topicref keys="command_startusemathstyleparameter" href="commands/s/r_command_startusemathstyleparameter.dita"/>
   <topicref keys="command_startuserdata" href="commands/s/r_command_startuserdata.dita"/>
   <topicref keys="command_startusingbtxspecification" href="commands/s/r_command_startusingbtxspecification.dita"/>
-  <topicref keys="command_startvbox" href="commands/s/r_command_startvbox.dita"/>
   <topicref keys="command_startvboxregister" href="commands/s/r_command_startvboxregister.dita"/>
   <topicref keys="command_startvboxtohbox" href="commands/s/r_command_startvboxtohbox.dita"/>
   <topicref keys="command_startvboxtohboxseparator" href="commands/s/r_command_startvboxtohboxseparator.dita"/>
   <topicref keys="command_startviewerlayer" href="commands/s/r_command_startviewerlayer.dita"/>
-  <topicref keys="command_startvtop" href="commands/s/r_command_startvtop.dita"/>
   <topicref keys="command_startvtopregister" href="commands/s/r_command_startvtopregister.dita"/>
   <topicref keys="command_startxcell" href="commands/s/r_command_startxcell.dita"/>
   <topicref keys="command_startxcellgroup" href="commands/s/r_command_startxcellgroup.dita"/>
@@ -3504,10 +3584,10 @@
   <topicref keys="command_startxtablefoot" href="commands/s/r_command_startxtablefoot.dita"/>
   <topicref keys="command_startxtablehead" href="commands/s/r_command_startxtablehead.dita"/>
   <topicref keys="command_startxtablenext" href="commands/s/r_command_startxtablenext.dita"/>
-  <topicref keys="command_staticMPfigure" href="commands/s/r_command_staticMPfigure.dita"/>
-  <topicref keys="command_staticMPgraphic" href="commands/s/r_command_staticMPgraphic.dita"/>
   <topicref keys="command_stopJScode" href="commands/s/r_command_stopJScode.dita"/>
   <topicref keys="command_stopJSpreamble" href="commands/s/r_command_stopJSpreamble.dita"/>
+  <topicref keys="command_stopLUA" href="commands/s/r_command_stopLUA.dita"/>
+  <topicref keys="command_stopMP" href="commands/s/r_command_stopMP.dita"/>
   <topicref keys="command_stopMPclip" href="commands/s/r_command_stopMPclip.dita"/>
   <topicref keys="command_stopMPcode" href="commands/s/r_command_stopMPcode.dita"/>
   <topicref keys="command_stopMPdefinitions" href="commands/s/r_command_stopMPdefinitions.dita"/>
@@ -3516,47 +3596,52 @@
   <topicref keys="command_stopMPextensions" href="commands/s/r_command_stopMPextensions.dita"/>
   <topicref keys="command_stopMPinclusions" href="commands/s/r_command_stopMPinclusions.dita"/>
   <topicref keys="command_stopMPinitializations" href="commands/s/r_command_stopMPinitializations.dita"/>
+  <topicref keys="command_stopMPpage" href="commands/s/r_command_stopMPpage.dita"/>
   <topicref keys="command_stopMPpositiongraphic" href="commands/s/r_command_stopMPpositiongraphic.dita"/>
   <topicref keys="command_stopMPpositionmethod" href="commands/s/r_command_stopMPpositionmethod.dita"/>
   <topicref keys="command_stopMPrun" href="commands/s/r_command_stopMPrun.dita"/>
+  <topicref keys="command_stopPARSEDXML" href="commands/s/r_command_stopPARSEDXML.dita"/>
   <topicref keys="command_stopTABLE" href="commands/s/r_command_stopTABLE.dita"/>
   <topicref keys="command_stopTABLEbody" href="commands/s/r_command_stopTABLEbody.dita"/>
   <topicref keys="command_stopTABLEfoot" href="commands/s/r_command_stopTABLEfoot.dita"/>
   <topicref keys="command_stopTABLEhead" href="commands/s/r_command_stopTABLEhead.dita"/>
-  <topicref keys="command_stopTABLEnested" href="commands/s/r_command_stopTABLEnested.dita"/>
   <topicref keys="command_stopTABLEnext" href="commands/s/r_command_stopTABLEnext.dita"/>
-  <topicref keys="command_stopTC" href="commands/s/r_command_stopTC.dita"/>
-  <topicref keys="command_stopTD" href="commands/s/r_command_stopTD.dita"/>
-  <topicref keys="command_stopTDs" href="commands/s/r_command_stopTDs.dita"/>
-  <topicref keys="command_stopTH" href="commands/s/r_command_stopTH.dita"/>
-  <topicref keys="command_stopTN" href="commands/s/r_command_stopTN.dita"/>
-  <topicref keys="command_stopTR" href="commands/s/r_command_stopTR.dita"/>
-  <topicref keys="command_stopTRs" href="commands/s/r_command_stopTRs.dita"/>
-  <topicref keys="command_stopTX" href="commands/s/r_command_stopTX.dita"/>
-  <topicref keys="command_stopTY" href="commands/s/r_command_stopTY.dita"/>
+  <topicref keys="command_stopTEX" href="commands/s/r_command_stopTEX.dita"/>
+  <topicref keys="command_stopTEXpage" href="commands/s/r_command_stopTEXpage.dita"/>
+  <topicref keys="command_stopXML" href="commands/s/r_command_stopXML.dita"/>
+  <topicref keys="command_stopalign" href="commands/s/r_command_stopalign.dita"/>
   <topicref keys="command_stopalignment" href="commands/s/r_command_stopalignment.dita"/>
   <topicref keys="command_stopallmodes" href="commands/s/r_command_stopallmodes.dita"/>
-  <topicref keys="command_stoparrangedpages" href="commands/s/r_command_stoparrangedpages.dita"/>
+  <topicref keys="command_stopappendices" href="commands/s/r_command_stopappendices.dita"/>
+  <topicref keys="command_stopaside" href="commands/s/r_command_stopaside.dita"/>
   <topicref keys="command_stopattachment" href="commands/s/r_command_stopattachment.dita"/>
   <topicref keys="command_stopbackground" href="commands/s/r_command_stopbackground.dita"/>
+  <topicref keys="command_stopbackmatter" href="commands/s/r_command_stopbackmatter.dita"/>
   <topicref keys="command_stopbar" href="commands/s/r_command_stopbar.dita"/>
   <topicref keys="command_stopbbordermatrix" href="commands/s/r_command_stopbbordermatrix.dita"/>
   <topicref keys="command_stopbitmapimage" href="commands/s/r_command_stopbitmapimage.dita"/>
-  <topicref keys="command_stopblock" href="commands/s/r_command_stopblock.dita"/>
+  <topicref keys="command_stopblockquote" href="commands/s/r_command_stopblockquote.dita"/>
+  <topicref keys="command_stopbodymatter" href="commands/s/r_command_stopbodymatter.dita"/>
   <topicref keys="command_stopbordermatrix" href="commands/s/r_command_stopbordermatrix.dita"/>
+  <topicref keys="command_stopboxedcolumns" href="commands/s/r_command_stopboxedcolumns.dita"/>
+  <topicref keys="command_stopbtxlabeltext" href="commands/s/r_command_stopbtxlabeltext.dita"/>
   <topicref keys="command_stopbtxrenderingdefinitions" href="commands/s/r_command_stopbtxrenderingdefinitions.dita"/>
   <topicref keys="command_stopbuffer" href="commands/s/r_command_stopbuffer.dita"/>
+  <topicref keys="command_stopcases" href="commands/s/r_command_stopcases.dita"/>
   <topicref keys="command_stopcatcodetable" href="commands/s/r_command_stopcatcodetable.dita"/>
   <topicref keys="command_stopcenteraligned" href="commands/s/r_command_stopcenteraligned.dita"/>
+  <topicref keys="command_stopchapter" href="commands/s/r_command_stopchapter.dita"/>
   <topicref keys="command_stopcharacteralign" href="commands/s/r_command_stopcharacteralign.dita"/>
   <topicref keys="command_stopcheckedfences" href="commands/s/r_command_stopcheckedfences.dita"/>
   <topicref keys="command_stopchemical" href="commands/s/r_command_stopchemical.dita"/>
+  <topicref keys="command_stopchemicaltext" href="commands/s/r_command_stopchemicaltext.dita"/>
   <topicref keys="command_stopcollect" href="commands/s/r_command_stopcollect.dita"/>
   <topicref keys="command_stopcollecting" href="commands/s/r_command_stopcollecting.dita"/>
   <topicref keys="command_stopcolor" href="commands/s/r_command_stopcolor.dita"/>
   <topicref keys="command_stopcolorintent" href="commands/s/r_command_stopcolorintent.dita"/>
   <topicref keys="command_stopcoloronly" href="commands/s/r_command_stopcoloronly.dita"/>
   <topicref keys="command_stopcolorset" href="commands/s/r_command_stopcolorset.dita"/>
+  <topicref keys="command_stopcolumns" href="commands/s/r_command_stopcolumns.dita"/>
   <topicref keys="command_stopcolumnset" href="commands/s/r_command_stopcolumnset.dita"/>
   <topicref keys="command_stopcolumnsetspan" href="commands/s/r_command_stopcolumnsetspan.dita"/>
   <topicref keys="command_stopcombination" href="commands/s/r_command_stopcombination.dita"/>
@@ -3570,15 +3655,13 @@
   <topicref keys="command_stopcurrentlistentrywrapper" href="commands/s/r_command_stopcurrentlistentrywrapper.dita"/>
   <topicref keys="command_stopdelimited" href="commands/s/r_command_stopdelimited.dita"/>
   <topicref keys="command_stopdelimitedtext" href="commands/s/r_command_stopdelimitedtext.dita"/>
-  <topicref keys="command_stopdescription" href="commands/s/r_command_stopdescription.dita"/>
   <topicref keys="command_stopdisplaymath" href="commands/s/r_command_stopdisplaymath.dita"/>
   <topicref keys="command_stopdmath" href="commands/s/r_command_stopdmath.dita"/>
   <topicref keys="command_stopdocument" href="commands/s/r_command_stopdocument.dita"/>
   <topicref keys="command_stopeffect" href="commands/s/r_command_stopeffect.dita"/>
   <topicref keys="command_stopelement" href="commands/s/r_command_stopelement.dita"/>
   <topicref keys="command_stopembeddedxtable" href="commands/s/r_command_stopembeddedxtable.dita"/>
-  <topicref keys="command_stopendofline" href="commands/s/r_command_stopendofline.dita"/>
-  <topicref keys="command_stopenumeration" href="commands/s/r_command_stopenumeration.dita"/>
+  <topicref keys="command_stopendnote" href="commands/s/r_command_stopendnote.dita"/>
   <topicref keys="command_stopenvironment" href="commands/s/r_command_stopenvironment.dita"/>
   <topicref keys="command_stopexceptions" href="commands/s/r_command_stopexceptions.dita"/>
   <topicref keys="command_stopexpanded" href="commands/s/r_command_stopexpanded.dita"/>
@@ -3586,14 +3669,16 @@
   <topicref keys="command_stopextendedcatcodetable" href="commands/s/r_command_stopextendedcatcodetable.dita"/>
   <topicref keys="command_stopexternalfigurecollection" href="commands/s/r_command_stopexternalfigurecollection.dita"/>
   <topicref keys="command_stopfacingfloat" href="commands/s/r_command_stopfacingfloat.dita"/>
+  <topicref keys="command_stopfact" href="commands/s/r_command_stopfact.dita"/>
   <topicref keys="command_stopfigure" href="commands/s/r_command_stopfigure.dita"/>
+  <topicref keys="command_stopfiguretext" href="commands/s/r_command_stopfiguretext.dita"/>
   <topicref keys="command_stopfittingpage" href="commands/s/r_command_stopfittingpage.dita"/>
   <topicref keys="command_stopfixed" href="commands/s/r_command_stopfixed.dita"/>
   <topicref keys="command_stopfloatcombination" href="commands/s/r_command_stopfloatcombination.dita"/>
-  <topicref keys="command_stopfloattext" href="commands/s/r_command_stopfloattext.dita"/>
   <topicref keys="command_stopfont" href="commands/s/r_command_stopfont.dita"/>
   <topicref keys="command_stopfontclass" href="commands/s/r_command_stopfontclass.dita"/>
   <topicref keys="command_stopfontsolution" href="commands/s/r_command_stopfontsolution.dita"/>
+  <topicref keys="command_stopfootnote" href="commands/s/r_command_stopfootnote.dita"/>
   <topicref keys="command_stopformula" href="commands/s/r_command_stopformula.dita"/>
   <topicref keys="command_stopformulas" href="commands/s/r_command_stopformulas.dita"/>
   <topicref keys="command_stopframed" href="commands/s/r_command_stopframed.dita"/>
@@ -3602,35 +3687,41 @@
   <topicref keys="command_stopframedrow" href="commands/s/r_command_stopframedrow.dita"/>
   <topicref keys="command_stopframedtable" href="commands/s/r_command_stopframedtable.dita"/>
   <topicref keys="command_stopframedtext" href="commands/s/r_command_stopframedtext.dita"/>
+  <topicref keys="command_stopfrontmatter" href="commands/s/r_command_stopfrontmatter.dita"/>
   <topicref keys="command_stopgoto" href="commands/s/r_command_stopgoto.dita"/>
+  <topicref keys="command_stopgraphictext" href="commands/s/r_command_stopgraphictext.dita"/>
   <topicref keys="command_stopgridsnapping" href="commands/s/r_command_stopgridsnapping.dita"/>
   <topicref keys="command_stophanging" href="commands/s/r_command_stophanging.dita"/>
-  <topicref keys="command_stophbox" href="commands/s/r_command_stophbox.dita"/>
   <topicref keys="command_stophboxestohbox" href="commands/s/r_command_stophboxestohbox.dita"/>
   <topicref keys="command_stophboxregister" href="commands/s/r_command_stophboxregister.dita"/>
   <topicref keys="command_stophead" href="commands/s/r_command_stophead.dita"/>
-  <topicref keys="command_stophelp" href="commands/s/r_command_stophelp.dita"/>
+  <topicref keys="command_stopheadtext" href="commands/s/r_command_stopheadtext.dita"/>
   <topicref keys="command_stophelptext" href="commands/s/r_command_stophelptext.dita"/>
+  <topicref keys="command_stophiding" href="commands/s/r_command_stophiding.dita"/>
   <topicref keys="command_stophighlight" href="commands/s/r_command_stophighlight.dita"/>
   <topicref keys="command_stophyphenation" href="commands/s/r_command_stophyphenation.dita"/>
   <topicref keys="command_stopimath" href="commands/s/r_command_stopimath.dita"/>
-  <topicref keys="command_stopindentation" href="commands/s/r_command_stopindentation.dita"/>
   <topicref keys="command_stopindentedtext" href="commands/s/r_command_stopindentedtext.dita"/>
   <topicref keys="command_stopinteraction" href="commands/s/r_command_stopinteraction.dita"/>
   <topicref keys="command_stopinteractionmenu" href="commands/s/r_command_stopinteractionmenu.dita"/>
   <topicref keys="command_stopinterface" href="commands/s/r_command_stopinterface.dita"/>
+  <topicref keys="command_stopintermezzotext" href="commands/s/r_command_stopintermezzotext.dita"/>
   <topicref keys="command_stopintertext" href="commands/s/r_command_stopintertext.dita"/>
   <topicref keys="command_stopitem" href="commands/s/r_command_stopitem.dita"/>
   <topicref keys="command_stopitemgroup" href="commands/s/r_command_stopitemgroup.dita"/>
+  <topicref keys="command_stopitemgroupcolumns" href="commands/s/r_command_stopitemgroupcolumns.dita"/>
+  <topicref keys="command_stopitemize" href="commands/s/r_command_stopitemize.dita"/>
   <topicref keys="command_stopknockout" href="commands/s/r_command_stopknockout.dita"/>
   <topicref keys="command_stoplabeltext" href="commands/s/r_command_stoplabeltext.dita"/>
   <topicref keys="command_stoplanguage" href="commands/s/r_command_stoplanguage.dita"/>
   <topicref keys="command_stoplayout" href="commands/s/r_command_stoplayout.dita"/>
   <topicref keys="command_stopleftaligned" href="commands/s/r_command_stopleftaligned.dita"/>
+  <topicref keys="command_stoplegend" href="commands/s/r_command_stoplegend.dita"/>
   <topicref keys="command_stopline" href="commands/s/r_command_stopline.dita"/>
   <topicref keys="command_stoplinealignment" href="commands/s/r_command_stoplinealignment.dita"/>
   <topicref keys="command_stoplinecorrection" href="commands/s/r_command_stoplinecorrection.dita"/>
   <topicref keys="command_stoplinefiller" href="commands/s/r_command_stoplinefiller.dita"/>
+  <topicref keys="command_stoplinenote" href="commands/s/r_command_stoplinenote.dita"/>
   <topicref keys="command_stoplinenumbering" href="commands/s/r_command_stoplinenumbering.dita"/>
   <topicref keys="command_stoplines" href="commands/s/r_command_stoplines.dita"/>
   <topicref keys="command_stoplinetable" href="commands/s/r_command_stoplinetable.dita"/>
@@ -3653,18 +3744,23 @@
   <topicref keys="command_stopmarkpages" href="commands/s/r_command_stopmarkpages.dita"/>
   <topicref keys="command_stopmathalignment" href="commands/s/r_command_stopmathalignment.dita"/>
   <topicref keys="command_stopmathcases" href="commands/s/r_command_stopmathcases.dita"/>
+  <topicref keys="command_stopmathlabeltext" href="commands/s/r_command_stopmathlabeltext.dita"/>
   <topicref keys="command_stopmathmatrix" href="commands/s/r_command_stopmathmatrix.dita"/>
   <topicref keys="command_stopmathmode" href="commands/s/r_command_stopmathmode.dita"/>
   <topicref keys="command_stopmathstyle" href="commands/s/r_command_stopmathstyle.dita"/>
   <topicref keys="command_stopmatrices" href="commands/s/r_command_stopmatrices.dita"/>
+  <topicref keys="command_stopmatrix" href="commands/s/r_command_stopmatrix.dita"/>
   <topicref keys="command_stopmaxaligned" href="commands/s/r_command_stopmaxaligned.dita"/>
+  <topicref keys="command_stopmdformula" href="commands/s/r_command_stopmdformula.dita"/>
   <topicref keys="command_stopmidaligned" href="commands/s/r_command_stopmidaligned.dita"/>
   <topicref keys="command_stopmiddlealigned" href="commands/s/r_command_stopmiddlealigned.dita"/>
+  <topicref keys="command_stopmiddlemakeup" href="commands/s/r_command_stopmiddlemakeup.dita"/>
   <topicref keys="command_stopmixedcolumns" href="commands/s/r_command_stopmixedcolumns.dita"/>
   <topicref keys="command_stopmode" href="commands/s/r_command_stopmode.dita"/>
   <topicref keys="command_stopmodeset" href="commands/s/r_command_stopmodeset.dita"/>
   <topicref keys="command_stopmodule" href="commands/s/r_command_stopmodule.dita"/>
   <topicref keys="command_stopmoduletestsection" href="commands/s/r_command_stopmoduletestsection.dita"/>
+  <topicref keys="command_stopmpformula" href="commands/s/r_command_stopmpformula.dita"/>
   <topicref keys="command_stopnamedsection" href="commands/s/r_command_stopnamedsection.dita"/>
   <topicref keys="command_stopnamedsubformulas" href="commands/s/r_command_stopnamedsubformulas.dita"/>
   <topicref keys="command_stopnarrow" href="commands/s/r_command_stopnarrow.dita"/>
@@ -3673,9 +3769,9 @@
   <topicref keys="command_stopnicelyfilledbox" href="commands/s/r_command_stopnicelyfilledbox.dita"/>
   <topicref keys="command_stopnointerference" href="commands/s/r_command_stopnointerference.dita"/>
   <topicref keys="command_stopnotallmodes" href="commands/s/r_command_stopnotallmodes.dita"/>
-  <topicref keys="command_stopnote" href="commands/s/r_command_stopnote.dita"/>
   <topicref keys="command_stopnotext" href="commands/s/r_command_stopnotext.dita"/>
   <topicref keys="command_stopnotmode" href="commands/s/r_command_stopnotmode.dita"/>
+  <topicref keys="command_stopoperatortext" href="commands/s/r_command_stopoperatortext.dita"/>
   <topicref keys="command_stopopposite" href="commands/s/r_command_stopopposite.dita"/>
   <topicref keys="command_stopoutputstream" href="commands/s/r_command_stopoutputstream.dita"/>
   <topicref keys="command_stopoverlay" href="commands/s/r_command_stopoverlay.dita"/>
@@ -3685,74 +3781,89 @@
   <topicref keys="command_stoppagecomment" href="commands/s/r_command_stoppagecomment.dita"/>
   <topicref keys="command_stoppagefigure" href="commands/s/r_command_stoppagefigure.dita"/>
   <topicref keys="command_stoppagelayout" href="commands/s/r_command_stoppagelayout.dita"/>
+  <topicref keys="command_stoppagemakeup" href="commands/s/r_command_stoppagemakeup.dita"/>
   <topicref keys="command_stoppar" href="commands/s/r_command_stoppar.dita"/>
   <topicref keys="command_stopparagraph" href="commands/s/r_command_stopparagraph.dita"/>
   <topicref keys="command_stopparagraphs" href="commands/s/r_command_stopparagraphs.dita"/>
   <topicref keys="command_stopparagraphscell" href="commands/s/r_command_stopparagraphscell.dita"/>
-  <topicref keys="command_stopparallel" href="commands/s/r_command_stopparallel.dita"/>
   <topicref keys="command_stopparbuilder" href="commands/s/r_command_stopparbuilder.dita"/>
-  <topicref keys="command_stoppath" href="commands/s/r_command_stoppath.dita"/>
+  <topicref keys="command_stoppart" href="commands/s/r_command_stoppart.dita"/>
+  <topicref keys="command_stopplacechemical" href="commands/s/r_command_stopplacechemical.dita"/>
+  <topicref keys="command_stopplacefigure" href="commands/s/r_command_stopplacefigure.dita"/>
   <topicref keys="command_stopplacefloat" href="commands/s/r_command_stopplacefloat.dita"/>
   <topicref keys="command_stopplaceformula" href="commands/s/r_command_stopplaceformula.dita"/>
+  <topicref keys="command_stopplacegraphic" href="commands/s/r_command_stopplacegraphic.dita"/>
+  <topicref keys="command_stopplaceintermezzo" href="commands/s/r_command_stopplaceintermezzo.dita"/>
+  <topicref keys="command_stopplacelegend" href="commands/s/r_command_stopplacelegend.dita"/>
   <topicref keys="command_stopplacepairedbox" href="commands/s/r_command_stopplacepairedbox.dita"/>
+  <topicref keys="command_stopplacetable" href="commands/s/r_command_stopplacetable.dita"/>
   <topicref keys="command_stoppositioning" href="commands/s/r_command_stoppositioning.dita"/>
   <topicref keys="command_stoppositionoverlay" href="commands/s/r_command_stoppositionoverlay.dita"/>
   <topicref keys="command_stoppositive" href="commands/s/r_command_stoppositive.dita"/>
   <topicref keys="command_stoppostponing" href="commands/s/r_command_stoppostponing.dita"/>
   <topicref keys="command_stoppostponingnotes" href="commands/s/r_command_stoppostponingnotes.dita"/>
+  <topicref keys="command_stopprefixtext" href="commands/s/r_command_stopprefixtext.dita"/>
   <topicref keys="command_stopprocessassignmentcommand" href="commands/s/r_command_stopprocessassignmentcommand.dita"/>
   <topicref keys="command_stopprocessassignmentlist" href="commands/s/r_command_stopprocessassignmentlist.dita"/>
   <topicref keys="command_stopprocesscommacommand" href="commands/s/r_command_stopprocesscommacommand.dita"/>
   <topicref keys="command_stopprocesscommalist" href="commands/s/r_command_stopprocesscommalist.dita"/>
   <topicref keys="command_stopproduct" href="commands/s/r_command_stopproduct.dita"/>
   <topicref keys="command_stopproject" href="commands/s/r_command_stopproject.dita"/>
-  <topicref keys="command_stopprotect" href="commands/s/r_command_stopprotect.dita"/>
   <topicref keys="command_stopprotectedcolors" href="commands/s/r_command_stopprotectedcolors.dita"/>
   <topicref keys="command_stoppublication" href="commands/s/r_command_stoppublication.dita"/>
-  <topicref keys="command_stoppunctuation" href="commands/s/r_command_stoppunctuation.dita"/>
+  <topicref keys="command_stopquotation" href="commands/s/r_command_stopquotation.dita"/>
+  <topicref keys="command_stopquote" href="commands/s/r_command_stopquote.dita"/>
   <topicref keys="command_stoprandomized" href="commands/s/r_command_stoprandomized.dita"/>
-  <topicref keys="command_stoprandomseed" href="commands/s/r_command_stoprandomseed.dita"/>
   <topicref keys="command_stoprawsetups" href="commands/s/r_command_stoprawsetups.dita"/>
   <topicref keys="command_stopreadingfile" href="commands/s/r_command_stopreadingfile.dita"/>
-  <topicref keys="command_stopreferenceprefix" href="commands/s/r_command_stopreferenceprefix.dita"/>
   <topicref keys="command_stopregime" href="commands/s/r_command_stopregime.dita"/>
   <topicref keys="command_stopreusableMPgraphic" href="commands/s/r_command_stopreusableMPgraphic.dita"/>
   <topicref keys="command_stoprightaligned" href="commands/s/r_command_stoprightaligned.dita"/>
   <topicref keys="command_stopruby" href="commands/s/r_command_stopruby.dita"/>
   <topicref keys="command_stopscript" href="commands/s/r_command_stopscript.dita"/>
+  <topicref keys="command_stopsdformula" href="commands/s/r_command_stopsdformula.dita"/>
   <topicref keys="command_stopsection" href="commands/s/r_command_stopsection.dita"/>
   <topicref keys="command_stopsectionblock" href="commands/s/r_command_stopsectionblock.dita"/>
   <topicref keys="command_stopsectionblockenvironment" href="commands/s/r_command_stopsectionblockenvironment.dita"/>
   <topicref keys="command_stopsectionlevel" href="commands/s/r_command_stopsectionlevel.dita"/>
   <topicref keys="command_stopsetups" href="commands/s/r_command_stopsetups.dita"/>
-  <topicref keys="command_stopshapebox" href="commands/s/r_command_stopshapebox.dita"/>
   <topicref keys="command_stopshift" href="commands/s/r_command_stopshift.dita"/>
   <topicref keys="command_stopsidebar" href="commands/s/r_command_stopsidebar.dita"/>
   <topicref keys="command_stopsimplecolumns" href="commands/s/r_command_stopsimplecolumns.dita"/>
-  <topicref keys="command_stopspecialitem" href="commands/s/r_command_stopspecialitem.dita"/>
+  <topicref keys="command_stopspeech" href="commands/s/r_command_stopspeech.dita"/>
+  <topicref keys="command_stopspformula" href="commands/s/r_command_stopspformula.dita"/>
   <topicref keys="command_stopsplitformula" href="commands/s/r_command_stopsplitformula.dita"/>
   <topicref keys="command_stopsplittext" href="commands/s/r_command_stopsplittext.dita"/>
   <topicref keys="command_stopspread" href="commands/s/r_command_stopspread.dita"/>
-  <topicref keys="command_stopstartstop" href="commands/s/r_command_stopstartstop.dita"/>
+  <topicref keys="command_stopstandardmakeup" href="commands/s/r_command_stopstandardmakeup.dita"/>
   <topicref keys="command_stopstaticMPfigure" href="commands/s/r_command_stopstaticMPfigure.dita"/>
   <topicref keys="command_stopstaticMPgraphic" href="commands/s/r_command_stopstaticMPgraphic.dita"/>
   <topicref keys="command_stopstrictinspectnextcharacter" href="commands/s/r_command_stopstrictinspectnextcharacter.dita"/>
-  <topicref keys="command_stopstrut" href="commands/s/r_command_stopstrut.dita"/>
   <topicref keys="command_stopstyle" href="commands/s/r_command_stopstyle.dita"/>
   <topicref keys="command_stopsubformulas" href="commands/s/r_command_stopsubformulas.dita"/>
+  <topicref keys="command_stopsubject" href="commands/s/r_command_stopsubject.dita"/>
   <topicref keys="command_stopsubjectlevel" href="commands/s/r_command_stopsubjectlevel.dita"/>
+  <topicref keys="command_stopsubsection" href="commands/s/r_command_stopsubsection.dita"/>
   <topicref keys="command_stopsubsentence" href="commands/s/r_command_stopsubsentence.dita"/>
   <topicref keys="command_stopsubstack" href="commands/s/r_command_stopsubstack.dita"/>
+  <topicref keys="command_stopsubsubject" href="commands/s/r_command_stopsubsubject.dita"/>
+  <topicref keys="command_stopsubsubsection" href="commands/s/r_command_stopsubsubsection.dita"/>
+  <topicref keys="command_stopsubsubsubject" href="commands/s/r_command_stopsubsubsubject.dita"/>
+  <topicref keys="command_stopsubsubsubsection" href="commands/s/r_command_stopsubsubsubsection.dita"/>
+  <topicref keys="command_stopsubsubsubsubject" href="commands/s/r_command_stopsubsubsubsubject.dita"/>
+  <topicref keys="command_stopsubsubsubsubsection" href="commands/s/r_command_stopsubsubsubsubsection.dita"/>
+  <topicref keys="command_stopsubsubsubsubsubject" href="commands/s/r_command_stopsubsubsubsubsubject.dita"/>
+  <topicref keys="command_stopsuffixtext" href="commands/s/r_command_stopsuffixtext.dita"/>
   <topicref keys="command_stopsymbolset" href="commands/s/r_command_stopsymbolset.dita"/>
   <topicref keys="command_stoptable" href="commands/s/r_command_stoptable.dita"/>
   <topicref keys="command_stoptablehead" href="commands/s/r_command_stoptablehead.dita"/>
   <topicref keys="command_stoptables" href="commands/s/r_command_stoptables.dita"/>
   <topicref keys="command_stoptabletail" href="commands/s/r_command_stoptabletail.dita"/>
+  <topicref keys="command_stoptabletext" href="commands/s/r_command_stoptabletext.dita"/>
   <topicref keys="command_stoptabulate" href="commands/s/r_command_stoptabulate.dita"/>
   <topicref keys="command_stoptabulatehead" href="commands/s/r_command_stoptabulatehead.dita"/>
   <topicref keys="command_stoptabulatetail" href="commands/s/r_command_stoptabulatetail.dita"/>
-  <topicref keys="command_stoptabulation" href="commands/s/r_command_stoptabulation.dita"/>
-  <topicref keys="command_stoptagged" href="commands/s/r_command_stoptagged.dita"/>
+  <topicref keys="command_stoptaglabeltext" href="commands/s/r_command_stoptaglabeltext.dita"/>
   <topicref keys="command_stoptexcode" href="commands/s/r_command_stoptexcode.dita"/>
   <topicref keys="command_stoptexdefinition" href="commands/s/r_command_stoptexdefinition.dita"/>
   <topicref keys="command_stoptext" href="commands/s/r_command_stoptext.dita"/>
@@ -3761,7 +3872,9 @@
   <topicref keys="command_stoptextcolor" href="commands/s/r_command_stoptextcolor.dita"/>
   <topicref keys="command_stoptextcolorintent" href="commands/s/r_command_stoptextcolorintent.dita"/>
   <topicref keys="command_stoptextflow" href="commands/s/r_command_stoptextflow.dita"/>
+  <topicref keys="command_stoptextmakeup" href="commands/s/r_command_stoptextmakeup.dita"/>
   <topicref keys="command_stoptextrule" href="commands/s/r_command_stoptextrule.dita"/>
+  <topicref keys="command_stoptitle" href="commands/s/r_command_stoptitle.dita"/>
   <topicref keys="command_stoptokenlist" href="commands/s/r_command_stoptokenlist.dita"/>
   <topicref keys="command_stoptokens" href="commands/s/r_command_stoptokens.dita"/>
   <topicref keys="command_stoptransparent" href="commands/s/r_command_stoptransparent.dita"/>
@@ -3770,18 +3883,17 @@
   <topicref keys="command_stoptyping" href="commands/s/r_command_stoptyping.dita"/>
   <topicref keys="command_stopuniqueMPgraphic" href="commands/s/r_command_stopuniqueMPgraphic.dita"/>
   <topicref keys="command_stopuniqueMPpagegraphic" href="commands/s/r_command_stopuniqueMPpagegraphic.dita"/>
+  <topicref keys="command_stopunittext" href="commands/s/r_command_stopunittext.dita"/>
   <topicref keys="command_stopunpacked" href="commands/s/r_command_stopunpacked.dita"/>
   <topicref keys="command_stopusableMPgraphic" href="commands/s/r_command_stopusableMPgraphic.dita"/>
   <topicref keys="command_stopuseMPgraphic" href="commands/s/r_command_stopuseMPgraphic.dita"/>
   <topicref keys="command_stopusemathstyleparameter" href="commands/s/r_command_stopusemathstyleparameter.dita"/>
   <topicref keys="command_stopuserdata" href="commands/s/r_command_stopuserdata.dita"/>
   <topicref keys="command_stopusingbtxspecification" href="commands/s/r_command_stopusingbtxspecification.dita"/>
-  <topicref keys="command_stopvbox" href="commands/s/r_command_stopvbox.dita"/>
   <topicref keys="command_stopvboxregister" href="commands/s/r_command_stopvboxregister.dita"/>
   <topicref keys="command_stopvboxtohbox" href="commands/s/r_command_stopvboxtohbox.dita"/>
   <topicref keys="command_stopvboxtohboxseparator" href="commands/s/r_command_stopvboxtohboxseparator.dita"/>
   <topicref keys="command_stopviewerlayer" href="commands/s/r_command_stopviewerlayer.dita"/>
-  <topicref keys="command_stopvtop" href="commands/s/r_command_stopvtop.dita"/>
   <topicref keys="command_stopvtopregister" href="commands/s/r_command_stopvtopregister.dita"/>
   <topicref keys="command_stopxcell" href="commands/s/r_command_stopxcell.dita"/>
   <topicref keys="command_stopxcellgroup" href="commands/s/r_command_stopxcellgroup.dita"/>
@@ -3801,7 +3913,6 @@
   <topicref keys="command_stretched" href="commands/s/r_command_stretched.dita"/>
   <topicref keys="command_strictdoifelsenextoptional" href="commands/s/r_command_strictdoifelsenextoptional.dita"/>
   <topicref keys="command_strictdoifnextoptionalelse" href="commands/s/r_command_strictdoifnextoptionalelse.dita"/>
-  <topicref keys="command_strictinspectnextcharacter" href="commands/s/r_command_strictinspectnextcharacter.dita"/>
   <topicref keys="command_stripcharacter" href="commands/s/r_command_stripcharacter.dita"/>
   <topicref keys="command_strippedcsname" href="commands/s/r_command_strippedcsname.dita"/>
   <topicref keys="command_stripspaces" href="commands/s/r_command_stripspaces.dita"/>
@@ -3819,13 +3930,21 @@
   <topicref keys="command_strutwd" href="commands/s/r_command_strutwd.dita"/>
   <topicref keys="command_style" href="commands/s/r_command_style.dita"/>
   <topicref keys="command_styleinstance" href="commands/s/r_command_styleinstance.dita"/>
-  <topicref keys="command_subformulas" href="commands/s/r_command_subformulas.dita"/>
-  <topicref keys="command_subjectlevel" href="commands/s/r_command_subjectlevel.dita"/>
+  <topicref keys="command_subject" href="commands/s/r_command_subject.dita"/>
   <topicref keys="command_subpagenumber" href="commands/s/r_command_subpagenumber.dita"/>
+  <topicref keys="command_subsection" href="commands/s/r_command_subsection.dita"/>
   <topicref keys="command_subsentence" href="commands/s/r_command_subsentence.dita"/>
-  <topicref keys="command_substack" href="commands/s/r_command_substack.dita"/>
   <topicref keys="command_substituteincommalist" href="commands/s/r_command_substituteincommalist.dita"/>
+  <topicref keys="command_subsubject" href="commands/s/r_command_subsubject.dita"/>
+  <topicref keys="command_subsubsection" href="commands/s/r_command_subsubsection.dita"/>
+  <topicref keys="command_subsubsubject" href="commands/s/r_command_subsubsubject.dita"/>
+  <topicref keys="command_subsubsubsection" href="commands/s/r_command_subsubsubsection.dita"/>
+  <topicref keys="command_subsubsubsubject" href="commands/s/r_command_subsubsubsubject.dita"/>
+  <topicref keys="command_subsubsubsubsection" href="commands/s/r_command_subsubsubsubsection.dita"/>
+  <topicref keys="command_subsubsubsubsubject" href="commands/s/r_command_subsubsubsubsubject.dita"/>
   <topicref keys="command_subtractfeature" href="commands/s/r_command_subtractfeature.dita"/>
+  <topicref keys="command_suffixlanguage" href="commands/s/r_command_suffixlanguage.dita"/>
+  <topicref keys="command_suffixtext" href="commands/s/r_command_suffixtext.dita"/>
   <topicref keys="command_swapcounts" href="commands/s/r_command_swapcounts.dita"/>
   <topicref keys="command_swapdimens" href="commands/s/r_command_swapdimens.dita"/>
   <topicref keys="command_swapface" href="commands/s/r_command_swapface.dita"/>
@@ -3837,7 +3956,6 @@
   <topicref keys="command_switchtointerlinespace" href="commands/s/r_command_switchtointerlinespace.dita"/>
   <topicref keys="command_symbol" href="commands/s/r_command_symbol.dita"/>
   <topicref keys="command_symbolreference" href="commands/s/r_command_symbolreference.dita"/>
-  <topicref keys="command_symbolset" href="commands/s/r_command_symbolset.dita"/>
   <topicref keys="command_synchronizeblank" href="commands/s/r_command_synchronizeblank.dita"/>
   <topicref keys="command_synchronizeindenting" href="commands/s/r_command_synchronizeindenting.dita"/>
   <topicref keys="command_synchronizemarking" href="commands/s/r_command_synchronizemarking.dita"/>
@@ -3851,20 +3969,21 @@
   <topicref keys="command_systemlogfirst" href="commands/s/r_command_systemlogfirst.dita"/>
   <topicref keys="command_systemloglast" href="commands/s/r_command_systemloglast.dita"/>
   <topicref keys="command_systemsetups" href="commands/s/r_command_systemsetups.dita"/>
-  <topicref keys="command_table" href="commands/t/r_command_table.dita"/>
-  <topicref keys="command_tablehead" href="commands/t/r_command_tablehead.dita"/>
-  <topicref keys="command_tables" href="commands/t/r_command_tables.dita"/>
-  <topicref keys="command_tabletail" href="commands/t/r_command_tabletail.dita"/>
-  <topicref keys="command_tabulate" href="commands/t/r_command_tabulate.dita"/>
+  <topicref keys="command_tLeftarrow" href="commands/t/r_command_tLeftarrow.dita"/>
+  <topicref keys="command_tLeftrightarrow" href="commands/t/r_command_tLeftrightarrow.dita"/>
+  <topicref keys="command_tRightarrow" href="commands/t/r_command_tRightarrow.dita"/>
   <topicref keys="command_tabulateautoline" href="commands/t/r_command_tabulateautoline.dita"/>
   <topicref keys="command_tabulateautorule" href="commands/t/r_command_tabulateautorule.dita"/>
-  <topicref keys="command_tabulatehead" href="commands/t/r_command_tabulatehead.dita"/>
   <topicref keys="command_tabulateline" href="commands/t/r_command_tabulateline.dita"/>
   <topicref keys="command_tabulaterule" href="commands/t/r_command_tabulaterule.dita"/>
-  <topicref keys="command_tabulatetail" href="commands/t/r_command_tabulatetail.dita"/>
   <topicref keys="command_taggedctxcommand" href="commands/t/r_command_taggedctxcommand.dita"/>
   <topicref keys="command_taggedlabeltexts" href="commands/t/r_command_taggedlabeltexts.dita"/>
+  <topicref keys="command_taglabellanguage" href="commands/t/r_command_taglabellanguage.dita"/>
+  <topicref keys="command_taglabeltext" href="commands/t/r_command_taglabeltext.dita"/>
+  <topicref keys="command_tbinom" href="commands/t/r_command_tbinom.dita"/>
   <topicref keys="command_tbox" href="commands/t/r_command_tbox.dita"/>
+  <topicref keys="command_tequal" href="commands/t/r_command_tequal.dita"/>
+  <topicref keys="command_test" href="commands/t/r_command_test.dita"/>
   <topicref keys="command_testandsplitstring" href="commands/t/r_command_testandsplitstring.dita"/>
   <topicref keys="command_testcolumn" href="commands/t/r_command_testcolumn.dita"/>
   <topicref keys="command_testfeature" href="commands/t/r_command_testfeature.dita"/>
@@ -3874,18 +3993,11 @@
   <topicref keys="command_testpagesync" href="commands/t/r_command_testpagesync.dita"/>
   <topicref keys="command_testtokens" href="commands/t/r_command_testtokens.dita"/>
   <topicref keys="command_tex" href="commands/t/r_command_tex.dita"/>
-  <topicref keys="command_texcode" href="commands/t/r_command_texcode.dita"/>
   <topicref keys="command_texdefinition" href="commands/t/r_command_texdefinition.dita"/>
   <topicref keys="command_texsetup" href="commands/t/r_command_texsetup.dita"/>
-  <topicref keys="command_text" href="commands/t/r_command_text.dita"/>
-  <topicref keys="command_textbackground" href="commands/t/r_command_textbackground.dita"/>
-  <topicref keys="command_textbackgroundmanual" href="commands/t/r_command_textbackgroundmanual.dita"/>
   <topicref keys="command_textcitation" href="commands/t/r_command_textcitation.dita"/>
   <topicref keys="command_textcite" href="commands/t/r_command_textcite.dita"/>
-  <topicref keys="command_textcolor" href="commands/t/r_command_textcolor.dita"/>
-  <topicref keys="command_textcolorintent" href="commands/t/r_command_textcolorintent.dita"/>
   <topicref keys="command_textcontrolspace" href="commands/t/r_command_textcontrolspace.dita"/>
-  <topicref keys="command_textflow" href="commands/t/r_command_textflow.dita"/>
   <topicref keys="command_textflowcollector" href="commands/t/r_command_textflowcollector.dita"/>
   <topicref keys="command_textmath" href="commands/t/r_command_textmath.dita"/>
   <topicref keys="command_textminus" href="commands/t/r_command_textminus.dita"/>
@@ -3896,6 +4008,7 @@
   <topicref keys="command_textreference" href="commands/t/r_command_textreference.dita"/>
   <topicref keys="command_textrule" href="commands/t/r_command_textrule.dita"/>
   <topicref keys="command_textvisiblespace" href="commands/t/r_command_textvisiblespace.dita"/>
+  <topicref keys="command_thai" href="commands/t/r_command_thai.dita"/>
   <topicref keys="command_thainumerals" href="commands/t/r_command_thainumerals.dita"/>
   <topicref keys="command_thefirstcharacter" href="commands/t/r_command_thefirstcharacter.dita"/>
   <topicref keys="command_thenormalizedbodyfontsize" href="commands/t/r_command_thenormalizedbodyfontsize.dita"/>
@@ -3910,16 +4023,24 @@
   <topicref keys="command_thirdofsixarguments" href="commands/t/r_command_thirdofsixarguments.dita"/>
   <topicref keys="command_thirdofthreearguments" href="commands/t/r_command_thirdofthreearguments.dita"/>
   <topicref keys="command_thirdofthreeunexpanded" href="commands/t/r_command_thirdofthreeunexpanded.dita"/>
+  <topicref keys="command_thookleftarrow" href="commands/t/r_command_thookleftarrow.dita"/>
+  <topicref keys="command_thookrightarrow" href="commands/t/r_command_thookrightarrow.dita"/>
   <topicref keys="command_threedigitrounding" href="commands/t/r_command_threedigitrounding.dita"/>
   <topicref keys="command_tibetannumerals" href="commands/t/r_command_tibetannumerals.dita"/>
   <topicref keys="command_tightlayer" href="commands/t/r_command_tightlayer.dita"/>
   <topicref keys="command_tilde" href="commands/t/r_command_tilde.dita"/>
   <topicref keys="command_tinyfont" href="commands/t/r_command_tinyfont.dita"/>
+  <topicref keys="command_title" href="commands/t/r_command_title.dita"/>
   <topicref keys="command_tlap" href="commands/t/r_command_tlap.dita"/>
+  <topicref keys="command_tleftarrow" href="commands/t/r_command_tleftarrow.dita"/>
+  <topicref keys="command_tleftharpoondown" href="commands/t/r_command_tleftharpoondown.dita"/>
+  <topicref keys="command_tleftharpoonup" href="commands/t/r_command_tleftharpoonup.dita"/>
+  <topicref keys="command_tleftrightarrow" href="commands/t/r_command_tleftrightarrow.dita"/>
+  <topicref keys="command_tleftrightharpoons" href="commands/t/r_command_tleftrightharpoons.dita"/>
+  <topicref keys="command_tmapsto" href="commands/t/r_command_tmapsto.dita"/>
   <topicref keys="command_tochar" href="commands/t/r_command_tochar.dita"/>
-  <topicref keys="command_tokenlist" href="commands/t/r_command_tokenlist.dita"/>
-  <topicref keys="command_tokens" href="commands/t/r_command_tokens.dita"/>
   <topicref keys="command_tolinenote" href="commands/t/r_command_tolinenote.dita"/>
+  <topicref keys="command_tooltip" href="commands/t/r_command_tooltip.dita"/>
   <topicref keys="command_topbox" href="commands/t/r_command_topbox.dita"/>
   <topicref keys="command_topleftbox" href="commands/t/r_command_topleftbox.dita"/>
   <topicref keys="command_toplinebox" href="commands/t/r_command_toplinebox.dita"/>
@@ -3933,10 +4054,19 @@
   <topicref keys="command_translate" href="commands/t/r_command_translate.dita"/>
   <topicref keys="command_transparencycomponents" href="commands/t/r_command_transparencycomponents.dita"/>
   <topicref keys="command_transparent" href="commands/t/r_command_transparent.dita"/>
+  <topicref keys="command_trel" href="commands/t/r_command_trel.dita"/>
+  <topicref keys="command_trightarrow" href="commands/t/r_command_trightarrow.dita"/>
+  <topicref keys="command_trightharpoondown" href="commands/t/r_command_trightharpoondown.dita"/>
+  <topicref keys="command_trightharpoonup" href="commands/t/r_command_trightharpoonup.dita"/>
+  <topicref keys="command_trightleftharpoons" href="commands/t/r_command_trightleftharpoons.dita"/>
+  <topicref keys="command_trightoverleftarrow" href="commands/t/r_command_trightoverleftarrow.dita"/>
   <topicref keys="command_triplebond" href="commands/t/r_command_triplebond.dita"/>
   <topicref keys="command_truefilename" href="commands/t/r_command_truefilename.dita"/>
   <topicref keys="command_truefontname" href="commands/t/r_command_truefontname.dita"/>
   <topicref keys="command_ttraggedright" href="commands/t/r_command_ttraggedright.dita"/>
+  <topicref keys="command_ttriplerel" href="commands/t/r_command_ttriplerel.dita"/>
+  <topicref keys="command_ttwoheadleftarrow" href="commands/t/r_command_ttwoheadleftarrow.dita"/>
+  <topicref keys="command_ttwoheadrightarrow" href="commands/t/r_command_ttwoheadrightarrow.dita"/>
   <topicref keys="command_twodigitrounding" href="commands/t/r_command_twodigitrounding.dita"/>
   <topicref keys="command_tx" href="commands/t/r_command_tx.dita"/>
   <topicref keys="command_txx" href="commands/t/r_command_txx.dita"/>
@@ -3947,8 +4077,6 @@
   <topicref keys="command_typeface" href="commands/t/r_command_typeface.dita"/>
   <topicref keys="command_typefile" href="commands/t/r_command_typefile.dita"/>
   <topicref keys="command_typeinlinebuffer" href="commands/t/r_command_typeinlinebuffer.dita"/>
-  <topicref keys="command_typescript" href="commands/t/r_command_typescript.dita"/>
-  <topicref keys="command_typescriptcollection" href="commands/t/r_command_typescriptcollection.dita"/>
   <topicref keys="command_typescriptone" href="commands/t/r_command_typescriptone.dita"/>
   <topicref keys="command_typescriptprefix" href="commands/t/r_command_typescriptprefix.dita"/>
   <topicref keys="command_typescriptthree" href="commands/t/r_command_typescriptthree.dita"/>
@@ -3960,15 +4088,30 @@
   <topicref keys="command_uedcatcodecommand" href="commands/u/r_command_uedcatcodecommand.dita"/>
   <topicref keys="command_undefinevalue" href="commands/u/r_command_undefinevalue.dita"/>
   <topicref keys="command_undepthed" href="commands/u/r_command_undepthed.dita"/>
+  <topicref keys="command_underbar" href="commands/u/r_command_underbar.dita"/>
+  <topicref keys="command_underbars" href="commands/u/r_command_underbars.dita"/>
+  <topicref keys="command_underdash" href="commands/u/r_command_underdash.dita"/>
+  <topicref keys="command_underdashes" href="commands/u/r_command_underdashes.dita"/>
+  <topicref keys="command_underdot" href="commands/u/r_command_underdot.dita"/>
+  <topicref keys="command_underdots" href="commands/u/r_command_underdots.dita"/>
+  <topicref keys="command_underrandom" href="commands/u/r_command_underrandom.dita"/>
+  <topicref keys="command_underrandoms" href="commands/u/r_command_underrandoms.dita"/>
   <topicref keys="command_underset" href="commands/u/r_command_underset.dita"/>
+  <topicref keys="command_understrike" href="commands/u/r_command_understrike.dita"/>
+  <topicref keys="command_understrikes" href="commands/u/r_command_understrikes.dita"/>
   <topicref keys="command_undoassign" href="commands/u/r_command_undoassign.dita"/>
   <topicref keys="command_unexpandeddocumentvariable" href="commands/u/r_command_unexpandeddocumentvariable.dita"/>
+  <topicref keys="command_unframed" href="commands/u/r_command_unframed.dita"/>
   <topicref keys="command_unhhbox" href="commands/u/r_command_unhhbox.dita"/>
   <topicref keys="command_unihex" href="commands/u/r_command_unihex.dita"/>
   <topicref keys="command_uniqueMPgraphic" href="commands/u/r_command_uniqueMPgraphic.dita"/>
   <topicref keys="command_uniqueMPpagegraphic" href="commands/u/r_command_uniqueMPpagegraphic.dita"/>
+  <topicref keys="command_unit" href="commands/u/r_command_unit.dita"/>
+  <topicref keys="command_unitlanguage" href="commands/u/r_command_unitlanguage.dita"/>
+  <topicref keys="command_unitshigh" href="commands/u/r_command_unitshigh.dita"/>
+  <topicref keys="command_unitslow" href="commands/u/r_command_unitslow.dita"/>
+  <topicref keys="command_unittext" href="commands/u/r_command_unittext.dita"/>
   <topicref keys="command_unknown" href="commands/u/r_command_unknown.dita"/>
-  <topicref keys="command_unpacked" href="commands/u/r_command_unpacked.dita"/>
   <topicref keys="command_unprotect" href="commands/u/r_command_unprotect.dita"/>
   <topicref keys="command_unprotected" href="commands/u/r_command_unprotected.dita"/>
   <topicref keys="command_unregisterhyphenationpattern" href="commands/u/r_command_unregisterhyphenationpattern.dita"/>
@@ -3990,7 +4133,6 @@
   <topicref keys="command_upperrightsingleninequote" href="commands/u/r_command_upperrightsingleninequote.dita"/>
   <topicref keys="command_upperrightsinglesixquote" href="commands/u/r_command_upperrightsinglesixquote.dita"/>
   <topicref keys="command_url" href="commands/u/r_command_url.dita"/>
-  <topicref keys="command_usableMPgraphic" href="commands/u/r_command_usableMPgraphic.dita"/>
   <topicref keys="command_useJSscripts" href="commands/u/r_command_useJSscripts.dita"/>
   <topicref keys="command_useMPenvironmentbuffer" href="commands/u/r_command_useMPenvironmentbuffer.dita"/>
   <topicref keys="command_useMPgraphic" href="commands/u/r_command_useMPgraphic.dita"/>
@@ -4030,7 +4172,6 @@
   <topicref keys="command_useproduct" href="commands/u/r_command_useproduct.dita"/>
   <topicref keys="command_useprofileparameter" href="commands/u/r_command_useprofileparameter.dita"/>
   <topicref keys="command_useproject" href="commands/u/r_command_useproject.dita"/>
-  <topicref keys="command_userdata" href="commands/u/r_command_userdata.dita"/>
   <topicref keys="command_usereferenceparameter" href="commands/u/r_command_usereferenceparameter.dita"/>
   <topicref keys="command_userpagenumber" href="commands/u/r_command_userpagenumber.dita"/>
   <topicref keys="command_usesetupsparameter" href="commands/u/r_command_usesetupsparameter.dita"/>
@@ -4042,15 +4183,11 @@
   <topicref keys="command_usetypescriptfile" href="commands/u/r_command_usetypescriptfile.dita"/>
   <topicref keys="command_useurl" href="commands/u/r_command_useurl.dita"/>
   <topicref keys="command_usezipfile" href="commands/u/r_command_usezipfile.dita"/>
-  <topicref keys="command_usingbtxspecification" href="commands/u/r_command_usingbtxspecification.dita"/>
   <topicref keys="command_utfchar" href="commands/u/r_command_utfchar.dita"/>
   <topicref keys="command_utflower" href="commands/u/r_command_utflower.dita"/>
   <topicref keys="command_utfupper" href="commands/u/r_command_utfupper.dita"/>
   <topicref keys="command_utilityregisterlength" href="commands/u/r_command_utilityregisterlength.dita"/>
   <topicref keys="command_vboxreference" href="commands/v/r_command_vboxreference.dita"/>
-  <topicref keys="command_vboxregister" href="commands/v/r_command_vboxregister.dita"/>
-  <topicref keys="command_vboxtohbox" href="commands/v/r_command_vboxtohbox.dita"/>
-  <topicref keys="command_vboxtohboxseparator" href="commands/v/r_command_vboxtohboxseparator.dita"/>
   <topicref keys="command_vec" href="commands/v/r_command_vec.dita"/>
   <topicref keys="command_verbatim" href="commands/v/r_command_verbatim.dita"/>
   <topicref keys="command_verbatimstring" href="commands/v/r_command_verbatimstring.dita"/>
@@ -4073,7 +4210,6 @@
   <topicref keys="command_vsmashed" href="commands/v/r_command_vsmashed.dita"/>
   <topicref keys="command_vspace" href="commands/v/r_command_vspace.dita"/>
   <topicref keys="command_vspacing" href="commands/v/r_command_vspacing.dita"/>
-  <topicref keys="command_vtopregister" href="commands/v/r_command_vtopregister.dita"/>
   <topicref keys="command_wdofstring" href="commands/w/r_command_wdofstring.dita"/>
   <topicref keys="command_weekday" href="commands/w/r_command_weekday.dita"/>
   <topicref keys="command_widthofstring" href="commands/w/r_command_widthofstring.dita"/>
@@ -4087,11 +4223,20 @@
   <topicref keys="command_writedatatolist" href="commands/w/r_command_writedatatolist.dita"/>
   <topicref keys="command_writestatus" href="commands/w/r_command_writestatus.dita"/>
   <topicref keys="command_writetolist" href="commands/w/r_command_writetolist.dita"/>
-  <topicref keys="command_xcell" href="commands/x/r_command_xcell.dita"/>
-  <topicref keys="command_xcellgroup" href="commands/x/r_command_xcellgroup.dita"/>
-  <topicref keys="command_xcolumn" href="commands/x/r_command_xcolumn.dita"/>
+  <topicref keys="command_xLeftarrow" href="commands/x/r_command_xLeftarrow.dita"/>
+  <topicref keys="command_xLeftrightarrow" href="commands/x/r_command_xLeftrightarrow.dita"/>
+  <topicref keys="command_xRightarrow" href="commands/x/r_command_xRightarrow.dita"/>
   <topicref keys="command_xdefconvertedargument" href="commands/x/r_command_xdefconvertedargument.dita"/>
-  <topicref keys="command_xgroup" href="commands/x/r_command_xgroup.dita"/>
+  <topicref keys="command_xequal" href="commands/x/r_command_xequal.dita"/>
+  <topicref keys="command_xfrac" href="commands/x/r_command_xfrac.dita"/>
+  <topicref keys="command_xhookleftarrow" href="commands/x/r_command_xhookleftarrow.dita"/>
+  <topicref keys="command_xhookrightarrow" href="commands/x/r_command_xhookrightarrow.dita"/>
+  <topicref keys="command_xleftarrow" href="commands/x/r_command_xleftarrow.dita"/>
+  <topicref keys="command_xleftharpoondown" href="commands/x/r_command_xleftharpoondown.dita"/>
+  <topicref keys="command_xleftharpoonup" href="commands/x/r_command_xleftharpoonup.dita"/>
+  <topicref keys="command_xleftrightarrow" href="commands/x/r_command_xleftrightarrow.dita"/>
+  <topicref keys="command_xleftrightharpoons" href="commands/x/r_command_xleftrightharpoons.dita"/>
+  <topicref keys="command_xmapsto" href="commands/x/r_command_xmapsto.dita"/>
   <topicref keys="command_xmladdindex" href="commands/x/r_command_xmladdindex.dita"/>
   <topicref keys="command_xmlafterdocumentsetup" href="commands/x/r_command_xmlafterdocumentsetup.dita"/>
   <topicref keys="command_xmlaftersetup" href="commands/x/r_command_xmlaftersetup.dita"/>
@@ -4201,7 +4346,6 @@
   <topicref keys="command_xmlsetparam" href="commands/x/r_command_xmlsetparam.dita"/>
   <topicref keys="command_xmlsetsetup" href="commands/x/r_command_xmlsetsetup.dita"/>
   <topicref keys="command_xmlsetup" href="commands/x/r_command_xmlsetup.dita"/>
-  <topicref keys="command_xmlsetups" href="commands/x/r_command_xmlsetups.dita"/>
   <topicref keys="command_xmlshow" href="commands/x/r_command_xmlshow.dita"/>
   <topicref keys="command_xmlsnippet" href="commands/x/r_command_xmlsnippet.dita"/>
   <topicref keys="command_xmlstrip" href="commands/x/r_command_xmlstrip.dita"/>
@@ -4216,14 +4360,17 @@
   <topicref keys="command_xmltofile" href="commands/x/r_command_xmltofile.dita"/>
   <topicref keys="command_xmlvalue" href="commands/x/r_command_xmlvalue.dita"/>
   <topicref keys="command_xmlverbatim" href="commands/x/r_command_xmlverbatim.dita"/>
-  <topicref keys="command_xrow" href="commands/x/r_command_xrow.dita"/>
-  <topicref keys="command_xrowgroup" href="commands/x/r_command_xrowgroup.dita"/>
+  <topicref keys="command_xrel" href="commands/x/r_command_xrel.dita"/>
+  <topicref keys="command_xrightarrow" href="commands/x/r_command_xrightarrow.dita"/>
+  <topicref keys="command_xrightharpoondown" href="commands/x/r_command_xrightharpoondown.dita"/>
+  <topicref keys="command_xrightharpoonup" href="commands/x/r_command_xrightharpoonup.dita"/>
+  <topicref keys="command_xrightleftharpoons" href="commands/x/r_command_xrightleftharpoons.dita"/>
+  <topicref keys="command_xrightoverleftarrow" href="commands/x/r_command_xrightoverleftarrow.dita"/>
   <topicref keys="command_xsplitstring" href="commands/x/r_command_xsplitstring.dita"/>
-  <topicref keys="command_xtable" href="commands/x/r_command_xtable.dita"/>
-  <topicref keys="command_xtablebody" href="commands/x/r_command_xtablebody.dita"/>
-  <topicref keys="command_xtablefoot" href="commands/x/r_command_xtablefoot.dita"/>
-  <topicref keys="command_xtablehead" href="commands/x/r_command_xtablehead.dita"/>
-  <topicref keys="command_xtablenext" href="commands/x/r_command_xtablenext.dita"/>
+  <topicref keys="command_xtriplerel" href="commands/x/r_command_xtriplerel.dita"/>
+  <topicref keys="command_xtwoheadleftarrow" href="commands/x/r_command_xtwoheadleftarrow.dita"/>
+  <topicref keys="command_xtwoheadrightarrow" href="commands/x/r_command_xtwoheadrightarrow.dita"/>
+  <topicref keys="command_xxfrac" href="commands/x/r_command_xxfrac.dita"/>
   <topicref keys="command_xypos" href="commands/x/r_command_xypos.dita"/>
   <topicref keys="command_zeronumberconversion" href="commands/z/r_command_zeronumberconversion.dita"/>
 </map>

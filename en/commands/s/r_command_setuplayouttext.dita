@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-txt.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-03"/>
+      <created date="2020-07-10" expiry="2020-12-27"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\setuplayouttext <delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +38,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>top, header, text, footer, bottom<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -47,7 +47,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>text, margin, edge<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
@@ -56,7 +56,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -79,23 +79,23 @@
           <tbody>
             <row id="options1_start">
               <entry>top</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>header</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>text</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>footer</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>bottom</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -116,15 +116,15 @@
           <tbody>
             <row id="options2_start">
               <entry>text</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>margin</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options2_stop">
               <entry>edge</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -148,38 +148,38 @@
           <tbody>
             <row>
               <entry>start</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>stop</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>empty</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>high</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>none</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>normal</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>nomarking</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -202,7 +202,7 @@
                 <xref keyref="STYLE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="STYLE/placeholder_desc"/>
+                <ph conkeyref="STYLE/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -210,7 +210,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -233,7 +233,7 @@
                 <xref keyref="COLOR" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COLOR/placeholder_desc"/>
+                <ph conkeyref="COLOR/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -253,11 +253,11 @@
           <tbody>
             <row importance="default">
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>no</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -279,7 +279,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -302,7 +302,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -325,7 +325,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -348,7 +348,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -371,7 +371,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -394,7 +394,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -417,7 +417,7 @@
                 <xref keyref="STYLE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="STYLE/placeholder_desc"/>
+                <ph conkeyref="STYLE/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -425,7 +425,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -448,7 +448,7 @@
                 <xref keyref="STYLE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="STYLE/placeholder_desc"/>
+                <ph conkeyref="STYLE/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -456,7 +456,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -479,7 +479,7 @@
                 <xref keyref="STYLE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="STYLE/placeholder_desc"/>
+                <ph conkeyref="STYLE/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -487,7 +487,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -510,7 +510,7 @@
                 <xref keyref="COLOR" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COLOR/placeholder_desc"/>
+                <ph conkeyref="COLOR/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -533,7 +533,7 @@
                 <xref keyref="COLOR" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COLOR/placeholder_desc"/>
+                <ph conkeyref="COLOR/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -556,7 +556,7 @@
                 <xref keyref="COLOR" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COLOR/placeholder_desc"/>
+                <ph conkeyref="COLOR/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -579,7 +579,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -602,7 +602,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -625,7 +625,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -648,7 +648,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>

@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/char-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-19"/>
+      <created date="2020-07-10" expiry="2020-12-16"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>style</category>
       <keywords>
-        <keyword>characters fonts</keyword>
+        <keyword>characters</keyword>
+        <keyword>fonts</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\checkedchar <delim>{</delim><var>NUMBER</var><delim>}</delim><delim>{</delim><var>CHARACTER</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +39,10 @@
             <xref keyref="NUMBER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_desc"/>
+            <ph conkeyref="NUMBER/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_value"/>
+            <ph conkeyref="NUMBER/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,10 +50,10 @@
             <xref keyref="CHARACTER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="CHARACTER/placeholder_desc"/>
+            <ph conkeyref="CHARACTER/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="CHARACTER/placeholder_value"/>
+            <ph conkeyref="CHARACTER/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

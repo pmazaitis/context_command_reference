@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/supp-box.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-27"/>
+      <created date="2020-07-10" expiry="2020-11-12"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\applytosplitstringlinespaced <delim>[</delim><var>COMMAND</var><delim>]</delim><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,10 +36,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -47,10 +47,10 @@
             <xref keyref="TEXT" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_desc"/>
+            <ph conkeyref="TEXT/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_value"/>
+            <ph conkeyref="TEXT/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/chem-str.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-16"/>
+      <created date="2020-07-10" expiry="2020-11-09"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\chemicaltext <delim>{</delim><var>TEXT</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="TEXT" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_desc"/>
+            <ph conkeyref="TEXT/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_value"/>
+            <ph conkeyref="TEXT/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

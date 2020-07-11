@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/tabl-tbl.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-27"/>
+      <created date="2020-07-10" expiry="2021-01-14"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,8 +26,57 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\stoptabulate </synph>
+      <synph>\stoptabulate <delim>[</delim><var importance="optional">TEMPLATE</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="TEMPLATE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEMPLATE/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEMPLATE/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SETTINGS/argument_desc"/>
+          </stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
+    <section id="settings1">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup conkeyref="command_setuptabulate/settings1_entry" cols="2" id="settings1_entry">
+                        <colspec/>
+                        <colspec/>
+                        <thead>
+                            <row>
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+      </table>
+      <note>Inherits settings from <xref keyref="command_setuptabulate"/>.</note>
+    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>

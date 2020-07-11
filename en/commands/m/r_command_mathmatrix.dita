@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-ali.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-07"/>
+      <created date="2020-07-10" expiry="2021-03-02"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>document</category>
       <keywords>
-        <keyword>mathematics tables</keyword>
+        <keyword>mathematics</keyword>
+        <keyword>tables</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\mathmatrix <delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +39,10 @@
             <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_desc"/>
+            <ph conkeyref="SCOPE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_value"/>
+            <ph conkeyref="SCOPE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/colo-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-07"/>
+      <created date="2020-07-10" expiry="2021-02-03"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,25 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\popcolor </synph>
+      <synph>\popcolor <delim>[</delim><var>COLOR</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="COLOR" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COLOR/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COLOR/argument_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
     <!--<section id="notes">
       <title>Notes</title>

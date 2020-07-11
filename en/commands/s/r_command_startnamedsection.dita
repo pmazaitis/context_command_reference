@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-sec.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-12"/>
+      <created date="2020-07-10" expiry="2020-11-30"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\startnamedsection <delim>[</delim><var>SECTION</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings2">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="SECTION" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SECTION/placeholder_desc"/>
+            <ph conkeyref="SECTION/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SECTION/placeholder_value"/>
+            <ph conkeyref="SECTION/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,7 +49,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -60,7 +60,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings2"> (See settings table for details.)</xref>
@@ -89,7 +89,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -112,7 +112,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -135,7 +135,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -158,7 +158,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -181,7 +181,7 @@
                 <xref keyref="REFERENCE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="REFERENCE/placeholder_desc"/>
+                <ph conkeyref="REFERENCE/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -204,7 +204,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -232,7 +232,7 @@
                 <xref keyref="VALUE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="VALUE/placeholder_desc"/>
+                <ph conkeyref="VALUE/argument_desc"/>
               </entry>
             </row>
           </tbody>

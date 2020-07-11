@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-lay.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-10-25"/>
+      <created date="2020-07-10" expiry="2020-11-29"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\definepapersize <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,7 +49,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -78,7 +78,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -101,7 +101,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -124,7 +124,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -147,7 +147,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -170,7 +170,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -193,7 +193,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -216,7 +216,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -226,7 +226,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">page<ph> (Inherits from <xref href="../s/r_command_setuppapersize.dita"/>)</ph></entry>
+              <entry namest="value_name" nameend="value_desc">page<ph> (Inherits from <xref keyref="command_setuppapersizeoptions"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -234,7 +234,7 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_setuppapersize/options1_start" conrefend="default.dita#default/options1_stop">
+            <row conkeyref="command_setuppapersizeoptions/options1_start" conrefend="default.dita#default/options1_stop">
                       <entry/>
                     </row>
           </tbody>
@@ -244,7 +244,7 @@
           <colspec colname="value_desc" colnum="2" colwidth="1*"/>
           <thead>
             <row>
-              <entry namest="value_name" nameend="value_desc">paper<ph> (Inherits from <xref href="../s/r_command_setuppapersize.dita"/>)</ph></entry>
+              <entry namest="value_name" nameend="value_desc">paper<ph> (Inherits from <xref keyref="command_setuppapersizeoptions"/>)</ph></entry>
             </row>
             <row>
               <entry>Value</entry>
@@ -252,13 +252,13 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_setuppapersize/options1_start" conrefend="default.dita#default/options1_stop">
+            <row conkeyref="command_setuppapersizeoptions/options1_start" conrefend="default.dita#default/options1_stop">
                       <entry/>
                     </row>
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_setuppapersize.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_setuppapersizeoptions"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

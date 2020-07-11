@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-sty.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-28"/>
+      <created date="2020-07-10" expiry="2020-12-19"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,10 +26,10 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\style <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <synph>\style <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,21 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="TEXT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -64,7 +75,7 @@
                         </tbody>
                     </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setupstyle.dita"/>.</note>
+      <note>Inherits settings from <xref keyref="command_setupstyle"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

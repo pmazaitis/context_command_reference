@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/math-frc.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-10"/>
+      <created date="2020-07-10" expiry="2021-01-15"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\cfrac <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>{</delim><var>SCOPE</var><delim>}</delim><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +38,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>l, c, r, ll, lc, lr, cl, cc, cr, rl, rc, rr<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -47,10 +47,10 @@
             <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_desc"/>
+            <ph conkeyref="SCOPE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_value"/>
+            <ph conkeyref="SCOPE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -58,10 +58,10 @@
             <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_desc"/>
+            <ph conkeyref="SCOPE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_value"/>
+            <ph conkeyref="SCOPE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -81,51 +81,51 @@
           <tbody>
             <row id="options1_start">
               <entry>l</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>c</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>r</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ll</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>lc</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>lr</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>cl</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>cc</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>cr</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>rl</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>rc</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>rr</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/spac-ver.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-09"/>
+      <created date="2020-06-25" expiry="2021-01-26"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -59,7 +59,7 @@
           <tbody>
             <row id="options1_entry">
               <entry>blank</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

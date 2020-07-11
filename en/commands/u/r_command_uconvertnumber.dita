@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/core-con.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-02"/>
+      <created date="2020-07-10" expiry="2020-11-24"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\uconvertnumber <delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim><delim>{</delim><var>NUMBER</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -43,10 +43,10 @@
             <xref keyref="NUMBER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_desc"/>
+            <ph conkeyref="NUMBER/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_value"/>
+            <ph conkeyref="NUMBER/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -70,7 +70,7 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/c/r_command_convertnumber.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_convertnumber"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

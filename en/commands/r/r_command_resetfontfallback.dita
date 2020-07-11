@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-col.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-11"/>
+      <created date="2020-07-10" expiry="2020-12-04"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\resetfontfallback <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">FONT</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,10 +49,10 @@
             <xref keyref="FONT" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FONT/placeholder_desc"/>
+            <ph conkeyref="FONT/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FONT/placeholder_value"/>
+            <ph conkeyref="FONT/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

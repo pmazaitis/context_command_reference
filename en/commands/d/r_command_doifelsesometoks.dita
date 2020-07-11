@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/syst-aux.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-10-27"/>
+      <created date="2020-07-10" expiry="2021-01-07"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\doifelsesometoks <delim>[</delim><var>COMMAND</var><delim>]</delim><delim>{</delim><var>TRUE</var><delim>}</delim><delim>{</delim><var>FALSE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,10 +36,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -47,10 +47,10 @@
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_desc"/>
+            <ph conkeyref="TRUE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_value"/>
+            <ph conkeyref="TRUE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -58,10 +58,10 @@
             <xref keyref="FALSE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_desc"/>
+            <ph conkeyref="FALSE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_value"/>
+            <ph conkeyref="FALSE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

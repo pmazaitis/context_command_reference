@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-txt.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-17"/>
+      <created date="2020-07-10" expiry="2021-01-18"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\definetext <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim><delim>[</delim><var id="synvar_options3">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options4">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options5">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options6">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
@@ -49,7 +49,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>top, header, text, footer, bottom<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -58,7 +58,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>text, margin, edge<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
@@ -67,7 +67,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/><xref href="#./options3"> (See options table for details.)</xref></stentry>
         </strow>
@@ -76,7 +76,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/><xref href="#./options4"> (See options table for details.)</xref></stentry>
         </strow>
@@ -85,7 +85,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/><xref href="#./options5"> (See options table for details.)</xref></stentry>
         </strow>
@@ -94,7 +94,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>date, pagenumber, <xref keyref="MARK" type="reference"/>, <xref keyref="TEXT" type="reference"/>, <xref keyref="COMMAND" type="reference"/><xref href="#./options6"> (See options table for details.)</xref></stentry>
         </strow>
@@ -115,23 +115,23 @@
           <tbody>
             <row id="options1_start">
               <entry>top</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>header</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>text</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>footer</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>bottom</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -152,15 +152,15 @@
           <tbody>
             <row id="options2_start">
               <entry>text</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>margin</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options2_stop">
               <entry>edge</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -181,18 +181,18 @@
           <tbody>
             <row id="options3_start">
               <entry>date</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>pagenumber</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="MARK" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="MARK/placeholder_desc"/>
+                <ph conkeyref="MARK/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -200,7 +200,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
             <row id="options3_stop">
@@ -208,7 +208,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -230,18 +230,18 @@
           <tbody>
             <row id="options4_start">
               <entry>date</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>pagenumber</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="MARK" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="MARK/placeholder_desc"/>
+                <ph conkeyref="MARK/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -249,7 +249,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
             <row id="options4_stop">
@@ -257,7 +257,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -279,18 +279,18 @@
           <tbody>
             <row id="options5_start">
               <entry>date</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>pagenumber</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="MARK" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="MARK/placeholder_desc"/>
+                <ph conkeyref="MARK/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -298,7 +298,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
             <row id="options5_stop">
@@ -306,7 +306,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -328,18 +328,18 @@
           <tbody>
             <row id="options6_start">
               <entry>date</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>pagenumber</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="MARK" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="MARK/placeholder_desc"/>
+                <ph conkeyref="MARK/argument_desc"/>
               </entry>
             </row>
             <row>
@@ -347,7 +347,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
             <row id="options6_stop">
@@ -355,7 +355,7 @@
                 <xref keyref="COMMAND" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="COMMAND/placeholder_desc"/>
+                <ph conkeyref="COMMAND/argument_desc"/>
               </entry>
             </row>
           </tbody>

@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/buff-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-15"/>
+      <created date="2020-07-10" expiry="2020-12-20"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>style</category>
       <keywords>
-        <keyword>buffer lua</keyword>
+        <keyword>buffer</keyword>
+        <keyword>lua</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\ctxluabuffer <delim>[</delim><var importance="optional">BUFFER</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +39,10 @@
             <xref keyref="BUFFER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="BUFFER/placeholder_desc"/>
+            <ph conkeyref="BUFFER/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="BUFFER/placeholder_value"/>
+            <ph conkeyref="BUFFER/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

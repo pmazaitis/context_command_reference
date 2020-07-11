@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_xleftrightharpoons" xml:lang="en">
+  <title>\xleftrightharpoons</title>
+  <shortdesc rev="0">The <cmdname>\xleftrightharpoons</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/math-stc.mkvi</source>
+    <critdates>
+      <created date="2020-07-10" expiry="2021-01-02"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords>
+        <keyword>mathematics</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\xleftrightharpoons <delim>{</delim><var importance="optional">TEXT</var><delim>}</delim><delim>{</delim><var importance="optional">TEXT</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="TEXT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="TEXT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/math-stc.mkvi" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>math-stc.mkvi</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

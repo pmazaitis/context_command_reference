@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/spac-ver.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-06"/>
+      <created date="2020-07-10" expiry="2020-11-21"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\godown <delim>[</delim><var>DIMENSION</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="DIMENSION" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DIMENSION/placeholder_desc"/>
+            <ph conkeyref="DIMENSION/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DIMENSION/placeholder_value"/>
+            <ph conkeyref="DIMENSION/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

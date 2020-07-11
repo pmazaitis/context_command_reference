@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/core-con.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-12"/>
+      <created date="2020-07-10" expiry="2021-01-05"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>style</category>
       <keywords>
-        <keyword>counter language</keyword>
+        <keyword>counter</keyword>
+        <keyword>language</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\chinesenumerals <delim>{</delim><var>NUMBER</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +39,10 @@
             <xref keyref="NUMBER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_desc"/>
+            <ph conkeyref="NUMBER/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_value"/>
+            <ph conkeyref="NUMBER/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

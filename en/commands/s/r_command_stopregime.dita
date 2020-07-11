@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/regi-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-10-25"/>
+      <created date="2020-07-10" expiry="2020-11-07"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,8 +26,41 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\stopregime </synph>
+      <synph>\stopregime <delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow conkeyref="command_enableregime/short_options1" id="short_options1">
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+      </simpletable>
     </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row conkeyref="command_enableregime/options1_start" conrefend="default.dita#default/options1_stop" id="options1_entry">
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note>Inherits options from <xref keyref="command_enableregime"/>.</note>
+    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>

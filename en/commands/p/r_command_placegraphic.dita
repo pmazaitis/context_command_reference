@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_command_placegraphic" xml:lang="en">
+  <title>\placegraphic</title>
+  <shortdesc rev="0">The <cmdname>\placegraphic</cmdname> command...</shortdesc>
+  <prolog>
+    <source>tex/texmf-context/tex/context/base/mkiv/strc-flt.mkvi</source>
+    <critdates>
+      <created date="2020-07-10" expiry="2020-12-14"/>
+      <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
+    </critdates>
+    <metadata>
+      <audience type="user"/>
+      <category>document</category>
+      <keywords>
+        <keyword>structure</keyword>
+      </keywords>
+      <prodinfo>
+        <prodname>ConTeXt</prodname>
+          <vrmlist>
+            <vrm version="iv" release="production" modification=""/>
+          </vrmlist>
+        </prodinfo>
+    </metadata>
+  </prolog>
+  <refbody>
+    <refsyn id="syntax">
+      <title>Syntax</title>
+      <synph>\placegraphic <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional">REFERENCE</var><delim>]</delim><delim>{</delim><var>TEXT</var><delim>}</delim><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/argument_desc"/>
+          </stentry>
+          <stentry>split, always, left, right, inner, outer, backspace, cutspace, inleft, inright, inmargin, leftmargin, rightmargin, leftedge, rightedge, innermargin, outermargin, inneredge, outeredge, text, opposite, reset, height, depth, line, halfline, grid, high, low, fit, 90, 180, 270, nonumber, none, local, here, force, margin, hang, hanging, tall, both, middle, offset, top, bottom, auto, page, leftpage, rightpage, somewhere, effective, header, footer, tblr, lrtb, tbrl, rltb, fxtb, btlr, lrbt, btrl, rlbt, fxbt, fixd<xref href="#./options1"> (See options table for details.)</xref></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="REFERENCE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="REFERENCE/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="REFERENCE/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="TEXT" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEXT/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="SCOPE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/argument_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
+    </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>split</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>always</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>left</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>right</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>inner</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>outer</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>backspace</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>cutspace</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>inleft</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>inright</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>inmargin</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>leftmargin</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>rightmargin</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>leftedge</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>rightedge</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>innermargin</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>outermargin</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>inneredge</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>outeredge</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>text</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>opposite</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>reset</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>height</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>depth</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>line</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>halfline</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>grid</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>high</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>low</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>fit</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>90</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>180</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>270</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>nonumber</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>none</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>local</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>here</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>force</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>margin</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>hang</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>hanging</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>tall</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>both</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>middle</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>offset</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>top</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>bottom</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>auto</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>page</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>leftpage</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>rightpage</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>somewhere</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>effective</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>header</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>footer</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>tblr</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>lrtb</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>tbrl</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>rltb</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>fxtb</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>btlr</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>lrbt</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>btrl</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>rlbt</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>fxbt</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row id="options1_stop">
+              <entry>fixd</entry>
+              <entry rev="0"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <!--<section id="notes">
+      <title>Notes</title>
+      <p></p>
+    </section>-->
+    <example id="mwe" rev="0" otherprops="no_output">
+      <title>Minimal Working Example</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>
+    <!--<example id="example_02" rev="0" otherprops="no_output">
+      <title>Descriptive Example Title</title>
+      <codeblock outputclass="normalize-space">
+\starttext
+
+
+
+\stoptext
+      </codeblock>
+    </example>-->
+  </refbody>
+  <related-links>
+      <link href="https://source.contextgarden.net/tex/context/base/mkiv/strc-flt.mkvi" scope="external" format="html">
+        <linktext>Command definition in the <ph conkeyref="definitions/product_name"/> source file  <filepath>strc-flt.mkvi</filepath></linktext>
+      </link>
+    </related-links>
+</reference>

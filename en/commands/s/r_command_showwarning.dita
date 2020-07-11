@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/mult-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-03"/>
+      <created date="2020-07-10" expiry="2020-12-16"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\showwarning <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim><delim>{</delim><var>TEXT</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,10 +36,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
@@ -47,7 +47,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="NAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -56,10 +56,10 @@
             <xref keyref="TEXT" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_desc"/>
+            <ph conkeyref="TEXT/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEXT/placeholder_value"/>
+            <ph conkeyref="TEXT/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -82,7 +82,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
             <row id="options1_stop">
@@ -90,7 +90,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>

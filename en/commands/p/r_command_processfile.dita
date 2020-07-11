@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/file-ini.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-10-27"/>
+      <created date="2020-07-10" expiry="2020-11-07"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\processfile <delim>{</delim><var>FILE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="FILE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FILE/placeholder_desc"/>
+            <ph conkeyref="FILE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FILE/placeholder_value"/>
+            <ph conkeyref="FILE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

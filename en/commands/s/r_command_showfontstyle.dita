@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/font-run.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-22"/>
+      <created date="2020-07-10" expiry="2021-01-04"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\showfontstyle <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options3">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options4">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -43,7 +43,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>rm, ss, tt, mm, hw, cg<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
@@ -52,7 +52,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>tf, bf, it, sl, bi, bs<xref href="#./options3"> (See options table for details.)</xref></stentry>
         </strow>
@@ -61,7 +61,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>all, <xref keyref="NUMBER" type="reference"/><xref href="#./options4"> (See options table for details.)</xref></stentry>
         </strow>
@@ -86,7 +86,7 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_setupbodyfont.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_setupbodyfont"/>.</note>
     </section>
     <section id="options2">
       <title>Options</title>
@@ -103,27 +103,27 @@
           <tbody>
             <row id="options2_start">
               <entry>rm</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ss</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>tt</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>mm</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>hw</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options2_stop">
               <entry>cg</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -144,27 +144,27 @@
           <tbody>
             <row id="options3_start">
               <entry>tf</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>bf</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>it</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>sl</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>bi</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options3_stop">
               <entry>bs</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -185,14 +185,14 @@
           <tbody>
             <row id="options4_start">
               <entry>all</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options4_stop">
               <entry>
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>

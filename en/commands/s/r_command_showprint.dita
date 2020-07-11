@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-run.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-12"/>
+      <created date="2020-07-10" expiry="2020-11-21"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,16 +29,16 @@
       <synph>\showprint <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options2">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-        <strow conkeyref="command_setuppapersize/short_options1" id="short_options1">
+        <strow conkeyref="command_setuppapersizeoptions/short_options1" id="short_options1">
           <stentry/>
           <stentry/>
           <stentry/>
         </strow>
-        <strow conkeyref="command_setuppapersize/short_options1" id="short_options2">
+        <strow conkeyref="command_setuppapersizeoptions/short_options1" id="short_options2">
           <stentry/>
           <stentry/>
           <stentry/>
@@ -48,7 +48,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -69,13 +69,13 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_setuppapersize/options1_start" conrefend="default.dita#default/options1_stop" id="options1_entry">
+            <row conkeyref="command_setuppapersizeoptions/options1_start" conrefend="default.dita#default/options1_stop" id="options1_entry">
               <entry/>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_setuppapersize.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_setuppapersizeoptions"/>.</note>
     </section>
     <section id="options2">
       <title>Options</title>
@@ -90,13 +90,13 @@
             </row>
           </thead>
           <tbody>
-            <row conkeyref="command_setuppapersize/options1_start" conrefend="default.dita#default/options1_stop" id="options2_entry">
+            <row conkeyref="command_setuppapersizeoptions/options1_start" conrefend="default.dita#default/options1_stop" id="options2_entry">
               <entry/>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_setuppapersize.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_setuppapersizeoptions"/>.</note>
     </section>
     <section id="settings1">
       <title>Settings</title>
@@ -116,7 +116,7 @@
                         </tbody>
                     </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/s/r_command_setuplayout.dita"/>.</note>
+      <note>Inherits settings from <xref keyref="command_setuplayout"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

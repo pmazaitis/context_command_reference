@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-sec.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-05"/>
+      <created date="2020-07-10" expiry="2021-02-21"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\placerawheadtext <delim>[</delim><var>SECTION</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="SECTION" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SECTION/placeholder_desc"/>
+            <ph conkeyref="SECTION/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SECTION/placeholder_value"/>
+            <ph conkeyref="SECTION/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

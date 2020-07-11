@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/mult-dim.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-04"/>
+      <created date="2020-07-10" expiry="2020-12-10"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\assignvalue <delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim><delim>[</delim><var>COMMAND</var><delim>]</delim><delim>{</delim><var>COMMAND</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,7 +36,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>small, medium, big, <xref keyref="TEXT" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -45,21 +45,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="COMMAND" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -67,10 +56,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -78,10 +67,21 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="COMMAND" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -101,22 +101,22 @@
           <tbody>
             <row id="options1_start">
               <entry>small</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>medium</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>big</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>

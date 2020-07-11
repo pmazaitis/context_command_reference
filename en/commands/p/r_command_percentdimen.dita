@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/syst-aux.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-07"/>
+      <created date="2020-07-10" expiry="2021-01-24"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\percentdimen <delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim><delim>{</delim><var id="synvar_options2">OPTIONS</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,7 +36,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="DIMENSION" type="reference"/>, <xref keyref="CSNAME" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -45,7 +45,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="DIMENSION" type="reference"/>, %<xref href="#./options2"> (See options table for details.)</xref></stentry>
         </strow>
@@ -69,7 +69,7 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
             <row id="options1_stop">
@@ -77,7 +77,7 @@
                 <xref keyref="CSNAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="CSNAME/placeholder_desc"/>
+                <ph conkeyref="CSNAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -102,12 +102,12 @@
                 <xref keyref="DIMENSION" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="DIMENSION/placeholder_desc"/>
+                <ph conkeyref="DIMENSION/argument_desc"/>
               </entry>
             </row>
             <row id="options2_stop">
               <entry>%</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

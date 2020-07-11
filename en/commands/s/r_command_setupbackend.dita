@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/back-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-17"/>
+      <created date="2020-07-10" expiry="2021-01-29"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\setupbackend <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,7 +36,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -62,14 +62,14 @@
           <tbody>
             <row>
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>
                 <xref keyref="FILE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="FILE/placeholder_desc"/>
+                <ph conkeyref="FILE/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -92,7 +92,7 @@
                 <xref keyref="FILE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="FILE/placeholder_desc"/>
+                <ph conkeyref="FILE/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -115,7 +115,7 @@
                 <xref keyref="FILE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="FILE/placeholder_desc"/>
+                <ph conkeyref="FILE/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -135,91 +135,91 @@
           <tbody>
             <row>
               <entry>Coated␣FOGRA39␣(ISO␣12647-2:2004)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>GRACoL2006_Coated1v2.icc</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ISO␣Coated␣v2␣300%␣(ECI)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ISO␣Coated␣v2␣(ECI)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ISOnewspaper26v4</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ISOnewspaper26v4_gr</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ISO␣Uncoated</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ISO␣Uncoated␣Yellowish</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>ISO␣Web␣Coated</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>Japan␣Color␣2001␣Coated</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>Japan␣Color␣2002␣Newspaper</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>Japan␣Web␣Coated␣(Ad)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>SNAP␣2007</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>SWOP2006_Coated3v2.icc</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>SWOP2006_Coated5v2.icc</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>Uncoated␣FOGRA29␣(ISO␣12647-2:2004)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>Web␣Coated␣FOGRA28␣(ISO␣12647-2:2004)</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PSR_LWC_PLUS_V2_PT</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PSR_LWC_STD_V2_PT</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PSR_SC_PLUS_V2_PT</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PSR_SC_STD_V2_PT</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PSRgravureMF</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -238,11 +238,11 @@
           <tbody>
             <row>
               <entry>yes</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row importance="default">
               <entry>no</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -264,7 +264,7 @@
                 <xref keyref="FILE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="FILE/placeholder_desc"/>
+                <ph conkeyref="FILE/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -284,67 +284,67 @@
           <tbody>
             <row>
               <entry>version</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>default</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-1a:2001</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-1a:2003</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-3:2002</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-3:2003</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-4</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-4p</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-5g</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-5pg</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/X-5n</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/A-1a:2005</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/A-1b:2005</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/A-2a</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/A-3a</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>PDF/UA-1</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -366,7 +366,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -386,11 +386,11 @@
           <tbody>
             <row>
               <entry>always</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>never</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -412,7 +412,7 @@
                 <xref keyref="FILE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="FILE/placeholder_desc"/>
+                <ph conkeyref="FILE/argument_desc"/>
               </entry>
             </row>
           </tbody>

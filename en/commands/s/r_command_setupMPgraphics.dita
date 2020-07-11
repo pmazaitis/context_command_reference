@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/meta-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-10-30"/>
+      <created date="2020-07-10" expiry="2021-01-18"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>style</category>
       <keywords>
-        <keyword>graphics metapost</keyword>
+        <keyword>graphics</keyword>
+        <keyword>metapost</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\setupMPgraphics <delim>[</delim><var id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +39,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -64,11 +65,11 @@
           <tbody>
             <row importance="default">
               <entry>local</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>global</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -90,7 +91,7 @@
                 <xref keyref="FILE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="FILE/placeholder_desc"/>
+                <ph conkeyref="FILE/argument_desc"/>
               </entry>
             </row>
           </tbody>

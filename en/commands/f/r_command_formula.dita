@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-mat.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-11"/>
+      <created date="2020-07-10" expiry="2020-12-27"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,10 +26,10 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\formula <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
+      <synph>\formula <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -37,6 +37,17 @@
           <stentry/>
           <stentry/>
           <stentry/>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="SCOPE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SCOPE/argument_value"/>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>
@@ -55,39 +66,39 @@
           <tbody>
             <row id="options1_start">
               <entry>packed</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>tight</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>middle</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>frame</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>depth</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>line</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>halfline</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>line</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>halfline</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row conkeyref="command_setupbodyfont/options1_start" conrefend="default.dita#default/options1_stop" id="options1_stop">
               <entry/>
@@ -95,7 +106,7 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_setupbodyfont.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_setupbodyfont"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

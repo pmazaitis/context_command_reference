@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/page-brk.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-15"/>
+      <created date="2020-07-10" expiry="2021-02-23"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\testpage <delim>[</delim><var>NUMBER</var><delim>]</delim><delim>[</delim><var importance="optional">DIMENSION</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,10 +36,10 @@
             <xref keyref="NUMBER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_desc"/>
+            <ph conkeyref="NUMBER/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NUMBER/placeholder_value"/>
+            <ph conkeyref="NUMBER/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -47,10 +47,10 @@
             <xref keyref="DIMENSION" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DIMENSION/placeholder_desc"/>
+            <ph conkeyref="DIMENSION/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DIMENSION/placeholder_value"/>
+            <ph conkeyref="DIMENSION/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

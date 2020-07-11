@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/supp-box.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-01"/>
+      <created date="2020-07-10" expiry="2020-12-30"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\doifelseboxincache <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim><delim>{</delim><var>TRUE</var><delim>}</delim><delim>{</delim><var>FALSE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow id="short_options1">
@@ -49,7 +49,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="NUMBER" type="reference"/>, <xref keyref="TEXT" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -58,10 +58,10 @@
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_desc"/>
+            <ph conkeyref="TRUE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_value"/>
+            <ph conkeyref="TRUE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -69,10 +69,10 @@
             <xref keyref="FALSE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_desc"/>
+            <ph conkeyref="FALSE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_value"/>
+            <ph conkeyref="FALSE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -95,7 +95,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
             <row id="options1_stop">
@@ -103,7 +103,7 @@
                 <xref keyref="TEXT" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="TEXT/placeholder_desc"/>
+                <ph conkeyref="TEXT/argument_desc"/>
               </entry>
             </row>
           </tbody>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-mar.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-23"/>
+      <created date="2020-07-10" expiry="2021-01-29"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\resetmarking <delim>[</delim><var>MARK</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,10 +36,10 @@
             <xref keyref="MARK" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="MARK/placeholder_desc"/>
+            <ph conkeyref="MARK/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="MARK/placeholder_value"/>
+            <ph conkeyref="MARK/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

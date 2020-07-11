@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/grph-fig.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-21"/>
+      <created date="2020-07-10" expiry="2020-11-12"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>document</category>
       <keywords>
-        <keyword>graphics buffer</keyword>
+        <keyword>graphics</keyword>
+        <keyword>buffer</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\typesetbufferonly <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +39,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>*, <xref keyref="BUFFER" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -59,14 +60,14 @@
           <tbody>
             <row id="options1_start">
               <entry>*</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>
                 <xref keyref="BUFFER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="BUFFER/placeholder_desc"/>
+                <ph conkeyref="BUFFER/argument_desc"/>
               </entry>
             </row>
           </tbody>

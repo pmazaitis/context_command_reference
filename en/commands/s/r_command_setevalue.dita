@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/syst-aux.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-06"/>
+      <created date="2020-07-10" expiry="2020-12-11"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\setevalue <delim>{</delim><var>NAME</var><delim>}</delim><delim>{</delim><var>SCOPE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,10 +36,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -47,10 +47,10 @@
             <xref keyref="SCOPE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_desc"/>
+            <ph conkeyref="SCOPE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SCOPE/placeholder_value"/>
+            <ph conkeyref="SCOPE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

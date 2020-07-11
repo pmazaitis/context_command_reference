@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-obj.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-30"/>
+      <created date="2020-07-10" expiry="2021-02-07"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\ifinobject <var>TRUE</var><var>\else</var><var>FALSE</var><var>\fi</var></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_desc"/>
+            <ph conkeyref="TRUE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_value"/>
+            <ph conkeyref="TRUE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,7 +49,7 @@
             <xref keyref="DELIMITER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DELIMITER/placeholder_desc"/>
+            <ph conkeyref="DELIMITER/argument_desc"/>
           </stentry>
           <stentry>\else</stentry>
         </strow>
@@ -58,10 +58,10 @@
             <xref keyref="FALSE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_desc"/>
+            <ph conkeyref="FALSE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_value"/>
+            <ph conkeyref="FALSE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -69,7 +69,7 @@
             <xref keyref="DELIMITER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DELIMITER/placeholder_desc"/>
+            <ph conkeyref="DELIMITER/argument_desc"/>
           </stentry>
           <stentry>\fi</stentry>
         </strow>

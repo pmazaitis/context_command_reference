@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/file-ini.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-10"/>
+      <created date="2020-07-10" expiry="2021-02-12"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="internal"/>
       <category>system</category>
       <keywords>
-        <keyword>structure conditional</keyword>
+        <keyword>structure</keyword>
+        <keyword>conditional</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\doifelsepathexists <delim>{</delim><var>PATH</var><delim>}</delim><delim>{</delim><var>TRUE</var><delim>}</delim><delim>{</delim><var>FALSE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +39,10 @@
             <xref keyref="PATH" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="PATH/placeholder_desc"/>
+            <ph conkeyref="PATH/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="PATH/placeholder_value"/>
+            <ph conkeyref="PATH/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,10 +50,10 @@
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_desc"/>
+            <ph conkeyref="TRUE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_value"/>
+            <ph conkeyref="TRUE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -60,10 +61,10 @@
             <xref keyref="FALSE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_desc"/>
+            <ph conkeyref="FALSE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_value"/>
+            <ph conkeyref="FALSE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

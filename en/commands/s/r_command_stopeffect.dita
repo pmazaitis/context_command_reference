@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/attr-eff.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-13"/>
+      <created date="2020-07-10" expiry="2021-01-14"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,7 +26,25 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\stopeffect </synph>
+      <synph>\stopeffect <delim>[</delim><var>NAME</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
     <!--<section id="notes">
       <title>Notes</title>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/supp-box.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-09"/>
+      <created date="2020-07-10" expiry="2020-12-31"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\unhhbox <var id="synvar_options1">OPTIONS</var><var>\with</var><delim>{</delim><var>COMMAND</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,7 +36,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="CSNAME" type="reference"/>, <xref keyref="NUMBER" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -45,7 +45,7 @@
             <xref keyref="DELIMITER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DELIMITER/placeholder_desc"/>
+            <ph conkeyref="DELIMITER/argument_desc"/>
           </stentry>
           <stentry>\with</stentry>
         </strow>
@@ -54,10 +54,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -80,7 +80,7 @@
                 <xref keyref="CSNAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="CSNAME/placeholder_desc"/>
+                <ph conkeyref="CSNAME/argument_desc"/>
               </entry>
             </row>
             <row id="options1_stop">
@@ -88,7 +88,7 @@
                 <xref keyref="NUMBER" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NUMBER/placeholder_desc"/>
+                <ph conkeyref="NUMBER/argument_desc"/>
               </entry>
             </row>
           </tbody>

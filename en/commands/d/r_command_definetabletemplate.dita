@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/tabl-tab.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-01"/>
+      <created date="2020-07-10" expiry="2021-02-22"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\definetabletemplate <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var>TEMPLATE</var><delim>]</delim><delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var importance="optional">NAME</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,21 +49,10 @@
             <xref keyref="TEMPLATE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEMPLATE/placeholder_desc"/>
+            <ph conkeyref="TEMPLATE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TEMPLATE/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="NAME" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="TEMPLATE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -71,10 +60,21 @@
             <xref keyref="NAME" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_desc"/>
+            <ph conkeyref="NAME/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="NAME/placeholder_value"/>
+            <ph conkeyref="NAME/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

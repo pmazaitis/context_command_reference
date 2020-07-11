@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-rul.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-15"/>
+      <created date="2020-07-10" expiry="2021-01-15"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="internal"/>
       <category>system</category>
       <keywords>
-        <keyword>background colors</keyword>
+        <keyword>background</keyword>
+        <keyword>colors</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>

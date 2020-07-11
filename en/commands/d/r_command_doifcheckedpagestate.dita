@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/strc-ref.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-18"/>
+      <created date="2020-07-10" expiry="2021-03-06"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\doifcheckedpagestate <delim>{</delim><var>REFERENCE</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim><delim>{</delim><var>COMMAND</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,21 +38,10 @@
             <xref keyref="REFERENCE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="REFERENCE/placeholder_desc"/>
+            <ph conkeyref="REFERENCE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="REFERENCE/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="COMMAND" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="REFERENCE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -60,21 +49,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="COMMAND" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -82,21 +60,10 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
-          </stentry>
-        </strow>
-        <strow>
-          <stentry>
-            <xref keyref="COMMAND" type="reference"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
-          </stentry>
-          <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -104,10 +71,43 @@
             <xref keyref="COMMAND" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_desc"/>
+            <ph conkeyref="COMMAND/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="COMMAND/placeholder_value"/>
+            <ph conkeyref="COMMAND/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="COMMAND" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="COMMAND" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="COMMAND" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="COMMAND/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

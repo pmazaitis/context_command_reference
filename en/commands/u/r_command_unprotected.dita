@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/syst-aux.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-17"/>
+      <created date="2020-07-10" expiry="2020-11-27"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -27,7 +27,7 @@
       <synph>\unprotected <var>CONTENT</var><var>\par</var></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -36,10 +36,10 @@
             <xref keyref="CONTENT" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="CONTENT/placeholder_desc"/>
+            <ph conkeyref="CONTENT/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="CONTENT/placeholder_value"/>
+            <ph conkeyref="CONTENT/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -47,7 +47,7 @@
             <xref keyref="DELIMITER" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="DELIMITER/placeholder_desc"/>
+            <ph conkeyref="DELIMITER/argument_desc"/>
           </stentry>
           <stentry>\par</stentry>
         </strow>

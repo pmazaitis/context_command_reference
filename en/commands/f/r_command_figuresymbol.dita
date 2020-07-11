@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/symb-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-09"/>
+      <created date="2020-07-10" expiry="2021-02-01"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>document</category>
       <keywords>
-        <keyword>symbols graphics</keyword>
+        <keyword>symbols</keyword>
+        <keyword>graphics</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\figuresymbol <delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +39,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry><xref keyref="FILE" type="reference"/>, <xref keyref="NAME" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -47,7 +48,7 @@
             <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="SETTINGS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
           <stentry>
             <xref href="#./settings1"> (See settings table for details.)</xref>
@@ -73,7 +74,7 @@
                 <xref keyref="FILE" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="FILE/placeholder_desc"/>
+                <ph conkeyref="FILE/argument_desc"/>
               </entry>
             </row>
             <row id="options1_stop">
@@ -81,7 +82,7 @@
                 <xref keyref="NAME" type="reference"/>
               </entry>
               <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
+                <ph conkeyref="NAME/argument_desc"/>
               </entry>
             </row>
           </tbody>
@@ -106,7 +107,7 @@
                         </tbody>
                     </tgroup>
       </table>
-      <note>Inherits settings from <xref href="../../commands/e/r_command_externalfigure.dita"/>.</note>
+      <note>Inherits settings from <xref keyref="command_externalfigure"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

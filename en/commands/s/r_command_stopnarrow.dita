@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/spac-hor.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-15"/>
+      <created date="2020-07-10" expiry="2021-02-25"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>document</category>
       <keywords>
-        <keyword>whitespace layout</keyword>
+        <keyword>whitespace</keyword>
+        <keyword>layout</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -26,8 +27,57 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\stopnarrow </synph>
+      <synph>\stopnarrow <delim>[</delim><var importance="optional">NAME</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="SETTINGS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="SETTINGS/argument_desc"/>
+          </stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
+    <section id="settings1">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup conkeyref="command_setupnarrower/settings1_start" conrefend="default.dita#default/settings1_stop" cols="2" id="settings1_entry">
+                        <colspec/>
+                        <colspec/>
+                        <thead>
+                            <row>
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+      </table>
+      <note>Inherits settings from <xref keyref="command_setupnarrower"/>.</note>
+    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>

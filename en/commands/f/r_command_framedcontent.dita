@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-rul.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-29"/>
+      <created date="2020-07-07" expiry="2021-02-07"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -67,7 +67,7 @@
             </row>
             <row id="options1_stop">
               <entry>off</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

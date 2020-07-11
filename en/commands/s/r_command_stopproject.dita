@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/file-job.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-02-02"/>
+      <created date="2020-07-10" expiry="2021-02-12"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,8 +26,53 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\stopproject </synph>
+      <synph>\stopproject <delim>[</delim><var id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/argument_desc"/>
+          </stentry>
+          <stentry><xref keyref="FILE" type="reference"/>, *<xref href="#./options1"> (See options table for details.)</xref></stentry>
+        </strow>
+      </simpletable>
     </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>
+                <xref keyref="FILE" type="reference"/>
+              </entry>
+              <entry>
+                <ph conkeyref="FILE/argument_desc"/>
+              </entry>
+            </row>
+            <row id="options1_stop">
+              <entry>*</entry>
+              <entry rev="0"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>

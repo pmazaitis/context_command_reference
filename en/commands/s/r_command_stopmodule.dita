@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/file-mod.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-11-09"/>
+      <created date="2020-07-10" expiry="2021-01-25"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -24,7 +24,25 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\stopmodule </synph>
+      <synph>\stopmodule <delim>[</delim><var>FILE</var><delim>]</delim></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <xref keyref="FILE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="FILE/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="FILE/argument_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
     <!--<section id="notes">
       <title>Notes</title>

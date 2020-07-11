@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/pack-com.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-25"/>
+      <created date="2020-07-10" expiry="2021-02-19"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="user"/>
       <category>document</category>
       <keywords>
-        <keyword>float tables</keyword>
+        <keyword>float</keyword>
+        <keyword>tables</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -26,56 +27,45 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\startfloatcombination <delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
+      <synph>\startfloatcombination <delim>[</delim><var importance="optional" id="synvar_settings1">SETTINGS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
-        <strow id="short_options1">
+        <strow>
           <stentry>
-            <xref keyref="OPTIONS" type="reference"/>
+            <xref keyref="SETTINGS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="SETTINGS/argument_desc"/>
           </stentry>
-          <stentry><xref keyref="MATRIX" type="reference"/>, <xref keyref="NAME" type="reference"/><xref href="#./options1"> (See options table for details.)</xref></stentry>
+          <stentry>
+            <xref href="#./settings1"> (See settings table for details.)</xref>
+          </stentry>
         </strow>
       </simpletable>
     </refsyn>
-    <section id="options1">
-      <title>Options</title>
-      <table frame="all" rowsep="1" colsep="1" id="options1_table">
-        <tgroup cols="2">
-          <colspec colname="value_name" colnum="1" colwidth="1*"/>
-          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry>Keyword</entry>
-              <entry>Description</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row id="options1_start">
-              <entry>
-                <xref keyref="MATRIX" type="reference"/>
-              </entry>
-              <entry>
-                <ph conkeyref="MATRIX/placeholder_desc"/>
-              </entry>
-            </row>
-            <row id="options1_stop">
-              <entry>
-                <xref keyref="NAME" type="reference"/>
-              </entry>
-              <entry>
-                <ph conkeyref="NAME/placeholder_desc"/>
-              </entry>
-            </row>
-          </tbody>
-        </tgroup>
+    <section id="settings1">
+      <title>Settings</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup conkeyref="command_setupcombination/settings1_start" conrefend="default.dita#default/settings1_stop" cols="2" id="settings1_entry">
+                        <colspec/>
+                        <colspec/>
+                        <thead>
+                            <row>
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
       </table>
+      <note>Inherits settings from <xref keyref="command_setupcombination"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/syst-aux.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-01"/>
+      <created date="2020-07-10" expiry="2020-12-10"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -24,8 +24,235 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\stoptexdefinition </synph>
+      <synph>\stoptexdefinition <var importance="optional" id="synvar_options1">OPTIONS</var><var importance="optional" id="synvar_options2">OPTIONS</var><var importance="optional" id="synvar_options3">OPTIONS</var><var importance="optional" id="synvar_options4">OPTIONS</var><var importance="optional" id="synvar_options5">OPTIONS</var><var>NAME</var><var importance="optional">TEMPLATE</var></synph>
+      <simpletable>
+        <sthead>
+          <stentry>Argument</stentry>
+          <stentry>Description</stentry>
+          <stentry>Values</stentry>
+        </sthead>
+        <strow id="short_options1">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/argument_desc"/>
+          </stentry>
+          <stentry>spaces, nospaces<xref href="#./options1"> (See options table for details.)</xref></stentry>
+        </strow>
+        <strow id="short_options2">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/argument_desc"/>
+          </stentry>
+          <stentry>global<xref href="#./options2"> (See options table for details.)</xref></stentry>
+        </strow>
+        <strow id="short_options3">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/argument_desc"/>
+          </stentry>
+          <stentry>unexpanded<xref href="#./options3"> (See options table for details.)</xref></stentry>
+        </strow>
+        <strow id="short_options4">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/argument_desc"/>
+          </stentry>
+          <stentry>expanded<xref href="#./options4"> (See options table for details.)</xref></stentry>
+        </strow>
+        <strow id="short_options5">
+          <stentry>
+            <xref keyref="OPTIONS" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="OPTIONS/argument_desc"/>
+          </stentry>
+          <stentry>singleempty, doubleempty, tripleempty, quadrupleempty, quintupleempty, sixtupleempty, singleargument, doubleargument, tripleargument, quadrupleargument, quintupleargument, sixtupleargument<xref href="#./options5"> (See options table for details.)</xref></stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <xref keyref="TEMPLATE" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEMPLATE/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="TEMPLATE/argument_value"/>
+          </stentry>
+        </strow>
+      </simpletable>
     </refsyn>
+    <section id="options1">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options1_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options1_start">
+              <entry>spaces</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row id="options1_stop">
+              <entry>nospaces</entry>
+              <entry rev="0"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="options2">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options2_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options2_entry">
+              <entry>global</entry>
+              <entry rev="0"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="options3">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options3_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options3_entry">
+              <entry>unexpanded</entry>
+              <entry rev="0"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="options4">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options4_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options4_entry">
+              <entry>expanded</entry>
+              <entry rev="0"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="options5">
+      <title>Options</title>
+      <table frame="all" rowsep="1" colsep="1" id="options5_table">
+        <tgroup cols="2">
+          <colspec colname="value_name" colnum="1" colwidth="1*"/>
+          <colspec colname="value_desc" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Keyword</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row id="options5_start">
+              <entry>singleempty</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>doubleempty</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>tripleempty</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>quadrupleempty</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>quintupleempty</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>sixtupleempty</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>singleargument</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>doubleargument</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>tripleargument</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>quadrupleargument</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row>
+              <entry>quintupleargument</entry>
+              <entry rev="0"></entry>
+            </row>
+            <row id="options5_stop">
+              <entry>sixtupleargument</entry>
+              <entry rev="0"></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
     <!--<section id="notes">
       <title>Notes</title>
       <p></p>

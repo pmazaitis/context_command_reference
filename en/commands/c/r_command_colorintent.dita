@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/colo-ext.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-16"/>
+      <created date="2020-07-07" expiry="2021-01-05"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -59,15 +59,15 @@
           <tbody>
             <row id="options1_start">
               <entry>knockout</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row>
               <entry>overprint</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>none</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/grph-fig.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2020-12-26"/>
+      <created date="2020-07-10" expiry="2020-11-22"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\referring <delim>[</delim><var>POSITION</var><delim>]</delim><delim>[</delim><var>POSITION</var><delim>]</delim><delim>[</delim><var>REFERENCE</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="POSITION" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="POSITION/placeholder_desc"/>
+            <ph conkeyref="POSITION/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="POSITION/placeholder_value"/>
+            <ph conkeyref="POSITION/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,10 +49,10 @@
             <xref keyref="POSITION" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="POSITION/placeholder_desc"/>
+            <ph conkeyref="POSITION/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="POSITION/placeholder_value"/>
+            <ph conkeyref="POSITION/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -60,10 +60,10 @@
             <xref keyref="REFERENCE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="REFERENCE/placeholder_desc"/>
+            <ph conkeyref="REFERENCE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="REFERENCE/placeholder_value"/>
+            <ph conkeyref="REFERENCE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>

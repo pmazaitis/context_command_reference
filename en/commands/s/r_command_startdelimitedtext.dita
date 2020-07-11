@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/typo-del.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-17"/>
+      <created date="2020-07-10" expiry="2021-01-17"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -26,22 +26,33 @@
   <refbody>
     <refsyn id="syntax">
       <title>Syntax</title>
-      <synph>\startdelimitedtext <delim>[</delim><var importance="optional">LANGUAGE</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
+      <synph>\startdelimitedtext <delim>[</delim><var>NAME</var><delim>]</delim><delim>[</delim><var importance="optional">LANGUAGE</var><delim>]</delim><delim>[</delim><var importance="optional" id="synvar_options1">OPTIONS</var><delim>]</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
         <strow>
           <stentry>
+            <xref keyref="NAME" type="reference"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_desc"/>
+          </stentry>
+          <stentry>
+            <ph conkeyref="NAME/argument_value"/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
             <xref keyref="LANGUAGE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="LANGUAGE/placeholder_desc"/>
+            <ph conkeyref="LANGUAGE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="LANGUAGE/placeholder_value"/>
+            <ph conkeyref="LANGUAGE/argument_value"/>
           </stentry>
         </strow>
         <strow conkeyref="command_startnarrower/short_options1" id="short_options1">
@@ -70,7 +81,7 @@
           </tbody>
         </tgroup>
       </table>
-      <note>Inherits options from <xref href="../../commands/s/r_command_startnarrower.dita"/>.</note>
+      <note>Inherits options from <xref keyref="command_startnarrower"/>.</note>
     </section>
     <!--<section id="notes">
       <title>Notes</title>

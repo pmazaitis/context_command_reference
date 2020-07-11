@@ -6,14 +6,15 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/publ-ini.mkiv</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-08"/>
+      <created date="2020-07-10" expiry="2020-12-28"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
       <audience type="internal"/>
       <category>system</category>
       <keywords>
-        <keyword>bibliography conditional</keyword>
+        <keyword>bibliography</keyword>
+        <keyword>conditional</keyword>
       </keywords>
       <prodinfo>
         <prodname>ConTeXt</prodname>
@@ -29,7 +30,7 @@
       <synph>\btxoneorrange <delim>{</delim><var id="synvar_options1">OPTIONS</var><delim>}</delim><delim>{</delim><var>TRUE</var><delim>}</delim><delim>{</delim><var>FALSE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,7 +39,7 @@
             <xref keyref="OPTIONS" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="OPTIONS/placeholder_desc"/>
+            <ph conkeyref="OPTIONS/argument_desc"/>
           </stentry>
           <stentry>volume, pages<xref href="#./options1"> (See options table for details.)</xref></stentry>
         </strow>
@@ -47,10 +48,10 @@
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_desc"/>
+            <ph conkeyref="TRUE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_value"/>
+            <ph conkeyref="TRUE/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -58,10 +59,10 @@
             <xref keyref="FALSE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_desc"/>
+            <ph conkeyref="FALSE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="FALSE/placeholder_value"/>
+            <ph conkeyref="FALSE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
@@ -81,11 +82,11 @@
           <tbody>
             <row id="options1_start">
               <entry>volume</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
             <row id="options1_stop">
               <entry>pages</entry>
-              <entry></entry>
+              <entry rev="0"></entry>
             </row>
           </tbody>
         </tgroup>

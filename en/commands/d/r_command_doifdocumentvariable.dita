@@ -6,7 +6,7 @@
   <prolog>
     <source>tex/texmf-context/tex/context/base/mkiv/file-job.mkvi</source>
     <critdates>
-      <created date="2020-06-23" expiry="2021-01-05"/>
+      <created date="2020-07-10" expiry="2021-01-23"/>
       <!--<revised date="YYYY-MM-DD" expiry="YYYY-MM-DD"/>-->
     </critdates>
     <metadata>
@@ -29,7 +29,7 @@
       <synph>\doifdocumentvariable <delim>{</delim><var>KEY</var><delim>}</delim><delim>{</delim><var>TRUE</var><delim>}</delim></synph>
       <simpletable>
         <sthead>
-          <stentry>Name</stentry>
+          <stentry>Argument</stentry>
           <stentry>Description</stentry>
           <stentry>Values</stentry>
         </sthead>
@@ -38,10 +38,10 @@
             <xref keyref="KEY" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="KEY/placeholder_desc"/>
+            <ph conkeyref="KEY/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="KEY/placeholder_value"/>
+            <ph conkeyref="KEY/argument_value"/>
           </stentry>
         </strow>
         <strow>
@@ -49,10 +49,10 @@
             <xref keyref="TRUE" type="reference"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_desc"/>
+            <ph conkeyref="TRUE/argument_desc"/>
           </stentry>
           <stentry>
-            <ph conkeyref="TRUE/placeholder_value"/>
+            <ph conkeyref="TRUE/argument_value"/>
           </stentry>
         </strow>
       </simpletable>
